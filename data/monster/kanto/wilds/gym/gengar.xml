@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gengar" nameDescription="a wild Gengar" race="Ghost" experience="5000" speed="180" manacost="490">
+  <health now="22000" max="22000"/>
+  <look type="244" head="20" body="30" legs="40" feet="50" corpse="6336"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+
+   	    <attack name="melee" interval="1000" skill="50" attack="225"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="GENN!"/>
+    <voice sentence="GAR!"/>
+    <voice sentence="GENGAR!"/>
+  </voices>
+ <loot>
+	<item id="8869" countmax="1" chance="20500"/> -- future orb
+	<item id="8870" countmax="1" chance="10000"/> -- psy spoon
+	<item id="2286" countmax="1" chance="300"/> -- darkness stone-
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

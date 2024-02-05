@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cloyster" nameDescription="a Cloyster" race="ice" experience="1000" speed="220" manacost="0">
+  <health now="8000" max="8000"/>
+  <look type="72" head="0" body="0" legs="0" feet="0" corpse="2932"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="40"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="400" min="-180" max="-199"/>
+<attack name="moves" interval="1400" chance="60"/>
+</attacks>
+
+
+
+    
+  <voices interval="5000" chance="10">
+    <voice sentence="Cloyster"/>
+    <voice sentence="Cloysss"/>
+  </voices>
+
+ <loot>
+	<item id="8820" countmax="1" chance="20500"/> -- future orb
+	<item id="6528" countmax="60" chance="17000"/> -- psy spoon
+	<item id="2290" countmax="1" chance="350"/> -- enigma stone
+         <item id="2277" countmax="1" chance="250"/>
+</loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

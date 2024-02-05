@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Articuno" nameDescription="a Articuno" race="ice" experience="1000000" speed="1" manacost="0">
+  <health now="330000" max="330000"/>
+  <look type="283" head="20" body="30" legs="40" feet="50" corpse="7256"/>
+	
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="0"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+<attack name="melee" interval="2200" range="1" min="-2064" max="-2074"/>
+<attack name="moves" interval="1000" chance="90"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <immunities>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Cunoo"/>
+    <voice sentence="Articuno"/>
+    <voice sentence="ARTTTT"/>
+    <voice sentence="CUNOOOOOOOO"/>
+    <voice sentence="HAHA ARTICUNO ATTACK"/>
+  </voices>
+   <loot>
+	<item id="8820" countmax="1" chance="20500"/> -- future orb
+	<item id="2290" countmax="1" chance="20000"/> -- enigma stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

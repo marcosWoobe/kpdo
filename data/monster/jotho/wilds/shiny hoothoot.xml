@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Hoothoot" nameDescription="a Shiny Hoothoot" race="flying" experience="600" speed="305" manacost="100">
+  <health now="5000" max="5000"/>
+  <look type="983" head="20" body="30" legs="40" feet="50" corpse="9697"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-185" max="-210"/>
+ <attack name="moves" interval="1000" chance="60"/>
+
+  </attacks>
+
+
+	<loot>
+	<item id="2694" countmax="32" chance="20000"/> -- straw
+	<item id="8823" countmax="2" chance="20000"/> -- feather
+	<item id="8822" countmax="1" chance="20000"/> -- bird beak
+	<item id="8849" countmax="1" chance="20000"/> -- roc feather
+	<item id="2289" countmax="1" chance="20000"/> -- heart stone
+	<item id="9541" countmax="1" chance="20000"/> -- Heart Plate
+	</loot>
+
+	<script>
+<event name="Exp"/>
+
+</script>
+
+
+
+</monster>

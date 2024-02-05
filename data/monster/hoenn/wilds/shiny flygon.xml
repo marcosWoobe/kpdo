@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Flygon" nameDescription="a Shiny Flygon" race="undead" experience="18000" speed="400" manacost="330">
+  <health now="180000" max="180000"/>
+  <look type="1263" head="20" body="30" legs="40" feet="50" corpse="10347"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1700" min="-1800" max="-2800"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+<defenses armor="0" defense="5"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Flygon!"/>
+    <voice sentence="Flygon!"/>
+  </voices>
+  <loot>
+	<item id="1294" countmax="100" chance="20000"/> -- small stone
+	<item id="8865" countmax="1" chance="10000"/> -- sandbag
+	<item id="2287" countmax="1" chance="333"/> -- earth stone
+	<item id="9539" countmax="1" chance="333"/> -- Ground Plate
+	<item id="2285" countmax="1" chance="333"/> -- crystal stone
+	<item id="9536" countmax="1" chance="333"/> -- Dragon Plate
+  </loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

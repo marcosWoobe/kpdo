@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Marshtomp" nameDescription="a Marshtomp" race="undead" experience="3060" speed="270" manacost="330">
+  <health now="28000" max="28000"/>
+  <look type="865" head="20" body="30" legs="40" feet="50" corpse="9305"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="2200" min="-1564" max="-1574"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Marshtomp!"/>
+    <voice sentence="Marshtomp!"/>
+  </voices>
+</monster>

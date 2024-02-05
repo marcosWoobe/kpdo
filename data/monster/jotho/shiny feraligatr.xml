@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Feraligatr" nameDescription="a Shiny Feraligatr" race="water" experience="12000" speed="250" manacost="0">
+  <health now="40000" max="40000"/>
+  <look type="980" corpse="9694"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-465" max="-580"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Feraligatr!"/>
+    <voice sentence="Feraligatr!"/>
+  </voices>
+</monster>

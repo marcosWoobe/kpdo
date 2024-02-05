@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Salamence" nameDescription="a Salamence" race="undead" experience="31000" speed="600" manacost="330">
+  <health now="2500000" max="2500000"/>
+  <look type="892" head="20" body="30" legs="40" feet="50" corpse="9332"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1700" min="-3100" max="-4100"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+<defenses armor="0" defense="5"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Salamence!"/>
+    <voice sentence="Salamence!"/>
+  </voices>
+  <loot>
+	<item id="2285" countmax="1" chance="333"/> -- crystal stone
+	<item id="9536" countmax="1" chance="333"/> -- Dragon Plate
+  </loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

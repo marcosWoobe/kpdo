@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Venomoth" nameDescription="a shiny venomath" race="bug" experience="900" speed="240" manacost="0">
+	<health now="20800" max="20800"/>
+	<look type="484" corpse="168"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2200" range="1" min="-264" max="-374"/>
+<attack name="moves" interval="1000" chance="80"/>
+	</attacks>
+
+		
+	<voices interval="5000" chance="10">
+		<voice sentence="Venomath"/>
+		<voice sentence="moth!"/>
+	</voices>
+	<loot>
+	<item id="8858" countmax="10" chance="20000"/> -- pot of moss bug
+	<item id="8856" countmax="10" chance="20000"/> -- bottle of Poison
+	<item id="9585" countmax="1" chance="10000"/> -- Vennom Pendant
+	<item id="2284" countmax="1" chance="10000"/> -- coccon stone
+	<item id="2278" countmax="1" chance="10000"/> -- venom stone
+	<item id="9534" countmax="1" chance="10000"/> -- Cocon Plate
+	<item id="9545" countmax="1" chance="10000"/> -- Vennom Plate
+	<item id="9637" countmax="1" chance="10000"/> -- Venomoth Wing
+	<item id="8120" countmax="1" chance="10000"/> -- Bug Antena
+	<item id="8121" countmax="1" chance="10000"/> -- Bug Venom		
+	</loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+</script>
+</monster>

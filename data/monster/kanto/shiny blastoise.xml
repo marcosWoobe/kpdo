@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name= "Ancient Blastoise" nameDescription="a ancient Blastoise" race="water" experience="6200" speed="280" manacost="0">
+  <health now= "9900" max= "9900" />
+  <look type="614" corpse="112"/>
+
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+  <attack name="melee" interval="1900" range="1" min="-965" max="-980"/>
+
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Blastoise!"/>
+		<voice sentence="Blass!"/>
+		<voice sentence="TOISEEEE!"/>
+	</voices>
+	
+
+</monster>

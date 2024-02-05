@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Butterfree" nameDescription="a shiny butterfle" race="bug" experience="2400" speed="200" manacost="0">
+	<health now="14800" max="14800"/>
+	<look type="485" corpse="167"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2200" range="1" min="-364" max="-474"/>
+	<attack name="moves" interval="1200" chance="70"/>
+</attacks>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="Butterflyyy"/>
+	</voices>
+ <loot>
+	<item id="8858" countmax="10" chance="20000"/> -- pot of moss bug
+	<item id="8120" countmax="1" chance="57000"/> -- Bug Antena
+	<item id="2284" countmax="1" chance="10000"/> -- coccon stone
+	<item id="2289" countmax="1" chance="10000"/> -- heart stone
+	<item id="9534" countmax="1" chance="10000"/> -- Cocon Plate
+	<item id="9541" countmax="1" chance="10000"/> -- Heart Plate
+	<item id="9624" countmax="1" chance="10000"/> -- Butterfree Wing
+  </loot>
+	<script>
+<event name="Exp"/>
+</script>
+</monster>

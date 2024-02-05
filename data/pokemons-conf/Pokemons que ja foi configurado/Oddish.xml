@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Oddish" nameDescription="a wild oddish" race="grass" experience="80" speed="100" manacost="250">
+  <health now="410" max="410"/>
+  <look type="56" head="20" body="30" legs="40" feet="50" corpse="3008"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" range="1" chance="100" min="-15" max="-30"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Oddish!"/>
+    <voice sentence="Odd!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="38" chance="69000"/> -- seeds
+	<item id="8851" countmax="1" chance="10000"/> -- leaves
+  </loot>
+        <script>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="Exp"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+        </script>
+</monster>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kingler" nameDescription="a Kingler" race="undead" experience="2150" speed="410" manacost="0">
+  <health now="6000" max="6000"/>
+  <look type="245" corpse="6340"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="500"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" attack="80" skill="75"/>
+
+<attack name="moves" interval="1000" chance="80"/>
+
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Close your eyes... I want to show you something!"/>
+    <voice sentence="I will haunt you forever!"/>
+    <voice sentence="I will make you scream!"/>
+  </voices>
+	<script>
+<event name="Exp"/>
+
+
+</script>
+</monster>

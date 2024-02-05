@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Norris" script="default.lua" walkinterval="0" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="570" head="91" body="114" legs="86" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Hello dear customer! Are you here to see my offers? Come on, lets {trade}!"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+			<parameter key="module_shop" value="2"/>
+			<parameter key="shop_sellable" value="coccon stone,2284,200000;crystal stone,2285,1500000;darkness stone,2286,800000;earth stone,2287,400000;enigma stone,2288,800000;fire stone,2283,400000;heart stone,2289,400000;ice stone,2290,600000;leaf stone,2276,400000;punch stone,2281,1000000;rock stone,2280,600000;Thunder Stone,2279,600000;venom stone,2278,300000;Water Stone,2277,400000;"/>
+	</parameters>
+</npc>

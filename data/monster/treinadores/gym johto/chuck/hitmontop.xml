@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hitmontop" nameDescription="a Hitmontop" race="Fighting" experience="4805" speed="355" manacost="100">
+  <health now="59400" max="59400"/>
+  <look type="404" head="20" body="30" legs="40" feet="50" corpse="8272"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-805" max="-980"/>
+<attack name="evasion" interval="1800" chance="60" range="8" /> 
+<attack name="tophit" interval="1700" chance="60" range="3" /> 
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Hitmontop"/>
+		<voice sentence="Hitmontop!"/>
+		<voice sentence="Hitmontop!"/>
+	</voices>
+	 <loot>
+	<item id="8864" countmax="10" chance="17000"/> -- stone orb
+	<item id="2281" countmax="1" chance="333"/> -- punch stone
+	<item id="9558" countmax="1" chance="333"/> -- Punch Plate
+	<item id="9635" countmax="1" chance="333"/> -- Hitmontop toy
+	<item id="9605" countmax="1" chance="333"/> -- Hitmontop Hat
+  </loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+</script>
+
+
+
+</monster>

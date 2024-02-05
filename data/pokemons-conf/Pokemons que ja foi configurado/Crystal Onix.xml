@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crystal Onix" nameDescription="a wild Crystal Onix" race="ice" experience="21991" speed="260" manacost="0">
+	<health now="88000" max="88000"/>
+	<look type="292" head="0" body="0" legs="0" feet="0" corpse="6320"/>
+
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	    <attack name="melee" interval="1900" range="1" min="-865" max="-980"/>
+   <attack name="moves" interval="1000" chance="80"/>
+   
+
+
+
+	
+	
+	</attacks>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="ONIX!"/>
+		<voice sentence="NIX!"/>
+		<voice sentence="XII!"/>
+	</voices>
+	<loot>
+
+
+	<item id="8820" countmax="1" chance="52000"/> -- nail
+	<item id="2290" countmax="1" chance="1000"/> -- fire stone
+        <item id="2285" countmax="1" chance="200"/> 
+	</loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

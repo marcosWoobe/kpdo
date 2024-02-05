@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Growlithe" nameDescription="a shiny growlitle" race="undead" experience="110" speed="180" manacost="0">
+	<health now="2000" max="2000"/>
+	<look type="505" corpse="187"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="20" attack="13"/>
+		
+	</attacks>
+
+
+
+	<voices interval="5000" chance="10">
+		<voice sentence="Huumans stinkk!"/>
+	</voices>
+
+</monster>

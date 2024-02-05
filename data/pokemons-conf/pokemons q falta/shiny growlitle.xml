@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Growlitle" nameDescription="a shiny growlitle" race="undead" experience="110" speed="180" manacost="0">
+	<health now="115" max="115"/>
+	<look type="505" corpse="5978"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="20" attack="13"/>
+	<attack name="moves" interval="1000" chance="80"/>
+	</attacks>
+	<defenses armor="8" defense="10">
+
+	</defenses>
+	<elements>
+		<element energyPercent="50"/>
+		<element holyPercent="25"/>
+		<element earthPercent="-5"/>
+		<element deathPercent="-5"/>
+	</elements>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="Huumans stinkk!"/>
+	</voices>
+
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

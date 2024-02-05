@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Strong Tentacruel" nameDescription="a Strong Tentacruel" race="water" experience="2400" speed="800" manacost="0">
+  <health now="200000" max="200000"/>
+  <look type="108" head="20" body="30" legs="40" feet="50" corpse="6037"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+  <attack name="melee" interval="2200" range="1" min="-1364" max="-1474"/>
+<attack name="moves" interval="1400" chance="70"/>
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Tentaa!"/>
+    <voice sentence="Tentacrueel!"/>
+  </voices>
+ <loot>
+	<item id="6528" countmax="30" chance="20000"/> -- Water gem
+	<item id="8820" countmax="1" chance="10000"/> -- Water Pendant
+	<item id="8856" countmax="15" chance="20000"/> -- bottle of Poison
+	<item id="9585" countmax="1" chance="10000"/> -- Vennom Pendant
+	<item id="9583" countmax="1" chance="10000"/> -- Water Pot
+	<item id="9584" countmax="1" chance="1000"/> -- Water orb
+	<item id="2278" countmax="1" chance="333"/> -- venom stone
+	<item id="2277" countmax="1" chance="380"/> -- Water Stone
+	<item id="9545" countmax="1" chance="333"/> -- Vennom Plate
+	<item id="9546" countmax="1" chance="333"/> -- Water Plate
+	<item id="8123" countmax="1" chance="333"/> -- Ruby
+	<item id="9642" countmax="1" chance="333"/> -- Big Ruby
+</loot>
+
+	<script>
+<event name="Exp"/>
+
+
+</script>
+</monster>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Strong Kadabra" nameDescription="a Strong kadabra" race="psychic" experience="900" speed="400" manacost="485">
+  <health now="100000" max="100000"/>
+  <look type="219" head="20" body="30" legs="40" feet="50" corpse="6060"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="3"/>
+    <flag staticattack="100"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="1900" chance="100" range="3" min="-1171" max="-2201">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+<voice sentence="KADABRA!"/>
+<voice sentence="KAADABRA!"/>
+  </voices>
+ <loot>
+	<item id="8869" countmax="20" chance="20500"/> -- future orb
+	<item id="2288" countmax="1" chance="333"/> -- enigma stone
+	<item id="9557" countmax="1" chance="333"/> -- Enigma Plate
+	<item id="8126" countmax="1" chance="333"/> -- Psychic Spoon
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

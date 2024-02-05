@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lugia" nameDescription="a Lugia" race="undead" experience="14880" speed="270" manacost="330">
+  <health now="5000000" max="5000000"/>
+  <look type="416" head="20" body="30" legs="40" feet="50" corpse="8804"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1000" min="-4080" max="-5220"/>
+<attack name="moves" interval="1500" chance="80"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Lugia!"/>
+    <voice sentence="Lugia!"/>
+  </voices>
+  <loot>
+	<item id="8869" countmax="100" chance="20000"/> -- future orb
+	<item id="2289" countmax="3" chance="20000"/> -- heart stone
+	<item id="2288" countmax="3" chance="20000"/> -- enigma stone
+	<item id="2285" countmax="3" chance="20000"/> -- crystal stone
+	<item id="9541" countmax="1" chance="20000"/> -- Heart Plate
+	<item id="9557" countmax="1" chance="20000"/> -- Enigma Plate
+	<item id="9632" countmax="1" chance="20000"/> -- Lugia feather
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

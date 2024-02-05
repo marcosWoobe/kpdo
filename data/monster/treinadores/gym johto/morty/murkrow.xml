@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Murkrow" nameDescription="a Murkrow" race="ghost" experience="4805" speed="305" manacost="100">
+  <health now="59000" max="59000"/>
+  <look type="367" head="20" body="30" legs="40" feet="50" corpse="8968"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-405" max="-480"/>
+
+ <attack name="moves" interval="1000" chance="60"/>
+  </attacks>
+ <loot>
+	<item id="2694" countmax="64" chance="20000"/> -- straw
+	<item id="9648" countmax="100" chance="20000"/> -- Dark Gem
+	<item id="8869" countmax="30" chance="20500"/> -- future orb
+	<item id="8823" countmax="2" chance="10000"/> -- feather
+	<item id="8822" countmax="1" chance="10000"/> -- bird beak
+	<item id="8849" countmax="1" chance="10000"/> -- roc feather
+	<item id="2289" countmax="1" chance="333"/> -- heart stone
+	<item id="2286" countmax="1" chance="333"/> -- darkness stone
+	<item id="9541" countmax="1" chance="333"/> -- Heart Plate
+	<item id="9535" countmax="1" chance="333"/> -- Dark Plate
+	<item id="9647" countmax="1" chance="333"/> -- Murkrow Beak
+	<item id="9587" countmax="1" chance="333"/> -- Murkrow Feather
+  </loot>
+	<script>
+<event name="Exp"/>
+
+
+</script>
+
+
+
+</monster>

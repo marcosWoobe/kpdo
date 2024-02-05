@@ -1,0 +1,48 @@
+local poke = {'Abra','Espeon', 'Wobbuffet','Royal Porygon','Kadabra', 'Slowking','Alakazam', 'Drowzee', 'Hypno', 'Mr Mime', 'Porygon','Mew','Mewtwo','Shiny Alakazam','Dark Abra','Shiny Hypno',"Girafarig"}
+
+
+
+local lugar = {
+["saffron"] = {
+pos = {x=1054, y=1050, z=7},level = 5,price = 1000,n="Saffron"},
+["cerulean"] = {
+pos = {x=1060, y=903, z=7},level = 10, price = 2000,n="Cerulean"},
+["lavender"] = {
+pos = {x=1204, y=1045, z=7},level = 15,price = 3000,n="Lavender"},
+["fuchsia"] = {
+pos = {x=1213, y=1325, z=7},level = 15,price = 3000,n="Fuchsia"},
+["celadon"] ={
+pos = {x=861, y=1101, z=6},level = 20,price = 4000,n="Celadon"},
+["viridian"] ={
+pos = {x=708, y=1089, z=7},level = 20,price = 4000,n="Viridian"},
+["viridian"] ={
+pos = {x=708, y=1089, z=7},level = 20,price = 4000,n="Viridian"},
+["vermilion"] ={
+pos = {x=1070, y=1236, z=7},level = 20,price = 4000,n="Vermilion"},
+["pewter"] ={
+pos = {x=719, y=849, z=7},level = 20,price = 4000,n="Pewter"},
+["cinnabar"] ={
+pos = {x=847, y=1399, z=7},level = 20,price = 4000,n="Cinnabar"},
+["pallet"] ={
+pos = {x=732, y=1195, z=6},level = 20,price = 4000,n="Pallet"},
+["frozzen"] ={
+pos = {x=1430, y=1602, z=6},level = 20,price = 4000,n="Frozzen"},
+["blackthorn"] ={
+pos = {x=1023, y=553, z=7},level = 20,price = 4000,n="Blackthorn"},
+["azalea"] ={
+pos = {x=1352, y=557, z=7},level = 20,price = 4000,n="Azalea"},
+["cherrygrove"] ={
+pos = {x=588, y=414, z=7},level = 20,price = 4000,n="Cherrygrove"},
+["white"] ={
+pos = {x=540, y=675, z=5},level = 20,price = 4000,n="White"},
+["olivine"] ={
+pos = {x=632, y=1273, z=7},level = 20,price = 4000,n="Olivine"},
+["fallarbor"] ={
+pos = {x=397, y=1262, z=7},level = 20,price = 4000,n="Fallarbor"},
+}
+
+
+
+
+
+local faladescri =  "Places to go :\n\nHouse\nSaffron\nCerulean\nLavender\nFuchsia\nCeladon\nViridian\nVermilion\nPewter\nCinnabar\nPallet\nFrozzen\nBlackthorn\nAzalea\nCherrygrove\nWhite\nOlivine\nFallarbor"

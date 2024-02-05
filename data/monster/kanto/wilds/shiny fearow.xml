@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Fearow" nameDescription="a Fearow" race="Flying" experience="900" speed="250" manacost="0">
+  <health now="18500" max="18500"/>
+  <look type="689" head="20" body="30" legs="40" feet="50" corpse="344"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2200" range="1" min="-364" max="-574"/>
+<attack name="moves" interval="1300" chance="65"/>
+  </attacks>
+
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Feaarroow!"/>
+
+  </voices>
+ <loot>
+	<item id="2694" countmax="64" chance="20000"/> -- straw
+	<item id="8823" countmax="2" chance="10000"/> -- feather
+	<item id="8822" countmax="1" chance="10000"/> -- bird beak
+	<item id="8849" countmax="1" chance="10000"/> -- roc feather
+	<item id="2289" countmax="1" chance="10000"/> -- heart stone
+	<item id="9541" countmax="1" chance="10000"/> -- Heart Plate
+	<item id="9627" countmax="1" chance="10000"/> -- Fearow Wing
+  </loot>
+	<script>
+<event name="Exp"/>
+
+</script>
+</monster>

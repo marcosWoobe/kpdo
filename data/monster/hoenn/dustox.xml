@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dustox" nameDescription="a Dustox" race="undead" experience="1620" speed="270" manacost="330">
+  <health now="44762" max="44762"/>
+  <look type="833" head="20" body="30" legs="40" feet="50" corpse="9273"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1500" min="-246" max="-261"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Dustox!"/>
+    <voice sentence="Dustox!"/>
+  </voices>
+</monster>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raticate" nameDescription="a wild raticate" race="normal" experience="360" speed="289" manacost="0">
+<health now="3600" max="3600"/>
+<look type="69" corpse="6007"/>
+<strategy attack="100" defense="0"/>
+	
+<flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+	
+</flags>	
+<attacks>		
+	<attack name="melee" interval="1550" min="-155" max="-170"/>
+<attack name="moves" interval="1000" chance="80"/>
+</attacks>	
+<defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="RATICATE!"/>
+    <voice sentence="RAATICATEE!"/>
+  </voices>
+	<loot>
+	<item id="8853" countmax="1" chance="44500"/> -- apple bite
+	<item id="8854" countmax="1" chance="100"/> -- rat tail
+	<item id="2289" countmax="1" chance="100"/> -- heart stone
+	<item id="9541" countmax="1" chance="100"/> -- Heart Plate
+	</loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+</script>
+</monster>

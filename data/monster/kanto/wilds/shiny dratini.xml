@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Dratini" nameDescription="a shiny dratini" race="dragon" experience="900" speed="300" manacost="0">
+	<health now="4800" max="4800"/>
+	<look type="506" corpse="185"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2200" range="1" min="-164" max="-174"/>
+<attack name="moves" interval="1000" chance="80"/>
+	</attacks>
+	<defenses armor="9" defense="20">
+	
+	</defenses>
+	<elements>
+		<element energyPercent="20"/>
+		<element holyPercent="10"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Dratini golden fulll"/>
+	
+	</voices>
+
+	<loot>
+	<item id="2285" countmax="1" chance="10000"/> -- crystal stone
+	<item id="9536" countmax="1" chance="10000"/> -- Dragon Plate
+	</loot>
+	<script>
+<event name="Exp"/>
+
+</script>
+</monster>

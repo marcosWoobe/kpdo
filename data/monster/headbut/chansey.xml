@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chansey" nameDescription="a Chansey" race="normal" experience="1080" speed="200" manacost="0">
+  <health now="18000" max="18000"/>
+  <look type="4" head="20" body="30" legs="40" feet="50" corpse="6010"/>
+	
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="0" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" /> 
+  </flags>
+
+ <attacks>
+    <attack name="melee" interval="1800" min="-320" max="-349"/>
+<attack name="moves" interval="1400" chance="80"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Chansey!"/>
+    <voice sentence="SEYYY!"/>
+  </voices>
+	<loot>
+	<item id="2289" countmax="1" chance="100"/> -- heart stone
+	<item id="9541" countmax="1" chance="100"/> -- Heart Plate
+	</loot>
+
+<script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+
+</monster>

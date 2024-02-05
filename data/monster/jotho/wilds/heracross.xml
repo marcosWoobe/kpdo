@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Heracross" nameDescription="a Heracross" race="bug" experience="3905" speed="255" manacost="100">
+  <health now="36400" max="36400"/>
+  <look type="382" head="20" body="30" legs="40" feet="50" corpse="8271"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-605" max="-780"/>
+ <attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+
+	<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+
+</script>
+
+ <loot>
+	<item id="8858" countmax="10" chance="20000"/> -- pot of moss bug
+	<item id="8864" countmax="10" chance="17000"/> -- stone orb
+	<item id="2284" countmax="1" chance="333"/> -- coccon stone
+	<item id="2281" countmax="1" chance="333"/> -- punch stone
+	<item id="9534" countmax="1" chance="333"/> -- Cocon Plate
+	<item id="9558" countmax="1" chance="333"/> -- Punch Plate
+	<item id="8132" countmax="1" chance="333"/> -- Heracross Claw
+  </loot>
+
+</monster>

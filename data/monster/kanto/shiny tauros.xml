@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tauros" nameDescription="a Tauros" race="ground" experience="1450" speed="230" manacost="490">
+  <health now="4200" max="4200"/>
+  <look type="712" head="0" body="0" legs="0" feet="0" corpse="9176"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="50"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" min="-300" max="-540"/>
+ 
+</attacks>
+  <defenses armor="15" defense="20"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Tauuros!"/>
+  </voices>
+
+
+</monster>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sandslash" nameDescription="a wild sandslash" race="ground" experience="5500" speed="195" manacost="0">
+  <health now="12000" max="12000"/>
+  <look type="115" head="20" body="30" legs="40" feet="50" corpse="6041"/>
+	<targetchange interval="500" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" min="-99" max="-121"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="SANDSLASH!"/>
+    <voice sentence="SLAASH!"/>
+  </voices>
+	<loot>
+	<item id="8865" countmax="1" chance="65000"/> -- sandbag
+	<item id="1294" countmax="25" chance="62000"/> -- small stone
+	<item id="2287" countmax="1" chance="200"/> -- earth stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

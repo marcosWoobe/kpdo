@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Donphan" nameDescription="a Shiny Donphan" race="undead" experience="20000" speed="270" manacost="330">
+  <health now="800000" max="800000"/>
+  <look type="1051" head="20" body="30" legs="40" feet="50" corpse="9765"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1800" min="-2825" max="-2910"/>
+<attack name="moves" interval="1500" chance="80"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Donphan!"/>
+    <voice sentence="Donphan!"/>
+  </voices>
+  <loot>
+	<item id="1294" countmax="100" chance="20000"/> -- small stone
+	<item id="8865" countmax="1" chance="20000"/> -- sandbag
+	<item id="2287" countmax="1" chance="20000"/> -- earth stone
+	<item id="9539" countmax="1" chance="20000"/> -- Ground Plate
+	<item id="9651" countmax="1" chance="20000"/> -- Donphan Foot
+	<item id="9612" countmax="1" chance="20000"/> -- Donphan Back
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

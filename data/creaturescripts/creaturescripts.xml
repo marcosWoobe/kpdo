@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<creaturescripts>
+
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+
+
+
+
+	
+
+<event type="think" name="Idle" event="script" value="idle.lua"/>
+	
+	<event type="cast" name="BlockSpells" event="script" value="wildpoke.lua"/>
+	<event type="cast" name="Controled" event="script" value="controlmind.lua"/>
+	<event type="attack" name="BlockHit3" event="script" value="wildpoke.lua"/>
+	<event type="statschange" name="Exp" event="script" value="exp.lua"/>
+	<event type="statschange" name="Exp2" event="script" value="exp2.lua"/>
+<event type="statschange" name="Exp3" event="script" value="exp3.lua"/>
+	<event type="think" name="AvoidLook" event="script" value="wildpoke.lua"/>
+	
+<event type="attack" name="PlayerAttack" event="script" value="CARALHO.lua"/>
+<event type="think" name="Shiny" event="script" value="Shiny.lua"/>
+<event type="think" name="Aura" event="script" value="aura.lua"/>
+<event type="think" name="Ilusion" event="script" value="tvilusion.lua"/>
+<event type="think" name="clone" event="script" value="clone.lua"/>
+<event type="think" name="Passive" event="script" value="passive.lua"/>
+
+
+
+
+    
+<event type="look" name="Alook" event="script" value="look.lua"/> 
+
+<!-- Pokeballs -->
+	<event type="death" name="DiePoke" event="script" value="goback.lua"/>
+	<event type="death" name="ControlDie" event="script" value="playerpdeath.lua"/>
+	<event type="logout" name="LogoutPoke" event="script" value="goback.lua"/>
+
+	 <event type="kill" name="Expkill" script="pokekill.Lua"/>
+ <event type="textedit" name="Cam" script="camname.lua"/>
+
+<event type="kill" name="Gymkill" script="gymevent.lua"/>
+<event type="kill" name="Summonkill" script="gymeventwild.lua"/>
+<event type="death" name="Summondeath" script="wilddeath.lua"/>
+<event type="think" name="Summonthink" script="wildthink.lua"/>
+<event type="think" name="Flying" script="flycool.lua"/>
+<event type="think" name="Unown" script="unown.lua"/>
+<event type="actionchannel" name="DexActon" event="script" value="dexopen.lua"/>
+<event type="writetochannel" name="PlayerWriteToChannel" event="script" value="write.lua"/>
+
+--<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+
+
+
+</creaturescripts>

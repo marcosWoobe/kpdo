@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dewgong" nameDescription="a Dewgong" race="water" experience="1560" speed="270" manacost="0">
+  <health now="20250" max="20250"/>
+  <look type="110" head="20" body="30" legs="40" feet="50" corpse="6038"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+<attack name="melee" interval="2200" range="1" min="-294" max="-300"/>
+<attack name="moves" interval="1500" chance="70"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Dewgong!"/>
+    <voice sentence="gong!"/>
+  </voices>
+ <loot>
+	<item id="6528" countmax="100" chance="10000"/> -- Water gem
+	<item id="8820" countmax="1" chance="5000"/> -- Water Pendant
+	<item id="4339" countmax="15" chance="10000"/> -- Ice Orb
+	<item id="9583" countmax="1" chance="5000"/> -- Water Pot
+	<item id="9584" countmax="1" chance="500"/> -- Water orb
+	<item id="2277" countmax="1" chance="100"/> -- Water Stone
+	<item id="2290" countmax="1" chance="100"/> -- Ice Stone
+	<item id="9546" countmax="1" chance="100"/> -- Water Plate
+	<item id="9540" countmax="1" chance="100"/> -- Ice Plate
+	<item id="8123" countmax="1" chance="100"/> -- Ruby
+	<item id="9642" countmax="1" chance="100"/> -- Big Ruby
+	<item id="9613" countmax="1" chance="100"/> -- Dewgong Tail
+</loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+</script>
+</monster>

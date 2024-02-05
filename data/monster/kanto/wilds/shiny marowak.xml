@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Marowak" nameDescription="a shiny Marowak" race="rock" experience="450" speed="200" manacost="445">
+  <health now="30050" max="30050"/>
+  <look type="537" head="0" body="0" legs="0" feet="0" corpse="330"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="23" attack="33"/>
+<attack name="moves" interval="1000" chance="80"/>
+</attacks>
+  <defenses armor="15" defense="15"/>
+	<loot>
+	<item id="1294" countmax="50" chance="20000"/> -- small stone
+	<item id="8865" countmax="1" chance="10000"/> -- sandbag
+	<item id="3963" countmax="1" chance="65000"/> -- bone
+	<item id="2287" countmax="1" chance="10000"/> -- earth stone
+	<item id="9539" countmax="1" chance="10000"/> -- Ground Plate
+	<item id="9601" countmax="1" chance="10000"/> -- Maroak Mask
+	</loot>
+	<script>
+<event name="Exp"/>
+
+</script>
+</monster>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Meganium" nameDescription="a Meganium" race="grass" experience="6186" speed="250" manacost="0">
+  <health now="8620" max="8620"/>
+  <look type="323" head="113" body="57" legs="95" feet="113" corpse="5537"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-370" max="-480"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="10">
+	<voice sentence="Abraaaa!"/>
+    <voice sentence="Abra!"/>
+  </voices>
+
+   
+
+
+</monster>

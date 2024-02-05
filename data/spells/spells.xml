@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+	<instant name="moves" words="random" lvl="18000" mana="0" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/moves.lua">
+	</instant>
+
+        <instant name="passive buzz" words="passive buzz45454" lvl="10002" mana="20" prem="1" direction="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/passivebuzz.lua">
+</instant>
+  	<instant name="evasion" words="evasion4545" lvl="100006" mana="20" prem="1" range="8" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/evasion.lua">
+</instant>
+	<instant name="kick" words="evasion4545s" lvl="100006" mana="20" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/kick.lua">
+</instant>
+	<instant name="hand" words="evasion4545ss" lvl="100006" mana="20" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/hand.lua">
+</instant>
+<instant name="scyther" words="evasion4545ss4" lvl="100006" mana="20" prem="1" range="1" casterTargetOrDirection="0" blockwalls="0" exhaustion="2000" needlearn="0" event="script" value="poke/passivescyther.lua">
+</instant>
+<instant name="scythers" words="evasion4545ss4s" lvl="100006" mana="20" prem="1" range="1" casterTargetOrDirection="0" blockwalls="0" exhaustion="2000" needlearn="0" event="script" value="poke/passivescytherwild.lua">
+</instant>
+<instant name="tophit" words="evasion4545eeess4s" lvl="100006" mana="20" prem="1" range="1" casterTargetOrDirection="0" blockwalls="0" exhaustion="2000" needlearn="0" event="script" value="poke/hit.lua">
+</instant>
+<instant name="scizor" words="evasion4545ss4es" lvl="100006" mana="20" prem="1" range="1" casterTargetOrDirection="0" blockwalls="0" exhaustion="2000" needlearn="0" event="script" value="poke/passivescizor.lua">
+</instant>
+        <instant name="kage bunshin no jutsu" words="kage bunshin no jutsu" selftarget="0" aggressive="0" lvl="10" maglv="5" mana="50" soul="0" exhaustion="1000" prem="0" needlearn="1" script="poke/utanavid.lua">
+        </instant>
+
+
+</spells>

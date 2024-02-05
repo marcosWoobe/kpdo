@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Electabuzz" nameDescription="a Electabuzz" race="electric" experience="30" speed="220" manacost="340">
+	<health now="8000" max="8000"/>
+	<look type="281" head="0" body="0" legs="0" feet="0" corpse="6065"/>
+<targetchange interval="5" chance="1000"/>
+ <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+  <attack name="melee" interval="1900" range="1" min="-565" max="-580"/>
+
+	
+  
+  </attacks>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="BUZZZZ!"/>
+		<voice sentence="ELECCC!"/>
+		<voice sentence="TAAA!"/>
+	</voices>
+	<loot>
+	</loot>
+	<script>
+<event name="Passive"/>
+
+
+</script>
+
+</monster>

@@ -1,0 +1,26 @@
+General:
+It's named Dragonite (Dragon).
+Can be used at level 100.
+
+Status:
+It's base health is 10800.
+It gains 100 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Headbutt (Normal) - m1 - level 100
+Thundershock (Electric) - m2 - level 100
+Dragon pulse (Dragon) - m3 - level 100
+Hyper Beam (Normal) - m4 - level 108
+Dragon breath (Dragon) - m5 - level 102
+Twister (Dragon) - m6 - level 104
+Wing Attack (flying) - m7 - level 102
+Dragon Rush (Dragon) - m8 - level 110
+Magma Meteor (Dragon) - m9 - level 115
+Fury (Dragon) - m10 - level 108
+Rage (normal) - passive
+
+Habilities:
+Fly (use order on yourself)

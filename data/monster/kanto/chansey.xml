@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chansey" nameDescription="a Chansey" race="normal" experience="110" speed="250" manacost="0">
+  <health now="4000" max="4000"/>
+  <look type="4" head="20" body="30" legs="40" feet="50" corpse="6010"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="0" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" /> 
+  </flags>
+
+ <attacks>
+    <attack name="melee" interval="1800" min="-320" max="-349"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Chansey!"/>
+    <voice sentence="SEYYY!"/>
+  </voices>
+	<loot>
+	</loot>
+
+</monster>

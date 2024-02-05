@@ -1,0 +1,24 @@
+General:
+It's named Dragonite (Dragon).
+Can be used at level 25.
+
+Status:
+It's base health is 1200.
+It gains 55 life/level.
+
+Evolutions:
+Dragonair (level 75 / 1 crystal stone)
+
+Moves used:
+Headbutt (Normal) - m1 - level 25
+Thundershock (Electric) - m2 - level 25
+Dragon pulse (Dragon) - m3 - level 25
+Hyper Beam (Normal) - m4 - level 30
+Dragon breath (Dragon) - m5 - level 27
+Twister (Dragon) - m6 - level 28
+Magma Meteor (Dragon) - m7 - level 30
+Fury (Dragon) - m10 - level 30
+Rage (normal) - passive
+
+Habilities:
+none.

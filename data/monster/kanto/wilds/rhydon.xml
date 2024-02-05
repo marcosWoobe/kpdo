@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rhydon" nameDescription="a Rhydon" race="rock" experience="1800" speed="210" manacost="505">
+  <health now="14000" max="14000"/>
+  <look type="200" head="0" body="0" legs="0" feet="0" corpse="2858"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" min="-300" max="-385"/>
+<attack name="moves" interval="1000" chance="80"/>
+</attacks>
+  <defenses armor="10" defense="15"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Rhydon!"/>
+  </voices>
+	<loot>
+	<item id="1294" countmax="100" chance="20000"/> -- small stone
+	<item id="8865" countmax="1" chance="10000"/> -- sandbag
+	<item id="8864" countmax="1" chance="20000"/>-- stone orb
+	<item id="2287" countmax="1" chance="333"/> -- earth stone
+	<item id="2280" countmax="1" chance="333"/> -- Rock stone
+	<item id="9539" countmax="1" chance="333"/> -- Ground Plate
+	<item id="9542" countmax="1" chance="333"/> -- Rock Plate
+	<item id="8131" countmax="1" chance="333"/> -- Horn Drill
+	</loot>
+	<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+</script>
+</monster>

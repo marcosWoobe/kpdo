@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Shiny Bellsprout" nameDescription="a bellsprout" race="grass" experience="841" speed="140" manacost="300">
+  <health now="1420" max="1420" /> 
+  <look type="711" head="0" body="0" legs="0" feet="0" corpse="9780" /> 
+	<targetchange interval="1000000" chance="0"/>
+  <strategy attack="100" defense="0" /> 
+
+ <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="0" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" /> 
+  </flags>
+
+ <attacks>
+    <attack name="melee" interval="1800" min="-72" max="-99"/>
+<attack name="moves" interval="1500" chance="50"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Bellsprout!"/>
+    <voice sentence="Bells!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="15" chance="20000"/> -- seeds
+	<item id="8856" countmax="5" chance="20000"/> -- bottle of Poison
+	<item id="9585" countmax="1" chance="10000"/> -- Vennom Pendant
+	<item id="8851" countmax="3" chance="10000"/> -- leaves
+	<item id="8852" countmax="1" chance="10000"/> -- bag of polem
+	<item id="9606" countmax="1" chance="10000"/> -- Grass Pendant
+	<item id="2278" countmax="1" chance="10000"/> -- venom stone
+	<item id="2276" countmax="1" chance="10000"/> -- leaf stone
+	<item id="9545" countmax="1" chance="10000"/> -- Vennom Plate
+	<item id="9538" countmax="1" chance="10000"/> -- Grass Plate
+  </loot>
+     <script>
+        <event name="BlockHit3"/>
+	<event name="Exp"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+        </script>
+
+</monster>

@@ -1,0 +1,16 @@
+---D__USE_SQLITE__
+-D__ENABLE_SERVER_DIAGNOSTIC__
+-O1
+-lboost_system
+-lgmp
+-llua5.1
+-lmysql
+-lboost_regex
+-lsqlite3
+-lwsock32
+-lxml2
+-lmysql
+-lws2_32
+-s
+-lboost_filesystem
+-lboost_thread

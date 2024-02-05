@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Exeggutor" nameDescription="a Exeggutor" race="undead" experience="250" speed="220" manacost="670">
+  <health now="4500" max="4500"/>
+  <look type="46" head="0" body="0" legs="0" feet="0" corpse="3005"/>
+	
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="30" attack="325"/>
+  </attacks>
+  <defenses armor="7" defense="8"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Ivyyyyy!"/>
+    <voice sentence="Ivysaur!"/>
+  </voices>
+  <loot>
+		<item id="5954" countmax="44" chance="100000"/><!-- seed -->
+		<item id="2111" countmax="1" chance="30000"/><!-- Leaves -->
+		<item id="5883" countmax="1" chance="2000"/><!-- Bulb -->
+		<item id="5877" countmax="1" chance="2000"/><!-- Bag of Pollem -->
+		<item id="5918" countmax="1" chance="50"/><!-- Leaf Stone -->
+  </loot>
+</monster>

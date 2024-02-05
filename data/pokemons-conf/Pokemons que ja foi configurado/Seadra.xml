@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Seadra" nameDescription="a wild seadra" race="water" experience="1000" speed="230" manacost="0">
+    <health now="3500" max="3500"/>
+    <look type="276" head="0" body="0" legs="0" feet="0" corpse="2872"/>
+   <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="1"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="1"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="95"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+    <attack name="melee" interval="2000" range="1" min="-175" max="-200"/>
+<attack name="moves" interval="1000" chance="80"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+	<loot>
+	<item id="6528" countmax="100" chance="20000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="2277" countmax="1" chance="490"/> -- water stone
+	</loot>
+    <voices interval="6000" chance="0">
+      <voice sentence="SEADRA!"/>
+      <voice sentence="DRA!"/>
+    </voices>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+</script>
+  </monster>

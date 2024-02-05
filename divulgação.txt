@@ -1,0 +1,19 @@
+Gerar UID url
+Criar Referencia usando o id account
+Criar tabela
+criar estastisca
+CREATE TABLE `divulgar`
+(
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(32) NOT NULL DEFAULT '',
+	`refers` INT NOT NULL DEFAULT 0,
+	PRIMARY KEY (`id`), UNIQUE (`name`)
+) ENGINE = InnoDB;
+
+CREATE TABLE `ipsregisters`
+(
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(32) NOT NULL DEFAULT '',
+	PRIMARY KEY (`id`), UNIQUE (`name`)
+) ENGINE = InnoDB;
+

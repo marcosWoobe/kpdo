@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Totodile" nameDescription="a Totodile" race="water" experience="770" speed="250" manacost="0">
+  <health now="2250" max="2250"/>
+  <look type="479" corpse="7622"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-165" max="-180"/>
+
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Squirtle!"/>
+    <voice sentence="Squirrrr!"/>
+  </voices>
+
+
+
+</monster>

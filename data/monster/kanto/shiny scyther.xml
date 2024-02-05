@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Scyther" nameDescription="a shiny scyther" race="undead" experience="670" speed="290" manacost="0">
+	<health now="9750" max="9750"/>
+	<look type="525" corpse="157"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	 <attacks>
+    <attack name="melee" interval="1000" range="1" min="-665" max="-880"/>
+<attack name="evasion" interval="1000" chance="50" range="8" /> 
+  </attacks>
+
+
+	<voices interval="5000" chance="10">
+		<voice sentence="Ranat Ulderek!"/>
+		<voice sentence="Orc buta bana!"/>
+		<voice sentence="Ikem rambo zambo!"/>
+		<voice sentence="Futchi maruk buta!"/>
+	</voices>
+	<script>
+<event name="Passive"/>
+
+
+</script>
+</monster>

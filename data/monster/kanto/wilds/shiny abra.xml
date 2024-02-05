@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dark Abra" nameDescription="a dark abra" race="ghost" experience="1800" speed="200" manacost="0">
+	<health now="10800" max="10800"/>
+	<look type="491" corpse="158"/>
+
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+<attack name="physical" interval="1900" chance="100" range="3" min="-451" max="-561">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+<attack name="moves" interval="1000" chance="80"/>
+	</attacks>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="The Dark Abra minds you"/>
+		
+	</voices>
+	<script>
+<event name="Exp"/>
+
+</script>
+</monster>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Machamp" nameDescription="Machamp" race="Fighting" experience="11991" speed="220" manacost="590">
+  <health now="11500" max="11500"/>
+  <look type="121" head="20" body="30" legs="40" feet="50" corpse="6048"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+  <attack name="melee" interval="1900" range="1" min="-565" max="-580"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Machamp"/>
+		<voice sentence="MAHHH!"/>
+		<voice sentence="CHAMP!"/>
+	</voices>
+	<loot>
+	</loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Strong Typhlosion" nameDescription="a Typhlosion" race="fire" experience="3550" speed="500" manacost="550">
+  <health now="305000" max="305000"/>
+  <look type="589" head="20" body="30" legs="40" feet="50" corpse="7621"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-1340" max="-1460"/>
+ <attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Typhlosion!"/>
+    <voice sentence="Typhlosion!"/>
+    <voice sentence="Typhlosion!"/>
+  </voices>
+
+	<loot>
+	<item id="8866" countmax="100" chance="20000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="10000"/> -- pot of lava
+	<item id="9602" countmax="1" chance="10000"/> -- Magma Box
+	<item id="9609" countmax="1" chance="10000"/> -- Fire Pendant
+	<item id="9628" countmax="1" chance="10000"/> -- Magma Pendant
+	<item id="8868" countmax="1" chance="5000"/> -- Nail
+	<item id="2283" countmax="1" chance="333"/> -- fire stone
+	<item id="9537" countmax="1" chance="333"/> -- Fire Plate
+	<item id="9659" countmax="1" chance="333"/> -- Hot fur
+	</loot>
+<script>
+<event name="Exp"/>
+
+</script>
+	
+</monster>

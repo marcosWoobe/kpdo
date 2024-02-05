@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ekans" nameDescription="a Ekans" race="poison" experience="120" speed="160" manacost="0">
+  <health now="625" max="625"/>
+  <look type="7" head="20" body="30" legs="40" feet="50" corpse="5979"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+
+<attack name="melee" interval="2200" range="1" min="-64" max="-74"/>
+<attack name="moves" interval="1700" chance="60"/>
+  </attacks>
+
+ 
+  <voices interval="5000" chance="10">
+    <voice sentence="Ekaans."/>
+    <voice sentence="eeeeeee."/>
+    <voice sentence="kaaaans!"/>
+  </voices>
+	<loot>
+	
+	<item id="8856" countmax="1" chance="17000"/> -- psy spoon
+	
+  </loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

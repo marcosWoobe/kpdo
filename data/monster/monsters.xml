@@ -1,0 +1,2712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monsters>
+<monster name="dannys growlithe" file="kanto/dannys growlithe.xml"/>
+
+<monster name="tall grass" file="kanto/grass.xml"/>
+<monster name="pidgey" file="kanto/pidgey.xml"/>
+<monster name="pidgey s" file="kanto/wilds/pidgey.xml"/>
+
+<monster name="shiny pidgey" file="kanto/shiny pidgey.xml"/>
+<monster name="shiny pidgey s" file="kanto/wilds/shiny pidgey.xml"/>
+
+
+<monster name="aerodactyl" file="kanto/aerodactyl.xml"/>
+<monster name="aerodactyl s" file="kanto/wilds/aerodactyl.xml"/>
+
+<monster name="ancient aerodactyl" file="kanto/ancient aerodactyl.xml"/>
+
+
+<monster name="goldeen" file="kanto/goldeen.xml"/>
+<monster name="goldeen s" file="kanto/wilds/goldeen.xml"/>
+
+<monster name="lickitung" file="kanto/lickitung.xml"/>
+<monster name="lickitung s" file="kanto/wilds/lickitung.xml"/>
+
+<monster name="charmander" file="kanto/charmander.xml"/>
+<monster name="charmander s" file="kanto/wilds/charmander.xml"/>
+
+
+<monster name="bulbasaur" file="kanto/bulbasaur.xml"/>
+<monster name="bulbasaur s" file="kanto/wilds/bulbasaur.xml"/>
+
+
+<monster name="spearow" file="kanto/spearow.xml"/>
+<monster name="spearow s" file="kanto/wilds/spearow.xml"/>
+
+
+<monster name="shiny spearow" file="kanto/shiny spearow.xml"/>
+<monster name="shiny spearow s" file="kanto/wilds/shiny spearow.xml"/>
+
+<monster name="ivysaur" file="kanto/ivysaur.xml"/>
+<monster name="ivysaur s" file="kanto/wilds/ivysaur.xml"/>
+
+<monster name="charmeleon" file="kanto/charmeleon.xml"/>
+<monster name="charmeleon s" file="kanto/wilds/charmeleon.xml"/>
+
+
+<monster name="venusaur" file="kanto/venusaur.xml"/>
+<monster name="venusaur s" file="kanto/wilds/venusaur.xml"/>
+
+<monster name="blastoise g" file="kanto/wilds/gym/blastoise.xml"/>
+<monster name="gyarados g" file="kanto/wilds/gym/gyarados.xml"/>
+<monster name="seadra g" file="kanto/wilds/gym/seadra.xml"/>
+<monster name="kingler g" file="kanto/wilds/gym/kingler.xml"/>
+<monster name="vaporeon g" file="kanto/wilds/gym/vaporeon.xml"/>
+<monster name="butterfree g" file="kanto/wilds/gym/butterfree.xml"/>
+<monster name="muk g" file="kanto/wilds/gym/muk.xml"/>
+<monster name="beedrill g" file="kanto/wilds/gym/beedrill.xml"/>
+<monster name="scyther g" file="kanto/wilds/gym/scyther.xml"/>
+
+<monster name="alakazam g" file="kanto/wilds/gym/alakazam.xml"/>
+<monster name="hypno g" file="kanto/wilds/gym/hypno.xml"/>
+<monster name="gengar g" file="kanto/wilds/gym/gengar.xml"/>
+
+<monster name="tangela g" file="kanto/wilds/gym/tangela.xml"/>
+<monster name="venusaur g" file="kanto/wilds/gym/venusaur.xml"/>
+
+<monster name="jolteon g" file="kanto/wilds/gym/jolteon.xml"/>
+
+<monster name="electabuzz g" file="kanto/wilds/gym/electabuzz.xml"/>
+<monster name="electrode g" file="kanto/wilds/gym/electrode.xml"/>
+<monster name="raichu g" file="kanto/wilds/gym/raichu.xml"/>
+<monster name="charizard" file="kanto/charizard.xml"/>
+<monster name="charizard s" file="kanto/wilds/charizard.xml"/>
+<monster name="charizard g" file="kanto/wilds/gym/charizard.xml"/>
+
+<monster name="squirtle" file="kanto/squirtle.xml"/>
+<monster name="squirtle s" file="kanto/wilds/squirtle.xml"/>
+
+
+<monster name="wartortle" file="kanto/wartortle.xml"/>
+<monster name="wartortle s" file="kanto/wilds/wartortle.xml"/>
+
+
+<monster name="elder charizard" file="kanto/elder charizard.xml"/>
+<monster name="elder charizard s" file="kanto/wilds/elder charizard.xml"/>
+
+
+<monster name="blastoise" file="kanto/blastoise.xml"/>
+<monster name="blastoise s" file="kanto/wilds/blastoise.xml"/>
+
+
+
+<monster name="caterpie" file="kanto/caterpie.xml"/>
+<monster name="caterpie s" file="kanto/wilds/caterpie.xml"/>
+
+<monster name="shiny caterpie" file="kanto/shiny caterpie.xml"/>
+<monster name="shiny caterpie s" file="kanto/wilds/shiny caterpie.xml"/>
+
+
+
+<monster name="metapod" file="kanto/metapod.xml"/>
+<monster name="metapod s" file="kanto/wilds/metapod.xml"/>
+<monster name="shiny metapod" file="kanto/shiny metapod.xml"/>
+<monster name="shiny metapod s" file="kanto/wilds/shiny metapod.xml"/>
+
+
+
+<monster name="butterfree" file="kanto/butterfree.xml"/>
+<monster name="butterfree s" file="kanto/wilds/butterfree.xml"/>
+
+
+<monster name="weedle" file="kanto/weedle.xml"/>
+<monster name="weedle s" file="kanto/wilds/weedle.xml"/>
+
+
+
+<monster name="shiny weedle" file="kanto/shiny weedle.xml"/>
+<monster name="shiny weedle s" file="kanto/wilds/shiny weedle.xml"/>
+
+
+<monster name="kakuna" file="kanto/kakuna.xml"/>
+<monster name="kakuna s" file="kanto/wilds/kakuna.xml"/>
+<monster name="shiny kakuna" file="kanto/shiny kakuna.xml"/>
+<monster name="shiny kakuna s" file="kanto/wilds/shiny kakuna.xml"/>
+
+
+<monster name="beedrill" file="kanto/beedrill.xml"/>
+<monster name="beedrill s" file="kanto/wilds/beedrill.xml"/>
+
+
+<monster name="pidgeotto" file="kanto/pidgeotto.xml"/>
+<monster name="pidgeotto s" file="kanto/wilds/pidgeotto.xml"/>
+<monster name="shiny pidgeotto" file="kanto/shiny pidgeotto.xml"/>
+<monster name="shiny pidgeotto s" file="kanto/wilds/shiny pidgeotto.xml"/>
+
+
+<monster name="pidgeot" file="kanto/pidgeot.xml"/>
+<monster name="pidgeot s" file="kanto/wilds/pidgeot.xml"/>
+
+
+<monster name="shiny pidgeot" file="kanto/shiny pidgeot.xml"/>
+<monster name="shiny pidgeot s" file="kanto/wilds/shiny pidgeot.xml"/>
+
+
+
+<monster name="shiny marowak" file="kanto/shiny marowak.xml"/>
+<monster name="shiny marowak s" file="kanto/wilds/shiny marowak.xml"/>
+
+<monster name="rattata" file="kanto/rattata.xml"/>
+<monster name="rattata s" file="kanto/wilds/rattata.xml"/>
+<monster name="shiny rattata" file="kanto/shiny ratata.xml"/>
+<monster name="shiny rattata s" file="kanto/wilds/shiny ratata.xml"/>
+
+
+<monster name="raticate" file="kanto/raticate.xml"/>
+<monster name="raticate s" file="kanto/wilds/raticate.xml"/>
+
+
+<monster name="fearow" file="kanto/fearow.xml"/>
+<monster name="fearow s" file="kanto/wilds/fearow.xml"/>
+
+<monster name="shiny fearow" file="kanto/shiny fearow.xml"/>
+<monster name="shiny fearow s" file="kanto/wilds/shiny fearow.xml"/>
+
+
+
+<monster name="ekans" file="kanto/ekans.xml"/>
+<monster name="ekans s" file="kanto/wilds/ekans.xml"/>
+<monster name="shiny ekans" file="kanto/shiny ekans.xml"/>
+<monster name="shiny ekans s" file="kanto/wilds/shiny ekans.xml"/>
+
+<monster name="arbok" file="kanto/arbok.xml"/>
+
+
+<monster name="arbok s" file="kanto/wilds/arbok.xml"/>
+
+
+<monster name="shiny arbok" file="kanto/shiny arbok.xml"/>
+
+
+<monster name="shiny arbok s" file="kanto/wilds/shiny arbok.xml"/>
+
+<monster name="pikachu" file="kanto/pikachu.xml"/>
+<monster name="pikachu s" file="kanto/wilds/pikachu.xml"/>
+<monster name="shiny pikachu" file="kanto/shiny pikachu.xml"/>
+<monster name="shiny pikachu s" file="kanto/wilds/shiny pikachu.xml"/>
+<monster name="shiny pikachu g" file="kanto/wilds/gym/shiny pikachu.xml"/>
+
+<monster name="raichu" file="kanto/raichu.xml"/>
+<monster name="raichu s" file="kanto/wilds/raichu.xml"/>
+
+<monster name="sandshrew" file="kanto/sandshrew.xml"/>
+<monster name="sandshrew s" file="kanto/wilds/sandshrew.xml"/>
+<monster name="shiny sandshrew" file="kanto/shiny sandshrew.xml"/>
+<monster name="shiny sandshrew s" file="kanto/wilds/shiny sandshrew.xml"/>
+
+<monster name="sandslash" file="kanto/sandslash.xml"/>
+<monster name="sandslash s" file="kanto/wilds/sandslash.xml"/>
+<monster name="shiny sandslash" file="kanto/shiny sandslash.xml"/>
+<monster name="shiny sandslash s" file="kanto/wilds/shiny sandslash.xml"/>
+
+<monster name="nidoranfe" file="kanto/nidoran female.xml"/>
+<monster name="nidoran female s" file="kanto/wilds/nidoran female.xml"/>
+
+<monster name="shiny nidoranfe" file="kanto/shiny nidoran female.xml"/>
+<monster name="shiny nidoranfe s" file="kanto/wilds/shiny nidoran female.xml"/>
+
+
+<monster name="nidorina" file="kanto/nidorina.xml"/>
+<monster name="nidorina s" file="kanto/wilds/nidorina.xml"/>
+
+<monster name="shiny nidorina" file="kanto/shiny nidorina.xml"/>
+<monster name="shiny nidorina s" file="kanto/wilds/shiny nidorina.xml"/>
+
+
+<monster name="nidoqueen" file="kanto/nidoqueen.xml"/>
+<monster name="nidoqueen s" file="kanto/wilds/nidoqueen.xml"/>
+<monster name="shiny nidoqueen" file="kanto/shiny nidoqueen.xml"/>
+<monster name="shiny nidoqueen s" file="kanto/wilds/shiny nidoqueen.xml"/>
+
+
+<monster name="nidoran" file="kanto/nidoran male.xml"/>
+<monster name="nidoran male s" file="kanto/wilds/nidoran male.xml"/>
+
+<monster name="shiny nidoran" file="kanto/shiny nidoran.xml"/>
+<monster name="shiny nidoran s" file="kanto/wilds/shiny nidoran.xml"/>
+
+<monster name="nidorino" file="kanto/nidorino.xml"/>
+<monster name="nidorino s" file="kanto/wilds/nidorino.xml"/>
+
+
+<monster name="shiny nidorino" file="kanto/shiny nidorino.xml"/>
+<monster name="shiny nidorino s" file="kanto/wilds/shiny nidorino.xml"/>
+
+<monster name="nidoking" file="kanto/nidoking.xml"/>
+<monster name="nidoking s" file="kanto/wilds/nidoking.xml"/>
+
+
+<monster name="shiny nidoking" file="kanto/shiny nidoking.xml"/>
+<monster name="shiny nidoking s" file="kanto/wilds/shiny nidoking.xml"/>
+
+<monster name="clefairy" file="kanto/clefairy.xml"/>
+<monster name="clefairy s" file="kanto/wilds/clefairy.xml"/>
+<monster name="shiny clefairy" file="kanto/shiny clefairy.xml"/>
+<monster name="shiny clefairy s" file="kanto/wilds/shiny clefairy.xml"/>
+
+
+<monster name="clefable" file="kanto/clefable.xml"/>
+<monster name="clefable s" file="kanto/wilds/clefable.xml"/>
+<monster name="shiny clefable" file="kanto/shiny clefable.xml"/>
+<monster name="shiny clefable s" file="kanto/wilds/shiny clefable.xml"/>
+<monster name="clefable g" file="kanto/wilds/gym/clefable.xml"/>
+
+
+<monster name="vulpix" file="kanto/vulpix.xml"/>
+<monster name="vulpix s" file="kanto/wilds/vulpix.xml"/>
+
+<monster name="shiny vulpix" file="kanto/shiny vulpix.xml"/>
+<monster name="shiny vulpix s" file="kanto/wilds/shiny vulpix.xml"/>
+
+<monster name="ninetales" file="kanto/ninetales.xml"/>
+<monster name="ninetales s" file="kanto/wilds/ninetales.xml"/>
+<monster name="ninetales g" file="kanto/wilds/gym/ninetales.xml"/>
+<monster name="shiny ninetales" file="kanto/shiny ninetales.xml"/>
+<monster name="shiny ninetales s" file="kanto/wilds/shiny ninetales.xml"/>
+
+<monster name="jigglypuff" file="kanto/jigglypuff.xml"/>
+<monster name="jigglypuff s" file="kanto/wilds/jigglypuff.xml"/>
+
+
+<monster name="shiny jigglypuff" file="kanto/shiny jigglypuff.xml"/>
+<monster name="shiny jigglypuff s" file="kanto/wilds/shiny jigglypuff.xml"/>
+
+<monster name="wigglytuff" file="kanto/wigglytuff.xml"/>
+<monster name="wigglytuff g" file="kanto/wilds/gym/wigglytuff.xml"/>
+<monster name="wigglytuff s" file="kanto/wilds/wigglytuff.xml"/>
+
+<monster name="shiny wigglytuff" file="kanto/shiny wigglytuff.xml"/>
+<monster name="shiny wigglytuff s" file="kanto/wilds/shiny wigglytuff.xml"/>
+
+<monster name="zubat" file="kanto/zubat.xml"/>
+<monster name="zubat s" file="kanto/wilds/zubat.xml"/>
+
+
+<monster name="golbat" file="kanto/golbat.xml"/>
+<monster name="golbat s" file="kanto/wilds/golbat.xml"/>
+
+
+<monster name="shiny golbat" file="kanto/shiny golbat.xml"/>
+<monster name="shiny golbat s" file="kanto/wilds/shiny golbat.xml"/>
+
+<monster name="oddish" file="kanto/oddish.xml"/>
+<monster name="oddish s" file="kanto/wilds/oddish.xml"/>
+
+
+
+<monster name="gloom" file="kanto/gloom.xml"/>
+<monster name="gloom s" file="kanto/wilds/gloom.xml"/>
+
+
+<monster name="shiny gloom" file="kanto/shiny gloom.xml"/>
+<monster name="shiny gloom s" file="kanto/wilds/shiny gloom.xml"/>
+
+
+<monster name="vileplume" file="kanto/vileplume.xml"/>
+<monster name="vileplume s" file="kanto/wilds/vileplume.xml"/>
+
+<monster name="shiny vileplume" file="kanto/shiny vileplume.xml"/>
+<monster name="shiny vileplume s" file="kanto/wilds/shiny vileplume.xml"/>
+
+
+<monster name="paras" file="kanto/paras.xml"/>
+<monster name="paras s" file="kanto/wilds/paras.xml"/>
+
+<monster name="parasect" file="kanto/parasect.xml"/>
+<monster name="parasect s" file="kanto/wilds/parasect.xml"/>
+
+<monster name="venonat" file="kanto/venonat.xml"/>
+<monster name="venonat s" file="kanto/wilds/venonat.xml"/>
+
+<monster name="venomoth" file="kanto/venomoth.xml"/>
+<monster name="venomoth s" file="kanto/wilds/venomoth.xml"/>
+<monster name="shiny venomoth" file="kanto/shiny venomath.xml"/>
+<monster name="shiny venomoth s" file="kanto/wilds/shiny venomath.xml"/>
+
+<monster name="diglett" file="kanto/diglett.xml"/>
+<monster name="diglett s" file="kanto/wilds/diglett.xml"/>
+
+<monster name="shiny diglett" file="kanto/shiny diglett.xml"/>
+<monster name="shiny diglett s" file="kanto/wilds/shiny diglett.xml"/>
+<monster name="shiny dugtrio" file="kanto/shiny dugtrio.xml"/>
+<monster name="shiny dugtrio s" file="kanto/wilds/shiny dugtrio.xml"/>
+
+<monster name="dugtrio" file="kanto/dugtrio.xml"/>
+<monster name="dugtrio s" file="kanto/wilds/dugtrio.xml"/>
+
+<monster name="meowth" file="kanto/meowth.xml"/>
+<monster name="meowth s" file="kanto/wilds/meowth.xml"/>
+
+<monster name="persian" file="kanto/persian.xml"/>
+<monster name="persian s" file="kanto/wilds/persian.xml"/>
+
+<monster name="psyduck" file="kanto/psyduck.xml"/>
+<monster name="psyduck s" file="kanto/wilds/psyduck.xml"/>
+
+
+<monster name="golduck" file="kanto/golduck.xml"/>
+<monster name="golduck s" file="kanto/wilds/golduck.xml"/>
+
+<monster name="mankey" file="kanto/mankey.xml"/>
+<monster name="mankey s" file="kanto/wilds/mankey.xml"/>
+
+<monster name="primeape" file="kanto/primeape.xml"/>
+<monster name="primeape s" file="kanto/wilds/primeape.xml"/>
+
+<monster name="growlithe" file="kanto/growlithe.xml"/>
+<monster name="growlithe s" file="kanto/wilds/growlithe.xml"/>
+
+<monster name="arcanine" file="kanto/arcanine.xml"/>
+<monster name="arcanine s" file="kanto/wilds/arcanine.xml"/>
+<monster name="arcanine g" file="kanto/wilds/gym/arcanine.xml"/>
+
+<monster name="poliwag" file="kanto/poliwag.xml"/>
+<monster name="poliwag s" file="kanto/wilds/poliwag.xml"/>
+
+<monster name="poliwhirl" file="kanto/poliwhirl.xml"/>
+<monster name="poliwhirl s" file="kanto/wilds/poliwhirl.xml"/>
+
+<monster name="poliwrath" file="kanto/poliwrath.xml"/>
+<monster name="elite poliwrath" file="kanto/elite poliwrath.xml"/>
+<monster name="poliwrath s" file="kanto/wilds/poliwrath.xml"/>
+
+<monster name="abra" file="kanto/abra.xml"/>
+<monster name="abra s" file="kanto/wilds/abra.xml"/>
+
+<monster name="kadabra" file="kanto/kadabra.xml"/>
+<monster name="kadabra s" file="kanto/wilds/kadabra.xml"/>
+
+
+<monster name="alakazam" file="kanto/alakazam.xml"/>
+<monster name="alakazam s" file="kanto/wilds/alakazam.xml"/>
+
+<monster name="shiny alakazam" file="kanto/shiny alakazam.xml"/>
+<monster name="shiny alakazam s" file="kanto/wilds/shiny alakazam.xml"/>
+
+<monster name="shiny alakazam cm" file="kanto/shiny alakazam cm.xml"/>
+<monster name="slowking cm" file="jotho/slowking cm.xml"/>
+<monster name="alakazam cm" file="kanto/alakazam cm.xml"/>
+<monster name="gengar cm" file="kanto/gengar cm.xml"/>
+
+<monster name="shiny gengar cm" file="kanto/shiny gengar cm.xml"/>
+
+<monster name="shiny tentacruel cm" file="kanto/shiny tentacruel cm.xml"/>
+<monster name="tentacruel cm" file="kanto/tentacruel cm.xml"/>
+<monster name="haunter cm" file="kanto/haunter cm.xml"/>
+
+
+<monster name="machop" file="kanto/machop.xml"/>
+<monster name="machop s" file="kanto/wilds/machop.xml"/>
+
+<monster name="machoke" file="kanto/machoke.xml"/>
+<monster name="machoke s" file="kanto/wilds/machoke.xml"/>
+
+
+<monster name="machamp" file="kanto/machamp.xml"/>
+<monster name="machamp s" file="kanto/wilds/machamp.xml"/>
+
+<monster name="shiny machop" file="kanto/shiny machop.xml"/>
+<monster name="shiny machop s" file="kanto/wilds/shiny machop.xml"/>
+
+<monster name="shiny machoke" file="kanto/shiny machoke.xml"/>
+<monster name="shiny machoke s" file="kanto/wilds/shiny machoke.xml"/>
+
+
+<monster name="shiny machamp" file="kanto/shiny machamp.xml"/>
+<monster name="shiny machamp s" file="kanto/wilds/shiny machamp.xml"/>
+
+
+<monster name="bellsprout" file="kanto/bellsprout.xml"/>
+<monster name="bellsprout s" file="kanto/wilds/bellsprout.xml"/>
+
+
+<monster name="weepinbell" file="kanto/weepinbell.xml"/>
+<monster name="weepinbell s" file="kanto/wilds/weepinbell.xml"/>
+
+
+<monster name="victreebel" file="kanto/victreebel.xml"/>
+<monster name="victreebel s" file="kanto/wilds/victreebel.xml"/>
+
+<monster name="shiny bellsprout" file="kanto/shiny bellsprout.xml"/>
+<monster name="shiny bellsprout s" file="kanto/wilds/shiny bellsprout.xml"/>
+
+
+<monster name="shiny weepinbell" file="kanto/shiny weepinbell.xml"/>
+<monster name="shiny weepinbell s" file="kanto/wilds/shiny weepinbell.xml"/>
+
+
+<monster name="shiny victreebel" file="kanto/shiny victreebel.xml"/>
+<monster name="shiny victreebel s" file="kanto/wilds/shiny victreebel.xml"/>
+
+<monster name="tentacool" file="kanto/tentacool.xml"/>
+<monster name="tentacool s" file="kanto/wilds/tentacool.xml"/>
+
+
+<monster name="tentacruel" file="kanto/tentacruel.xml"/>
+<monster name="tentacruel s" file="kanto/wilds/tentacruel.xml"/>
+
+<monster name="geodude" file="kanto/geodude.xml"/>
+<monster name="geodude s" file="kanto/wilds/geodude.xml"/>
+
+
+<monster name="graveler" file="kanto/graveler.xml"/>
+<monster name="graveler s" file="kanto/wilds/graveler.xml"/>
+
+
+<monster name="golem" file="kanto/golem.xml"/>
+<monster name="golem s" file="kanto/wilds/golem.xml"/>
+<monster name="golem g" file="kanto/wilds/gym/golem.xml"/>
+<monster name="shiny geodude" file="kanto/shiny geodude.xml"/>
+<monster name="shiny geodude s" file="kanto/wilds/shiny geodude.xml"/>
+
+
+<monster name="shiny graveler" file="kanto/shiny graveler.xml"/>
+<monster name="shiny graveler s" file="kanto/wilds/shiny graveler.xml"/>
+
+
+<monster name="shiny golem" file="kanto/shiny golem.xml"/>
+<monster name="shiny golem s" file="kanto/wilds/shiny golem.xml"/>
+
+<monster name="ponyta" file="kanto/ponyta.xml"/>
+<monster name="ponyta s" file="kanto/wilds/ponyta.xml"/>
+
+<monster name="shiny ponyta" file="kanto/shiny ponyta.xml"/>
+<monster name="shiny ponyta s" file="kanto/wilds/shiny ponyta.xml"/>
+<monster name="shiny rapidash" file="kanto/shiny rapidash.xml"/>
+<monster name="shiny rapidash s" file="kanto/wilds/shiny rapidash.xml"/>
+
+<monster name="rapidash" file="kanto/rapidash.xml"/>
+<monster name="rapidash s" file="kanto/wilds/rapidash.xml"/>
+<monster name="rapidash g" file="kanto/wilds/gym/rapidash.xml"/>
+
+<monster name="slowpoke" file="kanto/slowpoke.xml"/>
+<monster name="slowpoke s" file="kanto/wilds/slowpoke.xml"/>
+
+
+<monster name="shiny slowbro" file="kanto/shiny slowbro.xml"/>
+<monster name="shiny slowbro s" file="kanto/wilds/shiny slowbro.xml"/>
+<monster name="slowbro" file="kanto/slowbro.xml"/>
+<monster name="slowbro s" file="kanto/wilds/slowbro.xml"/>
+
+
+<monster name="magnemite" file="kanto/magnemite.xml"/>
+<monster name="magnemite s" file="kanto/wilds/magnemite.xml"/>
+
+
+<monster name="magneton" file="kanto/magneton.xml"/>
+<monster name="magneton s" file="kanto/wilds/magneton.xml"/>
+
+<monster name="farfetchd" file="kanto/farfetchd.xml"/>
+<monster name="farfetchd s" file="kanto/wilds/farfetchd.xml"/>
+
+
+<monster name="doduo" file="kanto/doduo.xml"/>
+<monster name="doduo s" file="kanto/wilds/doduo.xml"/>
+
+
+<monster name="dodrio" file="kanto/dodrio.xml"/>
+<monster name="dodrio s" file="kanto/wilds/dodrio.xml"/>
+
+<monster name="seel" file="kanto/seel.xml"/>
+<monster name="seel s" file="kanto/wilds/seel.xml"/>
+
+<monster name="shiny seel" file="kanto/shiny seel.xml"/>
+<monster name="shiny seel s" file="kanto/wilds/shiny seel.xml"/>
+
+<monster name="dewgong" file="kanto/dewgong.xml"/>
+<monster name="dewgong s" file="kanto/wilds/dewgong.xml"/>
+<monster name="shiny dewgong" file="kanto/shiny dewgong.xml"/>
+<monster name="shiny dewgong s" file="kanto/wilds/shiny dewgong.xml"/>
+
+<monster name="grimer" file="kanto/grimer.xml"/>
+<monster name="grimer s" file="kanto/wilds/grimer.xml"/>
+
+<monster name="muk" file="kanto/muk.xml"/>
+<monster name="muk s" file="kanto/wilds/muk.xml"/>
+
+<monster name="onix" file="kanto/onix.xml"/>
+<monster name="onix s" file="kanto/wilds/onix.xml"/>
+
+
+<monster name="steelix s" file="kanto/wilds/steelix.xml"/>
+
+<monster name="steelix" file="kanto/steelix.xml"/>
+
+<monster name="crystal onix" file="kanto/crystal onix.xml"/>
+<monster name="crystal onix s" file="kanto/wilds/crystal onix.xml"/>
+
+
+<monster name="shellder" file="kanto/shellder.xml"/>
+<monster name="shellder s" file="kanto/wilds/shellder.xml"/>
+
+<monster name="shiny shellder" file="kanto/shiny shellder.xml"/>
+<monster name="shiny shellder s" file="kanto/wilds/shiny shellder.xml"/>
+
+<monster name="cloyster" file="kanto/cloyster.xml"/>
+<monster name="cloyster s" file="kanto/wilds/cloyster.xml"/>
+<monster name="shiny cloyster" file="kanto/shiny cloyster.xml"/>
+<monster name="shiny cloyster s" file="kanto/wilds/shiny cloyster.xml"/>
+
+<monster name="gastly" file="kanto/gastly.xml"/>
+<monster name="gastly s" file="kanto/wilds/gastly.xml"/>
+
+
+<monster name="haunter" file="kanto/haunter.xml"/>
+<monster name="haunter s" file="kanto/wilds/haunter.xml"/>
+
+
+<monster name="gengar" file="kanto/gengar.xml"/>
+<monster name="gengar s" file="kanto/wilds/gengar.xml"/>
+
+<monster name="shiny gengar" file="kanto/shiny gengar.xml"/>
+<monster name="shiny gengar s" file="kanto/wilds/shiny gengar.xml"/>
+
+
+
+<monster name="drowzee" file="kanto/drowzee.xml"/>
+<monster name="drowzee s" file="kanto/wilds/drowzee.xml"/>
+
+
+<monster name="hypno" file="kanto/hypno.xml"/>
+<monster name="hypno s" file="kanto/wilds/hypno.xml"/>
+
+
+<monster name="shiny hypno" file="kanto/shiny hypno.xml"/>
+<monster name="shiny hypno s" file="kanto/wilds/shiny hypno.xml"/>
+
+
+
+
+
+<monster name="krabby" file="kanto/krabby.xml"/>
+<monster name="krabby s" file="kanto/wilds/krabby.xml"/>
+
+
+<monster name="kingler" file="kanto/kingler.xml"/>
+<monster name="kingler s" file="kanto/wilds/kingler.xml"/>
+
+
+<monster name="voltorb" file="kanto/voltorb.xml"/>
+<monster name="voltorb s" file="kanto/wilds/voltorb.xml"/>
+
+
+<monster name="electrode" file="kanto/electrode.xml"/>
+<monster name="electrode s" file="kanto/wilds/electrode.xml"/>
+
+<monster name="exeggcute" file="kanto/exeggcute.xml"/>
+<monster name="exeggcute s" file="kanto/wilds/exeggcute.xml"/>
+
+
+
+
+
+<monster name="exeggutor" file="kanto/exeggutor.xml"/>
+<monster name="exeggutor s" file="kanto/wilds/exeggutor.xml"/>
+
+
+<monster name="cubone" file="kanto/cubone.xml"/>
+<monster name="cubone s" file="kanto/wilds/cubone.xml"/>
+
+
+<monster name="shiny cubone" file="kanto/shiny cubone.xml"/>
+<monster name="shiny cubone s" file="kanto/wilds/shiny cubone.xml"/>
+
+
+<monster name="marowak" file="kanto/marowak.xml"/>
+<monster name="marowak s" file="kanto/wilds/marowak.xml"/>
+
+
+<monster name="hitmonlee" file="kanto/hitmonlee.xml"/>
+<monster name="elite hitmonlee" file="kanto/elite hitmonlee.xml"/>
+<monster name="elite hitmonchan" file="kanto/elite hitmonchan.xml"/>
+<monster name="hitmonlee s" file="kanto/wilds/hitmonlee.xml"/>
+
+
+<monster name="hitmonchan" file="kanto/hitmonchan.xml"/>
+<monster name="hitmonchan s" file="kanto/wilds/hitmonchan.xml"/>
+
+<monster name="weezing" file="kanto/weezing.xml"/>
+<monster name="weezing s" file="kanto/wilds/weezing.xml"/>
+
+
+<monster name="koffing" file="kanto/koffing.xml"/>
+<monster name="koffing s" file="kanto/wilds/koffing.xml"/>
+
+<monster name="rhydon" file="kanto/rhydon.xml"/>
+<monster name="rhydon s" file="kanto/wilds/rhydon.xml"/>
+<monster name="rhydon g" file="kanto/wilds/gym/rhydon.xml"/>
+<monster name="rhyhorn" file="kanto/rhyhorn.xml"/>
+<monster name="rhyhorn s" file="kanto/wilds/rhyhorn.xml"/>
+
+<monster name="shiny rhydon" file="kanto/shiny rhydon.xml"/>
+<monster name="shiny rhydon s" file="kanto/wilds/shiny rhydon.xml"/>
+
+<monster name="shiny rhyhorn" file="kanto/shiny rhyhorn.xml"/>
+<monster name="shiny rhyhorn s" file="kanto/wilds/shiny rhyhorn.xml"/>
+
+
+<monster name="chansey" file="kanto/chansey.xml"/>
+<monster name="chansey s" file="kanto/wilds/chansey.xml"/>
+<monster name="chansey g" file="kanto/wilds/gym/chansey.xml"/>
+<monster name="tangela" file="kanto/tangela.xml"/>
+<monster name="tangela s" file="kanto/wilds/tangela.xml"/>
+
+<monster name="shiny tangela" file="kanto/shiny tangela.xml"/>
+<monster name="shiny tangela s" file="kanto/wilds/shiny tangela.xml"/>
+
+<monster name="shiny kangaskhan" file="kanto/shiny kangaskhan.xml"/>
+<monster name="shiny kangaskhan s" file="kanto/wilds/shiny kangaskhan.xml"/>
+<monster name="kangaskhan" file="kanto/kangaskhan.xml"/>
+<monster name="kangaskhan s" file="kanto/wilds/kangaskhan.xml"/>
+<monster name="kangaskhan g" file="kanto/wilds/gym/kangaskhan.xml"/>
+
+<monster name="horsea" file="kanto/horsea.xml"/>
+<monster name="horsea s" file="kanto/wilds/horsea.xml"/>
+
+
+<monster name="seadra" file="kanto/seadra.xml"/>
+<monster name="seadra s" file="kanto/wilds/seadra.xml"/>
+
+
+<monster name="staryu" file="kanto/staryu.xml"/>
+<monster name="staryu s" file="kanto/wilds/staryu.xml"/>
+
+<monster name="starmie" file="kanto/starmie.xml"/>
+<monster name="starmie s" file="kanto/wilds/starmie.xml"/>
+
+<monster name="mr mime" file="kanto/mr mime.xml"/>
+<monster name="mr mime s" file="kanto/wilds/mr mime.xml"/>
+<monster name="mrmime s" file="kanto/wilds/mr mime.xml"/>
+
+<monster name="scyther" file="kanto/scyther.xml"/>
+<monster name="scyther s" file="kanto/wilds/scyther.xml"/>
+
+<monster name="jynx" file="kanto/jynx.xml"/>
+<monster name="jynx s" file="kanto/wilds/jynx.xml"/>
+
+<monster name="electabuzz" file="kanto/electabuzz.xml"/>
+<monster name="electabuzz s" file="kanto/wilds/electabuzz.xml"/>
+
+<monster name="shiny magmar" file="kanto/shiny magmar.xml"/>
+<monster name="shiny magmar s" file="kanto/wilds/shiny magmar.xml"/>
+
+<monster name="magmar" file="kanto/magmar.xml"/>
+<monster name="magmar s" file="kanto/wilds/magmar.xml"/>
+<monster name="magmar g" file="kanto/wilds/gym/magmar.xml"/>
+
+<monster name="pinsir" file="kanto/pinsir.xml"/>
+<monster name="pinsir s" file="kanto/wilds/pinsir.xml"/>
+
+
+<monster name="shiny pinsir" file="kanto/shiny pinsir.xml"/>
+<monster name="shiny pinsir s" file="kanto/wilds/shiny pinsir.xml"/>
+
+<monster name="tauros" file="kanto/tauros.xml"/>
+<monster name="tauros s" file="kanto/wilds/tauros.xml"/>
+<monster name="tauros g" file="kanto/wilds/gym/tauros.xml"/>
+<monster name="shiny tauros" file="kanto/shiny tauros.xml"/>
+<monster name="shiny tauros s" file="kanto/wilds/shiny tauros.xml"/>
+
+<monster name="seaking" file="kanto/seaking.xml"/>
+<monster name="seaking s" file="kanto/wilds/seaking.xml"/>
+
+<monster name="magikarp" file="kanto/magikarp.xml"/>
+<monster name="magikarp s" file="kanto/wilds/magikarp.xml"/>
+
+
+<monster name="gyarados" file="kanto/gyarados.xml"/>
+<monster name="gyarados s" file="kanto/wilds/gyarados.xml"/>
+
+<monster name="lapras" file="kanto/lapras.xml"/>
+<monster name="lapras s" file="kanto/wilds/lapras.xml"/>
+<monster name="shiny lapras" file="kanto/shiny lapras.xml"/>
+<monster name="shiny lapras s" file="kanto/wilds/shiny lapras.xml"/>
+<monster name="lapras g" file="kanto/wilds/gym/lapras.xml"/>
+<monster name="ditto" file="kanto/ditto.xml"/>
+<monster name="ditto s" file="kanto/wilds/ditto.xml"/>
+
+<monster name="eevee" file="kanto/eevee.xml"/>
+<monster name="eevee s" file="kanto/wilds/eevee.xml"/>
+
+<monster name="vaporeon" file="kanto/vaporeon.xml"/>
+<monster name="vaporeon s" file="kanto/wilds/vaporeon.xml"/>
+
+
+<monster name="shiny vaporeon" file="kanto/shiny vaporeon.xml"/>
+<monster name="shiny vaporeon s" file="kanto/wilds/shiny vaporeon.xml"/>
+
+<monster name="flareon" file="kanto/flareon.xml"/>
+<monster name="flareon s" file="kanto/wilds/flareon.xml"/>
+<monster name="flareon l" file="kanto/wilds/flareon.xml"/>
+<monster name="flareon g" file="kanto/wilds/gym/flareon.xml"/>
+
+<monster name="shiny flareon" file="kanto/shiny flareon.xml"/>
+<monster name="shiny flareon s" file="kanto/wilds/shiny flareon.xml"/>
+
+<monster name="jolteon" file="kanto/jolteon.xml"/>
+<monster name="jolteon s" file="kanto/wilds/jolteon.xml"/>
+
+
+<monster name="shiny jolteon" file="kanto/shiny jolteon.xml"/>
+<monster name="shiny jolteon s" file="kanto/wilds/shiny jolteon.xml"/>
+<monster name="royal porygon" file="kanto/royal porygon.xml"/>
+<monster name="porygon" file="kanto/porygon.xml"/>
+<monster name="porygon s" file="kanto/wilds/porygon.xml"/>
+
+<monster name="omanyte" file="kanto/omanyte.xml"/>
+<monster name="omanyte s" file="kanto/wilds/omanyte.xml"/>
+
+<monster name="omastar" file="kanto/omastar.xml"/>
+<monster name="ancient omastar" file="kanto/ancient omastar.xml"/>
+<monster name="omastar s" file="kanto/wilds/omastar.xml"/>
+
+<monster name="kabuto" file="kanto/kabuto.xml"/>
+<monster name="kabuto s" file="kanto/wilds/kabuto.xml"/>
+
+<monster name="kabutops" file="kanto/kabutops.xml"/>
+<monster name="kabutops s" file="kanto/wilds/kabutops.xml"/>
+
+<monster name="snorlax" file="kanto/snorlax.xml"/>
+<monster name="snorlax s" file="kanto/wilds/snorlax.xml"/>
+<monster name="snorlax g" file="kanto/wilds/gym/snorlax.xml"/>
+<monster name="shiny snorlax" file="kanto/shiny snorlax.xml"/>
+<monster name="shiny snorlax s" file="kanto/wilds/shiny snorlax.xml"/>
+
+
+
+
+
+
+<monster name="articuno" file="kanto/articuno.xml"/>
+<monster name="articuno s" file="kanto/wilds/articuno.xml"/>
+
+<monster name="zapdos" file="kanto/zapdos.xml"/>
+<monster name="zapdos s" file="kanto/wilds/zapdos.xml"/> 
+
+<monster name="moltres" file="kanto/moltres.xml"/>
+<monster name="moltres s" file="kanto/wilds/moltres.xml"/>
+
+<monster name="dratini" file="kanto/dratini.xml"/>
+<monster name="dratini s" file="kanto/wilds/dratini.xml"/>
+
+<monster name="dragonair" file="kanto/dragonair.xml"/>
+<monster name="dragonair s" file="kanto/wilds/dragonair.xml"/>
+
+
+<monster name="shiny dragonair" file="kanto/shiny dragonair.xml"/>
+<monster name="shiny dragonair s" file="kanto/wilds/shiny dragonair.xml"/>
+
+
+<monster name="dragonite" file="kanto/dragonite.xml"/>
+<monster name="dragonite s" file="kanto/wilds/dragonite.xml"/>
+
+
+<monster name="shiny dragonite" file="kanto/shiny dragonite.xml"/>
+<monster name="shiny dragonite s" file="kanto/wilds/shiny dragonite.xml"/>
+
+
+
+
+<monster name="mew" file="kanto/mew.xml"/>
+<monster name="mew s" file="kanto/wilds/mew.xml"/>
+
+<monster name="mewtwo" file="kanto/mewtwo.xml"/>
+<monster name="mewtwo s" file="kanto/wilds/mewtwo.xml"/>
+
+--shinys--
+
+<monster name="shiny horsea" file="kanto/shiny horsea.xml"/>
+<monster name="shiny horsea s" file="kanto/wilds/shiny horsea.xml"/>
+
+
+<monster name="dark abra" file="kanto/shiny abra.xml"/>
+<monster name="shiny abra s" file="kanto/wilds/shiny abra.xml"/>
+
+
+<monster name="shiny arcanine" file="kanto/shiny arcanine.xml"/>
+<monster name="shiny arcanine s" file="kanto/wilds/shiny arcanine.xml"/>
+
+
+<monster name="shiny beedrill" file="kanto/shiny beedrill.xml"/>
+<monster name="shiny beedrill s" file="kanto/wilds/shiny beedrill.xml"/>
+
+
+<monster name="ancient blastoise" file="kanto/shiny blastoise.xml"/>
+<monster name="ancient blastoise s" file="kanto/wilds/shiny blastoise.xml"/>
+
+
+<monster name="shiny butterfree" file="kanto/shiny butterfle.xml"/>
+<monster name="shiny butterfree s" file="kanto/wilds/shiny butterfle.xml"/>
+
+
+<monster name="shiny dratini" file="kanto/shiny dratini.xml"/>
+<monster name="shiny dratini s" file="kanto/wilds/shiny dratini.xml"/>
+
+
+<monster name="shiny electabuzz" file="kanto/shiny electabuzz.xml"/>
+<monster name="shiny electabuzz s" file="kanto/wilds/shiny electabuzz.xml"/>
+
+
+
+<monster name="shiny electrode" file="kanto/shiny electrode.xml"/>
+<monster name="shiny electrode s" file="kanto/wilds/shiny electrode.xml"/>
+
+
+<monster name="shiny farfetchd" file="kanto/shiny farfetchd.xml"/>
+<monster name="shiny farfetchd s" file="kanto/wilds/shiny farfetchd.xml"/>
+
+
+<monster name="shiny grimer" file="kanto/shiny grime.xml"/>
+<monster name="shiny grimer s" file="kanto/wilds/shiny grime.xml"/>
+
+<monster name="shiny growlithe" file="kanto/shiny growlitle.xml"/>
+<monster name="shiny growlithe s" file="kanto/wilds/shiny growlitle.xml"/>
+
+
+<monster name="shiny gyarados" file="kanto/shiny gyarados.xml"/>
+<monster name="shiny gyarados s" file="kanto/wilds/shiny gyarados.xml"/>
+
+
+<monster name="shiny hitmonchan" file="kanto/shiny hitmonchan.xml"/>
+<monster name="shiny hitmonchan s" file="kanto/wilds/shiny hitmonchan.xml"/>
+
+
+<monster name="shiny hitmonlee" file="kanto/shiny hitmonlee.xml"/>
+<monster name="shiny hitmonlee s" file="kanto/wilds/shiny hitmonlee.xml"/>
+
+
+<monster name="shiny kingler" file="kanto/shiny kingler.xml"/>
+<monster name="shiny kingler s" file="kanto/wilds/shiny kingler.xml"/>
+
+
+<monster name="shiny jynx" file="kanto/shiny jynx.xml"/>
+<monster name="shiny jynx s" file="kanto/wilds/shiny jynx.xml"/>
+
+
+<monster name="shiny krabby" file="kanto/shiny krabby.xml"/>
+<monster name="shiny krabby s" file="kanto/wilds/shiny krabby.xml"/>
+
+
+<monster name="shiny magikarp" file="kanto/shiny magikarp.xml"/>
+<monster name="shiny magikarp s" file="kanto/wilds/shiny magikarp.xml"/>
+
+
+<monster name="shiny muk" file="kanto/shiny muk.xml"/>
+<monster name="shiny muk s" file="kanto/wilds/shiny muk.xml"/>
+
+
+<monster name="shiny oddish" file="kanto/shiny oddish.xml"/>
+<monster name="shiny oddish s" file="kanto/wilds/shiny oddish.xml"/>
+
+
+<monster name="shiny paras" file="kanto/shiny paras.xml"/>
+<monster name="shiny paras s" file="kanto/wilds/shiny paras.xml"/>
+
+
+<monster name="shiny parasect" file="kanto/shiny parasect.xml"/>
+<monster name="shiny parasect s" file="kanto/wilds/shiny parasect.xml"/>
+
+
+<monster name="shiny raichu" file="kanto/shiny raichu.xml"/>
+<monster name="shiny raichu s" file="kanto/wilds/shiny raichu.xml"/>
+
+
+<monster name="shiny ratata" file="kanto/shiny ratata.xml"/>
+<monster name="shiny ratata s" file="kanto/wilds/shiny ratata.xml"/>
+
+<monster name="shiny raticate" file="kanto/shiny raticate.xml"/>
+<monster name="shiny raticate s" file="kanto/wilds/shiny raticate.xml"/>
+
+
+<monster name="shiny scyther" file="kanto/shiny scyther.xml"/>
+<monster name="shiny scyther s" file="kanto/wilds/shiny scyther.xml"/>
+
+
+<monster name="shiny seadra" file="kanto/shiny seadra.xml"/>
+<monster name="shiny seadra s" file="kanto/wilds/shiny seadra.xml"/>
+
+
+<monster name="shiny tentacool" file="kanto/shiny tentacool.xml"/>
+<monster name="shiny tentacool s" file="kanto/wilds/shiny tentacool.xml"/>
+
+
+<monster name="shiny tentacruel" file="kanto/shiny tentacruel.xml"/>
+<monster name="shiny tentacruel s" file="kanto/wilds/shiny tentacruel.xml"/>
+
+
+<monster name="ancient venusaur" file="kanto/shiny venusaur.xml"/>
+<monster name="ancient venusaur s" file="kanto/wilds/shiny venusaur.xml"/>
+
+
+<monster name="shiny voltorb" file="kanto/shiny voltorb.xml"/>
+<monster name="shiny voltorb s" file="kanto/wilds/shiny voltorb.xml"/>
+
+
+<monster name="shiny zubat" file="kanto/shiny zubat.xml"/>
+<monster name="shiny zubat s" file="kanto/wilds/shiny zubat.xml"/>
+
+
+--Jhoto--
+
+<monster name="chikorita s" file="jotho/wilds/chikorita.xml"/>
+<monster name="chikorita" file="jotho/chikorita.xml"/>
+<monster name="bayleef s" file="jotho/wilds/bayleef.xml"/>
+<monster name="bayleef" file="jotho/bayleef.xml"/>
+<monster name="meganium s" file="jotho/wilds/meganium.xml"/>
+<monster name="meganium" file="jotho/meganium.xml"/>
+<monster name="cyndaquil s" file="jotho/wilds/cyndaquil.xml"/>
+<monster name="cyndaquil" file="jotho/cyndaquil.xml"/>
+<monster name="quilava s" file="jotho/wilds/quilava.xml"/>
+<monster name="quilava" file="jotho/quilava.xml"/>
+<monster name="typhlosion s" file="jotho/wilds/typhlosion.xml"/>
+<monster name="typhlosion" file="jotho/typhlosion.xml"/>
+<monster name="totodile" file="jotho/totodile.xml"/>
+<monster name="totodile s" file="jotho/wilds/totodile.xml"/>
+<monster name="croconaw" file="jotho/croconaw.xml"/>
+<monster name="croconaw s" file="jotho/wilds/croconaw.xml"/>
+<monster name="feraligatr" file="jotho/feraligatr.xml"/>
+<monster name="feraligatr s" file="jotho/wilds/feraligatr.xml"/>
+<monster name="sentret s" file="jotho/wilds/sentret.xml"/>
+<monster name="sentret" file="jotho/sentret.xml"/>
+<monster name="furret" file="jotho/furret.xml"/>
+<monster name="furret s" file="jotho/wilds/furret.xml"/>
+<monster name="hoothoot" file="jotho/hoothoot.xml"/>
+<monster name="hoothoot s" file="jotho/wilds/hoothoot.xml"/>
+<monster name="noctowl" file="jotho/noctowl.xml"/>
+<monster name="noctowl s" file="jotho/wilds/noctowl.xml"/>
+<monster name="ledyba" file="jotho/ledyba.xml"/>
+<monster name="ledian" file="jotho/ledian.xml"/>
+<monster name="ledyba s" file="jotho/wilds/ledyba.xml"/>
+<monster name="ledian s" file="jotho/wilds/ledian.xml"/>
+<monster name="spinarak" file="jotho/spinarak.xml"/>  
+<monster name="spinarak s" file="jotho/wilds/spinarak.xml"/>  
+<monster name="ariados" file="jotho/airados.xml"/>
+<monster name="ariados s" file="jotho/wilds/airados.xml"/>
+<monster name="crobat" file="jotho/crobat.xml"/>
+<monster name="crobat s" file="jotho/wilds/crobat.xml"/>
+<monster name="chinchou" file="jotho/chinchou.xml"/>
+<monster name="lanturn" file="jotho/lanturn.xml"/>
+<monster name="pichu" file="jotho/pichu.xml"/>
+<monster name="cleffa" file="jotho/cleffa.xml"/>
+<monster name="igglybuff" file="jotho/igglybuff.xml"/>
+<monster name="chinchou s" file="jotho/wilds/chinchou.xml"/>
+<monster name="lanturn s" file="jotho/wilds/lanturn.xml"/>
+<monster name="pichu s" file="jotho/wilds/pichu.xml"/>
+<monster name="cleffa s" file="jotho/wilds/cleffa.xml"/>
+<monster name="igglybuff s" file="jotho/wilds/igglybuff.xml"/>
+<monster name="togepi" file="jotho/togepi.xml"/>
+<monster name="togetic" file="jotho/togetic.xml"/>
+<monster name="togepi s" file="jotho/wilds/togepi.xml"/>
+<monster name="togetic s" file="jotho/wilds/togetic.xml"/>
+<monster name="natu" file="jotho/natu.xml"/>
+<monster name="xatu" file="jotho/xatu.xml"/>
+<monster name="natu s" file="jotho/wilds/natu.xml"/>
+<monster name="xatu s" file="jotho/wilds/xatu.xml"/>
+<monster name="mareep" file="jotho/mareep.xml"/>
+<monster name="flaaffy" file="jotho/flaaffy.xml"/>
+<monster name="mareep s" file="jotho/wilds/mareep.xml"/>
+<monster name="flaaffy s" file="jotho/wilds/flaaffy.xml"/>
+<monster name="ampharos" file="jotho/ampharos.xml"/>
+<monster name="ampharos s" file="jotho/wilds/ampharos.xml"/>
+<monster name="bellossom" file="jotho/bellossom.xml"/>
+<monster name="bellossom s" file="jotho/wilds/bellossom.xml"/>
+<monster name="marill" file="jotho/marill.xml"/>
+<monster name="azumarill" file="jotho/azumarill.xml"/>
+<monster name="marill s" file="jotho/wilds/marill.xml"/>
+<monster name="azumarill s" file="jotho/wilds/azumarill.xml"/>
+<monster name="sudowoodo" file="jotho/sudowoodo.xml"/>
+<monster name="sudowoodo s" file="jotho/wilds/sudowoodo.xml"/>
+<monster name="politoed" file="jotho/politoed.xml"/>
+<monster name="politoed s" file="jotho/wilds/politoed.xml"/>
+<monster name="hoppip" file="jotho/hoppip.xml"/>
+<monster name="skiploom" file="jotho/skiploom.xml"/>
+<monster name="jumpluff" file="jotho/jumpluff.xml"/>
+<monster name="hoppip s" file="jotho/wilds/hoppip.xml"/>
+<monster name="skiploom s" file="jotho/wilds/skiploom.xml"/>
+<monster name="jumpluff s" file="jotho/wilds/jumpluff.xml"/>
+<monster name="aipom" file="jotho/aipom.xml"/>
+<monster name="aipom s" file="jotho/wilds/aipom.xml"/>
+<monster name="sunkern" file="jotho/sunkern.xml"/>
+<monster name="sunkern s" file="jotho/wilds/sunkern.xml"/>
+<monster name="yanma" file="jotho/yanma.xml"/>
+<monster name="yanma s" file="jotho/wilds/yanma.xml"/>
+<monster name="wooper" file="jotho/wooper.xml"/>
+<monster name="quagsire" file="jotho/quagsire.xml"/>
+<monster name="wooper s" file="jotho/wilds/wooper.xml"/>
+<monster name="quagsire s" file="jotho/wilds/quagsire.xml"/>
+<monster name="espeon" file="jotho/espeon.xml"/>
+<monster name="espeon s" file="jotho/wilds/espeon.xml"/>
+<monster name="umbreon" file="jotho/umbreon.xml"/>
+<monster name="umbreon s" file="jotho/wilds/umbreon.xml"/>
+<monster name="murkrow" file="jotho/murkrow.xml"/>
+<monster name="murkrow s" file="jotho/wilds/murkrow.xml"/>
+<monster name="slowking" file="jotho/slowking.xml"/>
+<monster name="slowking s" file="jotho/wilds/slowking.xml"/>
+<monster name="misdreavus" file="jotho/misdreavus.xml"/>
+<monster name="misdreavus s" file="jotho/wilds/misdreavus.xml"/>
+<monster name="unown" file="jotho/unown.xml"/>
+<monster name="unown s" file="jotho/wilds/unown.xml"/>
+<monster name="wobbuffet" file="jotho/wobbuffet.xml"/>
+<monster name="wobbuffet s" file="jotho/wilds/wobbuffet.xml"/>
+<monster name="girafarig" file="jotho/girafarig.xml"/>
+<monster name="girafarig s" file="jotho/wilds/girafarig.xml"/>
+<monster name="pineco" file="jotho/pineco.xml"/>
+<monster name="forretress" file="jotho/forretress.xml"/>
+<monster name="dunsparce" file="jotho/dunsparce.xml"/>
+<monster name="gligar" file="jotho/gligar.xml"/>
+<monster name="pineco s" file="jotho/wilds/pineco.xml"/>
+<monster name="forretress s" file="jotho/wilds/forretress.xml"/>
+<monster name="dunsparce s" file="jotho/wilds/dunsparce.xml"/>
+<monster name="gligar s" file="jotho/wilds/gligar.xml"/>
+<monster name="sunflora" file="jotho/sunflora.xml"/>
+<monster name="sunflora s" file="jotho/wilds/sunflora.xml"/>
+<monster name="snubbull" file="jotho/snubbull.xml"/>
+<monster name="granbull" file="jotho/granbull.xml"/>
+<monster name="snubbull s" file="jotho/wilds/snubbull.xml"/>
+<monster name="granbull s" file="jotho/wilds/granbull.xml"/>
+<monster name="qwilfish" file="jotho/qwilfish.xml"/>
+<monster name="qwilfish s" file="jotho/wilds/qwilfish.xml"/>
+<monster name="scizor" file="jotho/scizor.xml"/>
+<monster name="scizor s" file="jotho/wilds/scizor.xml"/>
+<monster name="shuckle" file="jotho/shuckle.xml"/>
+<monster name="shuckle s" file="jotho/wilds/shuckle.xml"/>
+<monster name="heracross" file="jotho/heracross.xml"/>
+<monster name="heracross s" file="jotho/wilds/heracross.xml"/>
+<monster name="sneasel" file="jotho/sneasel.xml"/>
+<monster name="sneasel s" file="jotho/wilds/sneasel.xml"/>
+<monster name="teddiursa" file="jotho/teddiursa.xml"/>
+<monster name="ursaring" file="jotho/ursaring.xml"/>
+<monster name="teddiursa s" file="jotho/wilds/teddiursa.xml"/>
+<monster name="ursaring s" file="jotho/wilds/ursaring.xml"/>
+<monster name="slugma" file="jotho/slugma.xml"/>
+<monster name="slugma s" file="jotho/wilds/slugma.xml"/>
+<monster name="magcargo" file="jotho/magcargo.xml"/>
+<monster name="magcargo s" file="jotho/wilds/magcargo.xml"/>
+<monster name="swinub" file="jotho/swinub.xml"/>
+<monster name="swinub s" file="jotho/wilds/swinub.xml"/>
+<monster name="piloswine" file="jotho/piloswine.xml"/>
+<monster name="piloswine s" file="jotho/wilds/piloswine.xml"/>
+<monster name="corsola" file="jotho/corsola.xml"/>
+<monster name="corsola s" file="jotho/wilds/corsola.xml"/>
+<monster name="remoraid" file="jotho/remoraid.xml"/>
+<monster name="remoraid s" file="jotho/wilds/remoraid.xml"/>
+<monster name="octillery" file="jotho/octillery.xml"/>
+<monster name="octillery s" file="jotho/wilds/octillery.xml"/>
+<monster name="delibird" file="jotho/delibird.xml"/>
+<monster name="delibird s" file="jotho/wilds/delibird.xml"/>
+<monster name="mantine" file="jotho/mantine.xml"/>
+<monster name="mantine s" file="jotho/wilds/mantine.xml"/>
+<monster name="skarmory" file="jotho/skarmory.xml"/>
+<monster name="skarmory s" file="jotho/wilds/skarmory.xml"/>
+<monster name="houndour" file="jotho/houndour.xml"/>
+<monster name="houndour s" file="jotho/wilds/houndour.xml"/>
+<monster name="houndoom" file="jotho/houndoom.xml"/>
+<monster name="houndoom s" file="jotho/wilds/houndoom.xml"/>
+<monster name="kingdra" file="jotho/kingdra.xml"/>
+<monster name="kingdra s" file="jotho/wilds/kingdra.xml"/>
+<monster name="phanpy" file="jotho/phanpy.xml"/>
+<monster name="phanpy s" file="jotho/wilds/phanpy.xml"/>
+<monster name="donphan" file="jotho/donphan.xml"/>
+<monster name="donphan s" file="jotho/wilds/donphan.xml"/>
+<monster name="porygon2" file="jotho/porygon2.xml"/>
+<monster name="porygon2 s" file="jotho/wilds/porygon2.xml"/>
+<monster name="stantler" file="jotho/stantler.xml"/>
+<monster name="stantler s" file="jotho/wilds/stantler.xml"/>
+<monster name="smeargle" file="jotho/smeargle.xml"/>
+<monster name="smeargle s" file="jotho/wilds/smeargle.xml"/>
+<monster name="tyrogue" file="jotho/tyrogue.xml"/>
+<monster name="hitmontop" file="jotho/hitmontop.xml"/> 
+<monster name="tyrogue s" file="jotho/wilds/tyrogue.xml"/>
+<monster name="hitmontop s" file="jotho/wilds/hitmontop.xml"/> 
+<monster name="smoochum" file="jotho/smoochum.xml"/>
+<monster name="smoochum s" file="jotho/wilds/smoochum.xml"/>
+<monster name="elekid" file="jotho/elekid.xml"/>
+<monster name="elekid s" file="jotho/wilds/elekid.xml"/>
+<monster name="magby" file="jotho/magby.xml"/>
+<monster name="magby s" file="jotho/wilds/magby.xml"/>
+<monster name="miltank" file="jotho/miltank.xml"/>
+<monster name="miltank s" file="jotho/wilds/miltank.xml"/>
+<monster name="blissey" file="jotho/blissey.xml"/>
+<monster name="blissey s" file="jotho/wilds/blissey.xml"/>
+<monster name="raikou" file="jotho/raikou.xml"/>
+<monster name="raikou s" file="jotho/wilds/raikou.xml"/>
+<monster name="entei" file="jotho/entei.xml"/>
+<monster name="entei s" file="jotho/wilds/entei.xml"/>
+<monster name="suicune" file="jotho/suicune.xml"/>
+<monster name="suicune s" file="jotho/wilds/suicune.xml"/>
+<monster name="larvitar" file="jotho/larvitar.xml"/>
+<monster name="pupitar" file="jotho/pupitar.xml"/>
+<monster name="tyranitar" file="jotho/tyranitar.xml"/>
+<monster name="larvitar s" file="jotho/wilds/larvitar.xml"/>
+<monster name="pupitar s" file="jotho/wilds/pupitar.xml"/>
+<monster name="tyranitar s" file="jotho/wilds/tyranitar.xml"/>
+<monster name="lugia" file="jotho/lugia.xml"/>
+<monster name="lugia s" file="jotho/wilds/lugia.xml"/>
+<monster name="ho-oh" file="jotho/ho-oh.xml"/>
+<monster name="ho-oh s" file="jotho/wilds/ho-oh.xml"/>
+<monster name="celebi" file="jotho/celebi.xml"/>
+<monster name="celebi s" file="jotho/wilds/celebi.xml"/>
+
+
+--Shinys Jhoto--
+
+<monster name="shiny chikorita s" file="jotho/wilds/shiny chikorita.xml"/>
+<monster name="shiny chikorita" file="jotho/shiny chikorita.xml"/>
+<monster name="shiny bayleef s" file="jotho/wilds/shiny bayleef.xml"/>
+<monster name="shiny bayleef" file="jotho/shiny bayleef.xml"/>
+<monster name="shiny meganium s" file="jotho/wilds/shiny meganium.xml"/>
+<monster name="shiny meganium" file="jotho/shiny meganium.xml"/>
+<monster name="shiny cyndaquil s" file="jotho/wilds/shiny cyndaquil.xml"/>
+<monster name="shiny cyndaquil" file="jotho/shiny cyndaquil.xml"/>
+<monster name="shiny quilava s" file="jotho/wilds/shiny quilava.xml"/>
+<monster name="shiny quilava" file="jotho/shiny quilava.xml"/>
+<monster name="shiny typhlosion s" file="jotho/wilds/shiny typhlosion.xml"/>
+<monster name="shiny typhlosion" file="jotho/shiny typhlosion.xml"/>
+<monster name="shiny totodile" file="jotho/shiny totodile.xml"/>
+<monster name="shiny totodile s" file="jotho/wilds/shiny totodile.xml"/>
+<monster name="shiny croconaw" file="jotho/shiny croconaw.xml"/>
+<monster name="shiny croconaw s" file="jotho/wilds/shiny croconaw.xml"/>
+<monster name="shiny feraligatr" file="jotho/shiny feraligatr.xml"/>
+<monster name="shiny feraligatr s" file="jotho/wilds/shiny feraligatr.xml"/>
+<monster name="shiny sentret s" file="jotho/wilds/shiny sentret.xml"/>
+<monster name="shiny sentret" file="jotho/shiny sentret.xml"/>
+<monster name="shiny furret" file="jotho/shiny furret.xml"/>
+<monster name="shiny furret s" file="jotho/wilds/shiny furret.xml"/>
+<monster name="shiny hoothoot" file="jotho/shiny hoothoot.xml"/>
+<monster name="shiny hoothoot s" file="jotho/wilds/shiny hoothoot.xml"/>
+<monster name="shiny noctowl" file="jotho/shiny noctowl.xml"/>
+<monster name="shiny noctowl s" file="jotho/wilds/shiny noctowl.xml"/>
+<monster name="shiny ledyba" file="jotho/shiny ledyba.xml"/>
+<monster name="shiny ledian" file="jotho/shiny ledian.xml"/>
+<monster name="shiny ledyba s" file="jotho/wilds/shiny ledyba.xml"/>
+<monster name="shiny ledian s" file="jotho/wilds/shiny ledian.xml"/>
+<monster name="shiny spinarak" file="jotho/shiny spinarak.xml"/>  
+<monster name="shiny spinarak s" file="jotho/wilds/shiny spinarak.xml"/>  
+<monster name="shiny ariados" file="jotho/shiny ariados.xml"/>
+<monster name="shiny ariados s" file="jotho/wilds/shiny ariados.xml"/>
+<monster name="shiny crobat" file="jotho/shiny crobat.xml"/>
+<monster name="shiny crobat s" file="jotho/wilds/shiny crobat.xml"/>
+<monster name="shiny chinchou" file="jotho/shiny chinchou.xml"/>
+<monster name="shiny lanturn" file="jotho/shiny lanturn.xml"/>
+<monster name="shiny pichu" file="jotho/shiny pichu.xml"/>
+<monster name="shiny cleffa" file="jotho/shiny cleffa.xml"/>
+<monster name="shiny igglybuff" file="jotho/shiny igglybuff.xml"/>
+<monster name="shiny chinchou s" file="jotho/wilds/shiny chinchou.xml"/>
+<monster name="shiny lanturn s" file="jotho/wilds/shiny lanturn.xml"/>
+<monster name="shiny pichu s" file="jotho/wilds/shiny pichu.xml"/>
+<monster name="shiny cleffa s" file="jotho/wilds/shiny cleffa.xml"/>
+<monster name="shiny igglybuff s" file="jotho/wilds/shiny igglybuff.xml"/>
+<monster name="shiny togepi" file="jotho/shiny togepi.xml"/>
+<monster name="shiny togetic" file="jotho/shiny togetic.xml"/>
+<monster name="shiny togepi s" file="jotho/wilds/shiny togepi.xml"/>
+<monster name="shiny togetic s" file="jotho/wilds/shiny togetic.xml"/>
+<monster name="shiny natu" file="jotho/shiny natu.xml"/>
+<monster name="shiny xatu" file="jotho/shiny xatu.xml"/>
+<monster name="shiny natu s" file="jotho/wilds/shiny natu.xml"/>
+<monster name="shiny xatu s" file="jotho/wilds/shiny xatu.xml"/>
+<monster name="shiny mareep" file="jotho/shiny mareep.xml"/>
+<monster name="shiny flaaffy" file="jotho/shiny flaaffy.xml"/>
+<monster name="shiny mareep s" file="jotho/wilds/shiny mareep.xml"/>
+<monster name="shiny flaaffy s" file="jotho/wilds/shiny flaaffy.xml"/>
+<monster name="shiny ampharos" file="jotho/shiny ampharos.xml"/>
+<monster name="shiny ampharos s" file="jotho/wilds/shiny ampharos.xml"/>
+<monster name="shiny bellossom" file="jotho/shiny bellossom.xml"/>
+<monster name="shiny bellossom s" file="jotho/wilds/shiny bellossom.xml"/>
+<monster name="shiny marill" file="jotho/shiny marill.xml"/>
+<monster name="shiny azumarill" file="jotho/shiny azumarill.xml"/>
+<monster name="shiny marill s" file="jotho/wilds/shiny marill.xml"/>
+<monster name="shiny azumarill s" file="jotho/wilds/shiny azumarill.xml"/>
+<monster name="shiny sudowoodo" file="jotho/shiny sudowoodo.xml"/>
+<monster name="shiny sudowoodo s" file="jotho/wilds/shiny sudowoodo.xml"/>
+<monster name="shiny politoed" file="jotho/shiny politoed.xml"/>
+<monster name="shiny politoed s" file="jotho/wilds/shiny politoed.xml"/>
+<monster name="shiny hoppip" file="jotho/shiny hoppip.xml"/>
+<monster name="shiny skiploom" file="jotho/shiny skiploom.xml"/>
+<monster name="shiny jumpluff" file="jotho/shiny jumpluff.xml"/>
+<monster name="shiny hoppip s" file="jotho/wilds/shiny hoppip.xml"/>
+<monster name="shiny skiploom s" file="jotho/wilds/shiny skiploom.xml"/>
+<monster name="shiny jumpluff s" file="jotho/wilds/shiny jumpluff.xml"/>
+<monster name="shiny aipom" file="jotho/shiny aipom.xml"/>
+<monster name="shiny aipom s" file="jotho/wilds/shiny aipom.xml"/>
+<monster name="shiny sunkern" file="jotho/shiny sunkern.xml"/>
+<monster name="shiny sunkern s" file="jotho/wilds/shiny sunkern.xml"/>
+<monster name="shiny yanma" file="jotho/shiny yanma.xml"/>
+<monster name="shiny yanma s" file="jotho/wilds/shiny yanma.xml"/>
+<monster name="shiny wooper" file="jotho/shiny wooper.xml"/>
+<monster name="shiny quagsire" file="jotho/shiny quagsire.xml"/>
+<monster name="shiny wooper s" file="jotho/wilds/shiny wooper.xml"/>
+<monster name="shiny quagsire s" file="jotho/wilds/shiny quagsire.xml"/>
+<monster name="shiny espeon" file="jotho/shiny espeon.xml"/>
+<monster name="shiny espeon s" file="jotho/wilds/shiny espeon.xml"/>
+<monster name="shiny umbreon" file="jotho/shiny umbreon.xml"/>
+<monster name="shiny umbreon s" file="jotho/wilds/shiny umbreon.xml"/>
+<monster name="shiny murkrow" file="jotho/shiny murkrow.xml"/>
+<monster name="shiny murkrow s" file="jotho/wilds/shiny murkrow.xml"/>
+<monster name="shiny slowking" file="jotho/shiny slowking.xml"/>
+<monster name="shiny slowking s" file="jotho/wilds/shiny slowking.xml"/>
+<monster name="shiny misdreavus" file="jotho/shiny misdreavus.xml"/>
+<monster name="shiny misdreavus s" file="jotho/wilds/shiny misdreavus.xml"/>
+<monster name="shiny wobbuffet" file="jotho/shiny wobbuffet.xml"/>
+<monster name="shiny wobbuffet s" file="jotho/wilds/shiny wobbuffet.xml"/>
+<monster name="shiny girafarig" file="jotho/shiny girafarig.xml"/>
+<monster name="shiny girafarig s" file="jotho/wilds/shiny girafarig.xml"/>
+<monster name="shiny pineco" file="jotho/shiny pineco.xml"/>
+<monster name="shiny pineco s" file="jotho/wilds/shiny pineco.xml"/>
+<monster name="shiny forretress" file="jotho/shiny forretress.xml"/>
+<monster name="shiny forretress s" file="jotho/wilds/shiny forretress.xml"/>
+<monster name="shiny dunsparce" file="jotho/shiny dunsparce.xml"/>
+<monster name="shiny dunsparce s" file="jotho/wilds/shiny dunsparce.xml"/>
+<monster name="shiny gligar" file="jotho/shiny gligar.xml"/>
+<monster name="shiny gligar s" file="jotho/wilds/shiny gligar.xml"/>
+<monster name="shiny sunflora" file="jotho/shiny sunflora.xml"/>
+<monster name="shiny sunflora s" file="jotho/wilds/shiny sunflora.xml"/>
+<monster name="shiny snubbull" file="jotho/shiny snubbull.xml"/>
+<monster name="shiny snubbull s" file="jotho/wilds/shiny snubbull.xml"/>
+<monster name="shiny granbull" file="jotho/shiny granbull.xml"/>
+<monster name="shiny granbull s" file="jotho/wilds/shiny granbull.xml"/>
+<monster name="shiny qwilfish" file="jotho/shiny qwilfish.xml"/>
+<monster name="shiny qwilfish s" file="jotho/wilds/shiny qwilfish.xml"/>
+<monster name="shiny scizor" file="jotho/shiny scizor.xml"/>
+<monster name="shiny scizor s" file="jotho/wilds/shiny scizor.xml"/>
+<monster name="shiny shuckle" file="jotho/shiny shuckle.xml"/>
+<monster name="shiny shuckle s" file="jotho/wilds/shiny shuckle.xml"/>
+<monster name="shiny heracross" file="jotho/shiny heracross.xml"/>
+<monster name="shiny heracross s" file="jotho/wilds/shiny heracross.xml"/>
+<monster name="shiny sneasel" file="jotho/shiny sneasel.xml"/>
+<monster name="shiny sneasel s" file="jotho/wilds/shiny sneasel.xml"/>
+<monster name="shiny teddiursa" file="jotho/shiny teddiursa.xml"/>
+<monster name="shiny ursaring" file="jotho/shiny ursaring.xml"/>
+<monster name="shiny teddiursa s" file="jotho/wilds/shiny teddiursa.xml"/>
+<monster name="shiny ursaring s" file="jotho/wilds/shiny ursaring.xml"/>
+<monster name="shiny slugma" file="jotho/shiny slugma.xml"/>
+<monster name="shiny slugma s" file="jotho/wilds/shiny slugma.xml"/>
+<monster name="shiny magcargo" file="jotho/shiny magcargo.xml"/>
+<monster name="shiny magcargo s" file="jotho/wilds/shiny magcargo.xml"/>
+<monster name="shiny swinub" file="jotho/shiny swinub.xml"/>
+<monster name="shiny swinub s" file="jotho/wilds/shiny swinub.xml"/>
+<monster name="shiny piloswine" file="jotho/shiny piloswine.xml"/>
+<monster name="shiny piloswine s" file="jotho/wilds/shiny piloswine.xml"/>
+<monster name="shiny corsola" file="jotho/shiny corsola.xml"/>
+<monster name="shiny corsola s" file="jotho/wilds/shiny corsola.xml"/>
+<monster name="shiny remoraid" file="jotho/shiny remoraid.xml"/>
+<monster name="shiny remoraid s" file="jotho/wilds/shiny remoraid.xml"/>
+<monster name="shiny octillery" file="jotho/shiny octillery.xml"/>
+<monster name="shiny octillery s" file="jotho/wilds/shiny octillery.xml"/>
+<monster name="shiny delibird" file="jotho/shiny delibird.xml"/>
+<monster name="shiny delibird s" file="jotho/wilds/shiny delibird.xml"/>
+<monster name="shiny mantine" file="jotho/shiny mantine.xml"/>
+<monster name="shiny mantine s" file="jotho/wilds/shiny mantine.xml"/>
+<monster name="shiny skarmory" file="jotho/shiny skarmory.xml"/>
+<monster name="shiny skarmory s" file="jotho/wilds/shiny skarmory.xml"/>
+<monster name="shiny houndour" file="jotho/shiny houndour.xml"/>
+<monster name="shiny houndour s" file="jotho/wilds/shiny houndour.xml"/>
+<monster name="shiny houndoom" file="jotho/shiny houndoom.xml"/>
+<monster name="shiny houndoom s" file="jotho/wilds/shiny houndoom.xml"/>
+<monster name="shiny kingdra" file="jotho/shiny kingdra.xml"/>
+<monster name="shiny kingdra s" file="jotho/wilds/shiny kingdra.xml"/>
+<monster name="shiny phanpy" file="jotho/shiny phanpy.xml"/>
+<monster name="shiny phanpy s" file="jotho/wilds/shiny phanpy.xml"/>
+<monster name="shiny donphan" file="jotho/shiny donphan.xml"/>
+<monster name="shiny donphan s" file="jotho/wilds/shiny donphan.xml"/>
+<monster name="royal porygon2" file="jotho/royal porygon2.xml"/>
+<monster name="royal porygon2 s" file="jotho/wilds/royal porygon2.xml"/>
+<monster name="shiny stantler" file="jotho/shiny stantler.xml"/>
+<monster name="shiny stantler s" file="jotho/wilds/shiny stantler.xml"/>
+<monster name="elite smeargle" file="jotho/elite smeargle.xml"/>
+<monster name="elite smeargle s" file="jotho/wilds/elite smeargle.xml"/>
+<monster name="shiny tyrogue" file="jotho/shiny tyrogue.xml"/>
+<monster name="shiny hitmontop" file="jotho/shiny hitmontop.xml"/> 
+<monster name="shiny tyrogue s" file="jotho/wilds/shiny tyrogue.xml"/>
+<monster name="shiny hitmontop s" file="jotho/wilds/shiny hitmontop.xml"/> 
+<monster name="shiny smoochum" file="jotho/shiny smoochum.xml"/>
+<monster name="shiny smoochum s" file="jotho/wilds/shiny smoochum.xml"/>
+<monster name="shiny elekid" file="jotho/shiny elekid.xml"/>
+<monster name="shiny elekid s" file="jotho/wilds/shiny elekid.xml"/>
+<monster name="shiny magby" file="jotho/shiny magby.xml"/>
+<monster name="shiny magby s" file="jotho/wilds/shiny magby.xml"/>
+<monster name="shiny miltank" file="jotho/shiny miltank.xml"/>
+<monster name="shiny miltank s" file="jotho/wilds/shiny miltank.xml"/>
+<monster name="shiny blissey" file="jotho/shiny blissey.xml"/>
+<monster name="shiny blissey s" file="jotho/wilds/shiny blissey.xml"/>
+<monster name="shiny larvitar" file="jotho/shiny larvitar.xml"/>
+<monster name="shiny pupitar" file="jotho/shiny pupitar.xml"/>
+<monster name="shiny tyranitar" file="jotho/shiny tyranitar.xml"/>
+<monster name="shiny larvitar s" file="jotho/wilds/shiny larvitar.xml"/>
+<monster name="shiny pupitar s" file="jotho/wilds/shiny pupitar.xml"/>
+<monster name="shiny tyranitar s" file="jotho/wilds/shiny tyranitar.xml"/>
+<monster name="crystal steelix s" file="jotho/wilds/crystal steelix.xml"/>
+<monster name="crystal steelix" file="jotho/crystal steelix.xml"/>
+
+
+--Hoenn--
+
+<monster name="absol s" file="hoenn/wilds/absol.xml"/>
+<monster name="absol" file="hoenn/absol.xml"/>
+<monster name="aggron s" file="hoenn/wilds/aggron.xml"/>
+<monster name="aggron" file="hoenn/aggron.xml"/>
+<monster name="altaria s" file="hoenn/wilds/altaria.xml"/>
+<monster name="altaria" file="hoenn/altaria.xml"/>
+<monster name="anorith s" file="hoenn/wilds/anorith.xml"/>
+<monster name="anorith" file="hoenn/anorith.xml"/>
+<monster name="armaldo s" file="hoenn/wilds/armaldo.xml"/>
+<monster name="armaldo" file="hoenn/armaldo.xml"/>
+<monster name="aron s" file="hoenn/wilds/aron.xml"/>
+<monster name="aron" file="hoenn/aron.xml"/>
+<monster name="bagon s" file="hoenn/wilds/bagon.xml"/>
+<monster name="bagon" file="hoenn/bagon.xml"/>
+<monster name="baltoy s" file="hoenn/wilds/baltoy.xml"/>
+<monster name="baltoy" file="hoenn/baltoy.xml"/>
+<monster name="banette s" file="hoenn/wilds/banette.xml"/>
+<monster name="banette" file="hoenn/banette.xml"/>
+<monster name="barboach s" file="hoenn/wilds/barboach.xml"/>
+<monster name="barboach" file="hoenn/barboach.xml"/>
+<monster name="beautifly s" file="hoenn/wilds/beautifly.xml"/>
+<monster name="beautifly" file="hoenn/beautifly.xml"/>
+<monster name="beldum s" file="hoenn/wilds/beldum.xml"/>
+<monster name="beldum" file="hoenn/beldum.xml"/>
+<monster name="blaziken s" file="hoenn/wilds/blaziken.xml"/>
+<monster name="blaziken" file="hoenn/blaziken.xml"/>
+<monster name="breloom s" file="hoenn/wilds/breloom.xml"/>
+<monster name="breloom" file="hoenn/breloom.xml"/>
+<monster name="cacnea s" file="hoenn/wilds/cacnea.xml"/>
+<monster name="cacnea" file="hoenn/cacnea.xml"/>
+<monster name="cacturne s" file="hoenn/wilds/cacturne.xml"/>
+<monster name="cacturne" file="hoenn/cacturne.xml"/>
+<monster name="camerupt s" file="hoenn/wilds/camerupt.xml"/>
+<monster name="camerupt" file="hoenn/camerupt.xml"/>
+<monster name="carvanha s" file="hoenn/wilds/carvanha.xml"/>
+<monster name="carvanha" file="hoenn/carvanha.xml"/>
+<monster name="cascoon s" file="hoenn/wilds/cascoon.xml"/>
+<monster name="cascoon" file="hoenn/cascoon.xml"/>
+<monster name="castform sunny s" file="hoenn/wilds/castform sunny.xml"/>
+<monster name="castform sunny" file="hoenn/castform sunny.xml"/>
+<monster name="castform snowy s" file="hoenn/wilds/castform snowy.xml"/>
+<monster name="castform snowy" file="hoenn/castform snowy.xml"/>
+<monster name="castform s" file="hoenn/wilds/castform.xml"/>
+<monster name="castform rainy s" file="hoenn/wilds/castform rainy.xml"/>
+<monster name="castform rainy" file="hoenn/castform rainy.xml"/>
+<monster name="castform" file="hoenn/castform.xml"/>
+<monster name="chimecho s" file="hoenn/wilds/chimecho.xml"/>
+<monster name="chimecho" file="hoenn/chimecho.xml"/>
+<monster name="clamperl s" file="hoenn/wilds/clamperl.xml"/>
+<monster name="clamperl" file="hoenn/clamperl.xml"/>
+<monster name="claydol s" file="hoenn/wilds/claydol.xml"/>
+<monster name="claydol" file="hoenn/claydol.xml"/>
+<monster name="combusken s" file="hoenn/wilds/combusken.xml"/>
+<monster name="combusken" file="hoenn/combusken.xml"/>
+<monster name="corphish s" file="hoenn/wilds/corphish.xml"/>
+<monster name="corphish" file="hoenn/corphish.xml"/>
+<monster name="cradily s" file="hoenn/wilds/cradily.xml"/>
+<monster name="cradily" file="hoenn/cradily.xml"/>
+<monster name="crawdaunt s" file="hoenn/wilds/crawdaunt.xml"/>
+<monster name="crawdaunt" file="hoenn/crawdaunt.xml"/>
+<monster name="delcatty s" file="hoenn/wilds/delcatty.xml"/>
+<monster name="delcatty" file="hoenn/delcatty.xml"/>
+<monster name="dusclops s" file="hoenn/wilds/dusclops.xml"/>
+<monster name="dusclops" file="hoenn/dusclops.xml"/>
+<monster name="duskull s" file="hoenn/wilds/duskull.xml"/>
+<monster name="duskull" file="hoenn/duskull.xml"/>
+<monster name="dustox s" file="hoenn/wilds/dustox.xml"/>
+<monster name="dustox" file="hoenn/dustox.xml"/>
+<monster name="electrike s" file="hoenn/wilds/electrike.xml"/>
+<monster name="electrike" file="hoenn/electrike.xml"/>
+<monster name="exploud s" file="hoenn/wilds/exploud.xml"/>
+<monster name="exploud" file="hoenn/exploud.xml"/>
+<monster name="feebas s" file="hoenn/wilds/feebas.xml"/>
+<monster name="feebas" file="hoenn/feebas.xml"/>
+<monster name="flygon s" file="hoenn/wilds/flygon.xml"/>
+<monster name="flygon" file="hoenn/flygon.xml"/>
+<monster name="gardevoir s" file="hoenn/wilds/gardevoir.xml"/>
+<monster name="gardevoir" file="hoenn/gardevoir.xml"/>
+<monster name="glalie s" file="hoenn/wilds/glalie.xml"/>
+<monster name="glalie" file="hoenn/glalie.xml"/>
+<monster name="gorebyss s" file="hoenn/wilds/gorebyss.xml"/>
+<monster name="gorebyss" file="hoenn/gorebyss.xml"/>
+<monster name="groudon s" file="hoenn/wilds/groudon.xml"/>
+<monster name="groudon" file="hoenn/groudon.xml"/>
+<monster name="grovyle s" file="hoenn/wilds/grovyle.xml"/>
+<monster name="grovyle" file="hoenn/grovyle.xml"/>
+<monster name="grumpig s" file="hoenn/wilds/grumpig.xml"/>
+<monster name="grumpig" file="hoenn/grumpig.xml"/>
+<monster name="gulpin s" file="hoenn/wilds/gulpin.xml"/>
+<monster name="gulpin" file="hoenn/gulpin.xml"/>
+<monster name="hariyama s" file="hoenn/wilds/hariyama.xml"/>
+<monster name="hariyama" file="hoenn/hariyama.xml"/>
+<monster name="huntail s" file="hoenn/wilds/huntail.xml"/>
+<monster name="huntail" file="hoenn/huntail.xml"/>
+<monster name="illumise s" file="hoenn/wilds/illumise.xml"/>
+<monster name="illumise" file="hoenn/illumise.xml"/>
+<monster name="jirachi s" file="hoenn/wilds/jirachi.xml"/>
+<monster name="jirachi" file="hoenn/jirachi.xml"/>
+<monster name="kecleon s" file="hoenn/wilds/kecleon.xml"/>
+<monster name="kecleon" file="hoenn/kecleon.xml"/>
+<monster name="kirlia s" file="hoenn/wilds/kirlia.xml"/>
+<monster name="kirlia" file="hoenn/kirlia.xml"/>
+<monster name="kyogre s" file="hoenn/wilds/kyogre.xml"/>
+<monster name="kyogre" file="hoenn/kyogre.xml"/>
+<monster name="lairon s" file="hoenn/wilds/lairon.xml"/>
+<monster name="lairon" file="hoenn/lairon.xml"/>
+<monster name="latias s" file="hoenn/wilds/latias.xml"/>
+<monster name="latias" file="hoenn/latias.xml"/>
+<monster name="latios s" file="hoenn/wilds/latios.xml"/>
+<monster name="latios" file="hoenn/latios.xml"/>
+<monster name="lileep s" file="hoenn/wilds/lileep.xml"/>
+<monster name="lileep" file="hoenn/lileep.xml"/>
+<monster name="linoone s" file="hoenn/wilds/linoone.xml"/>
+<monster name="linoone" file="hoenn/linoone.xml"/>
+<monster name="lombre s" file="hoenn/wilds/lombre.xml"/>
+<monster name="lombre" file="hoenn/lombre.xml"/>
+<monster name="lotad s" file="hoenn/wilds/lotad.xml"/>
+<monster name="lotad" file="hoenn/lotad.xml"/>
+<monster name="loudred s" file="hoenn/wilds/loudred.xml"/>
+<monster name="loudred" file="hoenn/loudred.xml"/>
+<monster name="ludicolo s" file="hoenn/wilds/ludicolo.xml"/>
+<monster name="ludicolo" file="hoenn/ludicolo.xml"/>
+<monster name="lunatone s" file="hoenn/wilds/lunatone.xml"/>
+<monster name="lunatone" file="hoenn/lunatone.xml"/>
+<monster name="luvdisc s" file="hoenn/wilds/luvdisc.xml"/>
+<monster name="luvdisc" file="hoenn/luvdisc.xml"/>
+<monster name="makuhita s" file="hoenn/wilds/makuhita.xml"/>
+<monster name="makuhita" file="hoenn/makuhita.xml"/>
+<monster name="manectric s" file="hoenn/wilds/manectric.xml"/>
+<monster name="manectric" file="hoenn/manectric.xml"/>
+<monster name="marshtomp s" file="hoenn/wilds/marshtomp.xml"/>
+<monster name="marshtomp" file="hoenn/marshtomp.xml"/>
+<monster name="masquerain s" file="hoenn/wilds/masquerain.xml"/>
+<monster name="masquerain" file="hoenn/masquerain.xml"/>
+<monster name="mawile s" file="hoenn/wilds/mawile.xml"/>
+<monster name="mawile" file="hoenn/mawile.xml"/>
+<monster name="medicham s" file="hoenn/wilds/medicham.xml"/>
+<monster name="medicham" file="hoenn/medicham.xml"/>
+<monster name="meditite s" file="hoenn/wilds/meditite.xml"/>
+<monster name="meditite" file="hoenn/meditite.xml"/>
+<monster name="metagross s" file="hoenn/wilds/metagross.xml"/>
+<monster name="metagross" file="hoenn/metagross.xml"/>
+<monster name="metang s" file="hoenn/wilds/metang.xml"/>
+<monster name="metang" file="hoenn/metang.xml"/>
+<monster name="mightyena s" file="hoenn/wilds/mightyena.xml"/>
+<monster name="mightyena" file="hoenn/mightyena.xml"/>
+<monster name="milotic s" file="hoenn/wilds/milotic.xml"/>
+<monster name="milotic" file="hoenn/milotic.xml"/>
+<monster name="minun s" file="hoenn/wilds/minun.xml"/>
+<monster name="minun" file="hoenn/minun.xml"/>
+<monster name="mudkip s" file="hoenn/wilds/mudkip.xml"/>
+<monster name="mudkip" file="hoenn/mudkip.xml"/>
+<monster name="nincada s" file="hoenn/wilds/nincada.xml"/>
+<monster name="nincada" file="hoenn/nincada.xml"/>
+<monster name="ninjask s" file="hoenn/wilds/ninjask.xml"/>
+<monster name="ninjask" file="hoenn/ninjask.xml"/>
+<monster name="nosepass s" file="hoenn/wilds/nosepass.xml"/>
+<monster name="nosepass" file="hoenn/nosepass.xml"/>
+<monster name="numel s" file="hoenn/wilds/numel.xml"/>
+<monster name="numel" file="hoenn/numel.xml"/>
+<monster name="nuzleaf s" file="hoenn/wilds/nuzleaf.xml"/>
+<monster name="nuzleaf" file="hoenn/nuzleaf.xml"/>
+<monster name="pelipper s" file="hoenn/wilds/pelipper.xml"/>
+<monster name="pelipper" file="hoenn/pelipper.xml"/>
+<monster name="plusle s" file="hoenn/wilds/plusle.xml"/>
+<monster name="plusle" file="hoenn/plusle.xml"/>
+<monster name="poochyena s" file="hoenn/wilds/poochyena.xml"/>
+<monster name="poochyena" file="hoenn/poochyena.xml"/>
+<monster name="ralts s" file="hoenn/wilds/ralts.xml"/>
+<monster name="ralts" file="hoenn/ralts.xml"/>
+<monster name="rayquaza s" file="hoenn/wilds/rayquaza.xml"/>
+<monster name="rayquaza" file="hoenn/rayquaza.xml"/>
+<monster name="regice s" file="hoenn/wilds/regice.xml"/>
+<monster name="regice" file="hoenn/regice.xml"/>
+<monster name="regirock s" file="hoenn/wilds/regirock.xml"/>
+<monster name="regirock" file="hoenn/regirock.xml"/>
+<monster name="registeel s" file="hoenn/wilds/registeel.xml"/>
+<monster name="registeel" file="hoenn/registeel.xml"/>
+<monster name="relicanth s" file="hoenn/wilds/relicanth.xml"/>
+<monster name="relicanth" file="hoenn/relicanth.xml"/>
+<monster name="roselia s" file="hoenn/wilds/roselia.xml"/>
+<monster name="roselia" file="hoenn/roselia.xml"/>
+<monster name="sableye s" file="hoenn/wilds/sableye.xml"/>
+<monster name="sableye" file="hoenn/sableye.xml"/>
+<monster name="salamence s" file="hoenn/wilds/salamence.xml"/>
+<monster name="salamence" file="hoenn/salamence.xml"/>
+<monster name="sceptile s" file="hoenn/wilds/sceptile.xml"/>
+<monster name="sceptile" file="hoenn/sceptile.xml"/>
+<monster name="sealeo s" file="hoenn/wilds/sealeo.xml"/>
+<monster name="sealeo" file="hoenn/sealeo.xml"/>
+<monster name="seedot s" file="hoenn/wilds/seedot.xml"/>
+<monster name="seedot" file="hoenn/seedot.xml"/>
+<monster name="seviper s" file="hoenn/wilds/seviper.xml"/>
+<monster name="seviper" file="hoenn/seviper.xml"/>
+<monster name="sharpedo s" file="hoenn/wilds/sharpedo.xml"/>
+<monster name="sharpedo" file="hoenn/sharpedo.xml"/>
+<monster name="shedinja s" file="hoenn/wilds/shedinja.xml"/>
+<monster name="shedinja" file="hoenn/shedinja.xml"/>
+<monster name="shelgon s" file="hoenn/wilds/shelgon.xml"/>
+<monster name="shelgon" file="hoenn/shelgon.xml"/>
+<monster name="shiftry s" file="hoenn/wilds/shiftry.xml"/>
+<monster name="shiftry" file="hoenn/shiftry.xml"/>
+<monster name="shroomish s" file="hoenn/wilds/shroomish.xml"/>
+<monster name="shroomish" file="hoenn/shroomish.xml"/>
+<monster name="shuppet s" file="hoenn/wilds/shuppet.xml"/>
+<monster name="shuppet" file="hoenn/shuppet.xml"/>
+<monster name="silcoon s" file="hoenn/wilds/silcoon.xml"/>
+<monster name="silcoon" file="hoenn/silcoon.xml"/>
+<monster name="skitty s" file="hoenn/wilds/skitty.xml"/>
+<monster name="skitty" file="hoenn/skitty.xml"/>
+<monster name="slaking s" file="hoenn/wilds/slaking.xml"/>
+<monster name="slaking" file="hoenn/slaking.xml"/>
+<monster name="slakoth s" file="hoenn/wilds/slakoth.xml"/>
+<monster name="slakoth" file="hoenn/slakoth.xml"/>
+<monster name="snorunt s" file="hoenn/wilds/snorunt.xml"/>
+<monster name="snorunt" file="hoenn/snorunt.xml"/>
+<monster name="solrock s" file="hoenn/wilds/solrock.xml"/>
+<monster name="solrock" file="hoenn/solrock.xml"/>
+<monster name="spheal s" file="hoenn/wilds/spheal.xml"/>
+<monster name="spheal" file="hoenn/spheal.xml"/>
+<monster name="spinda s" file="hoenn/wilds/spinda.xml"/>
+<monster name="spinda" file="hoenn/spinda.xml"/>
+<monster name="spoink s" file="hoenn/wilds/spoink.xml"/>
+<monster name="spoink" file="hoenn/spoink.xml"/>
+<monster name="surskit s" file="hoenn/wilds/surskit.xml"/>
+<monster name="surskit" file="hoenn/surskit.xml"/>
+<monster name="swablu s" file="hoenn/wilds/swablu.xml"/>
+<monster name="swablu" file="hoenn/swablu.xml"/>
+<monster name="swalot s" file="hoenn/wilds/swalot.xml"/>
+<monster name="swalot" file="hoenn/swalot.xml"/>
+<monster name="swampert s" file="hoenn/wilds/swampert.xml"/>
+<monster name="swampert" file="hoenn/swampert.xml"/>
+<monster name="swellow s" file="hoenn/wilds/swellow.xml"/>
+<monster name="swellow" file="hoenn/swellow.xml"/>
+<monster name="taillow s" file="hoenn/wilds/taillow.xml"/>
+<monster name="taillow" file="hoenn/taillow.xml"/>
+<monster name="torchic s" file="hoenn/wilds/torchic.xml"/>
+<monster name="torchic" file="hoenn/torchic.xml"/>
+<monster name="torkoal s" file="hoenn/wilds/torkoal.xml"/>
+<monster name="torkoal" file="hoenn/torkoal.xml"/>
+<monster name="trapinch s" file="hoenn/wilds/trapinch.xml"/>
+<monster name="trapinch" file="hoenn/trapinch.xml"/>
+<monster name="treecko s" file="hoenn/wilds/treecko.xml"/>
+<monster name="treecko" file="hoenn/treecko.xml"/>
+<monster name="tropius s" file="hoenn/wilds/tropius.xml"/>
+<monster name="tropius" file="hoenn/tropius.xml"/>
+<monster name="vibrava s" file="hoenn/wilds/vibrava.xml"/>
+<monster name="vibrava" file="hoenn/vibrava.xml"/>
+<monster name="vigoroth s" file="hoenn/wilds/vigoroth.xml"/>
+<monster name="vigoroth" file="hoenn/vigoroth.xml"/>
+<monster name="volbeat s" file="hoenn/wilds/volbeat.xml"/>
+<monster name="volbeat" file="hoenn/volbeat.xml"/>
+<monster name="wailmer s" file="hoenn/wilds/wailmer.xml"/>
+<monster name="wailmer" file="hoenn/wailmer.xml"/>
+<monster name="wailord s" file="hoenn/wilds/wailord.xml"/>
+<monster name="wailord" file="hoenn/wailord.xml"/>
+<monster name="walrein s" file="hoenn/wilds/walrein.xml"/>
+<monster name="walrein" file="hoenn/walrein.xml"/>
+<monster name="whiscash s" file="hoenn/wilds/whiscash.xml"/>
+<monster name="whiscash" file="hoenn/whiscash.xml"/>
+<monster name="whismur s" file="hoenn/wilds/whismur.xml"/>
+<monster name="whismur" file="hoenn/whismur.xml"/>
+<monster name="wingull s" file="hoenn/wilds/wingull.xml"/>
+<monster name="wingull" file="hoenn/wingull.xml"/>
+<monster name="wurmple s" file="hoenn/wilds/wurmple.xml"/>
+<monster name="wurmple" file="hoenn/wurmple.xml"/>
+<monster name="zangoose s" file="hoenn/wilds/zangoose.xml"/>
+<monster name="zangoose" file="hoenn/zangoose.xml"/>
+<monster name="zigzagoon s" file="hoenn/wilds/zigzagoon.xml"/>
+<monster name="zigzagoon" file="hoenn/zigzagoon.xml"/>
+<monster name="azurill" file="hoenn/azurill.xml"/>
+<monster name="azurill s" file="hoenn/wilds/azurill.xml"/>
+<monster name="deoxys" file="hoenn/deoxys.xml"/>
+<monster name="deoxys s" file="hoenn/wilds/deoxys.xml"/>
+<monster name="wynaut" file="hoenn/wynaut.xml"/>
+<monster name="wynaut s" file="hoenn/wilds/wynaut.xml"/>
+
+
+--Shiny Hoenn--
+
+<monster name="shiny absol s" file="hoenn/wilds/shiny absol.xml"/>
+<monster name="shiny absol" file="hoenn/shiny absol.xml"/>
+<monster name="shiny aggron s" file="hoenn/wilds/shiny aggron.xml"/>
+<monster name="shiny aggron" file="hoenn/shiny aggron.xml"/>
+<monster name="shiny altaria s" file="hoenn/wilds/shiny altaria.xml"/>
+<monster name="shiny altaria" file="hoenn/shiny altaria.xml"/>
+<monster name="shiny anorith s" file="hoenn/wilds/shiny anorith.xml"/>
+<monster name="shiny anorith" file="hoenn/shiny anorith.xml"/>
+<monster name="shiny armaldo s" file="hoenn/wilds/shiny armaldo.xml"/>
+<monster name="shiny armaldo" file="hoenn/shiny armaldo.xml"/>
+<monster name="shiny aron s" file="hoenn/wilds/shiny aron.xml"/>
+<monster name="shiny aron" file="hoenn/shiny aron.xml"/>
+<monster name="shiny bagon s" file="hoenn/wilds/shiny bagon.xml"/>
+<monster name="shiny bagon" file="hoenn/shiny bagon.xml"/>
+<monster name="shiny baltoy s" file="hoenn/wilds/shiny baltoy.xml"/>
+<monster name="shiny baltoy" file="hoenn/shiny baltoy.xml"/>
+<monster name="shiny banette s" file="hoenn/wilds/shiny banette.xml"/>
+<monster name="shiny banette" file="hoenn/shiny banette.xml"/>
+<monster name="shiny barboach s" file="hoenn/wilds/shiny barboach.xml"/>
+<monster name="shiny barboach" file="hoenn/shiny barboach.xml"/>
+<monster name="shiny beautifly s" file="hoenn/wilds/shiny beautifly.xml"/>
+<monster name="shiny beautifly" file="hoenn/shiny beautifly.xml"/>
+<monster name="shiny beldum s" file="hoenn/wilds/shiny beldum.xml"/>
+<monster name="shiny beldum" file="hoenn/shiny beldum.xml"/>
+<monster name="shiny blaziken s" file="hoenn/wilds/shiny blaziken.xml"/>
+<monster name="shiny blaziken" file="hoenn/shiny blaziken.xml"/>
+<monster name="shiny breloom s" file="hoenn/wilds/shiny breloom.xml"/>
+<monster name="shiny breloom" file="hoenn/shiny breloom.xml"/>
+<monster name="shiny cacnea s" file="hoenn/wilds/shiny cacnea.xml"/>
+<monster name="shiny cacnea" file="hoenn/shiny cacnea.xml"/>
+<monster name="shiny cacturne s" file="hoenn/wilds/shiny cacturne.xml"/>
+<monster name="shiny cacturne" file="hoenn/shiny cacturne.xml"/>
+<monster name="shiny camerupt s" file="hoenn/wilds/shiny camerupt.xml"/>
+<monster name="shiny camerupt" file="hoenn/shiny camerupt.xml"/>
+<monster name="shiny carvanha s" file="hoenn/wilds/shiny carvanha.xml"/>
+<monster name="shiny carvanha" file="hoenn/shiny carvanha.xml"/>
+<monster name="shiny cascoon s" file="hoenn/wilds/shiny cascoon.xml"/>
+<monster name="shiny cascoon" file="hoenn/shiny cascoon.xml"/>
+<monster name="shiny chimecho s" file="hoenn/wilds/shiny chimecho.xml"/>
+<monster name="shiny chimecho" file="hoenn/shiny chimecho.xml"/>
+<monster name="shiny clamperl s" file="hoenn/wilds/shiny clamperl.xml"/>
+<monster name="shiny clamperl" file="hoenn/shiny clamperl.xml"/>
+<monster name="shiny claydol s" file="hoenn/wilds/shiny claydol.xml"/>
+<monster name="shiny claydol" file="hoenn/shiny claydol.xml"/>
+<monster name="shiny combusken s" file="hoenn/wilds/shiny combusken.xml"/>
+<monster name="shiny combusken" file="hoenn/shiny combusken.xml"/>
+<monster name="shiny corphish s" file="hoenn/wilds/shiny corphish.xml"/>
+<monster name="shiny corphish" file="hoenn/shiny corphish.xml"/>
+<monster name="shiny cradily s" file="hoenn/wilds/shiny cradily.xml"/>
+<monster name="shiny cradily" file="hoenn/shiny cradily.xml"/>
+<monster name="shiny crawdaunt s" file="hoenn/wilds/shiny crawdaunt.xml"/>
+<monster name="shiny crawdaunt" file="hoenn/shiny crawdaunt.xml"/>
+<monster name="shiny delcatty s" file="hoenn/wilds/shiny delcatty.xml"/>
+<monster name="shiny delcatty" file="hoenn/shiny delcatty.xml"/>
+<monster name="shiny dusclops s" file="hoenn/wilds/shiny dusclops.xml"/>
+<monster name="shiny dusclops" file="hoenn/shiny dusclops.xml"/>
+<monster name="shiny duskull s" file="hoenn/wilds/shiny duskull.xml"/>
+<monster name="shiny duskull" file="hoenn/shiny duskull.xml"/>
+<monster name="shiny dustox s" file="hoenn/wilds/shiny dustox.xml"/>
+<monster name="shiny dustox" file="hoenn/shiny dustox.xml"/>
+<monster name="shiny electrike s" file="hoenn/wilds/shiny electrike.xml"/>
+<monster name="shiny electrike" file="hoenn/shiny electrike.xml"/>
+<monster name="shiny exploud s" file="hoenn/wilds/shiny exploud.xml"/>
+<monster name="shiny exploud" file="hoenn/shiny exploud.xml"/>
+<monster name="shiny feebas s" file="hoenn/wilds/shiny feebas.xml"/>
+<monster name="shiny feebas" file="hoenn/shiny feebas.xml"/>
+<monster name="shiny flygon s" file="hoenn/wilds/shiny flygon.xml"/>
+<monster name="shiny flygon" file="hoenn/shiny flygon.xml"/>
+<monster name="shiny gardevoir s" file="hoenn/wilds/shiny gardevoir.xml"/>
+<monster name="shiny gardevoir" file="hoenn/shiny gardevoir.xml"/>
+<monster name="shiny glalie s" file="hoenn/wilds/shiny glalie.xml"/>
+<monster name="shiny glalie" file="hoenn/shiny glalie.xml"/>
+<monster name="shiny gorebyss s" file="hoenn/wilds/shiny gorebyss.xml"/>
+<monster name="shiny gorebyss" file="hoenn/shiny gorebyss.xml"/>
+<monster name="shiny groudon s" file="hoenn/wilds/shiny groudon.xml"/>
+<monster name="shiny groudon" file="hoenn/shiny groudon.xml"/>
+<monster name="shiny grovyle s" file="hoenn/wilds/shiny grovyle.xml"/>
+<monster name="shiny grovyle" file="hoenn/shiny grovyle.xml"/>
+<monster name="shiny grumpig s" file="hoenn/wilds/shiny grumpig.xml"/>
+<monster name="shiny grumpig" file="hoenn/shiny grumpig.xml"/>
+<monster name="shiny gulpin s" file="hoenn/wilds/shiny gulpin.xml"/>
+<monster name="shiny gulpin" file="hoenn/shiny gulpin.xml"/>
+<monster name="shiny hariyama s" file="hoenn/wilds/shiny hariyama.xml"/>
+<monster name="shiny hariyama" file="hoenn/shiny hariyama.xml"/>
+<monster name="shiny huntail s" file="hoenn/wilds/shiny huntail.xml"/>
+<monster name="shiny huntail" file="hoenn/shiny huntail.xml"/>
+<monster name="shiny illumise s" file="hoenn/wilds/shiny illumise.xml"/>
+<monster name="shiny illumise" file="hoenn/shiny illumise.xml"/>
+<monster name="shiny jirachi s" file="hoenn/wilds/shiny jirachi.xml"/>
+<monster name="shiny jirachi" file="hoenn/shiny jirachi.xml"/>
+<monster name="shiny kecleon s" file="hoenn/wilds/shiny kecleon.xml"/>
+<monster name="shiny kecleon" file="hoenn/shiny kecleon.xml"/>
+<monster name="shiny kyogre s" file="hoenn/wilds/shiny kyogre.xml"/>
+<monster name="shiny kyogre" file="hoenn/shiny kyogre.xml"/>
+<monster name="shiny lairon s" file="hoenn/wilds/shiny lairon.xml"/>
+<monster name="shiny lairon" file="hoenn/shiny lairon.xml"/>
+<monster name="shiny lileep s" file="hoenn/wilds/shiny lileep.xml"/>
+<monster name="shiny lileep" file="hoenn/shiny lileep.xml"/>
+<monster name="shiny linoone s" file="hoenn/wilds/shiny linoone.xml"/>
+<monster name="shiny linoone" file="hoenn/shiny linoone.xml"/>
+<monster name="shiny lombre s" file="hoenn/wilds/shiny lombre.xml"/>
+<monster name="shiny lombre" file="hoenn/shiny lombre.xml"/>
+<monster name="shiny lotad s" file="hoenn/wilds/shiny lotad.xml"/>
+<monster name="shiny lotad" file="hoenn/shiny lotad.xml"/>
+<monster name="shiny loudred s" file="hoenn/wilds/shiny loudred.xml"/>
+<monster name="shiny loudred" file="hoenn/shiny loudred.xml"/>
+<monster name="shiny ludicolo s" file="hoenn/wilds/shiny ludicolo.xml"/>
+<monster name="shiny ludicolo" file="hoenn/shiny ludicolo.xml"/>
+<monster name="shiny lunatone s" file="hoenn/wilds/shiny lunatone.xml"/>
+<monster name="shiny lunatone" file="hoenn/shiny lunatone.xml"/>
+<monster name="shiny luvdisc s" file="hoenn/wilds/shiny luvdisc.xml"/>
+<monster name="shiny luvdisc" file="hoenn/shiny luvdisc.xml"/>
+<monster name="shiny makuhita s" file="hoenn/wilds/shiny makuhita.xml"/>
+<monster name="shiny makuhita" file="hoenn/shiny makuhita.xml"/>
+<monster name="shiny manectric s" file="hoenn/wilds/shiny manectric.xml"/>
+<monster name="shiny manectric" file="hoenn/shiny manectric.xml"/>
+<monster name="shiny marshtomp s" file="hoenn/wilds/shiny marshtomp.xml"/>
+<monster name="shiny marshtomp" file="hoenn/shiny marshtomp.xml"/>
+<monster name="shiny masquerain s" file="hoenn/wilds/shiny masquerain.xml"/>
+<monster name="shiny masquerain" file="hoenn/shiny masquerain.xml"/>
+<monster name="shiny mawile s" file="hoenn/wilds/shiny mawile.xml"/>
+<monster name="shiny mawile" file="hoenn/shiny mawile.xml"/>
+<monster name="shiny medicham s" file="hoenn/wilds/shiny medicham.xml"/>
+<monster name="shiny medicham" file="hoenn/shiny medicham.xml"/>
+<monster name="shiny meditite s" file="hoenn/wilds/shiny meditite.xml"/>
+<monster name="shiny meditite" file="hoenn/shiny meditite.xml"/>
+<monster name="shiny metagross s" file="hoenn/wilds/shiny metagross.xml"/>
+<monster name="shiny metagross" file="hoenn/shiny metagross.xml"/>
+<monster name="shiny metang s" file="hoenn/wilds/shiny metang.xml"/>
+<monster name="shiny metang" file="hoenn/shiny metang.xml"/>
+<monster name="shiny mightyena s" file="hoenn/wilds/shiny mightyena.xml"/>
+<monster name="shiny mightyena" file="hoenn/shiny mightyena.xml"/>
+<monster name="shiny milotic s" file="hoenn/wilds/shiny milotic.xml"/>
+<monster name="shiny milotic" file="hoenn/shiny milotic.xml"/>
+<monster name="shiny minun s" file="hoenn/wilds/shiny minun.xml"/>
+<monster name="shiny minun" file="hoenn/shiny minun.xml"/>
+<monster name="shiny mudkip s" file="hoenn/wilds/shiny mudkip.xml"/>
+<monster name="shiny mudkip" file="hoenn/shiny mudkip.xml"/>
+<monster name="shiny nincada s" file="hoenn/wilds/shiny nincada.xml"/>
+<monster name="shiny nincada" file="hoenn/shiny nincada.xml"/>
+<monster name="shiny ninjask s" file="hoenn/wilds/shiny ninjask.xml"/>
+<monster name="shiny ninjask" file="hoenn/shiny ninjask.xml"/>
+<monster name="shiny nosepass s" file="hoenn/wilds/shiny nosepass.xml"/>
+<monster name="shiny nosepass" file="hoenn/shiny nosepass.xml"/>
+<monster name="shiny numel s" file="hoenn/wilds/shiny numel.xml"/>
+<monster name="shiny numel" file="hoenn/shiny numel.xml"/>
+<monster name="shiny nuzleaf s" file="hoenn/wilds/shiny nuzleaf.xml"/>
+<monster name="shiny nuzleaf" file="hoenn/shiny nuzleaf.xml"/>
+<monster name="shiny pelipper s" file="hoenn/wilds/shiny pelipper.xml"/>
+<monster name="shiny pelipper" file="hoenn/shiny pelipper.xml"/>
+<monster name="shiny plusle s" file="hoenn/wilds/shiny plusle.xml"/>
+<monster name="shiny plusle" file="hoenn/shiny plusle.xml"/>
+<monster name="shiny poochyena s" file="hoenn/wilds/shiny poochyena.xml"/>
+<monster name="shiny poochyena" file="hoenn/shiny poochyena.xml"/>
+<monster name="shiny ralts s" file="hoenn/wilds/shiny ralts.xml"/>
+<monster name="shiny ralts" file="hoenn/shiny ralts.xml"/>
+<monster name="shiny rayquaza s" file="hoenn/wilds/shiny rayquaza.xml"/>
+<monster name="shiny rayquaza" file="hoenn/shiny rayquaza.xml"/>
+<monster name="shiny regice s" file="hoenn/wilds/shiny regice.xml"/>
+<monster name="shiny regice" file="hoenn/shiny regice.xml"/>
+<monster name="shiny regirock s" file="hoenn/wilds/shiny regirock.xml"/>
+<monster name="shiny regirock" file="hoenn/shiny regirock.xml"/>
+<monster name="shiny registeel s" file="hoenn/wilds/shiny registeel.xml"/>
+<monster name="shiny registeel" file="hoenn/shiny registeel.xml"/>
+<monster name="shiny relicanth s" file="hoenn/wilds/shiny relicanth.xml"/>
+<monster name="shiny relicanth" file="hoenn/shiny relicanth.xml"/>
+<monster name="shiny roselia s" file="hoenn/wilds/shiny roselia.xml"/>
+<monster name="shiny roselia" file="hoenn/shiny roselia.xml"/>
+<monster name="shiny sableye s" file="hoenn/wilds/shiny sableye.xml"/>
+<monster name="shiny sableye" file="hoenn/shiny sableye.xml"/>
+<monster name="shiny salamence s" file="hoenn/wilds/shiny salamence.xml"/>
+<monster name="shiny salamence" file="hoenn/shiny salamence.xml"/>
+<monster name="shiny sceptile s" file="hoenn/wilds/shiny sceptile.xml"/>
+<monster name="shiny sceptile" file="hoenn/shiny sceptile.xml"/>
+<monster name="shiny sealeo s" file="hoenn/wilds/shiny sealeo.xml"/>
+<monster name="shiny sealeo" file="hoenn/shiny sealeo.xml"/>
+<monster name="shiny seedot s" file="hoenn/wilds/shiny seedot.xml"/>
+<monster name="shiny seedot" file="hoenn/shiny seedot.xml"/>
+<monster name="shiny seviper s" file="hoenn/wilds/shiny seviper.xml"/>
+<monster name="shiny seviper" file="hoenn/shiny seviper.xml"/>
+<monster name="shiny sharpedo s" file="hoenn/wilds/shiny sharpedo.xml"/>
+<monster name="shiny sharpedo" file="hoenn/shiny sharpedo.xml"/>
+<monster name="shiny shedinja s" file="hoenn/wilds/shiny shedinja.xml"/>
+<monster name="shiny shedinja" file="hoenn/shiny shedinja.xml"/>
+<monster name="shiny shelgon s" file="hoenn/wilds/shiny shelgon.xml"/>
+<monster name="shiny shelgon" file="hoenn/shiny shelgon.xml"/>
+<monster name="shiny shiftry s" file="hoenn/wilds/shiny shiftry.xml"/>
+<monster name="shiny shiftry" file="hoenn/shiny shiftry.xml"/>
+<monster name="shiny shroomish s" file="hoenn/wilds/shiny shroomish.xml"/>
+<monster name="shiny shroomish" file="hoenn/shiny shroomish.xml"/>
+<monster name="shiny shuppet s" file="hoenn/wilds/shiny shuppet.xml"/>
+<monster name="shiny shuppet" file="hoenn/shiny shuppet.xml"/>
+<monster name="shiny silcoon s" file="hoenn/wilds/shiny silcoon.xml"/>
+<monster name="shiny silcoon" file="hoenn/shiny silcoon.xml"/>
+<monster name="shiny skitty s" file="hoenn/wilds/shiny skitty.xml"/>
+<monster name="shiny skitty" file="hoenn/shiny skitty.xml"/>
+<monster name="shiny slaking s" file="hoenn/wilds/shiny slaking.xml"/>
+<monster name="shiny slaking" file="hoenn/shiny slaking.xml"/>
+<monster name="shiny slakoth s" file="hoenn/wilds/shiny slakoth.xml"/>
+<monster name="shiny slakoth" file="hoenn/shiny slakoth.xml"/>
+<monster name="shiny snorunt s" file="hoenn/wilds/shiny snorunt.xml"/>
+<monster name="shiny snorunt" file="hoenn/shiny snorunt.xml"/>
+<monster name="shiny solrock s" file="hoenn/wilds/shiny solrock.xml"/>
+<monster name="shiny solrock" file="hoenn/shiny solrock.xml"/>
+<monster name="shiny spheal s" file="hoenn/wilds/shiny spheal.xml"/>
+<monster name="shiny spheal" file="hoenn/shiny spheal.xml"/>
+<monster name="shiny spinda s" file="hoenn/wilds/shiny spinda.xml"/>
+<monster name="shiny spinda" file="hoenn/shiny spinda.xml"/>
+<monster name="shiny spoink s" file="hoenn/wilds/shiny spoink.xml"/>
+<monster name="shiny spoink" file="hoenn/shiny spoink.xml"/>
+<monster name="shiny surskit s" file="hoenn/wilds/shiny surskit.xml"/>
+<monster name="shiny surskit" file="hoenn/shiny surskit.xml"/>
+<monster name="shiny swablu s" file="hoenn/wilds/shiny swablu.xml"/>
+<monster name="shiny swablu" file="hoenn/shiny swablu.xml"/>
+<monster name="shiny swalot s" file="hoenn/wilds/shiny swalot.xml"/>
+<monster name="shiny swalot" file="hoenn/shiny swalot.xml"/>
+<monster name="shiny swampert s" file="hoenn/wilds/shiny swampert.xml"/>
+<monster name="shiny swampert" file="hoenn/shiny swampert.xml"/>
+<monster name="shiny swellow s" file="hoenn/wilds/shiny swellow.xml"/>
+<monster name="shiny swellow" file="hoenn/shiny swellow.xml"/>
+<monster name="shiny taillow s" file="hoenn/wilds/shiny taillow.xml"/>
+<monster name="shiny taillow" file="hoenn/shiny taillow.xml"/>
+<monster name="shiny torchic s" file="hoenn/wilds/shiny torchic.xml"/>
+<monster name="shiny torchic" file="hoenn/shiny torchic.xml"/>
+<monster name="shiny torkoal s" file="hoenn/wilds/shiny torkoal.xml"/>
+<monster name="shiny torkoal" file="hoenn/shiny torkoal.xml"/>
+<monster name="shiny trapinch s" file="hoenn/wilds/shiny trapinch.xml"/>
+<monster name="shiny trapinch" file="hoenn/shiny trapinch.xml"/>
+<monster name="shiny treecko s" file="hoenn/wilds/shiny treecko.xml"/>
+<monster name="shiny treecko" file="hoenn/shiny treecko.xml"/>
+<monster name="shiny tropius s" file="hoenn/wilds/shiny tropius.xml"/>
+<monster name="shiny tropius" file="hoenn/shiny tropius.xml"/>
+<monster name="shiny vibrava s" file="hoenn/wilds/shiny vibrava.xml"/>
+<monster name="shiny vibrava" file="hoenn/shiny vibrava.xml"/>
+<monster name="shiny vigoroth s" file="hoenn/wilds/shiny vigoroth.xml"/>
+<monster name="shiny vigoroth" file="hoenn/shiny vigoroth.xml"/>
+<monster name="shiny volbeat s" file="hoenn/wilds/shiny volbeat.xml"/>
+<monster name="shiny volbeat" file="hoenn/shiny volbeat.xml"/>
+<monster name="shiny wailmer s" file="hoenn/wilds/shiny wailmer.xml"/>
+<monster name="shiny wailmer" file="hoenn/shiny wailmer.xml"/>
+<monster name="shiny wailord s" file="hoenn/wilds/shiny wailord.xml"/>
+<monster name="shiny wailord" file="hoenn/shiny wailord.xml"/>
+<monster name="shiny walrein s" file="hoenn/wilds/shiny walrein.xml"/>
+<monster name="shiny walrein" file="hoenn/shiny walrein.xml"/>
+<monster name="shiny whiscash s" file="hoenn/wilds/shiny whiscash.xml"/>
+<monster name="shiny whiscash" file="hoenn/shiny whiscash.xml"/>
+<monster name="shiny whismur s" file="hoenn/wilds/shiny whismur.xml"/>
+<monster name="shiny whismur" file="hoenn/shiny whismur.xml"/>
+<monster name="shiny wingull s" file="hoenn/wilds/shiny wingull.xml"/>
+<monster name="shiny wingull" file="hoenn/shiny wingull.xml"/>
+<monster name="shiny wurmple s" file="hoenn/wilds/shiny wurmple.xml"/>
+<monster name="shiny wurmple" file="hoenn/shiny wurmple.xml"/>
+<monster name="shiny zangoose s" file="hoenn/wilds/shiny zangoose.xml"/>
+<monster name="shiny zangoose" file="hoenn/shiny zangoose.xml"/>
+<monster name="shiny zigzagoon s" file="hoenn/wilds/shiny zigzagoon.xml"/>
+<monster name="shiny zigzagoon" file="hoenn/shiny zigzagoon.xml"/>
+
+
+--Sinnoh--
+
+<monster name="abomasnow s" file="sinnoh/wilds/abomasnow.xml"/>
+<monster name="abomasnow" file="sinnoh/abomasnow.xml"/>
+<monster name="ambipom s" file="sinnoh/wilds/ambipom.xml"/>
+<monster name="ambipom" file="sinnoh/ambipom.xml"/>
+<monster name="arceus s" file="sinnoh/wilds/arceus.xml"/>
+<monster name="arceus" file="sinnoh/arceus.xml"/>
+<monster name="azelf s" file="sinnoh/wilds/azelf.xml"/>
+<monster name="azelf" file="sinnoh/azelf.xml"/>
+<monster name="bastiodon s" file="sinnoh/wilds/bastiodon.xml"/>
+<monster name="bastiodon" file="sinnoh/bastiodon.xml"/>
+<monster name="bibarel s" file="sinnoh/wilds/bibarel.xml"/>
+<monster name="bibarel" file="sinnoh/bibarel.xml"/>
+<monster name="bidoof s" file="sinnoh/wilds/bidoof.xml"/>
+<monster name="bidoof" file="sinnoh/bidoof.xml"/>
+<monster name="bonsly s" file="sinnoh/wilds/bonsly.xml"/>
+<monster name="bonsly" file="sinnoh/bonsly.xml"/>
+<monster name="bronzong s" file="sinnoh/wilds/bronzong.xml"/>
+<monster name="bronzong" file="sinnoh/bronzong.xml"/>
+<monster name="bronzor s" file="sinnoh/wilds/bronzor.xml"/>
+<monster name="bronzor" file="sinnoh/bronzor.xml"/>
+<monster name="budew s" file="sinnoh/wilds/budew.xml"/>
+<monster name="budew" file="sinnoh/budew.xml"/>
+<monster name="buizel s" file="sinnoh/wilds/buizel.xml"/>
+<monster name="buizel" file="sinnoh/buizel.xml"/>
+<monster name="buneary s" file="sinnoh/wilds/buneary.xml"/>
+<monster name="buneary" file="sinnoh/buneary.xml"/>
+<monster name="burmy1 s" file="sinnoh/wilds/burmy1.xml"/>
+<monster name="burmy2 s" file="sinnoh/wilds/burmy2.xml"/>
+<monster name="burmy3 s" file="sinnoh/wilds/burmy3.xml"/>
+<monster name="burmy1" file="sinnoh/burmy1.xml"/>
+<monster name="burmy2" file="sinnoh/burmy2.xml"/>
+<monster name="burmy3" file="sinnoh/burmy3.xml"/>
+<monster name="carnivine s" file="sinnoh/wilds/carnivine.xml"/>
+<monster name="carnivine" file="sinnoh/carnivine.xml"/>
+<monster name="chatot s" file="sinnoh/wilds/chatot.xml"/>
+<monster name="chatot" file="sinnoh/chatot.xml"/>
+<monster name="cherrim s" file="sinnoh/wilds/cherrim.xml"/>
+<monster name="cherrim" file="sinnoh/cherrim.xml"/>
+<monster name="cherubi s" file="sinnoh/wilds/cherubi.xml"/>
+<monster name="cherubi" file="sinnoh/cherubi.xml"/>
+<monster name="chimchar s" file="sinnoh/wilds/chimchar.xml"/>
+<monster name="chimchar" file="sinnoh/chimchar.xml"/>
+<monster name="chingling s" file="sinnoh/wilds/chingling.xml"/>
+<monster name="chingling" file="sinnoh/chingling.xml"/>
+<monster name="combee s" file="sinnoh/wilds/combee.xml"/>
+<monster name="combee" file="sinnoh/combee.xml"/>
+<monster name="cranidos s" file="sinnoh/wilds/cranidos.xml"/>
+<monster name="cranidos" file="sinnoh/cranidos.xml"/>
+<monster name="cresselia s" file="sinnoh/wilds/cresselia.xml"/>
+<monster name="cresselia" file="sinnoh/cresselia.xml"/>
+<monster name="croagunk s" file="sinnoh/wilds/croagunk.xml"/>
+<monster name="croagunk" file="sinnoh/croagunk.xml"/>
+<monster name="darkrai s" file="sinnoh/wilds/darkrai.xml"/>
+<monster name="darkrai" file="sinnoh/darkrai.xml"/>
+<monster name="dialga s" file="sinnoh/wilds/dialga.xml"/>
+<monster name="dialga" file="sinnoh/dialga.xml"/>
+<monster name="drapion s" file="sinnoh/wilds/drapion.xml"/>
+<monster name="drapion" file="sinnoh/drapion.xml"/>
+<monster name="drifblim s" file="sinnoh/wilds/drifblim.xml"/>
+<monster name="drifblim" file="sinnoh/drifblim.xml"/>
+<monster name="drifloon s" file="sinnoh/wilds/drifloon.xml"/>
+<monster name="drifloon" file="sinnoh/drifloon.xml"/>
+<monster name="dusknoir s" file="sinnoh/wilds/dusknoir.xml"/>
+<monster name="dusknoir" file="sinnoh/dusknoir.xml"/>
+<monster name="electivire s" file="sinnoh/wilds/electivire.xml"/>
+<monster name="electivire" file="sinnoh/electivire.xml"/>
+<monster name="empoleon s" file="sinnoh/wilds/empoleon.xml"/>
+<monster name="empoleon" file="sinnoh/empoleon.xml"/>
+<monster name="finneon s" file="sinnoh/wilds/finneon.xml"/>
+<monster name="finneon" file="sinnoh/finneon.xml"/>
+<monster name="floatzel s" file="sinnoh/wilds/floatzel.xml"/>
+<monster name="floatzel" file="sinnoh/floatzel.xml"/>
+<monster name="froslass s" file="sinnoh/wilds/froslass.xml"/>
+<monster name="froslass" file="sinnoh/froslass.xml"/>
+<monster name="gabite s" file="sinnoh/wilds/gabite.xml"/>
+<monster name="gabite" file="sinnoh/gabite.xml"/>
+<monster name="gallade s" file="sinnoh/wilds/gallade.xml"/>
+<monster name="gallade" file="sinnoh/gallade.xml"/>
+<monster name="garchomp s" file="sinnoh/wilds/garchomp.xml"/>
+<monster name="garchomp" file="sinnoh/garchomp.xml"/>
+<monster name="gastrodon1 s" file="sinnoh/wilds/gastrodon1.xml"/>
+<monster name="gastrodon2 s" file="sinnoh/wilds/gastrodon2.xml"/>
+<monster name="gastrodon1" file="sinnoh/gastrodon1.xml"/>
+<monster name="gastrodon2" file="sinnoh/gastrodon2.xml"/>
+<monster name="gible s" file="sinnoh/wilds/gible.xml"/>
+<monster name="gible" file="sinnoh/gible.xml"/>
+<monster name="giratina s" file="sinnoh/wilds/giratina.xml"/>
+<monster name="giratina" file="sinnoh/giratina.xml"/>
+<monster name="glaceon s" file="sinnoh/wilds/glaceon.xml"/>
+<monster name="glaceon" file="sinnoh/glaceon.xml"/>
+<monster name="glameow s" file="sinnoh/wilds/glameow.xml"/>
+<monster name="glameow" file="sinnoh/glameow.xml"/>
+<monster name="gliscor s" file="sinnoh/wilds/gliscor.xml"/>
+<monster name="gliscor" file="sinnoh/gliscor.xml"/>
+<monster name="grotle s" file="sinnoh/wilds/grotle.xml"/>
+<monster name="grotle" file="sinnoh/grotle.xml"/>
+<monster name="happiny s" file="sinnoh/wilds/happiny.xml"/>
+<monster name="happiny" file="sinnoh/happiny.xml"/>
+<monster name="heatran s" file="sinnoh/wilds/heatran.xml"/>
+<monster name="heatran" file="sinnoh/heatran.xml"/>
+<monster name="hippopotas s" file="sinnoh/wilds/hippopotas.xml"/>
+<monster name="hippopotas" file="sinnoh/hippopotas.xml"/>
+<monster name="hippowdon s" file="sinnoh/wilds/hippowdon.xml"/>
+<monster name="hippowdon" file="sinnoh/hippowdon.xml"/>
+<monster name="honchkrow s" file="sinnoh/wilds/honchkrow.xml"/>
+<monster name="honchkrow" file="sinnoh/honchkrow.xml"/>
+<monster name="infernape s" file="sinnoh/wilds/infernape.xml"/>
+<monster name="infernape" file="sinnoh/infernape.xml"/>
+<monster name="kricketot s" file="sinnoh/wilds/kricketot.xml"/>
+<monster name="kricketot" file="sinnoh/kricketot.xml"/>
+<monster name="kricketune s" file="sinnoh/wilds/kricketune.xml"/>
+<monster name="kricketune" file="sinnoh/kricketune.xml"/>
+<monster name="leafeon s" file="sinnoh/wilds/leafeon.xml"/>
+<monster name="leafeon" file="sinnoh/leafeon.xml"/>
+<monster name="lickilicky s" file="sinnoh/wilds/lickilicky.xml"/>
+<monster name="lickilicky" file="sinnoh/lickilicky.xml"/>
+<monster name="lopunny s" file="sinnoh/wilds/lopunny.xml"/>
+<monster name="lopunny" file="sinnoh/lopunny.xml"/>
+<monster name="lucario s" file="sinnoh/wilds/lucario.xml"/>
+<monster name="lucario" file="sinnoh/lucario.xml"/>
+<monster name="lumineon s" file="sinnoh/wilds/lumineon.xml"/>
+<monster name="lumineon" file="sinnoh/lumineon.xml"/>
+<monster name="luxio s" file="sinnoh/wilds/luxio.xml"/>
+<monster name="luxio" file="sinnoh/luxio.xml"/>
+<monster name="luxray s" file="sinnoh/wilds/luxray.xml"/>
+<monster name="luxray" file="sinnoh/luxray.xml"/>
+<monster name="magmortar s" file="sinnoh/wilds/magmortar.xml"/>
+<monster name="magmortar" file="sinnoh/magmortar.xml"/>
+<monster name="magnezone s" file="sinnoh/wilds/magnezone.xml"/>
+<monster name="magnezone" file="sinnoh/magnezone.xml"/>
+<monster name="mamoswine s" file="sinnoh/wilds/mamoswine.xml"/>
+<monster name="mamoswine" file="sinnoh/mamoswine.xml"/>
+<monster name="manaphy s" file="sinnoh/wilds/manaphy.xml"/>
+<monster name="manaphy" file="sinnoh/manaphy.xml"/>
+<monster name="mantyke s" file="sinnoh/wilds/mantyke.xml"/>
+<monster name="mantyke" file="sinnoh/mantyke.xml"/>
+<monster name="mesprit s" file="sinnoh/wilds/mesprit.xml"/>
+<monster name="mesprit" file="sinnoh/mesprit.xml"/>
+<monster name="mime jr s" file="sinnoh/wilds/mime jr.xml"/>
+<monster name="mime jr" file="sinnoh/mime jr.xml"/>
+<monster name="mismagius s" file="sinnoh/wilds/mismagius.xml"/>
+<monster name="mismagius" file="sinnoh/mismagius.xml"/>
+<monster name="monferno s" file="sinnoh/wilds/monferno.xml"/>
+<monster name="monferno" file="sinnoh/monferno.xml"/>
+<monster name="mothim s" file="sinnoh/wilds/mothim.xml"/>
+<monster name="mothim" file="sinnoh/mothim.xml"/>
+<monster name="munchlax s" file="sinnoh/wilds/munchlax.xml"/>
+<monster name="munchlax" file="sinnoh/munchlax.xml"/>
+<monster name="pachirisu s" file="sinnoh/wilds/pachirisu.xml"/>
+<monster name="pachirisu" file="sinnoh/pachirisu.xml"/>
+<monster name="palkia s" file="sinnoh/wilds/palkia.xml"/>
+<monster name="palkia" file="sinnoh/palkia.xml"/>
+<monster name="phione s" file="sinnoh/wilds/phione.xml"/>
+<monster name="phione" file="sinnoh/phione.xml"/>
+<monster name="piplup s" file="sinnoh/wilds/piplup.xml"/>
+<monster name="piplup" file="sinnoh/piplup.xml"/>
+<monster name="porygonz s" file="sinnoh/wilds/porygonz.xml"/>
+<monster name="porygonz" file="sinnoh/porygonz.xml"/>
+<monster name="prinplup s" file="sinnoh/wilds/prinplup.xml"/>
+<monster name="prinplup" file="sinnoh/prinplup.xml"/>
+<monster name="probopass s" file="sinnoh/wilds/probopass.xml"/>
+<monster name="probopass" file="sinnoh/probopass.xml"/>
+<monster name="purugly s" file="sinnoh/wilds/purugly.xml"/>
+<monster name="purugly" file="sinnoh/purugly.xml"/>
+<monster name="rampardos s" file="sinnoh/wilds/rampardos.xml"/>
+<monster name="rampardos" file="sinnoh/rampardos.xml"/>
+<monster name="regigigas s" file="sinnoh/wilds/regigigas.xml"/>
+<monster name="regigigas" file="sinnoh/regigigas.xml"/>
+<monster name="rhyperior s" file="sinnoh/wilds/rhyperior.xml"/>
+<monster name="rhyperior" file="sinnoh/rhyperior.xml"/>
+<monster name="riolu s" file="sinnoh/wilds/riolu.xml"/>
+<monster name="riolu" file="sinnoh/riolu.xml"/>
+<monster name="roserade s" file="sinnoh/wilds/roserade.xml"/>
+<monster name="roserade" file="sinnoh/roserade.xml"/>
+<monster name="rotom s" file="sinnoh/wilds/rotom.xml"/>
+<monster name="rotom" file="sinnoh/rotom.xml"/>
+<monster name="shaymin s" file="sinnoh/wilds/shaymin.xml"/>
+<monster name="shaymin" file="sinnoh/shaymin.xml"/>
+<monster name="shellos1 s" file="sinnoh/wilds/shellos1.xml"/>
+<monster name="shellos2 s" file="sinnoh/wilds/shellos2.xml"/>
+<monster name="shellos1" file="sinnoh/shellos1.xml"/>
+<monster name="shellos2" file="sinnoh/shellos2.xml"/>
+<monster name="shieldon s" file="sinnoh/wilds/shieldon.xml"/>
+<monster name="shieldon" file="sinnoh/shieldon.xml"/>
+<monster name="shinx s" file="sinnoh/wilds/shinx.xml"/>
+<monster name="shinx" file="sinnoh/shinx.xml"/>
+<monster name="skorupi s" file="sinnoh/wilds/skorupi.xml"/>
+<monster name="skorupi" file="sinnoh/skorupi.xml"/>
+<monster name="skuntank s" file="sinnoh/wilds/skuntank.xml"/>
+<monster name="skuntank" file="sinnoh/skuntank.xml"/>
+<monster name="snover s" file="sinnoh/wilds/snover.xml"/>
+<monster name="snover" file="sinnoh/snover.xml"/>
+<monster name="spiritomb s" file="sinnoh/wilds/spiritomb.xml"/>
+<monster name="spiritomb" file="sinnoh/spiritomb.xml"/>
+<monster name="staraptor s" file="sinnoh/wilds/staraptor.xml"/>
+<monster name="staraptor" file="sinnoh/staraptor.xml"/>
+<monster name="staravia s" file="sinnoh/wilds/staravia.xml"/>
+<monster name="staravia" file="sinnoh/staravia.xml"/>
+<monster name="starly s" file="sinnoh/wilds/starly.xml"/>
+<monster name="starly" file="sinnoh/starly.xml"/>
+<monster name="stunky s" file="sinnoh/wilds/stunky.xml"/>
+<monster name="stunky" file="sinnoh/stunky.xml"/>
+<monster name="tangrowth s" file="sinnoh/wilds/tangrowth.xml"/>
+<monster name="tangrowth" file="sinnoh/tangrowth.xml"/>
+<monster name="togekiss s" file="sinnoh/wilds/togekiss.xml"/>
+<monster name="togekiss" file="sinnoh/togekiss.xml"/>
+<monster name="torterra s" file="sinnoh/wilds/torterra.xml"/>
+<monster name="torterra" file="sinnoh/torterra.xml"/>
+<monster name="toxicroak s" file="sinnoh/wilds/toxicroak.xml"/>
+<monster name="toxicroak" file="sinnoh/toxicroak.xml"/>
+<monster name="turtwig s" file="sinnoh/wilds/turtwig.xml"/>
+<monster name="turtwig" file="sinnoh/turtwig.xml"/>
+<monster name="uxie s" file="sinnoh/wilds/uxie.xml"/>
+<monster name="uxie" file="sinnoh/uxie.xml"/>
+<monster name="vespiquen s" file="sinnoh/wilds/vespiquen.xml"/>
+<monster name="vespiquen" file="sinnoh/vespiquen.xml"/>
+<monster name="weavile s" file="sinnoh/wilds/weavile.xml"/>
+<monster name="weavile" file="sinnoh/weavile.xml"/>
+<monster name="wormadam s" file="sinnoh/wilds/wormadam1.xml"/>
+
+<monster name="wormadam" file="sinnoh/wormadam1.xml"/>
+
+<monster name="yanmega s" file="sinnoh/wilds/yanmega.xml"/>
+<monster name="yanmega" file="sinnoh/yanmega.xml"/>
+
+--Gym Kanto--
+
+-01- -Pewter- -Boulder Badge- -Brock-
+<monster name="golem gkbr" file="treinadores/gym kanto/brock/golem.xml"/>
+<monster name="kabutops gkbr" file="treinadores/gym kanto/brock/kabutops.xml"/>
+<monster name="omastar gkbr" file="treinadores/gym kanto/brock/omastar.xml"/>
+<monster name="onix gkbr" file="treinadores/gym kanto/brock/onix.xml"/>
+<monster name="rhydon gkbr" file="treinadores/gym kanto/brock/rhydon.xml"/>
+
+-02- -Cerulean- -Cascade Badge- -Misty-
+<monster name="blastoise gkm" file="treinadores/gym kanto/misty/blastoise.xml"/>
+<monster name="dewgong gkm" file="treinadores/gym kanto/misty/dewgong.xml"/>
+<monster name="golduck gkm" file="treinadores/gym kanto/misty/golduck.xml"/>
+<monster name="gyarados gkm" file="treinadores/gym kanto/misty/gyarados.xml"/>
+<monster name="lapras gkm" file="treinadores/gym kanto/misty/lapras.xml"/>
+<monster name="starmie gkm" file="treinadores/gym kanto/misty/starmie.xml"/>
+
+-03- -Vermilion- -Thunder Badge- -Surge-
+<monster name="electabuzz gksu" file="treinadores/gym kanto/surge/electabuzz.xml"/>
+<monster name="electrode gksu" file="treinadores/gym kanto/surge/electrode.xml"/>
+<monster name="jolteon gksu" file="treinadores/gym kanto/surge/jolteon.xml"/>
+<monster name="magneton gksu" file="treinadores/gym kanto/surge/magneton.xml"/>
+<monster name="raichu gksu" file="treinadores/gym kanto/surge/raichu.xml"/>
+
+-04- -Celadon- -Rainbow Badge- -Erica-
+<monster name="exeggutor gke" file="treinadores/gym kanto/erica/exeggutor.xml"/>
+<monster name="parasect gke" file="treinadores/gym kanto/erica/parasect.xml"/>
+<monster name="tangela gke" file="treinadores/gym kanto/erica/tangela.xml"/>
+<monster name="venusaur gke" file="treinadores/gym kanto/erica/venusaur.xml"/>
+<monster name="victreebel gke" file="treinadores/gym kanto/erica/victreebel.xml"/>
+<monster name="vileplume gke" file="treinadores/gym kanto/erica/vileplume.xml"/>
+
+-05- -Fuchsia- -Soul Badge- -Koga-
+<monster name="arbok gkk" file="treinadores/gym kanto/koga/arbok.xml"/>
+<monster name="beedrill gkk" file="treinadores/gym kanto/koga/beedrill.xml"/>
+<monster name="muk gkk" file="treinadores/gym kanto/koga/muk.xml"/>
+<monster name="nidoqueen gkk" file="treinadores/gym kanto/koga/nidoqueen.xml"/>
+<monster name="venomoth gkk" file="treinadores/gym kanto/koga/venomoth.xml"/>
+<monster name="weezing gkk" file="treinadores/gym kanto/koga/weezing.xml"/>
+
+-06- -Saffron- -Marsh Badge- -Sabrina-
+<monster name="alakazam gksa" file="treinadores/gym kanto/sabrina/alakazam.xml"/>
+<monster name="exeggutor gksa" file="treinadores/gym kanto/sabrina/exeggutor.xml"/>
+<monster name="gengar gksa" file="treinadores/gym kanto/sabrina/gengar.xml"/>
+<monster name="hypno gksa" file="treinadores/gym kanto/sabrina/hypno.xml"/>
+<monster name="jynx gksa" file="treinadores/gym kanto/sabrina/jynx.xml"/>
+<monster name="mr mime gksa" file="treinadores/gym kanto/sabrina/mr mime.xml"/>
+
+-07- -Cinnabar- -Volcano Badge- -Blaine-
+<monster name="arcanine gkbl" file="treinadores/gym kanto/blaine/arcanine.xml"/>
+<monster name="charizard gkbl" file="treinadores/gym kanto/blaine/charizard.xml"/>
+<monster name="flareon gkbl" file="treinadores/gym kanto/blaine/flareon.xml"/>
+<monster name="magmar gkbl" file="treinadores/gym kanto/blaine/magmar.xml"/>
+<monster name="ninetales gkbl" file="treinadores/gym kanto/blaine/ninetales.xml"/>
+<monster name="rapidash gkbl" file="treinadores/gym kanto/blaine/rapidash.xml"/>
+
+-08- -Viridian- -Earth Badge- -Giovanni-
+<monster name="kangaskhan gkg" file="treinadores/gym kanto/giovanni/kangaskhan.xml"/>
+<monster name="marowak gkg" file="treinadores/gym kanto/giovanni/marowak.xml"/>
+<monster name="nidoking gkg" file="treinadores/gym kanto/giovanni/nidoking.xml"/>
+<monster name="persian gkg" file="treinadores/gym kanto/giovanni/persian.xml"/>
+<monster name="sandslash gkg" file="treinadores/gym kanto/giovanni/sandslash.xml"/>
+<monster name="snorlax gkg" file="treinadores/gym kanto/giovanni/snorlax.xml"/>
+
+
+--Liga Kanto--
+
+-Elite 1- -Lorelei-
+<monster name="shiny cloyster lklo" file="treinadores/liga kanto/lorelei/shiny cloyster.xml"/>
+<monster name="shiny dewgong lklo" file="treinadores/liga kanto/lorelei/shiny dewgong.xml"/>
+<monster name="shiny jynx lklo" file="treinadores/liga kanto/lorelei/shiny jynx.xml"/>
+<monster name="shiny lapras lklo" file="treinadores/liga kanto/lorelei/shiny lapras.xml"/>
+
+-Elite 2- -Bruno-
+<monster name="crystal onix lkb" file="treinadores/liga kanto/bruno/crystal onix.xml"/>
+<monster name="elite hitmonchan lkb" file="treinadores/liga kanto/bruno/hitmonchan.xml"/>
+<monster name="hitmonlee lkb" file="treinadores/liga kanto/bruno/hitmonlee.xml"/>
+<monster name="elite hitmonlee lkb" file="treinadores/liga kanto/bruno/elite hitmonlee.xml"/>
+<monster name="shiny machamp lkb" file="treinadores/liga kanto/bruno/shiny machamp.xml"/>
+
+-Elite 3- -Agatha-
+<monster name="shiny arbok lkag" file="treinadores/liga kanto/agatha/shiny arbok.xml"/>
+<monster name="shiny gengar lkag" file="treinadores/liga kanto/agatha/shiny gengar.xml"/>
+<monster name="shiny golbat lkag" file="treinadores/liga kanto/agatha/shiny golbat.xml"/>
+<monster name="shiny muk lkag" file="treinadores/liga kanto/agatha/shiny muk.xml"/>
+
+-Elite 4- -Lance-
+<monster name="aerodactyl lkla" file="treinadores/liga kanto/lance/aerodactyl.xml"/>
+<monster name="shiny dragonair lkla" file="treinadores/liga kanto/lance/shiny dragonair.xml"/>
+<monster name="shiny dragonite lkla" file="treinadores/liga kanto/lance/shiny dragonite.xml"/>
+<monster name="shiny gyarados lkla" file="treinadores/liga kanto/lance/shiny gyarados.xml"/>
+
+-Champion- -Ash-
+<monster name="elder charizard lkas" file="treinadores/liga kanto/ash/elder charizard.xml"/>
+<monster name="shiny blastoise lkas" file="treinadores/liga kanto/ash/shiny blastoise.xml"/>
+<monster name="shiny pikachu lkas" file="treinadores/liga kanto/ash/shiny pikachu.xml"/>
+<monster name="shiny snorlax lkas" file="treinadores/liga kanto/ash/shiny snorlax.xml"/>
+<monster name="shiny venusaur lkas" file="treinadores/liga kanto/ash/shiny venusaur.xml"/>
+
+
+--Gym Johtho--
+
+-01- -Violet- -Zephyr Badge- -Falkner-
+<monster name="dodrio gjf" file="treinadores/gym johto/falkner/dodrio.xml"/>
+<monster name="farfetchd gjf" file="treinadores/gym johto/falkner/farfetchd.xml"/>
+<monster name="fearow gjf" file="treinadores/gym johto/falkner/fearow.xml"/>
+<monster name="ledian gjf" file="treinadores/gym johto/falkner/ledian.xml"/>
+<monster name="noctowl gjf" file="treinadores/gym johto/falkner/noctowl.xml"/>
+<monster name="pidgeot gjf" file="treinadores/gym johto/falkner/pidgeot.xml"/>
+
+-02- -Azalea- -Hive Badge- -Bugsy-
+<monster name="airados gjb" file="treinadores/gym johto/bugsy/airados.xml"/>
+<monster name="beedrill gjb" file="treinadores/gym johto/bugsy/beedrill.xml"/>
+<monster name="butterfree gjb" file="treinadores/gym johto/bugsy/butterfree.xml"/>
+<monster name="pinsir gjb" file="treinadores/gym johto/bugsy/pinsir.xml"/>
+<monster name="scyther gjb" file="treinadores/gym johto/bugsy/scyther.xml"/>
+<monster name="yanma gjb" file="treinadores/gym johto/bugsy/yanma.xml"/>
+
+-03- -Goldenrod- -Plain Badge- -Whitney-
+<monster name="blissey gjw" file="treinadores/gym johto/whitney/blissey.xml"/>
+<monster name="dunsparce gjw" file="treinadores/gym johto/whitney/dunsparce.xml"/>
+<monster name="miltank gjw" file="treinadores/gym johto/whitney/miltank.xml"/>
+<monster name="stantler gjw" file="treinadores/gym johto/whitney/stantler.xml"/>
+<monster name="togetic gjw" file="treinadores/gym johto/whitney/togetic.xml"/>
+<monster name="ursaring gjw" file="treinadores/gym johto/whitney/ursaring.xml"/>
+
+-04- -Ecruteak- -Fog Badge- -Morty-
+<monster name="houndoom gjm" file="treinadores/gym johto/morty/houndoom.xml"/>
+<monster name="misdreavus gjm" file="treinadores/gym johto/morty/misdreavus.xml"/>
+<monster name="murkrow gjm" file="treinadores/gym johto/morty/murkrow.xml"/>
+<monster name="sneasel gjm" file="treinadores/gym johto/morty/sneasel.xml"/>
+<monster name="tyranitar gjm" file="treinadores/gym johto/morty/tyranitar.xml"/>
+<monster name="umbreon gjm" file="treinadores/gym johto/morty/umbreon.xml"/>
+
+-05- -Cianwood- -Storm Badge- -Chuck-
+<monster name="hitmonchan gjch" file="treinadores/gym johto/chuck/hitmonchan.xml"/>
+<monster name="hitmonlee gjch" file="treinadores/gym johto/chuck/hitmonlee.xml"/>
+<monster name="hitmontop gjch" file="treinadores/gym johto/chuck/hitmontop.xml"/>
+<monster name="machamp gjch" file="treinadores/gym johto/chuck/machamp.xml"/>
+<monster name="poliwrath gjch" file="treinadores/gym johto/chuck/poliwrath.xml"/>
+<monster name="primeape gjch" file="treinadores/gym johto/chuck/primeape.xml"/>
+
+-06- -Olivine- -Mineral Badge- -Jasmine-
+<monster name="ampharos gjj" file="treinadores/gym johto/jasmine/ampharos.xml"/>
+<monster name="forretress gjj" file="treinadores/gym johto/jasmine/forretress.xml"/>
+<monster name="magneton gjj" file="treinadores/gym johto/jasmine/magneton.xml"/>
+<monster name="scizor gjj" file="treinadores/gym johto/jasmine/scizor.xml"/>
+<monster name="skarmory gjj" file="treinadores/gym johto/jasmine/skarmory.xml"/>
+<monster name="steelix gjj" file="treinadores/gym johto/jasmine/steelix.xml"/>
+
+-07- -Mahogany- -Glacier Badge- -Pryce-
+<monster name="cloyster gjp" file="treinadores/gym johto/pryce/cloyster.xml"/>
+<monster name="delibird gjp" file="treinadores/gym johto/pryce/delibird.xml"/>
+<monster name="dewgong gjp" file="treinadores/gym johto/pryce/dewgong.xml"/>
+<monster name="lapras gjp" file="treinadores/gym johto/pryce/lapras.xml"/>
+<monster name="piloswine gjp" file="treinadores/gym johto/pryce/piloswine.xml"/>
+<monster name="sneasel gjp" file="treinadores/gym johto/pryce/sneasel.xml"/>
+
+-08- -Blackthorn- -Rising Badge- -Clair-
+<monster name="aerodactyl gjcl" file="treinadores/gym johto/clair/aerodactyl.xml"/>
+<monster name="dragonite gjcl" file="treinadores/gym johto/clair/dragonite.xml"/>
+<monster name="feraligatr gjcl" file="treinadores/gym johto/clair/feraligatr.xml"/>
+<monster name="gyarados gjcl" file="treinadores/gym johto/clair/gyarados.xml"/>
+<monster name="kingdra gjcl" file="treinadores/gym johto/clair/kingdra.xml"/>
+<monster name="mantine gjcl" file="treinadores/gym johto/clair/mantine.xml"/>
+
+
+--Strongs Fogo--
+
+<monster name="arcanine l" file="legendary/fogo/arcanine.xml"/>
+<monster name="blaziken l" file="legendary/fogo/blaziken.xml"/>
+<monster name="charizard l" file="legendary/fogo/charizard.xml"/>
+<monster name="charmander l" file="legendary/fogo/charmander.xml"/>
+<monster name="charmeleon l" file="legendary/fogo/charmeleon.xml"/>
+<monster name="combusken l" file="legendary/fogo/combusken.xml"/>
+<monster name="cyndaquil l" file="legendary/fogo/cyndaquil.xml"/>
+<monster name="growlithe l" file="legendary/fogo/growlithe.xml"/>
+<monster name="houndoom l" file="legendary/fogo/houndoom.xml"/>
+<monster name="houndour l" file="legendary/fogo/houndour.xml"/>
+<monster name="magby l" file="legendary/fogo/magby.xml"/>
+<monster name="magcargo l" file="legendary/fogo/magcargo.xml"/>
+<monster name="magmar l" file="legendary/fogo/magmar.xml"/>
+<monster name="ninetales l" file="legendary/fogo/ninetales.xml"/>
+<monster name="ponyta l" file="legendary/fogo/ponyta.xml"/>
+<monster name="quilava l" file="legendary/fogo/quilava.xml"/>
+<monster name="rapidash l" file="legendary/fogo/rapidash.xml"/>
+<monster name="slugma l" file="legendary/fogo/slugma.xml"/>
+<monster name="torchic l" file="legendary/fogo/torchic.xml"/>
+<monster name="typhlosion l" file="legendary/fogo/typhlosion.xml"/>
+<monster name="vulpix l" file="legendary/fogo/vulpix.xml"/>
+<monster name="camerupt l" file="legendary/fogo/camerupt.xml"/>
+<monster name="numel l" file="legendary/fogo/numel.xml"/>
+<monster name="torkoal l" file="legendary/fogo/torkoal.xml"/>
+
+-- Doors Fire --
+
+<monster name="fire1" file="legendary/doorfire/fire1.xml"/>
+<monster name="fire2" file="legendary/doorfire/fire2.xml"/>
+<monster name="fire3" file="legendary/doorfire/fire3.xml"/>
+<monster name="fire4" file="legendary/doorfire/fire4.xml"/>
+<monster name="fire5" file="legendary/doorfire/fire5.xml"/>
+<monster name="fire6" file="legendary/doorfire/fire6.xml"/>
+<monster name="fire7" file="legendary/doorfire/fire7.xml"/>
+<monster name="fire8" file="legendary/doorfire/fire8.xml"/>
+<monster name="fire9" file="legendary/doorfire/fire9.xml"/>
+<monster name="fire10" file="legendary/doorfire/fire10.xml"/>
+<monster name="fire11" file="legendary/doorfire/fire11.xml"/>
+<monster name="fire12" file="legendary/doorfire/fire12.xml"/>
+<monster name="fire13" file="legendary/doorfire/fire13.xml"/>
+<monster name="fire14" file="legendary/doorfire/fire14.xml"/>
+<monster name="fire15" file="legendary/doorfire/fire15.xml"/>
+<monster name="fire16" file="legendary/doorfire/fire16.xml"/>
+<monster name="fire17" file="legendary/doorfire/fire17.xml"/>
+<monster name="fire18" file="legendary/doorfire/fire18.xml"/>
+<monster name="fire19" file="legendary/doorfire/fire19.xml"/>
+<monster name="fire20" file="legendary/doorfire/fire20.xml"/>
+<monster name="fire21" file="legendary/doorfire/fire21.xml"/>
+<monster name="fire22" file="legendary/doorfire/fire22.xml"/>
+
+
+--Strongs Eletrico--
+
+<monster name="ampharos l" file="legendary/eletrico/ampharos.xml"/>
+<monster name="chinchou l" file="legendary/eletrico/chinchou.xml"/>
+<monster name="electabuzz l" file="legendary/eletrico/electabuzz.xml"/>
+<monster name="electrode l" file="legendary/eletrico/electrode.xml"/>
+<monster name="elekid l" file="legendary/eletrico/elekid.xml"/>
+<monster name="flaaffy l" file="legendary/eletrico/flaaffy.xml"/>
+<monster name="jolteon l" file="legendary/eletrico/jolteon.xml"/>
+<monster name="lanturn l" file="legendary/eletrico/lanturn.xml"/>
+<monster name="magnemite l" file="legendary/eletrico/magnemite.xml"/>
+<monster name="magneton l" file="legendary/eletrico/magneton.xml"/>
+<monster name="mareep l" file="legendary/eletrico/mareep.xml"/>
+<monster name="pichu l" file="legendary/eletrico/pichu.xml"/>
+<monster name="pikachu l" file="legendary/eletrico/pikachu.xml"/>
+<monster name="raichu l" file="legendary/eletrico/raichu.xml"/>
+<monster name="voltorb l" file="legendary/eletrico/voltorb.xml"/>
+<monster name="electrike l" file="legendary/eletrico/electrike.xml"/>
+<monster name="manectric l" file="legendary/eletrico/manectric.xml"/>
+<monster name="minun l" file="legendary/eletrico/minun.xml"/>
+<monster name="plusle l" file="legendary/eletrico/plusle.xml"/>
+
+
+--Strongs Gelo--
+
+<monster name="cloyster l" file="legendary/gelo/cloyster.xml"/>
+<monster name="delibird l" file="legendary/gelo/delibird.xml"/>
+<monster name="dewgong l" file="legendary/gelo/dewgong.xml"/>
+<monster name="glalie l" file="legendary/gelo/glalie.xml"/>
+<monster name="jynx l" file="legendary/gelo/jynx.xml"/>
+<monster name="lapras l" file="legendary/gelo/lapras.xml"/>
+<monster name="piloswine l" file="legendary/gelo/piloswine.xml"/>
+<monster name="sealeo l" file="legendary/gelo/sealeo.xml"/>
+<monster name="seel l" file="legendary/gelo/seel.xml"/>
+<monster name="smoochum l" file="legendary/gelo/smoochum.xml"/>
+<monster name="sneasel l" file="legendary/gelo/sneasel.xml"/>
+<monster name="snorunt l" file="legendary/gelo/snorunt.xml"/>
+<monster name="spheal l" file="legendary/gelo/spheal.xml"/>
+<monster name="swinub l" file="legendary/gelo/swinub.xml"/>
+<monster name="walrein l" file="legendary/gelo/walrein.xml"/>
+
+
+--Strongs Agua--
+
+<monster name="azumarill l" file="legendary/agua/azumarill.xml"/>
+<monster name="barboach l" file="legendary/agua/barboach.xml"/>
+<monster name="blastoise l" file="legendary/agua/blastoise.xml"/>
+<monster name="carvanha l" file="legendary/agua/carvanha.xml"/>
+<monster name="clamperl l" file="legendary/agua/clamperl.xml"/>
+<monster name="corphish l" file="legendary/agua/corphish.xml"/>
+<monster name="corsola l" file="legendary/agua/corsola.xml"/>
+<monster name="crawdaunt l" file="legendary/agua/crawdaunt.xml"/>
+<monster name="croconaw l" file="legendary/agua/croconaw.xml"/>
+<monster name="feebas l" file="legendary/agua/feebas.xml"/>
+<monster name="feraligatr l" file="legendary/agua/feraligatr.xml"/>
+<monster name="goldeen l" file="legendary/agua/goldeen.xml"/>
+<monster name="golduck l" file="legendary/agua/golduck.xml"/>
+<monster name="gorebyss l" file="legendary/agua/gorebyss.xml"/>
+<monster name="gyarados l" file="legendary/agua/gyarados.xml"/>
+<monster name="horsea l" file="legendary/agua/horsea.xml"/>
+<monster name="huntail l" file="legendary/agua/huntail.xml"/>
+<monster name="kabuto l" file="legendary/agua/kabuto.xml"/>
+<monster name="kabutops l" file="legendary/agua/kabutops.xml"/>
+<monster name="kingdra l" file="legendary/agua/kingdra.xml"/>
+<monster name="kingler l" file="legendary/agua/kingler.xml"/>
+<monster name="krabby l" file="legendary/agua/krabby.xml"/>
+<monster name="lombre l" file="legendary/agua/lombre.xml"/>
+<monster name="lotad l" file="legendary/agua/lotad.xml"/>
+<monster name="ludicolo l" file="legendary/agua/ludicolo.xml"/>
+<monster name="luvdisc l" file="legendary/agua/luvdisc.xml"/>
+<monster name="magikarp l" file="legendary/agua/magikarp.xml"/>
+<monster name="mantine l" file="legendary/agua/mantine.xml"/>
+<monster name="marill l" file="legendary/agua/marill.xml"/>
+<monster name="marshtomp l" file="legendary/agua/marshtomp.xml"/>
+<monster name="milotic l" file="legendary/agua/milotic.xml"/>
+<monster name="mudkip l" file="legendary/agua/mudkip.xml"/>
+<monster name="octillery l" file="legendary/agua/octillery.xml"/>
+<monster name="omanyte l" file="legendary/agua/omanyte.xml"/>
+<monster name="omastar l" file="legendary/agua/omastar.xml"/>
+<monster name="pelipper l" file="legendary/agua/pelipper.xml"/>
+<monster name="politoed l" file="legendary/agua/politoed.xml"/>
+<monster name="poliwag l" file="legendary/agua/poliwag.xml"/>
+<monster name="poliwhirl l" file="legendary/agua/poliwhirl.xml"/>
+<monster name="poliwrath l" file="legendary/agua/poliwrath.xml"/>
+<monster name="psyduck l" file="legendary/agua/psyduck.xml"/>
+<monster name="quagsire l" file="legendary/agua/quagsire.xml"/>
+<monster name="qwilfish l" file="legendary/agua/qwilfish.xml"/>
+<monster name="relicanth l" file="legendary/agua/relicanth.xml"/>
+<monster name="remoraid l" file="legendary/agua/remoraid.xml"/>
+<monster name="seadra l" file="legendary/agua/seadra.xml"/>
+<monster name="seaking l" file="legendary/agua/seaking.xml"/>
+<monster name="sharpedo l" file="legendary/agua/sharpedo.xml"/>
+<monster name="shellder l" file="legendary/agua/shellder.xml"/>
+<monster name="slowbro l" file="legendary/agua/slowbro.xml"/>
+<monster name="slowking l" file="legendary/agua/slowking.xml"/>
+<monster name="slowpoke l" file="legendary/agua/slowpoke.xml"/>
+<monster name="squirtle l" file="legendary/agua/squirtle.xml"/>
+<monster name="starmie l" file="legendary/agua/starmie.xml"/>
+<monster name="staryu l" file="legendary/agua/staryu.xml"/>
+<monster name="surskit l" file="legendary/agua/surskit.xml"/>
+<monster name="swampert l" file="legendary/agua/swampert.xml"/>
+<monster name="tentacool l" file="legendary/agua/tentacool.xml"/>
+<monster name="tentacruel l" file="legendary/agua/tentacruel.xml"/>
+<monster name="totodile l" file="legendary/agua/totodile.xml"/>
+<monster name="vaporeon l" file="legendary/agua/vaporeon.xml"/>
+<monster name="wailmer l" file="legendary/agua/wailmer.xml"/>
+<monster name="wailord l" file="legendary/agua/wailord.xml"/>
+<monster name="wartortle l" file="legendary/agua/wartortle.xml"/>
+<monster name="whiscash l" file="legendary/agua/whiscash.xml"/>
+<monster name="wingull l" file="legendary/agua/wingull.xml"/>
+<monster name="wooper l" file="legendary/agua/wooper.xml"/>
+
+
+--Strongs Psiquico--
+
+<monster name="abra l" file="legendary/psiquico/abra.xml"/>
+<monster name="alakazam l" file="legendary/psiquico/alakazam.xml"/>
+<monster name="baltoy l" file="legendary/psiquico/baltoy.xml"/>
+<monster name="beldum l" file="legendary/psiquico/beldum.xml"/>
+<monster name="chimecho l" file="legendary/psiquico/chimecho.xml"/>
+<monster name="claydol l" file="legendary/psiquico/claydol.xml"/>
+<monster name="drowzee l" file="legendary/psiquico/drowzee.xml"/>
+<monster name="espeon l" file="legendary/psiquico/espeon.xml"/>
+<monster name="exeggcute l" file="legendary/psiquico/exeggcute.xml"/>
+<monster name="exeggutor l" file="legendary/psiquico/exeggutor.xml"/>
+<monster name="gardevoir l" file="legendary/psiquico/gardevoir.xml"/>
+<monster name="girafarig l" file="legendary/psiquico/girafarig.xml"/>
+<monster name="grumpig l" file="legendary/psiquico/grumpig.xml"/>
+<monster name="hypno l" file="legendary/psiquico/hypno.xml"/>
+<monster name="kadabra l" file="legendary/psiquico/kadabra.xml"/>
+<monster name="kirlia l" file="legendary/psiquico/kirlia.xml"/>
+<monster name="lunatone l" file="legendary/psiquico/lunatone.xml"/>
+<monster name="medicham l" file="legendary/psiquico/medicham.xml"/>
+<monster name="meditite l" file="legendary/psiquico/meditite.xml"/>
+<monster name="metagross l" file="legendary/psiquico/metagross.xml"/>
+<monster name="metang l" file="legendary/psiquico/metang.xml"/>
+<monster name="mr mime l" file="legendary/psiquico/mr mime.xml"/>
+<monster name="natu l" file="legendary/psiquico/natu.xml"/>
+<monster name="ralts l" file="legendary/psiquico/ralts.xml"/>
+<monster name="solrock l" file="legendary/psiquico/solrock.xml"/>
+<monster name="spoink l" file="legendary/psiquico/spoink.xml"/>
+<monster name="unown l" file="legendary/psiquico/unown.xml"/>
+<monster name="wobbuffet l" file="legendary/psiquico/wobbuffet.xml"/>
+<monster name="wynaut l" file="legendary/psiquico/wynaut.xml"/>
+<monster name="xatu l" file="legendary/psiquico/xatu.xml"/>
+
+
+--Giants --
+
+<monster name="giant snorlax" file="kanto/giant snorlax.xml"/>
+<monster name="giant snorlax s" file="kanto/wilds/giant snorlax.xml"/>
+<monster name="giant snorlax l" file="kanto/wilds/giant snorlax.xml"/>
+
+<monster name="ancient kabutops" file="giants/ancient kabutops.xml"/>
+<monster name="ancient kabutops s" file="giants/wilds/ancient kabutops.xml"/>
+<monster name="ancient kabutops l" file="giants/wilds/ancient kabutops.xml"/>
+
+<monster name="giant gengar" file="giants/giant gengar.xml"/>
+<monster name="giant gengar s" file="giants/wilds/giant gengar.xml"/>
+<monster name="giant gengar l" file="giants/wilds/giant gengar.xml"/>
+
+<monster name="giant magikarp" file="giants/giant magikarp.xml"/>
+<monster name="giant magikarp s" file="giants/wilds/giant magikarp.xml"/>
+<monster name="giant magikarp l" file="giants/wilds/giant magikarp.xml"/>
+
+<monster name="giant porygon" file="giants/giant porygon.xml"/>
+<monster name="giant porygon s" file="giants/wilds/giant porygon.xml"/>
+<monster name="giant porygon l" file="giants/wilds/giant porygon.xml"/>
+
+<monster name="giant snowlax" file="giants/giant snowlax.xml"/>
+<monster name="giant snowlax s" file="giants/wilds/giant snowlax.xml"/>
+<monster name="giant snowlax l" file="giants/wilds/giant snowlax.xml"/>
+
+--Headbut--
+
+<monster name="aipom h" file="headbut/aipom.xml"/>
+<monster name="ariados h" file="headbut/airados.xml"/>
+<monster name="arbok h" file="headbut/arbok.xml"/>
+<monster name="bayleef h" file="headbut/bayleef.xml"/>
+<monster name="beautifly h" file="headbut/beautifly.xml"/>
+<monster name="beedrill h" file="headbut/beedrill.xml"/>
+<monster name="bellossom h" file="headbut/bellossom.xml"/>
+<monster name="bellsprout h" file="headbut/bellsprout.xml"/>
+<monster name="blissey h" file="headbut/blissey.xml"/>
+<monster name="bulbasaur h" file="headbut/bulbasaur.xml"/>
+<monster name="butterfree h" file="headbut/butterfree.xml"/>
+<monster name="cascoon h" file="headbut/cascoon.xml"/>
+<monster name="caterpie h" file="headbut/caterpie.xml"/>
+<monster name="chansey h" file="headbut/chansey.xml"/>
+<monster name="chikorita h" file="headbut/chikorita.xml"/>
+<monster name="clefable h" file="headbut/clefable.xml"/>
+<monster name="clefairy h" file="headbut/clefairy.xml"/>
+<monster name="cleffa h" file="headbut/cleffa.xml"/>
+<monster name="crobat h" file="headbut/crobat.xml"/>
+<monster name="delibird h" file="headbut/delibird.xml"/>
+<monster name="dodrio h" file="headbut/dodrio.xml"/>
+<monster name="doduo h" file="headbut/doduo.xml"/>
+<monster name="dunsparce h" file="headbut/dunsparce.xml"/>
+<monster name="dustox h" file="headbut/dustox.xml"/>
+<monster name="eevee h" file="headbut/eevee.xml"/>
+<monster name="ekans h" file="headbut/ekans.xml"/>
+<monster name="exeggcute h" file="headbut/exeggcute.xml"/>
+<monster name="exeggutor h" file="headbut/exeggutor.xml"/>
+<monster name="farfetchd h" file="headbut/farfetchd.xml"/>
+<monster name="fearow h" file="headbut/fearow.xml"/>
+<monster name="forretress h" file="headbut/forretress.xml"/>
+<monster name="furret h" file="headbut/furret.xml"/>
+<monster name="girafarig h" file="headbut/girafarig.xml"/>
+<monster name="gligar h" file="headbut/gligar.xml"/>
+<monster name="gloom h" file="headbut/gloom.xml"/>
+<monster name="golbat h" file="headbut/golbat.xml"/>
+<monster name="granbull h" file="headbut/granbull.xml"/>
+<monster name="heracross h" file="headbut/heracross.xml"/>
+<monster name="hoothoot h" file="headbut/hoothoot.xml"/>
+<monster name="hoppip h" file="headbut/hoppip.xml"/>
+<monster name="igglybuff h" file="headbut/igglybuff.xml"/>
+<monster name="ivysaur h" file="headbut/ivysaur.xml"/>
+<monster name="jigglypuff h" file="headbut/jigglypuff.xml"/>
+<monster name="jumpluff h" file="headbut/jumpluff.xml"/>
+<monster name="kakuna h" file="headbut/kakuna.xml"/>
+<monster name="ledian h" file="headbut/ledian.xml"/>
+<monster name="ledyba h" file="headbut/ledyba.xml"/>
+<monster name="lickitung h" file="headbut/lickitung.xml"/>
+<monster name="linoone h" file="headbut/linoone.xml"/>
+<monster name="lombre h" file="headbut/lombre.xml"/>
+<monster name="lotad h" file="headbut/lotad.xml"/>
+<monster name="ludicolo h" file="headbut/ludicolo.xml"/>
+<monster name="meganium h" file="headbut/meganium.xml"/>
+<monster name="meowth h" file="headbut/meowth.xml"/>
+<monster name="metapod h" file="headbut/metapod.xml"/>
+<monster name="miltank h" file="headbut/miltank.xml"/>
+<monster name="murkrow h" file="headbut/murkrow.xml"/>
+<monster name="natu h" file="headbut/natu.xml"/>
+<monster name="nidoking h" file="headbut/nidoking.xml"/>
+<monster name="nidoqueen h" file="headbut/nidoqueen.xml"/>
+<monster name="nidoranfe h" file="headbut/nidoran female.xml"/>
+<monster name="nidoran h" file="headbut/nidoran male.xml"/>
+<monster name="nidorina h" file="headbut/nidorina.xml"/>
+<monster name="nidorino h" file="headbut/nidorino.xml"/>
+<monster name="noctowl h" file="headbut/noctowl.xml"/>
+<monster name="oddish h" file="headbut/oddish.xml"/>
+<monster name="paras h" file="headbut/paras.xml"/>
+<monster name="parasect h" file="headbut/parasect.xml"/>
+<monster name="persian h" file="headbut/persian.xml"/>
+<monster name="pidgeot h" file="headbut/pidgeot.xml"/>
+<monster name="pidgeotto h" file="headbut/pidgeotto.xml"/>
+<monster name="pidgey h" file="headbut/pidgey.xml"/>
+<monster name="pineco h" file="headbut/pineco.xml"/>
+<monster name="pinsir h" file="headbut/pinsir.xml"/>
+<monster name="raticate h" file="headbut/raticate.xml"/>
+<monster name="rattata h" file="headbut/rattata.xml"/>
+<monster name="sceptile h" file="headbut/sceptile.xml"/>
+<monster name="scizor h" file="headbut/scizor.xml"/>
+<monster name="scyther h" file="headbut/scyther.xml"/>
+<monster name="sentret h" file="headbut/sentret.xml"/>
+<monster name="shuckle h" file="headbut/shuckle.xml"/>
+<monster name="silcoon h" file="headbut/silcoon.xml"/>
+<monster name="skiploom h" file="headbut/skiploom.xml"/>
+<monster name="snubbull h" file="headbut/snubbull.xml"/>
+<monster name="spearow h" file="headbut/spearow.xml"/>
+<monster name="spinarak h" file="headbut/spinarak.xml"/>
+<monster name="sunflora h" file="headbut/sunflora.xml"/>
+<monster name="sunkern h" file="headbut/sunkern.xml"/>
+<monster name="tangela h" file="headbut/tangela.xml"/>
+<monster name="teddiursa h" file="headbut/teddiursa.xml"/>
+<monster name="togepi h" file="headbut/togepi.xml"/>
+<monster name="togetic h" file="headbut/togetic.xml"/>
+<monster name="treecko h" file="headbut/treecko.xml"/>
+<monster name="ursaring h" file="headbut/ursaring.xml"/>
+<monster name="venomoth h" file="headbut/venomoth.xml"/>
+<monster name="venonat h" file="headbut/venonat.xml"/>
+<monster name="venusaur h" file="headbut/venusaur.xml"/>
+<monster name="victreebel h" file="headbut/victreebel.xml"/>
+<monster name="vileplume h" file="headbut/vileplume.xml"/>
+<monster name="weedle h" file="headbut/weedle.xml"/>
+<monster name="weepinbell h" file="headbut/weepinbell.xml"/>
+<monster name="wigglytuff h" file="headbut/wigglytuff.xml"/>
+<monster name="wurmple h" file="headbut/wurmple.xml"/>
+<monster name="xatu h" file="headbut/xatu.xml"/>
+<monster name="yanma h" file="headbut/yanma.xml"/>
+<monster name="zigzagoon h" file="headbut/zigzagoon.xml"/>
+<monster name="zubat h" file="headbut/zubat.xml"/>
+
+
+--Pesca--
+
+<monster name="azumarill p" file="pesca/azumarill.xml"/>
+<monster name="blastoise p" file="pesca/blastoise.xml"/>
+<monster name="chinchou p" file="pesca/chinchou.xml"/>
+<monster name="cloyster p" file="pesca/cloyster.xml"/>
+<monster name="corsola p" file="pesca/corsola.xml"/>
+<monster name="croconaw p" file="pesca/croconaw.xml"/>
+<monster name="dewgong p" file="pesca/dewgong.xml"/>
+<monster name="feraligatr p" file="pesca/feraligatr.xml"/>
+<monster name="goldeen p" file="pesca/goldeen.xml"/>
+<monster name="golduck p" file="pesca/golduck.xml"/>
+<monster name="gyarados p" file="pesca/gyarados.xml"/>
+<monster name="horsea p" file="pesca/horsea.xml"/>
+<monster name="kabuto p" file="pesca/kabuto.xml"/>
+<monster name="kabutops p" file="pesca/kabutops.xml"/>
+<monster name="kingdra p" file="pesca/kingdra.xml"/>
+<monster name="kingler p" file="pesca/kingler.xml"/>
+<monster name="krabby p" file="pesca/krabby.xml"/>
+<monster name="lanturn p" file="pesca/lanturn.xml"/>
+<monster name="lombre p" file="pesca/lombre.xml"/>
+<monster name="lotad p" file="pesca/lotad.xml"/>
+<monster name="ludicolo p" file="pesca/ludicolo.xml"/>
+<monster name="magikarp p" file="pesca/magikarp.xml"/>
+<monster name="mantine p" file="pesca/mantine.xml"/>
+<monster name="marill p" file="pesca/marill.xml"/>
+<monster name="marshtomp p" file="pesca/marshtomp.xml"/>
+<monster name="mudkip p" file="pesca/mudkip.xml"/>
+<monster name="octillery p" file="pesca/octillery.xml"/>
+<monster name="omanyte p" file="pesca/omanyte.xml"/>
+<monster name="omastar p" file="pesca/omastar.xml"/>
+<monster name="politoed p" file="pesca/politoed.xml"/>
+<monster name="poliwag p" file="pesca/poliwag.xml"/>
+<monster name="poliwhirl p" file="pesca/poliwhirl.xml"/>
+<monster name="poliwrath p" file="pesca/poliwrath.xml"/>
+<monster name="psyduck p" file="pesca/psyduck.xml"/>
+<monster name="quagsire p" file="pesca/quagsire.xml"/>
+<monster name="qwilfish p" file="pesca/qwilfish.xml"/>
+<monster name="remoraid p" file="pesca/remoraid.xml"/>
+<monster name="seadra p" file="pesca/seadra.xml"/>
+<monster name="seaking p" file="pesca/seaking.xml"/>
+<monster name="seel p" file="pesca/seel.xml"/>
+<monster name="shellder p" file="pesca/shellder.xml"/>
+<monster name="slowbro p" file="pesca/slowbro.xml"/>
+<monster name="slowking p" file="pesca/slowking.xml"/>
+<monster name="slowpoke p" file="pesca/slowpoke.xml"/>
+<monster name="squirtle p" file="pesca/squirtle.xml"/>
+<monster name="starmie p" file="pesca/starmie.xml"/>
+<monster name="staryu p" file="pesca/staryu.xml"/>
+<monster name="swampert p" file="pesca/swampert.xml"/>
+<monster name="tentacool p" file="pesca/tentacool.xml"/>
+<monster name="tentacruel p" file="pesca/tentacruel.xml"/>
+<monster name="totodile p" file="pesca/totodile.xml"/>
+<monster name="vaporeon p" file="pesca/vaporeon.xml"/>
+<monster name="wartortle p" file="pesca/wartortle.xml"/>
+<monster name="wooper p" file="pesca/wooper.xml"/>
+<monster name="barboach p" file="pesca/barboach.xml"/>
+<monster name="carvanha p" file="pesca/carvanha.xml"/>
+<monster name="clamperl p" file="pesca/clamperl.xml"/>
+<monster name="corphish p" file="pesca/corphish.xml"/>
+<monster name="crawdaunt p" file="pesca/crawdaunt.xml"/>
+<monster name="feebas p" file="pesca/feebas.xml"/>
+<monster name="gorebyss p" file="pesca/gorebyss.xml"/>
+<monster name="huntail p" file="pesca/huntail.xml"/>
+<monster name="luvdisc p" file="pesca/luvdisc.xml"/>
+<monster name="pelipper p" file="pesca/pelipper.xml"/>
+<monster name="sealeo p" file="pesca/sealeo.xml"/>
+<monster name="sharpedo p" file="pesca/sharpedo.xml"/>
+<monster name="spheal p" file="pesca/spheal.xml"/>
+<monster name="surskit p" file="pesca/surskit.xml"/>
+<monster name="wailmer p" file="pesca/wailmer.xml"/>
+<monster name="whiscash p" file="pesca/whiscash.xml"/>
+<monster name="wingull p" file="pesca/wingull.xml"/>
+
+<monster name="christmas abra" file="natal/christmas abra.xml"/>
+<monster name="christmas aipom" file="natal/christmas aipom.xml"/>
+<monster name="christmas bulbasaur" file="natal/christmas bulbasaur.xml"/>
+<monster name="christmas caterpie" file="natal/christmas caterpie.xml"/>
+<monster name="christmas charmander" file="natal/christmas charmander.xml"/>
+<monster name="christmas chikorita" file="natal/christmas chikorita.xml"/>
+<monster name="christmas clefairy" file="natal/christmas clefairy.xml"/>
+<monster name="christmas cubone" file="natal/christmas cubone.xml"/>
+<monster name="christmas diglett" file="natal/christmas diglett.xml"/>
+<monster name="christmas ditto" file="natal/christmas ditto.xml"/>
+<monster name="christmas eevee" file="natal/christmas eevee.xml"/>
+<monster name="christmas elekid" file="natal/christmas elekid.xml"/>
+<monster name="christmas gastly" file="natal/christmas gastly.xml"/>
+<monster name="christmas jigglypuff" file="natal/christmas jigglypuff.xml"/>
+<monster name="christmas ledyba" file="natal/christmas ledyba.xml"/>
+<monster name="christmas machop" file="natal/christmas machop.xml"/>
+<monster name="christmas meowth" file="natal/christmas meowth.xml"/>
+<monster name="christmas muchlax" file="natal/christmas muchlax.xml"/>
+<monster name="christmas pikachu" file="natal/christmas pikachu.xml"/>
+<monster name="christmas psyduck" file="natal/christmas psyduck.xml"/>
+<monster name="christmas seel" file="natal/christmas seel.xml"/>
+<monster name="christmas squirtle" file="natal/christmas squirtle.xml"/>
+<monster name="christmas teddiursa" file="natal/christmas teddiursa.xml"/>
+<monster name="christmas togepi" file="natal/christmas togepi.xml"/>
+<monster name="christmas totodile" file="natal/christmas totodile.xml"/>
+
+</monsters>

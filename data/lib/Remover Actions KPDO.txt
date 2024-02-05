@@ -1,0 +1,28 @@
+Remover essas Actions
+
+Referencias:
+
+Corpse Heracross/Sneasel
+
+	<action itemid="9747" event="function" value="increaseItemId"/>
+	<action itemid="9748" event="function" value="decreaseItemId"/>
+
+
+Corpse Tediursa/Ursaring
+
+	<action itemid="9749" event="function" value="increaseItemId"/>
+	<action itemid="9750" event="function" value="decreaseItemId"/>
+
+
+
+
+Portrait Girafaring/Wobufet
+
+	<action itemid="9827" event="function" value="increaseItemId"/>
+	<action itemid="9828" event="function" value="decreaseItemId"/>
+
+
+Portrait Misdreavus/Slowking
+
+	<action itemid="9825" event="function" value="increaseItemId"/>
+	<action itemid="9826" event="function" value="decreaseItemId"/>

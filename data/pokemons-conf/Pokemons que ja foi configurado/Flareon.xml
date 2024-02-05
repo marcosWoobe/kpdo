@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Flareon" nameDescription="a Flareon" race="Fire" experience="1900" speed="210" manacost="0">
+  <health now="13100" max="13100"/>
+  <look type="14" head="20" body="30" legs="40" feet="50" corpse="6059"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="20"/>
+  </flags>
+  <attacks>
+   <attack name="melee" interval="2200" range="1" min="-264" max="-374"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Flareoon"/>
+  </voices>
+<loot>
+	<item id="8866" countmax="62" chance="85000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="42000"/> -- pot of lava
+	<item id="8868" countmax="1" chance="52000"/> -- nail
+	<item id="2283" countmax="1" chance="400"/> -- fire stone
+	</loot>
+	<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+
+</script>
+</monster>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hypno" nameDescription="a shiny Hypno" race="psychic" experience="1100" speed="260" manacost="350">
+  <health now="7600" max="7600"/>
+  <look type="539" head="20" body="30" legs="40" feet="50" corpse="516"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1900" range="1" min="-340" max="-460"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+
+  <voices interval="5000" chance="10">
+	<voice sentence="Hypnoooo!"/>
+    <voice sentence="Hypno!"/>
+  </voices>
+  <loot>
+  </loot>
+
+</monster>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Beedrill" namedescription="a beedrill" race="bug" experience="1080" speed="282" manacost="0">
+  <health now="8700" max="8700"/>
+  <look type="45" head="20" body="30" legs="40" feet="50" corpse="5990"/>
+	
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1500" range="1" min="-164" max="-274"/>
+<attack name="moves" interval="1500" chance="60"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="BEE!"/>
+    <voice sentence="BEEDRILL!"/>
+    <voice sentence="DRILL!"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="15" chance="10000"/> -- bottle of Poison
+	<item id="9585" countmax="1" chance="5000"/> -- Vennom Pendant
+	<item id="8858" countmax="5" chance="10000"/> -- pot of moss bug
+	<item id="2284" countmax="1" chance="100"/> -- coccon stone
+	<item id="2278" countmax="1" chance="100"/> -- venom stone
+	<item id="9534" countmax="1" chance="100"/> -- Cocon Plate
+	<item id="9545" countmax="1" chance="100"/> -- Vennom Plate
+	<item id="8120" countmax="1" chance="100"/> -- Bug Antena
+	<item id="9641" countmax="1" chance="100"/> -- Beedrill Sting
+	<item id="9683" countmax="1" chance="100"/> -- Beedrill Spike
+	</loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+</script>
+</monster>

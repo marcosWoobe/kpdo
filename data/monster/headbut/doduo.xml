@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Doduo" nameDescription="a doduo" race="flying" experience="180" speed="225" manacost="0">
+  <health now="1620" max="1620"/>
+  <look type="26" head="20" body="30" legs="40" feet="50" corpse="2842"/>
+	
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" range="1" min="-25" max="-35"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Doduo!"/>
+<voice sentence="Duo!"/>
+  </voices>
+	<loot>
+	<item id="2694" countmax="32" chance="10000"/> -- straw
+	<item id="8823" countmax="2" chance="5000"/> -- feather
+	<item id="8822" countmax="1" chance="5000"/> -- bird beak
+	<item id="8849" countmax="1" chance="5000"/> -- roc feather
+	<item id="2289" countmax="1" chance="100"/> -- heart stone
+	<item id="9541" countmax="1" chance="100"/> -- Heart Plate
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

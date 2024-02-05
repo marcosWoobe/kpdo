@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Metapod" nameDescription="a Metapod" race="bug" experience="240" speed="200" manacost="260">
+  <health now="2905" max="2905"/>
+  <look type="676" head="20" body="30" legs="40" feet="50" corpse="400"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="25"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2200" range="1" min="-194" max="-226"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Meetaapoood!!"/>
+  </voices>
+	 <loot>
+	<item id="8858" countmax="5" chance="20000"/> -- pot of moss bug
+	<item id="2284" countmax="1" chance="10000"/> -- coccon stone
+	<item id="9534" countmax="1" chance="10000"/> -- Cocon Plate 
+  </loot>
+	<script>
+<event name="Exp"/>
+
+</script>
+
+</monster>

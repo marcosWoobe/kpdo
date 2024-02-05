@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Houndoom" nameDescription="a Houndoom" race="fire" experience="3005" speed="255" manacost="100">
+  <health now="29400" max="29400"/>
+  <look type="396" head="20" body="30" legs="40" feet="50" corpse="8685"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-405" max="-480"/>
+
+    <attack name="moves" interval="1000" chance="60"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Houndoom!"/>
+    <voice sentence="Houndoom!"/>
+    <voice sentence="Houndoom!"/>
+  </voices>
+
+	<loot>
+	<item id="9648" countmax="50" chance="20000"/> -- Dark Gem
+	<item id="8869" countmax="15" chance="20500"/> -- future orb
+	<item id="8866" countmax="100" chance="20000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="10000"/> -- pot of lava
+	<item id="9602" countmax="1" chance="10000"/> -- Magma Box
+	<item id="9609" countmax="1" chance="10000"/> -- Fire Pendant
+	<item id="9628" countmax="1" chance="10000"/> -- Magma Pendant
+	<item id="2283" countmax="1" chance="333"/> -- fire stone
+	<item id="2286" countmax="1" chance="333"/> -- darkness stone
+	<item id="9537" countmax="1" chance="333"/> -- Fire Plate
+	<item id="9535" countmax="1" chance="333"/> -- Dark Plate
+	</loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+
+</script>
+
+
+
+</monster>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Strong Electabuzz" nameDescription="a Electabuzz" race="electric" experience="24000" speed="600" manacost="0">
+	<health now="400000" max="400000"/>
+	<look type="281" head="0" body="0" legs="0" feet="0" corpse="6065"/>
+
+ <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+  <attack name="melee" interval="1900" range="1" min="-2465" max="-2680"/>
+<attack name="moves" interval="1200" chance="80"/>
+	
+  
+  </attacks>
+
+  <defenses armor="20" defense="20">
+
+  </defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="BUZZZZ!"/>
+		<voice sentence="ELECCC!"/>
+		<voice sentence="TAAA!"/>
+	</voices>
+	 <loot>
+	<item id="8861" countmax="100" chance="20000"/> -- screw
+	<item id="8862" countmax="1" chance="10000"/> -- electric box
+	<item id="2279" countmax="1" chance="333"/> -- Thunder Stone
+	<item id="9544" countmax="1" chance="333"/> -- Thunder Plate
+	<item id="8117" countmax="1" chance="333"/> -- Eletric Tail
+  </loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

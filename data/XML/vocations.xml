@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocations>
+	<vocation id="0" name="Pokemon Trainer" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="0" lessloss="25">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="1" name="Pokemon Trainer" description="a pokemon trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="1" lessloss="25">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="2" name="Elite Trainer" description="a elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="2" lessloss="35">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+
+	</vocation>
+<vocation id="3" name="Dragon Tamer" description="a dragon trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="3" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+		</vocation>
+<vocation id="4" name="Dark Face" description="a scary trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="4" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="5" name="Leaf Blade" description="a grass trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="5" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="6" name="Flame Lord" description="a flame trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="6" lessloss="50" >
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="7" name="Creature Tamer" description="a creature trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="7" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="8" name="Earth King" description="a earth king" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="8" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+		<vocation id="9" name="Psychic Master" description="a psychic trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="9" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+		<vocation id="10" name="Rock Master" description="a rock trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="10" lessloss="50" >
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="11" name="Sea king" description="a water trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="11" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="12" name="Avalanche King" description="a ice trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="12" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="13" name="Venom King" description="a poison trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="13" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="14" name="Fight Champion" description="a fight trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="14" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="15" name="Hurricane King" description="a Flying trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="15" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="16" name="Thunder Lord" description="a Thunder Trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="16" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="17" name="Bug King" description="a bug king" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="17" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="18" name="Dragon Blood" description="a dragon Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="3" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+		</vocation>
+<vocation id="19" name="Dark Night" description="a scary Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="4" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="20" name="Black Forest" description="a grass Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="5" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="21" name="Volcanic Storm" description="a flame Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="6" lessloss="50" >
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="22" name="Elite Tamer" description="a creature Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="7" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="23" name="EarthQuake King" description="a earth Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="8" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+		<vocation id="24" name="Psychic Mind" description="a psychic Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="9" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+		<vocation id="25" name="Hard Rock" description="a rock Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="10" lessloss="50" >
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="26" name="Tsunami Master" description="a water Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="11" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="27" name="Blizzard King" description="a ice Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="12" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+	<vocation id="28" name="Venom Plague" description="a poison Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="13" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="29" name="Fight Winner" description="a fight Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="14" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="30" name="Wind Storm" description="a Flying Elite trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="15" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="31" name="Thunder Storm" description="a Thunder Elite Trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="16" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+<vocation id="32" name="Worm King" description="a bug Elite Trainer" needpremium="0" gaincap="0" gainhp="30" gainmana="0" gainhpticks="0" gainhpamount="0" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="99999000" soulmax="386" gainsoulticks="-1" fromvoc="17" lessloss="50">
+		<formula meleeDamage="0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+
+
+</vocations>

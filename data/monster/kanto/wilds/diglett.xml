@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Diglett" nameDescription="a Diglett" race="ground" experience="180" speed="155" manacost="0">
+  <health now="670" max="670"/>
+  <look type="82" head="20" body="30" legs="40" feet="50" corpse="6023"/>
+ 	
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+<attack name="melee" interval="2200" range="1" min="-34" max="-44"/>
+<attack name="moves" interval="1600" chance="60"/>
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Diigleett"/>
+  </voices>
+	<loot>
+	<item id="1294" countmax="30" chance="20000"/> -- small stone
+	<item id="8865" countmax="1" chance="10000"/> -- sandbag
+	<item id="9664" countmax="1" chance="333"/> -- Diglet Nose		
+	</loot>
+<script>
+<event name="Exp"/>
+
+
+</script>
+
+</monster>

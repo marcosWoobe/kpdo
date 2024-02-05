@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Jynx" nameDescription="a shiny jynx" race="ice" experience="4800" speed="240" manacost="0">
+	<health now="38000" max="38000"/>
+	<look type="499" corpse="171"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2200" range="1" min="-1064" max="-1074"/>
+<attack name="moves" interval="1000" chance="80"/>
+	</attacks>
+
+
+	<voices interval="5000" chance="10">
+		<voice sentence="Jynxx"/>
+
+	</voices>
+ <loot>	
+	<item id="4339" countmax="15" chance="20000"/> -- Ice Orb
+	<item id="8869" countmax="15" chance="20500"/> -- future orb
+	<item id="2290" countmax="1" chance="10000"/> -- Ice Stone
+	<item id="2288" countmax="1" chance="10000"/> -- enigma stone
+	<item id="9540" countmax="1" chance="10000"/> -- Ice Plate
+	<item id="9557" countmax="1" chance="10000"/> -- Enigma Plate
+	<item id="8116" countmax="1" chance="10000"/> -- Ice Bra
+  </loot>
+	<script>
+<event name="Exp"/>
+
+</script>
+</monster>

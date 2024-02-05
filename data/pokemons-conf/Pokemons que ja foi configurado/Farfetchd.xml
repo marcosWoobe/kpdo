@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Farfetchd" nameDescription="a Farfetch'd" race="Flying" experience="1000" speed="220" manacost="0">
+  <health now="4240" max="4240"/>
+  <look type="57" head="20" body="30" legs="40" feet="50" corpse="2836"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-140" max="-180"/>
+<attack name="moves" interval="1200" chance="70"/>
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Farfeee"/>
+  </voices>
+ <loot>
+	<item id="8822" countmax="1" chance="20500"/> -- future orb
+	<item id="8823" countmax="3" chance="17000"/> -- psy spoon
+	<item id="2289" countmax="1" chance="800"/> -- enigma stone
+  </loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+
+</script>
+</monster>

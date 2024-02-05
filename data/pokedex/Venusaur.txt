@@ -1,0 +1,26 @@
+General:
+It's named Venusaur (Grass).
+Can be used at level 85.
+agressive behavior.
+
+Status:
+It's base health is 5500.
+It gains 60 life x lv + base health.
+
+Evolutions:
+none;
+
+Moves used:
+Headbutt (normal) - m1 - level 85
+Razor Leaf (grass - m2 - level 85
+Vine Whip (grass) - m3 - level 85
+Quick Attack (normal) - m4 - level 85
+Leech Seed (grass) - m5 - level 85
+Leaf Blade (grass) - m6 - level 90
+Solar Beam (grass) - m7 - level 85
+Sleep Powder (grass) - m8 - level 85
+Stun Spore (grass) - m9 - level 85
+Leaf Storm (grass) - m9 - level 95
+
+Habilities:
+Cut,ride.

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pidgeot" nameDescription="a wild pidgeot" race="flying" experience="2371" speed="280" manacost="0">
+  <health now="5000" max="5000"/>
+  <look type="80" head="20" body="30" legs="40" feet="50" corpse="6020"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1500" min="-345" max="-470"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="PIDGEOT!"/>
+    <voice sentence="GEOT!"/>
+  </voices>
+ <loot>
+	<item id="2694" countmax="64" chance="75000"/> -- straw
+	<item id="8823" countmax="2" chance="40000"/> -- feather
+	<item id="8822" countmax="1" chance="35000"/> -- bird beak
+	<item id="8849" countmax="1" chance="10000"/> -- roc feather
+	<item id="2289" countmax="1" chance="600"/> -- heart stone
+	<item id="8860" countmax="1" chance="1700"/> -- pidgeot doll
+  </loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+</script>
+</monster>

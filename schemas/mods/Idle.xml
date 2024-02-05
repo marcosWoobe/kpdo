@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="Idle" version="1.0" author="The Forgotten Server" contact="otland.net" enabled="yes">
+
+	<config name="Idle">
+<![CDATA[		config = {
+	idleWarning = getConfigValue('idleWarningTime'),
+	idleKick = getConfigValue('idleKickTime')
+}
+
+	]]>
+</config>
+	<event type="think" name="Idle" event="script">
+<![CDATA[
+
+		domodlib('Idle')
+
+
+
+function onThink(cid, interval)
+--if getPlayerStorageValue(cid, 19987) >= 1 or getPlayerStorageValue(cid, 19988) >= 1  then
+		--return true
+	--end
+if not isCreature(cid) then
+return true
+end
+
+	local idleTime = getPlayerIdleTime(cid) + interval
+	doPlayerSetIdleTime(cid, idleTime)
+	if(config.idleKick > 0 and idleTime > config.idleKick) then
+	local comparar = ping.CheckPing(cid)	
+if -1 > comparar then
+doRemoveCreature(cid)
+return true
+end
+	elseif(config.idleWarning > 0 and idleTime == config.idleWarning) then
+		local comparar2 = ping.CheckPing(cid)
+
+if -1 > comparar2 then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_WARNING, "You ping its high ["..comparar2.."],move or auto kick in 7 seconds.")
+end
+	end
+if isInArray({'4820', '4821', '4822', '4823', '4824', '4825'}, getTileInfo(getThingPos(cid)).itemid) then
+if getPlayerGroupId(cid) == 1 then
+setPlayerGroupId(cid, 8)
+end
+return true
+end
+if #getCreatureSummons(cid) >= 1 then
+	if getPlayerGroupId(cid) == 1 then
+	setPlayerGroupId(cid, 8)
+	end
+elseif #getCreatureSummons(cid) == 0  then
+	if getPlayerGroupId(cid) == 8 then
+	setPlayerGroupId(cid, 1)
+	end
+end
+
+if #getCreatureSummons(cid) >= 1  then
+if math.abs((getThingPos(cid).x) - (getThingPos(getCreatureSummons(cid)[1]).x)) > 7 then
+doTeleportThing(getCreatureSummons(cid)[1], getThingPos(cid))
+
+doSendMagicEffect(getThingPos(getCreatureSummons(cid)[1]), 37)
+
+
+end
+if math.abs((getThingPos(cid).y) - (getThingPos(getCreatureSummons(cid)[1]).y)) > 5 then
+doTeleportThing(getCreatureSummons(cid)[1], getThingPos(cid))
+doSendMagicEffect(getThingPos(getCreatureSummons(cid)[1]), 37)
+
+
+end
+
+if getPlayerStorageValue(cid,31020) >= 1 then
+pokemon = cp[getCreatureName(getCreatureSummons(cid)[1])]["!cd"]
+if pokemon then
+local str = ""..pokemon.nmoves.."|"
+msgp = false
+ for rocks = 1, pokemon.nmoves do   
+           
+if exhaustion.get(cid, 30999+rocks) then
+seconds1 = math.floor(((exhaustion.get(cid, 30999+rocks)) ))  
+
+str = str..","..seconds1..""
+msgp = true
+
+else
+str = str..",0"
+end
+
+	end
+if msgp then
+DoTaskbarcold(cid,str)
+
+end
+
+end
+end
+
+end
+
+		return true
+end
+
+]]></event>
+</mod>
+

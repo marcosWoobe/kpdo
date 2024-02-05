@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mark" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="255" head="91" body="114" legs="86" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Hello dear customer! Are you here to see my offers? Come on, lets {trade}!"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+			<parameter key="module_shop" value="2"/>
+			<parameter key="shop_buyable" value="Drink Energetic,2695,500;Great Ball,2143,3000;Hyper Potion,205,40000;Poke Ball,2147,600;Potion,203,3000;Revive,2269,40000;Super Ball,2144,6000;Super Potion,204,10000;Ultra Ball,2146,20000;Vitamin HP up,201,5000;"/>
+			<parameter key="shop_sellable" value="apple bite,8853,500;bag of metal,9623,2000;bag of polem,8852,500;bird beak,8822,500;bone,3963,1000;bottle of Poison,8856,500;dark gem,9648,50;electric box,8862,1000;essence of fire,8866,50;feather,8823,500;fire pendant,9609,500;future orb,8869,500;grass pendant,9606,500;ice orb,4339,500;leaves,8851,500;magma box,9602,500;magma pendant,9628,500;pot of lava,8867,500;pot of moss bug,8858,500;remain of magikarp,6528,500;roc feather,8849,1000;sandbag,8865,500;screw,8861,50;small stone,1294,50;seeds,8850,50;stone orb,8864,1000;straw,2694,50;Tooth,4332,1000;vennom pendant,9585,1000;water gem,6528,50;Water Pendant,8820,500;water pot,9583,500;"/>
+	</parameters>
+</npc>

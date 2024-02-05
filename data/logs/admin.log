@@ -1,0 +1,27 @@
+[06/08/2011 18:44:01] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Cocebomba sent unknown byte: 0x22f1d4
+
+[06/08/2011 18:44:01] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Cocebomba sent unknown byte: 0x22f1d4
+
+[15/08/2011 10:51:22] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Toom Ferreira sent unknown byte: 0x22f1d4
+
+[27/08/2011 10:47:45] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[27/08/2011 10:49:57] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[27/08/2011 10:51:31] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[27/08/2011 10:53:57] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 00:40:26] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 00:41:34] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 00:43:52] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 00:45:47] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 00:46:57] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 01:02:16] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 01:16:39] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 01:18:26] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 01:19:03] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 01:37:36] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[28/08/2011 11:50:26] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[29/08/2011 10:22:31] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[29/08/2011 18:12:04] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[30/08/2011 03:11:39] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[01/09/2011 14:24:26] (Error - void ServicePort::open(uint16_t)) NETWORK: Address already in use
+[03/10/2011 10:26:26] (Notice - virtual void ProtocolGame::parsePacket(NetworkMessage&)) PLAYER: Mcsete sent unknown byte: 0x23f274
+

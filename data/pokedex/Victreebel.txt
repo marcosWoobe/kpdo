@@ -1,0 +1,24 @@
+General:
+It's named Victreebel (grass).
+Can be used at level 60.
+
+Status:
+It's base health is 4000.
+It gains 50 life x lv + base health.
+
+Evolutions:
+it doesn't evolve.
+
+Moves used:
+Razor Leaf (grass) - m1 - level 60
+Vine Whip (grass) - m2 - level 60
+Acid (poison) - m3 - level 60
+Slash (normal) - m4 - level 60
+Poison Bomb (poison) - m5 - level 65
+Stun Spore (grass) - m6 - level 60
+Sleep Powder (grass) - m7 - level 60
+Leaf Storm (grass) - m8 - level 70
+
+
+Habilities:
+Cut (use order on cuttable bushes)

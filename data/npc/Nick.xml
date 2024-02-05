@@ -1,0 +1,8 @@
+<npc name="Nick" script="data/npc/scripts/nick.lua" walkinterval="0" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="255" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. ! I can take you to saffari zone, to go?" />
+		<parameter key="message_decline" value="It will cost 5000 dollars. ok?"/>
+	</parameters>
+</npc>

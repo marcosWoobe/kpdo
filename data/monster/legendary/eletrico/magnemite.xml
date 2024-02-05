@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Strong Magnemite" nameDescription="a wild magnemite" race="electric" experience="1800" speed="500" manacost="320">
+  <health now="60000" max="60000"/>
+  <look type="217" head="20" body="30" legs="40" feet="50" corpse="6056"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="3"/>
+    <flag staticattack="100"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="2000" chance="100" range="4" min="-722" max="-940">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+    <attack name="moves" interval="1500" chance="60"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="MITE!"/>
+    <voice sentence="MAGNEMITE!"/>
+  </voices>
+
+	<loot>
+	<item id="8861" countmax="30" chance="20000"/> -- screw
+	<item id="8862" countmax="1" chance="10000"/> -- electric box
+	<item id="2279" countmax="1" chance="333"/> -- Thunder Stone
+	<item id="9544" countmax="1" chance="333"/> -- Thunder Plate
+	<item id="8863" countmax="1" chance="333"/> -- imam
+	</loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

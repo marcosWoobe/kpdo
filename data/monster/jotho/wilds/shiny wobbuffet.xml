@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Wobbuffet" nameDescription="a Shiny Wobbuffet" race="psychic" experience="12000" speed="255" manacost="100">
+  <health now="160000" max="160000"/>
+  <look type="1021" head="20" body="30" legs="40" feet="50" corpse="9735"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="3"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="1700" chance="100" range="3" min="-580" max="-820">
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+	<attack name="moves" interval="1500" chance="60"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Wobbuffet!"/>
+    <voice sentence="Wobbuffet!"/>
+    <voice sentence="Wobbuffet!"/>
+  </voices>
+ <loot>
+	<item id="8869" countmax="30" chance="20000"/> -- future orb
+	<item id="2288" countmax="1" chance="20000"/> -- enigma stone
+	<item id="9557" countmax="1" chance="20000"/> -- Enigma Plate
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+
+
+
+</monster>

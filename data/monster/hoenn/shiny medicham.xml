@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Medicham" nameDescription="a Shiny Medicham" race="undead" experience="20000" speed="550" manacost="330">
+  <health now="400000" max="400000"/>
+  <look type="1291" head="20" body="30" legs="40" feet="50" corpse="10375"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="2000" range="1" min="-2000" max="-3000"/>
+<attack name="evasion" interval="1800" chance="60" range="8" /> 
+  </attacks>
+<defenses armor="0" defense="5"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Medicham!"/>
+    <voice sentence="Medicham!"/>
+  </voices>
+</monster>

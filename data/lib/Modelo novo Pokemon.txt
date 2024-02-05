@@ -1,0 +1,17 @@
+["xxxx"] = {
+["m1"] = {spell = 
+["m2"] = {spell = 
+["m3"] = {spell = 
+["m4"] = {spell = 
+["m5"] = {spell = 
+["m6"] = {spell = 
+["m7"] = {spell = 
+["m8"] = {spell = 
+["m9"] = {spell = 
+["m10"] = {spell = 
+["m11"] = {spell = 
+["m12"] = {spell = 
+["!cd"] = { pokenome= "xxxx" , nmoves= 12 , spellm1 = "xxxx",spellm2="xxxx",spellm3= "xxxx",spellm4 = "xxxx",spellm5 = "xxxx",spellm6 = "xxxx",spellm7 = "xxxx",spellm8 = "xxxx",spellm9 = "xxxx",spellm10 = "xxxx",spellm11 = "xxxx",spellm12 = "xxxx"},
+["XD"] = { descricao = "xxxxx",desvantagem = "Weaknesses: \n Bug/Flying/Poison",habilidade = "Habilites: Headbutt\nRocksmash\nSurf",evoluction = "Evolução1: Level 65 \nEvolução2: Level 80\nEvolução3: Level 120",type = "is a dual-type Grass/Dark"},
+},
+}

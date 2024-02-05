@@ -1,0 +1,48 @@
+shiny dragonair = 151
+shiny gengar = 152
+giant snoralx = 153
+red gyarados = 155
+shiny electabuzz = 156
+shiny scyther = 157
+shiny abra = 158
+shiny raichu = 159
+shiny kingler = 160
+shiny horsea = 161
+shiny beedrill = 162
+shiny magikarp = 163
+shiny raticate = 164
+shiny butterflee = 167
+shiny venomoth = 168
+shiny seadra = 169
+shiny venonat = 170
+shiny jynix = 171
+shiny tentacruel = 172
+shiny parasect = 173
+shiny krabby = 174
+shiny voltorb = 175
+shiny electrode = 176
+shiny grimer = 177
+shiny rattata = 178
+shiny zubat = 179
+shiny oddish = 180
+shiny tentacool = 181
+shiny muk = 182
+shiny farfetchd = 184
+shiny dratini = 185
+shiny paras = 186
+shiny growlitle = 187
+
+corpses que falta
+
+shiny flareon
+shiny jolteon
+shiny vaporeon
+shiny tangela
+shiny dragonite
+shiny marowak
+shiny cubone
+shiny pinsir
+shiny hitmonchan
+shiny hitmonlee
+shiny hypno
+

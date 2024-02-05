@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Farfetchd" nameDescription="a Farfetch'd" race="Flying" experience="480" speed="220" manacost="0">
+  <health now="4240" max="4240"/>
+  <look type="57" head="20" body="30" legs="40" feet="50" corpse="2836"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-140" max="-180"/>
+<attack name="moves" interval="1200" chance="70"/>
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Farfeee"/>
+  </voices>
+ <loot>
+	<item id="2694" countmax="64" chance="20000"/> -- straw
+	<item id="8823" countmax="2" chance="10000"/> -- feather
+	<item id="8822" countmax="1" chance="10000"/> -- bird beak
+	<item id="8849" countmax="1" chance="10000"/> -- roc feather
+	<item id="2289" countmax="1" chance="333"/> -- heart stone
+	<item id="9541" countmax="1" chance="333"/> -- Heart Plate
+	<item id="8128" countmax="1" chance="333"/> -- Farfetchd Stick
+  </loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+
+</script>
+</monster>

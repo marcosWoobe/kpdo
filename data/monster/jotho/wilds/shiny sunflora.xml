@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Sunflora" nameDescription="a Shiny Sunflora" race="grass" experience="8600" speed="255" manacost="100">
+  <health now="80000" max="80000"/>
+  <look type="1012" head="20" body="30" legs="40" feet="50" corpse="9726"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-405" max="-480"/>
+
+ <attack name="moves" interval="1000" chance="60"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="10">
+	<voice sentence="Sunflora!"/>
+    <voice sentence="Sunflora!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="100" chance="20000"/> -- seeds
+	<item id="8851" countmax="10" chance="20000"/> -- leaves
+	<item id="8852" countmax="2" chance="20000"/> -- bag of polem
+	<item id="9606" countmax="2" chance="20000"/> -- Grass Pendant
+	<item id="2276" countmax="1" chance="20000"/> -- leaf stone
+	<item id="9538" countmax="1" chance="20000"/> -- Grass Plate
+  </loot>
+        <script>
+
+	<event name="Exp"/>
+
+        </script>
+
+
+
+</monster>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Giant Snorlax" nameDescription="a Snorlax" race="normal" experience="4300" speed="220" manacost="0">
+  <health now="15000" max="15000"/>
+  <look type="532" corpse="5565"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-1560" max="-1800"/>
+
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Snooorlax!"/>
+	<loot>
+		
+		<item id="2148" countmax="100" chance="50000"/><!-- Essence of fire -->
+		<item id="2148" countmax="60" chance="50000"/><!-- Essence of fire -->
+	</loot>
+  </voices>
+</monster>

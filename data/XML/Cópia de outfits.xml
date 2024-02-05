@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfits>
+        <outfit id="1">  
+                <list gender="0" lookType="160" name="Trainer"/>  
+                <list gender="1" lookType="159" name="Trainer"/>  
+        </outfit>  
+  
+        <outfit id="2" premium="yes">  
+                <list gender="0" lookType="264" name="Elite Trainer"/>  
+                <list gender="1" lookType="263" name="Elite Trainer"/>  
+        </outfit>  
+  
+        <outfit id="3" quest="45963" premium="yes" >  
+                <list gender="0" lookType="161" name="Reapper"/>  
+                <list gender="1" lookType="194" name="Reapper"/>  
+        </outfit>  
+  
+        <outfit id="4" quest="45964" premium="yes" >  
+                <list gender="0" lookType="237" name="Reggae"/>  
+                <list gender="1" lookType="236" name="Reggae"/>  
+        </outfit>  
+  
+        <outfit id="5" quest="45965" premium="yes">  
+                <list gender="0" lookType="235" name="Kung-Fu"/>  
+                <list gender="1" lookType="234" name="Kung-Fu"/>  
+        </outfit>  
+  
+        <outfit id="6" quest="45966" premium="yes" >  
+                <list gender="0" lookType="254" name="Rocket"/>  
+                <list gender="1" lookType="253" name="Rocket"/>  
+        </outfit>  
+  
+        <outfit id="7" quest="45967" premium="yes">  
+                <list gender="0" lookType="144" name="Adventurer"/>  
+                <list gender="1" lookType="143" name="Adventurer"/>  
+        </outfit>  
+  
+        <outfit id="8" quest="45968" premium="yes">  
+                <list gender="0" lookType="162" name="Bussiness"/>  
+                <list gender="1" lookType="163" name="Bussiness"/>  
+        </outfit>  
+  
+        <outfit id="9" quest="45969" premium="yes">  
+                <list gender="0" lookType="166" name="Athlete"/>  
+                <list gender="1" lookType="165" name="Athlete"/>  
+        </outfit>  
+  
+        <outfit id="10" quest="45970" premium="yes">  
+                <list gender="0" lookType="168" name="Punk"/>  
+                <list gender="1" lookType="167" name="Punk"/>  
+        </outfit>  
+  
+        <outfit id="11" quest="45971" premium="yes">  
+                <list gender="0" lookType="170" name="Fisherman"/>  
+                <list gender="1" lookType="169" name="Fisherwoman"/>  
+        </outfit>  
+  
+        <outfit id="12" quest="45972" premium="yes">  
+                <list gender="0" lookType="173" name="Researcher"/>  
+                <list gender="1" lookType="171" name="Research"/>  
+        </outfit>  
+  
+        <outfit id="13" quest="45973" premium="yes">  
+                <list gender="0" lookType="174" name="Snow"/>  
+                <list gender="1" lookType="172" name="Snow"/>  
+        </outfit>  
+
+  
+        <outfit id="14" access="3" premium="yes">  
+                <list gender="1" lookType="259" name="Reporter"/>  
+        </outfit>  
+  
+        <outfit id="15" access="5" premium="yes">  
+                <list gender="0-3" lookType="304" name="Sub Administrador"/>  
+        </outfit>  
+  
+        <outfit id="16" access="5" premium="yes">  
+                <list gender="0-3" lookType="313" name="Administrador"/>  
+        </outfit> 
+     
+   
+</outfits>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dugtrio" nameDescription="a Dugtrio" race="ground" experience="1000" speed="270" manacost="0">
+  <health now="5220" max="5220"/>
+  <look type="83" head="20" body="30" legs="40" feet="50" corpse="6024"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="80"/>
+  </flags>
+  <attacks>
+<attack name="melee" interval="2200" range="1" min="-164" max="-174"/>
+<attack name="moves" interval="1500" chance="70"/>
+  </attacks>
+ 
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Duugtrioo"/>
+  </voices>
+	 <loot>
+	<item id="8865" countmax="3" chance="17000"/> -- psy spoon
+	<item id="2287" countmax="1" chance="350"/> -- enigma stone
+  </loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

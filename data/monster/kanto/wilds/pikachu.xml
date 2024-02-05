@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pikachu" nameDescription="a Pikachu" race="electric" experience="240" speed="230" manacost="640">
+  <health now="3950" max="3950"/>
+  <look type="59" head="20" body="30" legs="40" feet="50" corpse="6001"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+<attack name="melee" interval="2200" range="1" min="-164" max="-174"/>
+<attack name="moves" interval="1000" chance="80"/>
+  
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Pikachu!"/>
+  </voices>
+	<loot>
+	<item id="8861" countmax="30" chance="20000"/> -- screw
+	<item id="8862" countmax="1" chance="10000"/> -- electric box
+	<item id="2279" countmax="1" chance="333"/> -- Thunder Stone
+	<item id="9544" countmax="1" chance="333"/> -- Thunder Plate
+	<item id="9598" countmax="1" chance="333"/> -- Pikachu Tail
+	</loot>
+	<script>
+<event name="Exp"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+<event name="Shiny"/>
+
+</script>
+
+
+</monster>

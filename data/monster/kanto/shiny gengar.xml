@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Gengar" nameDescription="a shiny Gengar" race="ghost" experience="9800" speed="390" manacost="0">
+	
+<health now="11000" max="11000"/>
+	
+<look type="541" corpse="152"/>
+	
+	<targetchange interval="5" chance="1000"/>
+	
+<strategy attack="100" defense="0"/>
+	
+<flags>
+		
+<flag summonable="0"/>
+		
+<flag attackable="1"/>
+		
+<flag hostile="1"/>
+		
+<flag illusionable="1"/>
+	
+<flag convinceable="0"/>
+		
+<flag pushable="0"/>
+		
+<flag canpushitems="1"/>
+		
+<flag canpushcreatures="1"/>
+		
+<flag targetdistance="1"/>
+		
+<flag staticattack="90"/>
+		
+<flag runonhealth="0"/>
+	
+</flags>
+	
+<attacks>
+		
+ <attack name="melee" interval="1700" min="-645" max="-770"/>
+		
+
+
+					
+
+	
+</attacks>
+	
+<defenses armor="0" defense="0">
+
+		
+
+			
+
+	
+	
+</defenses>
+	
+
+	
+</monster>

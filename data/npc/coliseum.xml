@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Charlie Brown" script="data/npc/scripts/coliseum.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+	<look type="163" head="0" body="36" legs="116" feet="45"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|. you subscribe to coliseum tournament? " />
+</parameters>
+</npc>

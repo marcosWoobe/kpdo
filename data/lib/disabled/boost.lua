@@ -1,0 +1,16 @@
+typesboost = {
+["Leaf"] = {itemid = 2276,tp = 3, "Bulbasaur","Sunkern","Sunflora","Skiploom","Jumpluff","Bellossom","Chikorita","Bayleef","Meganium","Tangela","Ancient Venusaur","Venusaur", "Ivysaur", "Oddish", "Gloom", "Vileplume", "Bellsprout", "Weepinbell", "Exeggcute", "Victreebel", "Exeggutor"},
+["Water"] = {itemid = 2277,tp = 4, "Qwilfish","Elite Poliwrath","Wooper","Quagsire","Kingdra","Slowking","Politoed","Squirtle","Corsola","Marill","Azumarill","Totodile","Croconaw","Feraligatr","Gyarados", "Magikarp","Ancient Blastoise","Poliwrath", "Wartortle", "Blastoise", "Seadra", "Horsea", "Goldeen", "Seaking", "Psyduck", "Poliwag", "Poliwhirl", "Tentacool", "Tentacruel", "Krabby", "Kingler", "Staryu", "Starmie", "Omanyte","Omastar","Ancient Omastar", "Eevee", "Golduck", "Vaporeon"},
+["Venom"] = {itemid = 2278,tp = 2,  "Nidoking", "Nidoqueen", "Zubat", "Golbat", "Crobat","Ekans", "Arbok", "Nidoran", "Nidoranfe", "Nidorino", "Nidorina", "Grimer", "Muk", "Koffing", "Weezing"},
+["Thunder"] = {itemid = 2279,tp = 5,"Chinchou","Mareep","Flaaffy","Ampharos","Pichu","Lanturn", "Magnemite", "Pikachu", "Voltorb", "Magneton", "Raichu", "Electrode", "Electabuzz", "Jolteon"},
+["Rock"] = {itemid = 2280,tp = 3, "Shuckle","Sudowoodo","Ancient Aerodactyl","Larvitar","Pupitar","Tyranitar","Aerodactyl","Geodude", "Graveler", "Golem", "Rhyhorn", "Rhydon", "Onix", "Steelix", "Kabuto", "Crystal Onix","Kabutops","Ancient Kabutops"},
+["Punch"] = {itemid = 2281,tp = 5, "Machop", "Hitmontop","Tyrogue","Machoke", "Machamp", "Mankey", "Primeape","Elite Hitmonlee","Elite Hitmonchan", "Hitmonlee", "Hitmonchan"},
+["Fire"] = {itemid = 2283,tp = 4, "Slugma","Magcargo","Charmander","Houndour","Houndoom","Cyndaquil","Quilava","Typhlosion","Elder Charizard", "Charmeleon", "Charizard", "Vulpix", "Ninetales", "Growlithe", "Arcanine", "Ponyta", "Rapidash", "Magmar", "Flareon"},
+["Coccon"] = {itemid = 2284, tp = 2,"Yanma","Ledyba","Heracross","Scizor","Ledian","Spinarak","Ariados","Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Paras","Scyther", "Parasect", "Pinsir","Venonat", "Venomoth"},
+["Crystal"] = {itemid = 2285, tp = 25,"Dratini", "Dragonair", "Dragonite"},
+["Darkness"] = {itemid = 2286,tp = 5, "Sneasel","Misdreavus","Umbreon","Hoothoot","Noctowl","Gastly", "Dark Abra","Haunter", "Gengar",},
+["Earth"] = {itemid = 2287, tp = 5,"Gligar","Murkrow","Cubone","Natu","Xatu","Cleffa","Igglybuff","Kangaskhan", "Marowak", "Sandshrew", "Sandslash", "Diglett", "Dugtrio"},
+["Enigma"] = {itemid = 2288, tp = 5,"Unown","Abra","Wobbuffet","Espeon", "Girafarig","Kadabra", "Alakazam", "Slowpoke", "Slowbro", "Drowzee", "Hypno"},
+["Heart"] = {itemid = 2289, tp = 3,"Dunsparce","Pineco","Forretress","Aipom","Togepi","Miltank","Snubbull","Granbull","Teddiursa","Ursaring","Togetic","Rattata","Farfetchd","Blissey","Sentret","Furret","Ditto","Snorlax","Giant Snorlax","Mr Mime","Porygon","Royal Porygon","Chansey", "Raticate", "Pidgey", "Pidgeotto", "Pidgeot", "Spearow", "Fearow", "Clefairy", "Clefable", "Jigglypuff", "Wigglytuff", "Persian", "Meowth", "Doduo", "Dodrio"},
+["Ice"] = {itemid = 2290,tp = 4, "Sneasel","Seel", "Dewgong", "Shellder", "Cloyster", "Jynx", "Lapras"},
+}

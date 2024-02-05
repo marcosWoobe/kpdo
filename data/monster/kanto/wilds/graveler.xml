@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Graveler" nameDescription="a wild graveler" race="rock" experience="480" speed="179" manacost="0">
+  <health now="4200" max="4200"/>
+  <look type="247" corpse="6516"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-85" max="-125"/>
+<attack name="moves" interval="1000" chance="80"/>
+</attacks>
+  <defenses armor="0" defense="8">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="GRAVELER!"/>
+    <voice sentence="GRAVE!"/>
+    <voice sentence="LER!"/>
+  </voices>
+	<loot>
+	<item id="1294" countmax="50" chance="20000"/>-- small stone
+	<item id="8864" countmax="1" chance="20000"/>-- stone orb
+	<item id="2280" countmax="1" chance="333"/> -- Rock stone
+	<item id="9542" countmax="1" chance="333"/> -- Rock Plate
+	</loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+</script>
+</monster>

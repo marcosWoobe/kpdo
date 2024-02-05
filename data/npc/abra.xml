@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Agatha" script="data/npc/scripts/abra.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+	<look type="530" head="0" body="86" legs="116" feet="45"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|. you trade me Abra B +[20] + 400k for Dark Abra? " />
+</parameters>
+</npc>

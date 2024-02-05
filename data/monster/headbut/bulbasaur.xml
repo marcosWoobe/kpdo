@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bulbasaur" nameDescription="a wild Bulbasaur" race="grass" experience="240" speed="150" manacost="0">
+  <health now="2700" max="2700"/>
+  <look type="25" head="20" body="30" legs="40" feet="50" corpse="5969"/>
+
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1700" min="-75" max="-95"/>
+<attack name="moves" interval="1500" chance="60"/>
+  </attacks>
+<defenses armor="0" defense="5"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="BULB!"/>
+    <voice sentence="SAUR!!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="15" chance="10000"/> -- seeds
+	<item id="8858" countmax="3" chance="10000"/> -- bottle of Poison
+	<item id="9585" countmax="1" chance="5000"/> -- Vennom Pendant
+	<item id="8851" countmax="1" chance="5000"/> -- leaves
+	<item id="8852" countmax="1" chance="5000"/> -- bag of polem
+	<item id="9606" countmax="1" chance="5000"/> -- Grass Pendant
+	<item id="2278" countmax="1" chance="100"/> -- venom stone
+	<item id="2276" countmax="1" chance="100"/> -- leaf stone
+	<item id="9545" countmax="1" chance="100"/> -- Vennom Plate
+	<item id="9538" countmax="1" chance="100"/> -- Grass Plate
+	<item id="2138" countmax="1" chance="100"/> -- Bulb
+  </loot>
+<script>
+<event name="Exp"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+
+</script>
+</monster>

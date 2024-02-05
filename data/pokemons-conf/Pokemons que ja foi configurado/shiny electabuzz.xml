@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Electabuzz" nameDescription="a wild shiny electabuzz" race="electric" experience="15010" speed="340" manacost="0">
+	<health now="35000" max="35000"/>
+	<look type="497" corpse="6010"/>
+
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		
+<attack name="melee" interval="2200" range="1" min="-1064" max="-1074"/>
+<attack name="moves" interval="1000" chance="80"/>
+	</attacks>
+
+
+	<voices interval="5000" chance="10">
+		<voice sentence="buzz"/>
+		<voice sentence="Buzz da churupita!"/>
+	</voices>
+
+ <loot>
+	
+	<item id="2279" countmax="1" chance="20000"/> -- enigma stone
+  </loot>
+	<script>
+<event name="Exp"/>
+
+</script>
+</monster>

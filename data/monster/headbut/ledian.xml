@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ledian" nameDescription="a Ledian" race="bug" experience="1800" speed="300" manacost="100">
+  <health now="17100" max="17100"/>
+  <look type="335" head="20" body="30" legs="40" feet="50" corpse="8802"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-305" max="-380"/>
+ <attack name="moves" interval="1000" chance="60"/>
+  </attacks>
+
+<loot>
+	<item id="8858" countmax="10" chance="10000"/> -- pot of moss bug
+	<item id="8120" countmax="1" chance="100"/> -- Bug Antena
+	<item id="2284" countmax="1" chance="100"/> -- coccon stone
+	<item id="2289" countmax="1" chance="100"/> -- heart stone
+	<item id="9534" countmax="1" chance="100"/> -- Cocon Plate
+	<item id="9541" countmax="1" chance="100"/> -- Heart Plate
+	<item id="9662" countmax="1" chance="100"/> -- Ladybug Wing
+	<item id="9604" countmax="1" chance="100"/> -- Ledyba Hull
+	</loot>
+	<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+
+</script>
+
+</monster>

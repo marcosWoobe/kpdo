@@ -1,0 +1,25 @@
+General:
+It's named Bulbasaur (Grass).
+Can be used at level 20.
+agressive behavior.
+
+Status:
+It's base health is 1200.
+It gains 40 life x lv + base health.
+
+Evolutions:
+Ivysaur (level 40 / 1 Leaf Stone)
+Venusaur (level 85 / 2 Leaf Stones)
+
+Moves used:
+Headbutt (normal) - m1 - level 20
+Razor Leaf (grass - m2 - level 20
+Vine Whip (grass) - m3 - level 20
+Quick Attack (normal) - m4 - level 20
+Leech Seed (grass) - m5 - level 35
+Solar Beam (grass) - m6 - level 40
+Sleep Powder (grass) - m7 - level 20
+Stun Spore (grass) - m8 - level 25
+
+Habilities:
+Cut.

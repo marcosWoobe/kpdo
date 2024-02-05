@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="First Items" version="1.0" author="The Forgotten Server" contact="otland.net" enabled="yes">
+
+	<config name="firstitems_config">
+<![CDATA[		config = {
+			storage = 30001,
+
+			items = { 2376, 2580, 2564, 2529,526},
+containers = {2307, 2308, 2309, 2310, 2311, 2314, 2313,2312,10045,10047,10053,10055,10057,10059}
+		}
+	]]>
+</config>
+	<event type="login" name="FirstItems" event="script">
+<![CDATA[
+
+		domodlib('firstitems_config')
+
+		function onLogin(cid)
+
+setCreatureMaxMana(cid, 0)
+if(getPlayerStorageValue(cid, 30002)  <= 0) and  (getPlayerStorageValue(cid, 30001) >= 1) then
+				local new_container = getPlayerSlotItem(cid, 5).uid
+				doAddContainerItem(new_container,10045)
+doAddContainerItem(new_container,10047)
+doAddContainerItem(new_container,10049)
+doAddContainerItem(new_container,10051)
+doAddContainerItem(new_container,10053)
+doAddContainerItem(new_container,10055)
+doAddContainerItem(new_container,10057)
+doAddContainerItem(new_container,10059)
+				setPlayerStorageValue(cid,30002,1)
+				return true
+			end
+			if(getPlayerStorageValue(cid, config.storage) > 0) then
+				return true
+			end
+
+
+setPlayerStorageValue(cid,30002,1)
+local new_container = doCreateItemEx(1988, 1)
+doAddContainerItem(new_container,2307)
+doAddContainerItem(new_container,2308)
+doAddContainerItem(new_container,2309)
+doAddContainerItem(new_container,2310)
+doAddContainerItem(new_container,2311)
+doAddContainerItem(new_container,2314)
+doAddContainerItem(new_container,2313)
+doAddContainerItem(new_container,2312)
+doAddContainerItem(new_container,10045)
+doAddContainerItem(new_container,10047)
+doAddContainerItem(new_container,10049)
+doAddContainerItem(new_container,10051)
+doAddContainerItem(new_container,10053)
+doAddContainerItem(new_container,10055)
+doAddContainerItem(new_container,10057)
+doAddContainerItem(new_container,10059)
+doPlayerAddItemEx(cid, new_container)
+
+doPlayerAddItem(cid, 2120, 1)
+doPlayerAddItem(cid, 1987, 1)
+
+
+
+
+
+			for _, id in ipairs(config.items) do
+				doPlayerAddItem(cid, id, 1)
+			end
+
+
+
+			if(getPlayerSex(cid) == PLAYERSEX_FEMALE) then
+				doPlayerAddItem(cid, 2550, 1)
+			else
+				doPlayerAddItem(cid, 2550, 1)
+			end
+if getPlayerVocation(cid) == 18 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1013)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Weedle."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Weedle")
+--doItemSetAttribute(item, "apelido", "Weedle")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 19 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1010)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Caterpie."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Caterpie")
+--doItemSetAttribute(item, "apelido", "Caterpie")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 20 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1019)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Rattata."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Rattata")
+--doItemSetAttribute(item, "apelido", "Rattata")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 21 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1069)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Bellsprout."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Bellsprout")
+--doItemSetAttribute(item, "apelido", "Bellsprout")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 22 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1021)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Spearow."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Spearow")
+--doItemSetAttribute(item, "apelido", "Spearow")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 23 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1041)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Zubat."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Zubat")
+--doItemSetAttribute(item, "apelido", "Zubat")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 24 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1046)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Paras."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Paras")
+--doItemSetAttribute(item, "apelido", "Paras")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 25 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1043)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Oddish."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Oddish")
+--doItemSetAttribute(item, "apelido", "Oddish")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 26 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1060)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Poliwag."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Poliwag")
+--doItemSetAttribute(item, "apelido", "Poliwag")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 27 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1098)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Krabby."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Krabby")
+--doItemSetAttribute(item, "apelido", "Krabby")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 28 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1118)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Goldeen."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Goldeen")
+--doItemSetAttribute(item, "apelido", "Goldeen")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+elseif getPlayerVocation(cid) == 29 then
+if isPremium(cid) then
+doPlayerSetVocation(cid,2)
+else
+doPlayerSetVocation(cid,1)
+end
+addStatics(1129)
+item = doCreateItemEx(2219)
+nomedaclonagem = getCreatureName(cid)
+description = "Contains a Magikarp."
+doItemSetAttribute(item, "exp2", "0")
+doItemSetAttribute(item, "fine", 100)
+doItemSetAttribute(item, "nome", "Magikarp")
+--doItemSetAttribute(item, "apelido", "Magikarp")
+doItemSetAttribute(item, "description", description)
+doItemSetAttribute(item, "boost", "0")
+doItemSetAttribute(item, "exp", "0")
+doItemSetAttribute(item, "catchby", nomedaclonagem)
+doItemSetAttribute(item, "m1", "0")
+doItemSetAttribute(item, "m2", "0")
+doItemSetAttribute(item, "m3", "0")
+doItemSetAttribute(item, "m4", "0")
+doItemSetAttribute(item, "m5", "0")
+doItemSetAttribute(item, "m6", "0")
+doItemSetAttribute(item, "m7", "0")
+doItemSetAttribute(item, "m8", "0")
+doItemSetAttribute(item, "m9", "0")
+doItemSetAttribute(item, "m10", "0")
+doItemSetAttribute(item, "m11", "0")
+doItemSetAttribute(item, "m12", "0")
+doItemSetAttribute(item, "cold","0")
+doPlayerAddItemEx(cid, item)
+doTransformItem(item, 189)
+
+end
+setPlayerStorageValue(cid, 111, 1)
+setPlayerStorageValue(cid,111111,1)
+setPlayerStorageValue(cid, 999, 0)
+doPlayerAddItem(cid, 2272, 10)
+doPlayerAddItem(cid, 2149, 50)
+doPlayerAddItem(cid, 2270, 1)
+doPlayerAddItem(cid, 2271, 10)
+doPlayerAddItem(cid, 2274, 2)
+doPlayerAddItem(cid, 2275, 1)
+		
+		doPlayerAddSoul(cid, -getPlayerSoul(cid))
+		
+
+
+			setPlayerStorageValue(cid, config.storage, 1)
+			return true
+		end
+	]]></event>
+</mod>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Onix" nameDescription="a Onix" race="rock" experience="2100" speed="260" manacost="390">
+	<health now="5300" max="5300"/>
+	<look type="248" head="0" body="0" legs="0" feet="0" corpse="2990"/>
+	<targetchange interval="100" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="75" attack="70"/>
+
+  
+	
+	
+	</attacks>
+  <defenses armor="0" defense="0"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="ONIX!"/>
+		<voice sentence="NIX!"/>
+		<voice sentence="XII!"/>
+	</voices>
+	<loot>
+	<item id="1294" countmax="62" chance="85000"/> -- essence of fire
+
+	<item id="8864" countmax="1" chance="52000"/> -- nail
+	<item id="2280" countmax="1" chance="2280"/> -- fire stone
+	</loot>
+
+
+</monster>

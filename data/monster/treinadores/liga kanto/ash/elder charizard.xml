@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Charizard" nameDescription="a wild Elder Charizard" race="fire" experience="5800" speed="250" manacost="0">
+    <health now="75800" max="75800"/>
+    <look type="547" corpse="2954"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-1565" max="-1580"/>
+<attack name="moves" interval="1400" chance="70"/>
+  </attacks>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="Elder CHARIZARD!"/>
+		<voice sentence="ZAAARD!"/>
+		<voice sentence="CHARII!"/>
+	</voices>
+	<loot>
+	<item id="8866" countmax="100" chance="20000"/> -- essence of fire
+	<item id="8867" countmax="2" chance="10000"/> -- pot of lava
+	<item id="9602" countmax="2" chance="10000"/> -- Magma Box
+	<item id="9609" countmax="2" chance="10000"/> -- Fire Pendant
+	<item id="9628" countmax="2" chance="10000"/> -- Magma Pendant
+	<item id="2171" countmax="2" chance="333"/> -- Dragon Nail
+	<item id="2289" countmax="1" chance="333"/> -- heart stone
+	<item id="2283" countmax="1" chance="333"/> -- fire stone
+	<item id="9541" countmax="1" chance="333"/> -- Heart Plate
+	<item id="9537" countmax="1" chance="333"/> -- Fire Plate
+	<item id="9626" countmax="1" chance="333"/> -- Elder Charizard Wing
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

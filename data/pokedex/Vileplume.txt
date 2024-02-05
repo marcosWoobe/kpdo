@@ -1,0 +1,25 @@
+General:
+It's named Vileplume (grass).
+Can be used at level 65.
+Non-agressive behavior.
+
+Status:
+It's base health is 3300.
+It gains 65 life x lv + base health.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Absorb (grass) - m1 - level 65
+Leech Seed (grass) - m2 - level 65
+Poison Bomb (poison) - m3 - level 70
+Acid (poison) - m4 - level 65
+Poison Gas (poison) - m5 - level 65
+Solar Beam (grass) - m6 - level 70
+Sleep Powder (grass) - m7 - level 65
+Stun Spore (grass) - m8 - level 65
+Petal Dance - passive  - grass
+
+Habilities:
+Cut (use order on cuttable bushes)

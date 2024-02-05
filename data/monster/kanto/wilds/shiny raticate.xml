@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Raticate" nameDescription="a shiny raticate" race="normal" experience="480" speed="270" manacost="0">
+	<health now="5800" max="5800"/>
+	<look type="519" corpse="164"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2200" range="1" min="-264" max="-294"/>
+<attack name="moves" interval="1000" chance="80"/>
+	</attacks>
+	
+	<voices interval="5000" chance="10">
+		<voice sentence="Cateee"/>
+		<voice sentence="Raticate!"/>
+	</voices>
+<loot>
+	<item id="8853" countmax="1" chance="89000"/> -- apple bite
+	<item id="8854" countmax="1" chance="50000"/> -- rat tail
+	<item id="2289" countmax="1" chance="10000"/> -- heart stone
+	<item id="9541" countmax="1" chance="10000"/> -- Heart Plate
+	</loot>
+	<script>
+<event name="Exp"/>
+
+</script>
+</monster>

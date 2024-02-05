@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Norris Plates" script="default.lua" walkinterval="0" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="570" head="91" body="114" legs="86" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Hello dear customer! Are you here to see my offers? Come on, lets {trade}!"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+			<parameter key="module_shop" value="2"/>
+			<parameter key="shop_sellable" value="cocon plate,9534,400000;dark plate,9535,1200000;dragon plate,9536,1500000;Enigma Plate,9557,1200000;fire plate,9537,800000;grass plate,9538,800000;ground plate,9539,800000;heart plate,9541,1000000;Ice Plate,9540,1000000;punch plate,9558,1300000;rock plate,9542,1000000;steel plate,9543,1000000;thunder plate,9544,1000000;Vennom Plate,9545,600000;Water Plate,9546,800000;"/>
+	</parameters>
+</npc>

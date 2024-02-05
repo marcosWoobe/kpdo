@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Abra" nameDescription="a wild abra" race="psychic" experience="180" speed="160" manacost="0">
+  <health now="1100" max="1100"/>
+  <look type="262" head="113" body="57" legs="95" feet="113" corpse="2905"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="3"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="2000" chance="100" range="3" min="-40" max="-60">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+<attack name="moves" interval="1500" chance="70"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="ABRA!"/>
+    <voice sentence="AAABRAA!"/>
+  </voices>
+ <loot>
+	<item id="8869" countmax="10" chance="20500"/> -- future orb
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

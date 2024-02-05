@@ -1,0 +1,23 @@
+chicorita =7968-215-7342
+bayleaf = 7969-206-7343
+meganium = 7970-207-7344
+cynda = 7971-208-7345
+quilava = 7972-209-7346
+thyplo = 7973-210-7621
+totodile = 7974-211-7622
+crocro = 7975-212-7623
+fera = 7976-213-7264
+sentrait = 7977-214-7625
+
+
+ports --- - -- -
+chico = 7978-310
+bay = 7979-311
+mega 7980-312
+cinda = 7981-313
+quilava = 7982-314
+thpyo = 7983-315
+totodile = 7984-316
+crocro = 7985-317
+fera = 7986-318
+sentrait = 7987-319

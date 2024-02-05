@@ -1,0 +1,25 @@
+General:
+It's named Ivysaur (Grass).
+Can be used at level 40.
+agressive behavior.
+
+Status:
+It's base health is 2600.
+It gains 45 life x lv + base health.
+
+Evolutions:
+Venusaur (level 85 / 2 Leaf Stones)
+
+Moves used:
+Headbutt (normal) - m1 - level 40
+Razor Leaf (grass - m2 - level 40
+Vine Whip (grass) - m3 - level 40
+Quick Attack (normal) - m4 - level 40
+Leech Seed (grass) - m5 - level 42
+Leaf Blade (grass) - m6 - level 45
+Solar Beam (grass) - m7 - level 50
+Sleep Powder (grass) - m8 - level 40
+Stun Spore (grass) - m9 - level 44
+
+Habilities:
+Cut.

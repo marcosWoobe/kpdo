@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crystal Onix" nameDescription="a Crystal Onix" race="ice" experience="2100" speed="260" manacost="390">
+	<health now="10800" max="10800"/>
+	<look type="292" head="0" body="0" legs="0" feet="0" corpse="6320"/>
+	<targetchange interval="100" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	    <attack name="melee" interval="1900" range="1" min="-865" max="-980"/>
+
+
+
+	
+	
+	</attacks>
+  <defenses armor="0" defense="0"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="ONIX!"/>
+		<voice sentence="NIX!"/>
+		<voice sentence="XII!"/>
+	</voices>
+	<loot>
+	<item id="1294" countmax="100" chance="20000"/>-- small stone
+	<item id="8864" countmax="10" chance="20000"/>-- stone orb
+	<item id="2287" countmax="1" chance="333"/> -- earth stone
+	<item id="2280" countmax="1" chance="333"/> -- Rock stone
+	<item id="2285" countmax="1" chance="333"/> -- crystal stone
+	<item id="9539" countmax="1" chance="333"/> -- Ground Plate
+	<item id="9542" countmax="1" chance="333"/> -- Rock Plate
+	<item id="9614" countmax="1" chance="333"/> -- Crystal Onix Tail
+	</loot>
+
+</monster>

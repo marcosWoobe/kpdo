@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Meganium" nameDescription="a Meganium" race="grass" experience="3586" speed="250" manacost="0">
+  <health now="29430" max="29430"/>
+  <look type="480" head="113" body="57" legs="95" feet="113" corpse="5537"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-370" max="-480"/>
+ <attack name="moves" interval="1000" chance="60"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="10">
+	<voice sentence="Meganium!"/>
+    <voice sentence="Meganium!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="100" chance="10000"/> -- seeds
+	<item id="8851" countmax="10" chance="5000"/> -- leaves
+	<item id="8852" countmax="2" chance="5000"/> -- bag of polem
+	<item id="9606" countmax="2" chance="5000"/> -- Grass Pendant
+	<item id="2276" countmax="1" chance="100"/> -- leaf stone
+	<item id="9538" countmax="1" chance="100"/> -- Grass Plate
+	<item id="9657" countmax="1" chance="100"/> -- Meganium Petals
+  </loot>
+        <script>
+
+	<event name="Exp"/>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+
+        </script>
+   
+
+
+</monster>

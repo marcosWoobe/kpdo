@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Empoleon" nameDescription="an Empoleon" race="undead" experience="8723" speed="330" manacost="330">
+  <health now="74300" max="74300"/>
+  <look type="1108" head="20" body="30" legs="40" feet="50" corpse="10096"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="2200" min="-2931" max="-3177"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Empoleon!"/>
+    <voice sentence="Empoleon!"/>
+  </voices>
+</monster>

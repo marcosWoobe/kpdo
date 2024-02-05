@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Katty" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="166" head="116" body="86" legs="86" feet="0"/>
+	<parameters>
+<parameter key="module_shop" value="1"/>
+<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell some important itens, say {trade}."/>
+<parameter key="shop_buyable" value="xxx,1852,2000;xxxs,1853,2000;xxxp,1854,2000;xxxpp,1851,2000;xxxpk,1852,2000;xxxph,1853,2000;xxxphh,1854,2000;xxxpff,1845,2000;wooden chair,3901,2000;sofa chair,3902,2000;red cushioned chair,3903,2000;green cushioned chair,3904,2000;tusk chair,3905,2000;ivory chair,3906,2000;big table,3909,2000;square table,3910,2000;round table,3911,2000;small table,3912,2000;bamboo table,3919,2000;pink flower,3928,2000;green flower,3929,2000;Fishing,3931,2000;large trunk,3938,2000;drawer,3921,2000;drawer2,3922,2000;drawer3,3923,2000;drawer4,3924,2000;drawer5,3925,2000;drawer6,3930,2000;dresser,3932,2000;locker,3934,2000;trough,3935,2000;box,3915,2000;coal basin,3908,2000;birdcage,3918,2000;harp,3917,2000;harpx,3920,2000;piano,3926,2000;globe,3927,2000;clock,3933,2000;lamp,3937,2000;blue tapestry,1872,2000;green tapestry,1860,2000;orange tapestry,1866,2000;pink tapestry,1857,2000;red tapestry,1869,2000;white tapestry,1880,2000;yellow tapestry,1863,2000;"/>
+</parameters>
+</npc>

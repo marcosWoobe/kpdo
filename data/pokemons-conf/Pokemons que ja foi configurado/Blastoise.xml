@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blastoise" nameDescription="a wild Blastoise" race="water" experience="5500" speed="280" manacost="0">
+  <health now="14000" max="14000"/>
+  <look type="55" head="0" body="0" legs="0" feet="0" corpse="5999"/>
+
+	
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="80"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+<attack name="melee" interval="2200" range="1" min="-564" max="-574"/>
+ <attack name="moves" interval="1500" chance="60"/>
+  </attacks>
+
+
+  	<voices interval="2000" chance="10">
+		<voice sentence="BLASTOISE!"/>
+		<voice sentence="TOISE!"/>
+	</voices>
+	<loot>
+		<item id="2277" countmax="1" chance="50"/><!-- Water Stone -->
+		<item id="6528" countmax="100" chance="30000"/><!-- Water gem -->
+		<item id="8820" countmax="1" chance="20000"/><!-- Water Pendant -->
+	</loot>
+<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+
+</script>
+</monster>

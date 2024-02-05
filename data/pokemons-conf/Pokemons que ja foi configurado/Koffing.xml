@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="koffing" nameDescription="a koffing" race="poison" experience="300" speed="220" manacost="0">
+  <health now="900" max="900"/>
+  <look type="228" head="0" body="0" legs="0" feet="0" corpse="2936"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="80"/>
+    <flag targetdistance="5"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+<attack name="melee" interval="2200" range="1" min="-84" max="-94"/>
+
+  <attack name="moves" interval="1000" chance="80"/>
+</attacks>
+
+
+
+ <loot>
+	
+	<item id="8857" countmax="1" chance="17000"/> -- psy spoon
+
+  </loot>
+
+<script>
+<event name="Exp"/>
+
+</script>
+
+</monster>

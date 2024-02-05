@@ -1,0 +1,2876 @@
+*****************************************************
+Error report - Mon Dec 12 16:17:24 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 64
+Total phys: 2096236 K available phys: 737284 K
+Start time: 12-12-2011  18:16:32
+Kernel time: 0:0:1.843
+User time: 0:0:23.562
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x46080d
+eax = 0
+ebx = 0x49f04e8 -> 0
+ecx = 0x4a0aa78 -> 0x9731a8
+edx = 0x979c20 -> 0x973728
+esi = 0x40f72d0 -> 0
+edi = 0x43c5008 -> 0x97430c
+ebp = 0xe0f600 -> 0xe0f620
+esp = 0xe0f448 -> 0xe0f4e8
+efl = 0x10206
+
+---Stack Trace---
+From: 0xe0f448 to: 0xe10000
+0xe0f448 | 0xe0f4e8 -> 0x38b0411
+0xe0f44c | 0x43c5008 -> 0x97430c
+0xe0f450 | 0x498749c -> 0x65646f4d
+0xe0f454 | 0x4987490 -> 0x5
+0xe0f458 | 0xe0f614 -> 0x43c5008
+0xe0f45c | 0x43f5580 -> 0x976ab8
+0xe0f460 | 0xe0f480 -> 0xe0f640
+0xe0f464 | 0x8ce3bd -> 0xf0890389
+0xe0f468 | 0x43feac8 -> 0
+0xe0f46c | 0x4986914 -> 0x31
+0xe0f470 | 0x4986908 -> 0x1
+0xe0f474 | 0x52a2a34 -> 0x4425ed4
+0xe0f478 | 0x52a2a34 -> 0x4425ed4
+0xe0f47c | 0x52a2a34 -> 0x4425ed4
+0xe0f480 | 0xe0f640 -> 0xe0f730
+0xe0f484 | 0x6b64c2 -> 0x5bf4658d
+0xe0f488 | 0xe0f5b4 -> 0xe0f5e8
+0xe0f48c | 0
+0xe0f48c  *****************************************************
+Error report - Wed Dec 14 18:18:55 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 69
+Total phys: 2096236 K available phys: 631232 K
+Start time: 14-12-2011  20:17:46
+Kernel time: 0:0:2.234
+User time: 0:0:23.234
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x89a7cf
+eax = 0
+ebx = 0xe0f11c -> 0x93ecc0
+ecx = 0
+edx = 0x97436c -> 0x661966
+esi = 0x1e9a0314 -> 0x1e9a0314
+edi = 0x1e9a0240 -> 0x9741d8
+ebp = 0xe0e724 -> 0xe0f234
+esp = 0xe0e70c -> 0x949115
+efl = 0x10216
+
+---Stack Trace---
+From: 0xe0e70c to: 0xe10000
+0xe0e70c | 0x949115 -> 0x646900
+0xe0e710 | 0x949115 -> 0x646900
+0xe0e714 | 0x1e0f13c -> 0
+0xe0e718 | 0x52c83d0 -> 0x97436c
+0xe0e71c | 0x1e9a0314 -> 0x1e9a0314
+0xe0e720 | 0x52c83d0 -> 0x97436c
+0xe0e724 | 0xe0f234 -> 0xe0f334 \\\\\\ stack frame //////
+0xe0e728 | 0x5122d2 -> 0xf04ec83 <-- ret
+0xe0e72c | 0xe0f11c -> 0x93ecc0
+0xe0e730 | 0x52c83d0 -> 0x97436c
+0xe0e734 | 0
+0xe0e734  *****************************************************
+Error report - Wed Dec 14 18:21:39 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 70
+Total phys: 2096236 K available phys: 625568 K
+Start time: 14-12-2011  20:20:4
+Kernel time: 0:0:1.984
+User time: 0:0:24.578
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x89a7cf
+eax = 0
+ebx = 0xe0f11c -> 0x93ecc0
+ecx = 0
+edx = 0x97436c -> 0x661966
+esi = 0x1e9a47ec -> 0x1e9a47ec
+edi = 0x1e9a4718 -> 0x9741d8
+ebp = 0xe0e724 -> 0xe0f234
+esp = 0xe0e70c -> 0x949115
+efl = 0x10216
+
+---Stack Trace---
+From: 0xe0e70c to: 0xe10000
+0xe0e70c | 0x949115 -> 0x646900
+0xe0e710 | 0x949115 -> 0x646900
+0xe0e714 | 0x1e0f13c -> 0
+0xe0e718 | 0x35cf8b8 -> 0x97436c
+0xe0e71c | 0x1e9a47ec -> 0x1e9a47ec
+0xe0e720 | 0x35cf8b8 -> 0x97436c
+0xe0e724 | 0xe0f234 -> 0xe0f334 \\\\\\ stack frame //////
+0xe0e728 | 0x5122d2 -> 0xf04ec83 <-- ret
+0xe0e72c | 0xe0f11c -> 0x93ecc0
+0xe0e730 | 0x35cf8b8 -> 0x97436c
+0xe0e734 | 0
+0xe0e734  *****************************************************
+Error report - Wed Dec 14 18:28:22 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 85
+Total phys: 2096236 K available phys: 301484 K
+Start time: 14-12-2011  20:22:41
+Kernel time: 0:0:2.46
+User time: 0:0:25.765
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x89a7cf
+eax = 0
+ebx = 0xe0f11c -> 0x93ecc0
+ecx = 0
+edx = 0x97436c -> 0x661966
+esi = 0x1e9a21f4 -> 0x1e9a21f4
+edi = 0x1e9a2120 -> 0x9741d8
+ebp = 0xe0e724 -> 0xe0f234
+esp = 0xe0e70c -> 0x949115
+efl = 0x10216
+
+---Stack Trace---
+From: 0xe0e70c to: 0xe10000
+0xe0e70c | 0x949115 -> 0x646900
+0xe0e710 | 0x949115 -> 0x646900
+0xe0e714 | 0x1e0f13c -> 0
+0xe0e718 | 0x5388410 -> 0x97436c
+0xe0e71c | 0x1e9a21f4 -> 0x1e9a21f4
+0xe0e720 | 0x5388410 -> 0x97436c
+0xe0e724 | 0xe0f234 -> 0xe0f334 \\\\\\ stack frame //////
+0xe0e728 | 0x5122d2 -> 0xf04ec83 <-- ret
+0xe0e72c | 0xe0f11c -> 0x93ecc0
+0xe0e730 | 0x5388410 -> 0x97436c
+0xe0e734 | 0
+0xe0e734  *****************************************************
+Error report - Wed Dec 14 18:41:53 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 71
+Total phys: 2096236 K available phys: 589696 K
+Start time: 14-12-2011  20:29:31
+Kernel time: 0:0:2.31
+User time: 0:0:25.453
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x89a7cf
+eax = 0
+ebx = 0xe0f11c -> 0x93ecc0
+ecx = 0
+edx = 0x97436c -> 0x661966
+esi = 0x1e99115c -> 0x1e99115c
+edi = 0x1e991088 -> 0x9741d8
+ebp = 0xe0e724 -> 0xe0f234
+esp = 0xe0e70c -> 0x949115
+efl = 0x10216
+
+---Stack Trace---
+From: 0xe0e70c to: 0xe10000
+0xe0e70c | 0x949115 -> 0x646900
+0xe0e710 | 0x949115 -> 0x646900
+0xe0e714 | 0x1e0f13c -> 0
+0xe0e718 | 0x5b5bfd0 -> 0x97436c
+0xe0e71c | 0x1e99115c -> 0x1e99115c
+0xe0e720 | 0x5b5bfd0 -> 0x97436c
+0xe0e724 | 0xe0f234 -> 0xe0f334 \\\\\\ stack frame //////
+0xe0e728 | 0x5122d2 -> 0xf04ec83 <-- ret
+0xe0e72c | 0xe0f11c -> 0x93ecc0
+0xe0e730 | 0x5b5bfd0 -> 0x97436c
+0xe0e734 | 0
+0xe0e734  *****************************************************
+Error report - Wed Dec 14 20:14:48 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 72
+Total phys: 2096236 K available phys: 572612 K
+Start time: 14-12-2011  22:13:20
+Kernel time: 0:0:1.859
+User time: 0:0:23.953
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x89a7cf
+eax = 0
+ebx = 0xe0f11c -> 0x93ecc0
+ecx = 0
+edx = 0x97436c -> 0x661966
+esi = 0x14ae77fc -> 0x14ae7b70
+edi = 0x14ae7728 -> 0x9741d8
+ebp = 0xe0e724 -> 0xe0f234
+esp = 0xe0e70c -> 0x949115
+efl = 0x10216
+
+---Stack Trace---
+From: 0xe0e70c to: 0xe10000
+0xe0e70c | 0x949115 -> 0x646900
+0xe0e710 | 0x949115 -> 0x646900
+0xe0e714 | 0x1e0f13c -> 0
+0xe0e718 | 0x543f9e8 -> 0x97436c
+0xe0e71c | 0x14ae77fc -> 0x14ae7b70
+0xe0e720 | 0x543f9e8 -> 0x97436c
+0xe0e724 | 0xe0f234 -> 0xe0f334 \\\\\\ stack frame //////
+0xe0e728 | 0x5122d2 -> 0xf04ec83 <-- ret
+0xe0e72c | 0xe0f11c -> 0x93ecc0
+0xe0e730 | 0x543f9e8 -> 0x97436c
+0xe0e734 | 0
+0xe0e734  *****************************************************
+Error report - Wed Dec 14 20:53:48 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 72
+Total phys: 2096236 K available phys: 582816 K
+Start time: 14-12-2011  22:52:58
+Kernel time: 0:0:2.171
+User time: 0:0:22.593
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x89abb3
+eax = 0
+ebx = 0xe0f11c -> 0x93ecc0
+ecx = 0
+edx = 0x97436c -> 0x661d4a
+esi = 0x14ae77fc -> 0x14ae7b70
+edi = 0x14ae7728 -> 0x9741d8
+ebp = 0xe0e724 -> 0xe0f234
+esp = 0xe0e70c -> 0x949119
+efl = 0x10216
+
+---Stack Trace---
+From: 0xe0e70c to: 0xe10000
+0xe0e70c | 0x949119 -> 0x646900
+0xe0e710 | 0x949119 -> 0x646900
+0xe0e714 | 0x1e0f13c -> 0
+0xe0e718 | 0x536d008 -> 0x97436c
+0xe0e71c | 0x14ae77fc -> 0x14ae7b70
+0xe0e720 | 0x536d008 -> 0x97436c
+0xe0e724 | 0xe0f234 -> 0xe0f334 \\\\\\ stack frame //////
+0xe0e728 | 0x5126b6 -> 0xf04ec83 <-- ret
+0xe0e72c | 0xe0f11c -> 0x93ecc0
+0xe0e730 | 0x536d008 -> 0x97436c
+0xe0e734 | 0
+0xe0e734  *****************************************************
+Error report - Wed Dec 14 20:55:27 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 71
+Total phys: 2096236 K available phys: 597936 K
+Start time: 14-12-2011  22:54:5
+Kernel time: 0:0:2.62
+User time: 0:0:23.390
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x89abb3
+eax = 0
+ebx = 0xe0f11c -> 0x93ecc0
+ecx = 0
+edx = 0x97436c -> 0x661d4a
+esi = 0x14ae77fc -> 0x14ae7b70
+edi = 0x14ae7728 -> 0x9741d8
+ebp = 0xe0e724 -> 0xe0f234
+esp = 0xe0e70c -> 0x949119
+efl = 0x10216
+
+---Stack Trace---
+From: 0xe0e70c to: 0xe10000
+0xe0e70c | 0x949119 -> 0x646900
+0xe0e710 | 0x949119 -> 0x646900
+0xe0e714 | 0x1e0f13c -> 0
+0xe0e718 | 0x5514008 -> 0x97436c
+0xe0e71c | 0x14ae77fc -> 0x14ae7b70
+0xe0e720 | 0x5514008 -> 0x97436c
+0xe0e724 | 0xe0f234 -> 0xe0f334 \\\\\\ stack frame //////
+0xe0e728 | 0x5126b6 -> 0xf04ec83 <-- ret
+0xe0e72c | 0xe0f11c -> 0x93ecc0
+0xe0e730 | 0x5514008 -> 0x97436c
+0xe0e734 | 0
+0xe0e734  *****************************************************
+Error report - Wed Dec 14 20:57:48 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 55
+Total phys: 2096236 K available phys: 941216 K
+Start time: 14-12-2011  22:57:41
+Kernel time: 0:0:0.468
+User time: 0:0:5.0
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x7aa545
+eax = 0xffffffff
+ebx = 0x202c3114
+ecx = 0
+edx = 0x202c311c
+esi = 0x14ab27a8 -> 0x975888
+edi = 0x134
+ebp = 0xe0e940 -> 0xe0ea80
+esp = 0xe0e940 -> 0xe0ea80
+efl = 0x10212
+
+---Stack Trace---
+From: 0xe0e940 to: 0xe10000
+0xe0e940 | 0xe0ea80 -> 0x6f632074 \\\\\\ stack frame //////
+0xe0e944 | 0x4c3815 -> 0x8f0fc085 <-- ret
+0xe0e948 | 0x202c311c
+0xe0e94c | 0xffffffff
+0xe0e950 | 0xe0ea48 -> 0x45e151c
+0xe0e954 | 0x14aab94c -> 0x67726f46
+0xe0e958 | 0x14ab28ec -> 0x73756f68
+0xe0e95c | 0
+0xe0e95c  *****************************************************
+Error report - Wed Dec 14 20:58:03 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 55
+Total phys: 2096236 K available phys: 941192 K
+Start time: 14-12-2011  22:57:56
+Kernel time: 0:0:0.484
+User time: 0:0:4.937
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x7aa545
+eax = 0xffffffff
+ebx = 0x202c3114
+ecx = 0
+edx = 0x202c311c
+esi = 0x14ab27a8 -> 0x975888
+edi = 0x134
+ebp = 0xe0e940 -> 0xe0ea80
+esp = 0xe0e940 -> 0xe0ea80
+efl = 0x10212
+
+---Stack Trace---
+From: 0xe0e940 to: 0xe10000
+0xe0e940 | 0xe0ea80 -> 0x6f632074 \\\\\\ stack frame //////
+0xe0e944 | 0x4c3815 -> 0x8f0fc085 <-- ret
+0xe0e948 | 0x202c311c
+0xe0e94c | 0xffffffff
+0xe0e950 | 0xe0ea48 -> 0x45e151c
+0xe0e954 | 0x14aab94c -> 0x67726f46
+0xe0e958 | 0x14ab28ec -> 0x73756f68
+0xe0e95c | 0
+0xe0e95c  *****************************************************
+Error report - Thu Dec 15 22:45:41 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 52
+Total phys: 2096236 K available phys: 997308 K
+Start time: 16-12-2011  0:33:8
+Kernel time: 0:0:5.125
+User time: 0:0:27.562
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x89abb3
+eax = 0
+ebx = 0xe0f11c -> 0x93ecc0
+ecx = 0
+edx = 0x97436c -> 0x661d4a
+esi = 0x1ea0c484 -> 0x1ea0c484
+edi = 0x1ea0c3b0 -> 0x9741d8
+ebp = 0xe0e724 -> 0xe0f234
+esp = 0xe0e70c -> 0x949119
+efl = 0x10216
+
+---Stack Trace---
+From: 0xe0e70c to: 0xe10000
+0xe0e70c | 0x949119 -> 0x646900
+0xe0e710 | 0x949119 -> 0x646900
+0xe0e714 | 0x1e0f13c -> 0x81c1
+0xe0e718 | 0x58ca7e0 -> 0x97436c
+0xe0e71c | 0x1ea0c484 -> 0x1ea0c484
+0xe0e720 | 0x58ca7e0 -> 0x97436c
+0xe0e724 | 0xe0f234 -> 0xe0f334 \\\\\\ stack frame //////
+0xe0e728 | 0x5126b6 -> 0xf04ec83 <-- ret
+0xe0e72c | 0xe0f11c -> 0x93ecc0
+0xe0e730 | 0x58ca7e0 -> 0x97436c
+0xe0e734 | 0
+0xe0e734  *****************************************************
+Error report - Fri Dec 16 13:02:35 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 42
+Total phys: 2096236 K available phys: 1202020 K
+Start time: 16-12-2011  15:2:13
+Kernel time: 0:0:0.46
+User time: 0:0:0.78
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x9e9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0xe0e980 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0xe0e980 to: 0xe10000
+0xe0e980 | 0
+0xe0e980  *****************************************************
+Error report - Fri Dec 16 13:03:07 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 42
+Total phys: 2096236 K available phys: 1202028 K
+Start time: 16-12-2011  15:2:45
+Kernel time: 0:0:0.0
+User time: 0:0:0.93
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x9e9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0xe0e980 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0xe0e980 to: 0xe10000
+0xe0e980 | 0
+0xe0e980  *****************************************************
+Error report - Fri Dec 16 13:03:38 2011
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 42
+Total phys: 2096236 K available phys: 1201640 K
+Start time: 16-12-2011  15:3:16
+Kernel time: 0:0:0.62
+User time: 0:0:0.62
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x9e9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0xe0e980 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0xe0e980 to: 0xe10000
+0xe0e980 | 0
+0xe0e980  *****************************************************
+Error report - Fri May 18 14:39:36 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 62
+Total phys: 2096236 K available phys: 789000 K
+Start time: 18-5-2012  17:37:15
+Kernel time: 0:0:3.906
+User time: 0:0:26.46
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x89ad8f
+eax = 0
+ebx = 0xe0f798 -> 0x93ecc0
+ecx = 0
+edx = 0x97436c -> 0x661f26
+esi = 0x2a837320 -> 0x97482c
+edi = 0x522cda0 -> 0x97436c
+ebp = 0xe0eda0 -> 0xe0f8b0
+esp = 0xe0ed88 -> 0x949119
+efl = 0x10206
+
+---Stack Trace---
+From: 0xe0ed88 to: 0xe10000
+0xe0ed88 | 0x949119 -> 0x646900
+0xe0ed8c | 0x949119 -> 0x646900
+0xe0ed90 | 0x1e0f7b8 -> 0x270
+0xe0ed94 | 0x529a008 -> 0x97436c
+0xe0ed98 | 0x2a837320 -> 0x97482c
+0xe0ed9c | 0x529a008 -> 0x97436c
+0xe0eda0 | 0xe0f8b0 -> 0xe0f8f0 \\\\\\ stack frame //////
+0xe0eda4 | 0x5127fe -> 0xf04ec83 <-- ret
+0xe0eda8 | 0xe0f798 -> 0x93ecc0
+0xe0edac | 0x529a008 -> 0x97436c
+0xe0edb0 | 0
+0xe0edb0  *****************************************************
+Error report - Fri Jul 13 04:23:46 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 63
+Total phys: 2096236 K available phys: 768568 K
+Start time: 13-7-2012  6:48:40
+Kernel time: 0:0:4.359
+User time: 0:0:28.93
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x46080d
+eax = 0
+ebx = 0x4abb3d0 -> 0
+ecx = 0x4ad5360 -> 0x973208
+edx = 0x979c20 -> 0x973788
+esi = 0x41881c0 -> 0
+edi = 0x539b008 -> 0x97436c
+ebp = 0xe0f600 -> 0xe0f620
+esp = 0xe0f448 -> 0xe0f4e8
+efl = 0x10206
+
+---Stack Trace---
+From: 0xe0f448 to: 0xe10000
+0xe0f448 | 0xe0f4e8 -> 0x2c70282
+0xe0f44c | 0x539b008 -> 0x97436c
+0xe0f450 | 0
+0xe0f450  *****************************************************
+Error report - Fri Jul 13 04:23:49 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 64
+Total phys: 2096236 K available phys: 753708 K
+Start time: 13-7-2012  6:48:40
+Kernel time: 0:0:5.0
+User time: 0:0:28.531
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x3ff00000
+eax = 0x3ff00000
+ebx = 0x262a88 -> 0x9768a8
+ecx = 0
+edx = 0x42b4f10 -> 0x5f8ffd0
+esi = 0x30d
+edi = 0xa5eff74 -> 0x5c5ee60
+ebp = 0xa5eff10 -> 0xa5eff20
+esp = 0xa5efde4 -> 0x6df4f8
+efl = 0x10202
+
+---Stack Trace---
+From: 0xa5efde4 to: 0xa5f0000
+0xa5efde4 | 0x6df4f8 -> 0xd76c3d83
+0xa5efde8 | 0x42b4f10 -> 0x5f8ffd0
+0xa5efdec | 0xa5efe50 -> 0x93f26c
+0xa5efdf0 | 0x381d343 -> 0xe0e76c03
+0xa5efdf4 | 0x85eeb008
+0xa5efdf8 | 0
+0xa5efdf8  *****************************************************
+Error report - Thu Sep 13 15:03:49 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 37
+Total phys: 8335216 K available phys: 5187900 K
+Start time: 13-9-2012  18:3:0
+Kernel time: 0:0:5.350
+User time: 0:0:14.274
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xe59f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2f9e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2f9e688 to: 0x2fa0000
+0x2f9e688 | 0
+0x2f9e688  *****************************************************
+Error report - Thu Sep 13 15:04:52 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 38
+Total phys: 8335216 K available phys: 5144200 K
+Start time: 13-9-2012  18:4:8
+Kernel time: 0:0:3.634
+User time: 0:0:12.464
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb39f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2e3e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2e3e688 to: 0x2e40000
+0x2e3e688 | 0
+0x2e3e688  *****************************************************
+Error report - Thu Sep 13 15:06:18 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 38
+Total phys: 8335216 K available phys: 5128680 K
+Start time: 13-9-2012  18:5:39
+Kernel time: 0:0:2.386
+User time: 0:0:11.934
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xdf9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x30ae688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x30ae688 to: 0x30b0000
+0x30ae688 | 0
+0x30ae688  *****************************************************
+Error report - Thu Sep 13 15:41:40 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 34
+Total phys: 8335216 K available phys: 5450600 K
+Start time: 13-9-2012  18:41:7
+Kernel time: 0:0:1.638
+User time: 0:0:9.172
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xe99f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2e6e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2e6e688 to: 0x2e70000
+0x2e6e688 | 0
+0x2e6e688  *****************************************************
+Error report - Thu Sep 13 15:43:35 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 38
+Total phys: 8335216 K available phys: 5165176 K
+Start time: 13-9-2012  18:43:11
+Kernel time: 0:0:0.842
+User time: 0:0:9.266
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0xe79f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2e3e0d8 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2e3e0d8 to: 0x2e40000
+0x2e3e0d8 | 0
+0x2e3e0d8  *****************************************************
+Error report - Thu Sep 13 15:45:02 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 38
+Total phys: 8335216 K available phys: 5147476 K
+Start time: 13-9-2012  18:44:39
+Kernel time: 0:0:0.717
+User time: 0:0:9.235
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0xe59f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x313e0d8 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x313e0d8 to: 0x3140000
+0x313e0d8 | 0
+0x313e0d8  *****************************************************
+Error report - Thu Sep 13 15:46:09 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 35
+Total phys: 8335216 K available phys: 5410676 K
+Start time: 13-9-2012  18:45:43
+Kernel time: 0:0:0.920
+User time: 0:0:9.126
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0xb59f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2dee0d8 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2dee0d8 to: 0x2df0000
+0x2dee0d8 | 0
+0x2dee0d8  *****************************************************
+Error report - Thu Sep 13 15:50:07 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 37
+Total phys: 8335216 K available phys: 5192996 K
+Start time: 13-9-2012  18:49:31
+Kernel time: 0:0:1.466
+User time: 0:0:9.360
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb19f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2ece688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2ece688 to: 0x2ed0000
+0x2ece688 | 0
+0x2ece688  *****************************************************
+Error report - Thu Sep 13 19:55:00 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 32
+Total phys: 8335216 K available phys: 5637056 K
+Start time: 13-9-2012  22:54:13
+Kernel time: 0:0:4.960
+User time: 0:0:12.932
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xd39f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2ebe688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2ebe688 to: 0x2ec0000
+0x2ebe688 | 0
+0x2ebe688  *****************************************************
+Error report - Thu Sep 13 19:56:17 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 40
+Total phys: 8335216 K available phys: 4950440 K
+Start time: 13-9-2012  22:55:19
+Kernel time: 0:0:3.728
+User time: 0:0:25.708
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xef9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x325e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x325e688 to: 0x3260000
+0x325e688 | 0
+0x325e688  *****************************************************
+Error report - Thu Sep 13 19:59:45 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 45
+Total phys: 8335216 K available phys: 4571712 K
+Start time: 13-9-2012  22:59:2
+Kernel time: 0:0:1.794
+User time: 0:0:23.992
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xef9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x331e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x331e688 to: 0x3320000
+0x331e688 | 0
+0x331e688  *****************************************************
+Error report - Thu Sep 13 20:03:11 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 45
+Total phys: 8335216 K available phys: 4529940 K
+Start time: 13-9-2012  23:2:27
+Kernel time: 0:0:3.463
+User time: 0:0:24.195
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xaa9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x326e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x326e688 to: 0x3270000
+0x326e688 | 0
+0x326e688  *****************************************************
+Error report - Thu Sep 13 20:05:02 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 45
+Total phys: 8335216 K available phys: 4551712 K
+Start time: 13-9-2012  23:3:58
+Kernel time: 0:0:8.221
+User time: 0:0:29.16
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb49f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x343e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x343e688 to: 0x3440000
+0x343e688 | 0
+0x343e688  *****************************************************
+Error report - Thu Sep 13 20:11:59 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 45
+Total phys: 8335216 K available phys: 4504696 K
+Start time: 13-9-2012  23:11:7
+Kernel time: 0:0:5.584
+User time: 0:0:25.490
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xac9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x336e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x336e688 to: 0x3370000
+0x336e688 | 0
+0x336e688  *****************************************************
+Error report - Thu Sep 13 20:13:48 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 46
+Total phys: 8335216 K available phys: 4457684 K
+Start time: 13-9-2012  23:13:3
+Kernel time: 0:0:3.354
+User time: 0:0:23.634
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xdd9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x341e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x341e688 to: 0x3420000
+0x341e688 | 0
+0x341e688  *****************************************************
+Error report - Thu Sep 13 20:16:57 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 50
+Total phys: 8335216 K available phys: 4110584 K
+Start time: 13-9-2012  23:16:11
+Kernel time: 0:0:3.416
+User time: 0:0:24.289
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xcf9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x336e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x336e688 to: 0x3370000
+0x336e688 | 0
+0x336e688  *****************************************************
+Error report - Thu Sep 13 20:18:23 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 43
+Total phys: 8335216 K available phys: 4738656 K
+Start time: 13-9-2012  23:17:44
+Kernel time: 0:0:6.255
+User time: 0:0:12.27
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xcf9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x30be688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x30be688 to: 0x30c0000
+0x30be688 | 0
+0x30be688  *****************************************************
+Error report - Thu Sep 13 20:19:38 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 51
+Total phys: 8335216 K available phys: 4056524 K
+Start time: 13-9-2012  23:18:45
+Kernel time: 0:0:5.678
+User time: 0:0:25.724
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xd39f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x312e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x312e688 to: 0x3130000
+0x312e688 | 0
+0x312e688  *****************************************************
+Error report - Thu Sep 13 20:25:33 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 51
+Total phys: 8335216 K available phys: 4009456 K
+Start time: 13-9-2012  23:24:45
+Kernel time: 0:0:4.274
+User time: 0:0:25.303
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xac9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x34de688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x34de688 to: 0x34e0000
+0x34de688 | 0
+0x34de688  *****************************************************
+Error report - Thu Sep 13 20:28:28 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 49
+Total phys: 8335216 K available phys: 4220196 K
+Start time: 13-9-2012  23:27:35
+Kernel time: 0:0:5.132
+User time: 0:0:26.254
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xe19f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x34be688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x34be688 to: 0x34c0000
+0x34be688 | 0
+0x34be688  *****************************************************
+Error report - Thu Sep 13 20:32:43 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 47
+Total phys: 8335216 K available phys: 4345372 K
+Start time: 13-9-2012  23:31:49
+Kernel time: 0:0:6.474
+User time: 0:0:26.395
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xd99f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x343e688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x343e688 to: 0x3440000
+0x343e688 | 0
+0x343e688  *****************************************************
+Error report - Tue Nov 13 09:38:13 2012
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 42
+Total phys: 8335216 K available phys: 4831092 K
+Start time: 13-11-2012  11:18:42
+Kernel time: 0:0:22.822
+User time: 0:0:57.470
+Threads: 4
+
+Exception: 0xc0000005 at eip = 0xcb9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x346e468 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x346e468 to: 0x3470000
+0x346e468 | 0
+0x346e468  *****************************************************
+Error report - Wed Jan 16 14:30:34 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 27
+Total phys: 8335216 K available phys: 6026052 K
+Start time: 16-1-2013  16:29:54
+Kernel time: 0:0:0.343
+User time: 0:0:0.249
+Threads: 6
+
+Exception: 0xc0000005 at eip = 0xed9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2f6e458 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2f6e458 to: 0x2f70000
+0x2f6e458 | 0
+0x2f6e458  *****************************************************
+Error report - Mon Feb 11 15:27:54 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Dec 12 2011 16:16:00
+
+Memory load: 42
+Total phys: 8335216 K available phys: 4802412 K
+Start time: 11-2-2013  17:26:2
+Kernel time: 0:0:3.619
+User time: 0:0:26.52
+Threads: 5
+
+Exception: 0xc0000005 at eip = 0xb49f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2dfe688 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2dfe688 to: 0x2e00000
+0x2dfe688 | 0
+0x2dfe688  *****************************************************
+Error report - Sun Mar 03 12:09:42 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 39
+Total phys: 8335216 K available phys: 5068484 K
+Start time: 2-3-2013  23:24:30
+Kernel time: 0:0:1.372
+User time: 0:0:14.851
+Threads: 4
+
+Exception: 0xc0000005 at eip = 0xe69f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x2bbec2c -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x2bbec2c to: 0x2bc0000
+0x2bbec2c | 0
+0x2bbec2c  *****************************************************
+Error report - Mon Mar 04 13:51:00 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 36
+Total phys: 8335216 K available phys: 5313676 K
+Start time: 4-3-2013  16:44:19
+Kernel time: 0:0:1.716
+User time: 0:0:21.715
+Threads: 4
+
+Exception: 0xc0000005 at eip = 0x464f7d
+eax = 0
+ebx = 0x762e378 -> 0
+ecx = 0x761a920 -> 0x97db28
+edx = 0x984c20 -> 0x97e0a8
+esi = 0x6540000 -> 0
+edi = 0x1348e8b0 -> 0x97ec8c
+ebp = 0x2bef5c8 -> 0x2bef5e8
+esp = 0x2bef410 -> 0x2bef4b0
+efl = 0x10202
+
+---Stack Trace---
+From: 0x2bef410 to: 0x2bf0000
+0x2bef410 | 0x2bef4b0 -> 0x40703e0
+0x2bef414 | 0x1348e8b0 -> 0x97ec8c
+0x2bef418 | 0
+0x2bef418  *****************************************************
+Error report - Thu Apr 04 21:47:55 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 19
+Total phys: 8335212 K available phys: 6699144 K
+Start time: 5-4-2013  0:47:54
+Kernel time: 0:0:0.31
+User time: 0:0:0.93
+Threads: 3
+
+Exception: 0xc0000005 at eip = 0x58d80a
+eax = 0x1
+ebx = 0xa28210 -> 0x981b28
+ecx = 0x74d99b10 -> 0x75ff85c3
+edx = 0x1acac80 -> 0x980618
+esi = 0x3a0
+edi = 0x130ff38 -> 0xe2dbc8
+ebp = 0x130f3a4 -> 0x130f5f4
+esp = 0x130f12c -> 0x22bddf8
+efl = 0x10202
+
+---Stack Trace---
+From: 0x130f12c to: 0x1310000
+0x130f12c | 0x22bddf8 -> 0
+0x130f130 | 0x957baf -> 0x756c6176
+0x130f134 | 0x130f314 -> 0x8
+0x130f138 | 0x10
+0x130f13c | 0x23c9170 -> 0xffffffff
+0x130f140 | 0x8
+0x130f144 | 0x130f1c4 -> 0x130f284
+0x130f148 | 0x2397c08 -> 0x1460380
+0x130f14c | 0x24b0f5c -> 0x67696577
+0x130f150 | 0x24b0f50 -> 0x6
+0x130f154 | 0x18
+0x130f158 | 0x3d01bc -> 0x10002
+0x130f15c | 0x3d0d04 -> 0x2397bf8
+0x130f160 | 0x1acaee0 -> 0x24c8284
+0x130f164 | 0x1acaee4 -> 0x24c86d4
+0x130f168 | 0x24b103c -> 0x6b63656e
+0x130f16c | 0x24b1030 -> 0x8
+0x130f170 | 0x4
+0x130f174 | 0
+0x130f174  *****************************************************
+Error report - Mon May 06 10:20:47 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 31
+Total phys: 8335212 K available phys: 5750316 K
+Start time: 6-5-2013  13:2:37
+Kernel time: 0:0:1.218
+User time: 0:0:15.125
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xe29f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x14fec2c -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x14fec2c to: 0x1500000
+0x14fec2c | 0
+0x14fec2c  *****************************************************
+Error report - Wed Jun 12 17:05:32 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 36
+Total phys: 8335212 K available phys: 5332084 K
+Start time: 12-6-2013  20:5:26
+Kernel time: 0:0:0.46
+User time: 0:0:0.78
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58db12
+eax = 0x1
+ebx = 0xde8440 -> 0x982b68
+ecx = 0x75a29b10 -> 0x75ff85c3
+edx = 0x401ae18 -> 0x981658
+esi = 0x8c
+edi = 0x17aff38 -> 0x36dc90
+ebp = 0x17af3a4 -> 0x17af5f4
+esp = 0x17af12c -> 0x48a6e78
+efl = 0x10202
+
+---Stack Trace---
+From: 0x17af12c to: 0x17b0000
+0x17af12c | 0x48a6e78 -> 0
+0x17af130 | 0x958bdf -> 0x756c6176
+0x17af134 | 0x17af314 -> 0x8
+0x17af138 | 0x10
+0x17af13c | 0x494f120 -> 0xffffe000
+0x17af140 | 0x14
+0x17af144 | 0x17af1c4 -> 0x17af284
+0x17af148 | 0x48fb168 -> 0x35104af
+0x17af14c | 0x4a25a44 -> 0x6b63656e
+0x17af150 | 0x4a25a38 -> 0x8
+0x17af154 | 0xb
+0x17af158 | 0x3b01bc -> 0x10002
+0x17af15c | 0x3b0d6c -> 0x48fb158
+0x17af160 | 0x401ad48 -> 0x4a1322c
+0x17af164 | 0x401ad4c -> 0x4a12fec
+0x17af168 | 0x4a25a44 -> 0x6b63656e
+0x17af16c | 0x4a25a38 -> 0x8
+0x17af170 | 0x4
+0x17af174 | 0
+0x17af174  *****************************************************
+Error report - Wed Jun 12 17:08:04 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 36
+Total phys: 8335212 K available phys: 5330112 K
+Start time: 12-6-2013  20:8:3
+Kernel time: 0:0:0.15
+User time: 0:0:0.93
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58db12
+eax = 0x1
+ebx = 0xc08500 -> 0x982b68
+ecx = 0x75a29b10 -> 0x75ff85c3
+edx = 0x41b9c80 -> 0x981658
+esi = 0x1ad
+edi = 0x163ff38 -> 0x101dc90
+ebp = 0x163f3a4 -> 0x163f5f4
+esp = 0x163f12c -> 0x4a4cc80
+efl = 0x10202
+
+---Stack Trace---
+From: 0x163f12c to: 0x1640000
+0x163f12c | 0x4a4cc80 -> 0
+0x163f130 | 0x958bdf -> 0x756c6176
+0x163f134 | 0x163f314 -> 0x8
+0x163f138 | 0x10
+0x163f13c | 0x4aec120 -> 0xffffffff
+0x163f140 | 0x1c
+0x163f144 | 0x163f1c4 -> 0x163f284
+0x163f148 | 0x4a98190 -> 0x2920519
+0x163f14c | 0x4bd284c -> 0x746f6c73
+0x163f150 | 0x4bd2840 -> 0x8
+0x163f154 | 0x3c
+0x163f158 | 0x3a01bc -> 0x10002
+0x163f15c | 0x3a0d6c -> 0x4a98180
+0x163f160 | 0x41b9ee0 -> 0x4bb40b4
+0x163f164 | 0x41b9ee4 -> 0x4bb3fc4
+0x163f168 | 0x4bd2cac -> 0x6b63656e
+0x163f16c | 0x4bd2ca0 -> 0x8
+0x163f170 | 0x4
+0x163f174 | 0
+0x163f174  *****************************************************
+Error report - Wed Jun 12 17:43:48 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 43
+Total phys: 8335212 K available phys: 4708224 K
+Start time: 12-6-2013  20:43:47
+Kernel time: 0:0:0.0
+User time: 0:0:0.93
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58db12
+eax = 0x1
+ebx = 0x9b86e0 -> 0x982b68
+ecx = 0x75a29b10 -> 0x75ff85c3
+edx = 0x403a488 -> 0x981658
+esi = 0x21e
+edi = 0x13bff38 -> 0xd7dc90
+ebp = 0x13bf3a4 -> 0x13bf5f4
+esp = 0x13bf12c -> 0x48bdf60
+efl = 0x10202
+
+---Stack Trace---
+From: 0x13bf12c to: 0x13c0000
+0x13bf12c | 0x48bdf60 -> 0
+0x13bf130 | 0x958bdf -> 0x756c6176
+0x13bf134 | 0x13bf314 -> 0xa
+0x13bf138 | 0x10
+0x13bf13c | 0x492e120 -> 0xffffe000
+0x13bf140 | 0x1
+0x13bf144 | 0x13bf1c4 -> 0x13bf284
+0x13bf148 | 0x48d7168 -> 0x50403b5
+0x13bf14c | 0x4a23c4c -> 0x6f736261
+0x13bf150 | 0x4a23c40 -> 0x12
+0x13bf154 | 0x3b
+0x13bf158 | 0x3e01bc -> 0x10002
+0x13bf15c | 0x3e0d6c -> 0x48d7158
+0x13bf160 | 0x403a3b8 -> 0x49f3f94
+0x13bf164 | 0x403a3bc -> 0x49f3fc4
+0x13bf168 | 0x4a0acac -> 0x67696577
+0x13bf16c | 0x4a0aca0 -> 0x6
+0x13bf170 | 0x4
+0x13bf174 | 0
+0x13bf174  *****************************************************
+Error report - Wed Jun 12 18:51:19 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 44
+Total phys: 8335212 K available phys: 4632108 K
+Start time: 12-6-2013  21:51:18
+Kernel time: 0:0:0.31
+User time: 0:0:0.109
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58db12
+eax = 0x1
+ebx = 0xc68500 -> 0x982b68
+ecx = 0x75a29b10 -> 0x75ff85c3
+edx = 0x40fa2f0 -> 0x981658
+esi = 0x321
+edi = 0x143ff38 -> 0xabdc90
+ebp = 0x143f3a4 -> 0x143f5f4
+esp = 0x143f12c -> 0x498caa8
+efl = 0x10202
+
+---Stack Trace---
+From: 0x143f12c to: 0x1440000
+0x143f12c | 0x498caa8 -> 0
+0x143f130 | 0x958bdf -> 0x756c6176
+0x143f134 | 0x143f314 -> 0x5
+0x143f138 | 0x10
+0x143f13c | 0x49e8120 -> 0xffffffff
+0x143f140 | 0xa
+0x143f144 | 0x143f1c4 -> 0x143f284
+0x143f148 | 0x4992168 -> 0xf50337
+0x143f14c | 0x4ac38cc -> 0x6c696b73
+0x143f150 | 0x4ac38c0 -> 0x9
+0x143f154 | 0x67
+0x143f158 | 0x3b01bc -> 0x10002
+0x143f15c | 0x3b0d6c -> 0x4992158
+0x143f160 | 0x40fabb0 -> 0x4aacf44
+0x143f164 | 0x40fabb4 -> 0x4aad004
+0x143f168 | 0x4ac384c -> 0x6f6d7261
+0x143f16c | 0x4ac3840 -> 0x5
+0x143f170 | 0x4
+0x143f174 | 0
+0x143f174  *****************************************************
+Error report - Thu Jun 13 17:01:07 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 40
+Total phys: 8335212 K available phys: 4932480 K
+Start time: 13-6-2013  13:9:23
+Kernel time: 0:0:3.750
+User time: 0:34:48.141
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb79f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x139edb4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x139edb4 to: 0x13a0000
+0x139edb4 | 0
+0x139edb4  *****************************************************
+Error report - Wed Jun 26 18:09:07 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 32
+Total phys: 8335212 K available phys: 5617508 K
+Start time: 26-6-2013  21:9:6
+Kernel time: 0:0:0.31
+User time: 0:0:0.78
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58db12
+eax = 0x1
+ebx = 0xd88790 -> 0x982b68
+ecx = 0x75db9b10 -> 0x75ff85c3
+edx = 0x403a620 -> 0x981658
+esi = 0x1b0
+edi = 0x174ff38 -> 0x3cdc98
+ebp = 0x174f3a4 -> 0x174f5f4
+esp = 0x174f12c -> 0x48cc0d0
+efl = 0x10202
+
+---Stack Trace---
+From: 0x174f12c to: 0x1750000
+0x174f12c | 0x48cc0d0 -> 0
+0x174f130 | 0x958bdf -> 0x756c6176
+0x174f134 | 0x174f314 -> 0xc
+0x174f138 | 0x10
+0x174f13c | 0x4925120 -> 0xffffe000
+0x174f140 | 0x15
+0x174f144 | 0x174f1c4 -> 0x174f284
+0x174f148 | 0x48d2168 -> 0x52b02fc
+0x174f14c | 0x4a1e83c -> 0x79646f62
+0x174f150 | 0x4a1e830 -> 0x4
+0x174f154 | 0x15
+0x174f158 | 0x3a01bc -> 0x10002
+0x174f15c | 0x3a0d6c -> 0x48d2158
+0x174f160 | 0x4039a28 -> 0x4a1eb84
+0x174f164 | 0x4039a2c -> 0x4a1ea94
+0x174f168 | 0x4a04294 -> 0x67696577
+0x174f16c | 0x4a04288 -> 0x6
+0x174f170 | 0x4
+0x174f174 | 0
+0x174f174  *****************************************************
+Error report - Wed Jun 26 18:41:18 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 46
+Total phys: 8335212 K available phys: 4469556 K
+Start time: 26-6-2013  21:9:13
+Kernel time: 0:0:1.0
+User time: 0:4:18.15
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xd69f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x162e8ac -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x162e8ac to: 0x1630000
+0x162e8ac | 0
+0x162e8ac  *****************************************************
+Error report - Wed Jul 03 20:14:52 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 33
+Total phys: 8335212 K available phys: 5561496 K
+Start time: 2-7-2013  19:45:16
+Kernel time: 0:0:3.328
+User time: 0:5:56.625
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb29f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x138ec2c -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x138ec2c to: 0x1390000
+0x138ec2c | 0
+0x138ec2c  *****************************************************
+Error report - Sat Sep 07 20:16:49 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 23
+Total phys: 8335212 K available phys: 6362256 K
+Start time: 7-9-2013  23:16:39
+Kernel time: 0:0:0.93
+User time: 0:0:0.93
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb79f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x14ee5c4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x14ee5c4 to: 0x14f0000
+0x14ee5c4 | 0
+0x14ee5c4  *****************************************************
+Error report - Sat Sep 07 20:17:29 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Feb 27 2013 15:52:18
+
+Memory load: 23
+Total phys: 8335212 K available phys: 6344444 K
+Start time: 7-9-2013  23:17:27
+Kernel time: 0:0:0.31
+User time: 0:0:0.375
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58db12
+eax = 0x1
+ebx = 0xa58758 -> 0x982b68
+ecx = 0x74df9b10 -> 0x75ff85c3
+edx = 0x4049c80 -> 0x981658
+esi = 0x2af
+edi = 0x141ff38 -> 0x34dca0
+ebp = 0x141f3a4 -> 0x141f5f4
+esp = 0x141f12c -> 0x48c7170
+efl = 0x10202
+
+---Stack Trace---
+From: 0x141f12c to: 0x1420000
+0x141f12c | 0x48c7170 -> 0
+0x141f130 | 0x958bdf -> 0x756c6176
+0x141f134 | 0x141f314 -> 0x8
+0x141f138 | 0x10
+0x141f13c | 0x4981120 -> 0xffffffff
+0x141f140 | 0x19
+0x141f144 | 0x141f1c4 -> 0x141f284
+0x141f148 | 0x491d168 -> 0x5801e8
+0x141f14c | 0x4a3713c -> 0x61654474
+0x141f150 | 0x4a37130 -> 0x6f736261
+0x141f154 | 0x65
+0x141f158 | 0x9e01bc -> 0x10002
+0x141f15c | 0x9e0d6c -> 0x491d158
+0x141f160 | 0x4049ee0 -> 0x4a4e3e4
+0x141f164 | 0x4049ee4 -> 0x4a4e384
+0x141f168 | 0x4a372dc -> 0x6b63656e
+0x141f16c | 0x4a372d0 -> 0x8
+0x141f170 | 0x4
+0x141f174 | 0
+0x141f174  *****************************************************
+Error report - Sun Oct 20 17:29:31 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 50
+Total phys: 8335212 K available phys: 4132824 K
+Start time: 20-10-2013  18:25:59
+Kernel time: 0:0:1.328
+User time: 0:7:28.672
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x465299
+eax = 0
+ebx = 0xa0a4b90 -> 0
+ecx = 0xa015630 -> 0x981068
+edx = 0x987c20 -> 0x9815e8
+esi = 0x7509f08 -> 0
+edi = 0x1c0ae408 -> 0x9821cc
+ebp = 0x167f5c4 -> 0x167f5e4
+esp = 0x167f40c -> 0x167f4ac
+efl = 0x10216
+
+---Stack Trace---
+From: 0x167f40c to: 0x1680000
+0x167f40c | 0x167f4ac -> 0x53404b7
+0x167f410 | 0x1c0ae408 -> 0x9821cc
+0x167f414 | 0
+0x167f414  *****************************************************
+Error report - Wed Nov 06 19:11:16 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 39
+Total phys: 8335212 K available phys: 5062424 K
+Start time: 6-11-2013  19:44:46
+Kernel time: 0:0:0.859
+User time: 0:1:7.0
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xe69f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x170ee54 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x170ee54 to: 0x1710000
+0x170ee54 | 0
+0x170ee54  *****************************************************
+Error report - Wed Nov 06 19:11:17 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 39
+Total phys: 8335212 K available phys: 5063052 K
+Start time: 6-11-2013  19:44:46
+Kernel time: 0:0:0.875
+User time: 0:1:7.0
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x90b261
+eax = 0x534e4f43 -> 0
+ebx = 0x28f364 -> 0x100007f
+ecx = 0x8de9438 -> 0
+edx = 0xf86323c5
+esi = 0x94b43c -> 0
+edi = 0x142
+ebp = 0x28f268 -> 0x28f278
+esp = 0x28f260 -> 0x10279920
+efl = 0x10286
+
+---Stack Trace---
+From: 0x28f260 to: 0x290000
+0x28f260 | 0x10279920 -> 0xa673d90
+0x28f264 | 0x2f414abc -> 0x2e1b8ad0
+0x28f268 | 0x28f278 -> 0x28f358 \\\\\\ stack frame //////
+0x28f26c | 0x8e0da0 -> 0x9090c3c9 <-- ret
+0x28f270 | 0x94b43c -> 0
+0x28f274 | 0x28f364 -> 0x100007f
+0x28f278 | 0x28f358 -> 0x28f5c8 \\\\\\ stack frame //////
+0x28f27c | 0x448e63 -> 0xff6c8589 <-- ret
+0x28f280 | 0x94b43c -> 0
+0x28f284 | 0x28f364 -> 0x100007f
+0x28f288 | 0
+0x28f288  *****************************************************
+Error report - Fri Nov 08 08:12:25 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 40
+Total phys: 8335212 K available phys: 4991332 K
+Start time: 8-11-2013  1:42:16
+Kernel time: 0:0:1.984
+User time: 0:8:42.78
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb39f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x132ee54 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x132ee54 to: 0x1330000
+0x132ee54 | 0
+0x132ee54  *****************************************************
+Error report - Fri Nov 08 12:45:36 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 19
+Total phys: 8335212 K available phys: 6717228 K
+Start time: 8-11-2013  14:45:26
+Kernel time: 0:0:0.15
+User time: 0:0:0.31
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb29f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x13de5c4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x13de5c4 to: 0x13e0000
+0x13de5c4 | 0
+0x13de5c4  *****************************************************
+Error report - Fri Nov 08 17:42:41 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 37
+Total phys: 8335212 K available phys: 5220824 K
+Start time: 8-11-2013  19:42:40
+Kernel time: 0:0:0.0
+User time: 0:0:0.156
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58e736
+eax = 0x1
+ebx = 0xc48520 -> 0x984748
+ecx = 0x769d9b10 -> 0x75ff85c3
+edx = 0x4129ae8 -> 0x983238
+esi = 0xf8
+edi = 0x15aff38 -> 0x10cdc98
+ebp = 0x15af3a4 -> 0x15af5f4
+esp = 0x15af12c -> 0x49a7f98
+efl = 0x10202
+
+---Stack Trace---
+From: 0x15af12c to: 0x15b0000
+0x15af12c | 0x49a7f98 -> 0
+0x15af130 | 0x95961f -> 0x756c6176
+0x15af134 | 0x15af314 -> 0x8
+0x15af138 | 0x10
+0x15af13c | 0x4a5b120 -> 0xffffe000
+0x15af140 | 0x11
+0x15af144 | 0x15af1c4 -> 0x15af284
+0x15af148 | 0x4a05168 -> 0x4a60351
+0x15af14c | 0x4b3e6dc -> 0x746f6c73
+0x15af150 | 0x4b3e6d0 -> 0x8
+0x15af154 | 0x49
+0x15af158 | 0x3a01bc -> 0x10002
+0x15af15c | 0x3a0d6c -> 0x4a05158
+0x15af160 | 0x4128bc0 -> 0x4b21fa4
+0x15af164 | 0x4128bc4 -> 0x4b21fd4
+0x15af168 | 0x4b3eb7c -> 0x6b63656e
+0x15af16c | 0x4b3eb70 -> 0x8
+0x15af170 | 0x4
+0x15af174 | 0
+0x15af174  *****************************************************
+Error report - Fri Nov 08 17:42:49 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 37
+Total phys: 8335212 K available phys: 5229280 K
+Start time: 8-11-2013  19:42:48
+Kernel time: 0:0:0.0
+User time: 0:0:0.140
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58e736
+eax = 0x1
+ebx = 0xa18460 -> 0x984748
+ecx = 0x769d9b10 -> 0x75ff85c3
+edx = 0x411a158 -> 0x983238
+esi = 0x2c3
+edi = 0x143ff38 -> 0xe5dc98
+ebp = 0x143f3a4 -> 0x143f5f4
+esp = 0x143f12c -> 0x498d230
+efl = 0x10202
+
+---Stack Trace---
+From: 0x143f12c to: 0x1440000
+0x143f12c | 0x498d230 -> 0
+0x143f130 | 0x95961f -> 0x756c6176
+0x143f134 | 0x143f314 -> 0xc
+0x143f138 | 0x10
+0x143f13c | 0x4a0b120 -> 0xffffe000
+0x143f140 | 0x8
+0x143f144 | 0x143f1c4 -> 0x143f284
+0x143f148 | 0x49b7190 -> 0x5cb04e6
+0x143f14c | 0x4b09354 -> 0x79646f62
+0x143f150 | 0x4b09348 -> 0x4
+0x143f154 | 0x45
+0x143f158 | 0x3a01bc -> 0x10002
+0x143f15c | 0x3a0d6c -> 0x49b7180
+0x143f160 | 0x4118bd0 -> 0x4b0950c
+0x143f164 | 0x4118bd4 -> 0x4b0937c
+0x143f168 | 0x4ae7cbc -> 0x67696577
+0x143f16c | 0x4ae7cb0 -> 0x6
+0x143f170 | 0x4
+0x143f174 | 0
+0x143f174  *****************************************************
+Error report - Tue Nov 12 11:43:28 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 17
+Total phys: 8335212 K available phys: 6840240 K
+Start time: 12-11-2013  13:43:17
+Kernel time: 0:0:0.31
+User time: 0:0:0.125
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xd09f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x158e5c4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x158e5c4 to: 0x1590000
+0x158e5c4 | 0
+0x158e5c4  *****************************************************
+Error report - Thu Nov 14 17:18:17 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 16
+Total phys: 8335212 K available phys: 6956072 K
+Start time: 14-11-2013  19:17:20
+Kernel time: 0:0:0.203
+User time: 0:0:0.31
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xea9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x157e5c4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x157e5c4 to: 0x1580000
+0x157e5c4 | 0
+0x157e5c4  *****************************************************
+Error report - Thu Nov 14 18:19:38 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 43
+Total phys: 8335212 K available phys: 4694712 K
+Start time: 14-11-2013  19:18:44
+Kernel time: 0:0:2.406
+User time: 0:7:50.594
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb79f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x143ee54 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x143ee54 to: 0x1440000
+0x143ee54 | 0
+0x143ee54  *****************************************************
+Error report - Sat Nov 16 13:51:00 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6118588 K
+Start time: 16-11-2013  15:50:50
+Kernel time: 0:0:0.31
+User time: 0:0:0.31
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb89f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x135e5c4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x135e5c4 to: 0x1360000
+0x135e5c4 | 0
+0x135e5c4  *****************************************************
+Error report - Sat Nov 16 13:52:18 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 28
+Total phys: 8335212 K available phys: 5964988 K
+Start time: 16-11-2013  15:52:17
+Kernel time: 0:0:0.15
+User time: 0:0:0.125
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58e736
+eax = 0x1
+ebx = 0xc486a0 -> 0x984748
+ecx = 0x76769b10 -> 0x75ff85c3
+edx = 0x40f9e18 -> 0x983238
+esi = 0x70
+edi = 0x15aff38 -> 0x10cdc98
+ebp = 0x15af3a4 -> 0x15af5f4
+esp = 0x15af12c -> 0x4987fd0
+efl = 0x10202
+
+---Stack Trace---
+From: 0x15af12c to: 0x15b0000
+0x15af12c | 0x4987fd0 -> 0
+0x15af130 | 0x95961f -> 0x756c6176
+0x15af134 | 0x15af314 -> 0x8
+0x15af138 | 0x10
+0x15af13c | 0x4a28120 -> 0xffffffff
+0x15af140 | 0xf
+0x15af144 | 0x15af1c4 -> 0x15af284
+0x15af148 | 0x49d4168 -> 0x2ee02c2
+0x15af14c | 0x4b0b25c -> 0x6b636500
+0x15af150 | 0x4b0b250 -> 0
+0x15af154 | 0x1c
+0x15af158 | 0x3b01bc -> 0x10002
+0x15af15c | 0x3b0d6c -> 0x49d4158
+0x15af160 | 0x40f9d48 -> 0x4aec7dc
+0x15af164 | 0x40f9d4c -> 0x4aec3ec
+0x15af168 | 0x4b0b01c -> 0x6b63656e
+0x15af16c | 0x4b0b010 -> 0x8
+0x15af170 | 0x4
+0x15af174 | 0
+0x15af174  *****************************************************
+Error report - Sun Nov 17 18:13:55 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6104296 K
+Start time: 17-11-2013  20:13:45
+Kernel time: 0:0:0.15
+User time: 0:0:0.31
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xce9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x13be5c4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x13be5c4 to: 0x13c0000
+0x13be5c4 | 0
+0x13be5c4  *****************************************************
+Error report - Tue Nov 19 11:29:00 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 46
+Total phys: 8335212 K available phys: 4448684 K
+Start time: 19-11-2013  12:25:2
+Kernel time: 0:0:1.625
+User time: 0:9:10.609
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xea9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x157ec2c -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x157ec2c to: 0x1580000
+0x157ec2c | 0
+0x157ec2c  *****************************************************
+Error report - Tue Nov 19 17:27:24 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6089724 K
+Start time: 19-11-2013  19:27:14
+Kernel time: 0:0:0.0
+User time: 0:0:0.31
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xd29f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x156e5c4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x156e5c4 to: 0x1570000
+0x156e5c4 | 0
+0x156e5c4  *****************************************************
+Error report - Wed Nov 20 10:01:43 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 31
+Total phys: 8335212 K available phys: 5690092 K
+Start time: 20-11-2013  12:1:33
+Kernel time: 0:0:0.15
+User time: 0:0:0.15
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0xb89f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x18fe5c4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x18fe5c4 to: 0x1900000
+0x18fe5c4 | 0
+0x18fe5c4  *****************************************************
+Error report - Thu Nov 21 12:30:36 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 18
+Total phys: 8335212 K available phys: 6796860 K
+Start time: 21-11-2013  14:30:25
+Kernel time: 0:0:0.15
+User time: 0:0:0.15
+Threads: 8
+
+Exception: 0xc0000005 at eip = 0xaa9f40
+eax = 0
+ebx = 0
+ecx = 0
+edx = 0
+esi = 0x1
+edi = 0
+ebp = 0
+esp = 0x137e5c4 -> 0
+efl = 0x10246
+
+---Stack Trace---
+From: 0x137e5c4 to: 0x1380000
+0x137e5c4 | 0
+0x137e5c4  *****************************************************
+Error report - Thu Nov 21 19:40:14 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 39
+Total phys: 8335212 K available phys: 5041632 K
+Start time: 21-11-2013  21:29:45
+Kernel time: 0:0:1.0
+User time: 0:1:17.281
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x46529d
+eax = 0
+ebx = 0xa19f610 -> 0
+ecx = 0xa1935f0 -> 0x981068
+edx = 0x987c20 -> 0x9815e8
+esi = 0x8617fd8 -> 0
+edi = 0xeeb0008 -> 0x9821cc
+ebp = 0x135f5c4 -> 0x135f5e4
+esp = 0x135f40c -> 0x135f4ac
+efl = 0x10216
+
+---Stack Trace---
+From: 0x135f40c to: 0x1360000
+0x135f40c | 0x135f4ac -> 0x3910420
+0x135f410 | 0xeeb0008 -> 0x9821cc
+0x135f414 | 0
+0x135f414  *****************************************************
+Error report - Thu Nov 21 19:41:38 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 25
+Total phys: 8335212 K available phys: 6198692 K
+Start time: 21-11-2013  21:41:37
+Kernel time: 0:0:0.46
+User time: 0:0:0.78
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58e736
+eax = 0x1
+ebx = 0xd48790 -> 0x984748
+ecx = 0x768a9b10 -> 0x75ff85c3
+edx = 0x4099fc0 -> 0x983238
+esi = 0x359
+edi = 0x151ff38 -> 0x38dc98
+ebp = 0x151f3a4 -> 0x151f5f4
+esp = 0x151f12c -> 0x49213d0
+efl = 0x10202
+
+---Stack Trace---
+From: 0x151f12c to: 0x1520000
+0x151f12c | 0x49213d0 -> 0
+0x151f130 | 0x95961f -> 0x756c6176
+0x151f134 | 0x151f314 -> 0xc
+0x151f138 | 0x10
+0x151f13c | 0x497f120 -> 0xffffffff
+0x151f140 | 0x1c
+0x151f144 | 0x151f1c4 -> 0x151f284
+0x151f148 | 0x492a168 -> 0x44c0193
+0x151f14c | 0x4a7456c -> 0x79646f62
+0x151f150 | 0x4a74560 -> 0x4
+0x151f154 | 0x7c
+0x151f158 | 0x3d01bc -> 0x10002
+0x151f15c | 0x3d0d6c -> 0x492a158
+0x151f160 | 0x4097be0 -> 0x4a7438c
+0x151f164 | 0x4097be4 -> 0x4a7474c
+0x151f168 | 0x4a6351c -> 0x67696577
+0x151f16c | 0x4a63510 -> 0x6
+0x151f170 | 0x4
+0x151f174 | 0
+0x151f174  *****************************************************
+Error report - Thu Nov 21 22:38:06 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 27
+Total phys: 8335212 K available phys: 6077244 K
+Start time: 22-11-2013  0:38:5
+Kernel time: 0:0:0.0
+User time: 0:0:0.140
+Threads: 7
+
+Exception: 0xc0000005 at eip = 0x58e736
+eax = 0x1
+ebx = 0x9b8670 -> 0x984748
+ecx = 0x768a9b10 -> 0x75ff85c3
+edx = 0x40ba158 -> 0x983238
+esi = 0x7a
+edi = 0x121ff38 -> 0xd3dc98
+ebp = 0x121f3a4 -> 0x121f5f4
+esp = 0x121f12c -> 0x494c820
+efl = 0x10202
+
+---Stack Trace---
+From: 0x121f12c to: 0x1220000
+0x121f12c | 0x494c820 -> 0
+0x121f130 | 0x95961f -> 0x756c6176
+0x121f134 | 0x121f314 -> 0x8
+0x121f138 | 0x10
+0x121f13c | 0x49e3120 -> 0xffffffff
+0x121f140 | 0x19
+0x121f144 | 0x121f1c4 -> 0x121f284
+0x121f148 | 0x499e140 -> 0x5510154
+0x121f14c | 0x4ad700c -> 0x67696577
+0x121f150 | 0x4ad7000 -> 0x6
+0x121f154 | 0x19
+0x121f158 | 0x3e01bc -> 0x10002
+0x121f15c | 0x3e0d6c -> 0x499e130
+0x121f160 | 0x40b9a28 -> 0x4ab76d4
+0x121f164 | 0x40b9a2c -> 0x4ab7704
+0x121f168 | 0x4ad724c -> 0x6b63656e
+0x121f16c | 0x4ad7240 -> 0x8
+0x121f170 | 0x4
+0x121f174 | 0
+0x121f174  *****************************************************
+Error report - Fri Nov 22 16:31:42 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 27
+Total phys: 8335212 K available phys: 6029292 K
+Start time: 22-11-2013  18:31:42
+Kernel time: 0:0:0.0
+User time: 0:0:0.31
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xe31b40 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x26d
+edi = 0x15fff38 -> 0xafdd40
+ebp = 0x15ff5f4 -> 0x15ffc44
+esp = 0x15ff58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x15ff58c to: 0x1600000
+0x15ff58c | 0x9e4a78 -> 0xd33934
+0x15ff590 | 0x9a0896 -> 0x696c7173
+0x15ff594 | 0x996ce8 -> 0x11100ff
+0x15ff598 | 0x15ff5bc -> 0x97501f
+0x15ff59c | 0x9136c2 -> 0x8b18c583
+0x15ff5a0 | 0x15ff54c -> 0x9a0896
+0x15ff5a4 | 0x15ffeb0 -> 0x15fff6c
+0x15ff5a8 | 0x768cc265 -> 0x8b55ff8b
+0x15ff5ac | 0
+0x15ff5ac  *****************************************************
+Error report - Fri Nov 22 16:31:53 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 27
+Total phys: 8335212 K available phys: 6053976 K
+Start time: 22-11-2013  18:31:53
+Kernel time: 0:0:0.0
+User time: 0:0:0.31
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xcc87d0 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x14a
+edi = 0x149ff38 -> 0x3fdd20
+ebp = 0x149f5f4 -> 0x149fc44
+esp = 0x149f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x149f58c to: 0x14a0000
+0x149f58c | 0x9e4a78 -> 0xae3ed4
+0x149f590 | 0x9a0896 -> 0x696c7173
+0x149f594 | 0x996ce8 -> 0x11100ff
+0x149f598 | 0x149f5bc -> 0x97501f
+0x149f59c | 0x9136c2 -> 0x8b18c583
+0x149f5a0 | 0x149f54c -> 0x9a0896
+0x149f5a4 | 0x149feb0 -> 0x149ff6c
+0x149f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x149f5ac | 0
+0x149f5ac  *****************************************************
+Error report - Fri Nov 22 16:31:59 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6115712 K
+Start time: 22-11-2013  18:31:59
+Kernel time: 0:0:0.0
+User time: 0:0:0.15
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xda84d0 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x153
+edi = 0x175ff38 -> 0x33dd20
+ebp = 0x175f5f4 -> 0x175fc44
+esp = 0x175f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x175f58c to: 0x1760000
+0x175f58c | 0x9e4a78 -> 0xae3934
+0x175f590 | 0x9a0896 -> 0x696c7173
+0x175f594 | 0x996ce8 -> 0x11100ff
+0x175f598 | 0x175f5bc -> 0x97501f
+0x175f59c | 0x9136c2 -> 0x8b18c583
+0x175f5a0 | 0x175f54c -> 0x9a0896
+0x175f5a4 | 0x175feb0 -> 0x175ff6c
+0x175f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x175f5ac | 0
+0x175f5ac  *****************************************************
+Error report - Fri Nov 22 16:32:21 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6122964 K
+Start time: 22-11-2013  18:32:21
+Kernel time: 0:0:0.0
+User time: 0:0:0.31
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xa38500 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x3a9
+edi = 0x132ff38 -> 0xe4dd20
+ebp = 0x132f5f4 -> 0x132fc44
+esp = 0x132f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x132f58c to: 0x1330000
+0x132f58c | 0x9e4a78 -> 0x1413ed4
+0x132f590 | 0x9a0896 -> 0x696c7173
+0x132f594 | 0x996ce8 -> 0x11100ff
+0x132f598 | 0x132f5bc -> 0x97501f
+0x132f59c | 0x9136c2 -> 0x8b18c583
+0x132f5a0 | 0x132f54c -> 0x9a0896
+0x132f5a4 | 0x132feb0 -> 0x132ff6c
+0x132f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x132f5ac | 0
+0x132f5ac  *****************************************************
+Error report - Fri Nov 22 16:32:27 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6127604 K
+Start time: 22-11-2013  18:32:27
+Kernel time: 0:0:0.15
+User time: 0:0:0.0
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xa18800 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x3c4
+edi = 0x12dff38 -> 0xd6dd20
+ebp = 0x12df5f4 -> 0x12dfc44
+esp = 0x12df58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x12df58c to: 0x12e0000
+0x12df58c | 0x9e4a78 -> 0x13c3f64
+0x12df590 | 0x9a0896 -> 0x696c7173
+0x12df594 | 0x996ce8 -> 0x11100ff
+0x12df598 | 0x12df5bc -> 0x97501f
+0x12df59c | 0x9136c2 -> 0x8b18c583
+0x12df5a0 | 0x12df54c -> 0x9a0896
+0x12df5a4 | 0x12dfeb0 -> 0x12dff6c
+0x12df5a8 | 0x768cc265 -> 0x8b55ff8b
+0x12df5ac | 0
+0x12df5ac  *****************************************************
+Error report - Fri Nov 22 16:32:40 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6113828 K
+Start time: 22-11-2013  18:32:40
+Kernel time: 0:0:0.0
+User time: 0:0:0.15
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xd48500 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x1cd
+edi = 0x151ff38 -> 0xb5dd20
+ebp = 0x151f5f4 -> 0x151fc44
+esp = 0x151f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x151f58c to: 0x1520000
+0x151f58c | 0x9e4a78 -> 0xcc3c04
+0x151f590 | 0x9a0896 -> 0x696c7173
+0x151f594 | 0x996ce8 -> 0x11100ff
+0x151f598 | 0x151f5bc -> 0x97501f
+0x151f59c | 0x9136c2 -> 0x8b18c583
+0x151f5a0 | 0x151f54c -> 0x9a0896
+0x151f5a4 | 0x151feb0 -> 0x151ff6c
+0x151f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x151f5ac | 0
+0x151f5ac  *****************************************************
+Error report - Fri Nov 22 16:32:48 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6119864 K
+Start time: 22-11-2013  18:32:48
+Kernel time: 0:0:0.0
+User time: 0:0:0.15
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xc48830 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x3e0
+edi = 0x158ff38 -> 0x35dd20
+ebp = 0x158f5f4 -> 0x158fc44
+esp = 0x158f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x158f58c to: 0x1590000
+0x158f58c | 0x9e4a78 -> 0x1023f64
+0x158f590 | 0x9a0896 -> 0x696c7173
+0x158f594 | 0x996ce8 -> 0x11100ff
+0x158f598 | 0x158f5bc -> 0x97501f
+0x158f59c | 0x9136c2 -> 0x8b18c583
+0x158f5a0 | 0x158f54c -> 0x9a0896
+0x158f5a4 | 0x158feb0 -> 0x158ff6c
+0x158f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x158f5ac | 0
+0x158f5ac  *****************************************************
+Error report - Fri Nov 22 16:33:14 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6111728 K
+Start time: 22-11-2013  18:33:14
+Kernel time: 0:0:0.15
+User time: 0:0:0.15
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xde84d0 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0xee
+edi = 0x15bff38 -> 0x35dd20
+ebp = 0x15bf5f4 -> 0x15bfc44
+esp = 0x15bf58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x15bf58c to: 0x15c0000
+0x15bf58c | 0x9e4a78 -> 0xae3c94
+0x15bf590 | 0x9a0896 -> 0x696c7173
+0x15bf594 | 0x996ce8 -> 0x11100ff
+0x15bf598 | 0x15bf5bc -> 0x97501f
+0x15bf59c | 0x9136c2 -> 0x8b18c583
+0x15bf5a0 | 0x15bf54c -> 0x9a0896
+0x15bf5a4 | 0x15bfeb0 -> 0x15bff6c
+0x15bf5a8 | 0x768cc265 -> 0x8b55ff8b
+0x15bf5ac | 0
+0x15bf5ac  *****************************************************
+Error report - Fri Nov 22 16:33:30 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6129652 K
+Start time: 22-11-2013  18:33:30
+Kernel time: 0:0:0.0
+User time: 0:0:0.15
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xda8680 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x26a
+edi = 0x175ff38 -> 0x38dd20
+ebp = 0x175f5f4 -> 0x175fc44
+esp = 0x175f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x175f58c to: 0x1760000
+0x175f58c | 0x9e4a78 -> 0xae3ed4
+0x175f590 | 0x9a0896 -> 0x696c7173
+0x175f594 | 0x996ce8 -> 0x11100ff
+0x175f598 | 0x175f5bc -> 0x97501f
+0x175f59c | 0x9136c2 -> 0x8b18c583
+0x175f5a0 | 0x175f54c -> 0x9a0896
+0x175f5a4 | 0x175feb0 -> 0x175ff6c
+0x175f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x175f5ac | 0
+0x175f5ac  *****************************************************
+Error report - Fri Nov 22 16:34:37 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 26
+Total phys: 8335212 K available phys: 6106076 K
+Start time: 22-11-2013  18:34:37
+Kernel time: 0:0:0.15
+User time: 0:0:0.15
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xcc8800 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x399
+edi = 0x183ff38 -> 0x118dd20
+ebp = 0x183f5f4 -> 0x183fc44
+esp = 0x183f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x183f58c to: 0x1840000
+0x183f58c | 0x9e4a78 -> 0xae3d84
+0x183f590 | 0x9a0896 -> 0x696c7173
+0x183f594 | 0x996ce8 -> 0x11100ff
+0x183f598 | 0x183f5bc -> 0x97501f
+0x183f59c | 0x9136c2 -> 0x8b18c583
+0x183f5a0 | 0x183f54c -> 0x9a0896
+0x183f5a4 | 0x183feb0 -> 0x183ff6c
+0x183f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x183f5ac | 0
+0x183f5ac  *****************************************************
+Error report - Fri Nov 22 16:36:12 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 27
+Total phys: 8335212 K available phys: 6038996 K
+Start time: 22-11-2013  18:36:12
+Kernel time: 0:0:0.0
+User time: 0:0:0.15
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xd11d80 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x133
+edi = 0x163ff38 -> 0x115dd40
+ebp = 0x163f5f4 -> 0x163fc44
+esp = 0x163f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x163f58c to: 0x1640000
+0x163f58c | 0x9e4a78 -> 0xae3e14
+0x163f590 | 0x9a0896 -> 0x696c7173
+0x163f594 | 0x996ce8 -> 0x11100ff
+0x163f598 | 0x163f5bc -> 0x97501f
+0x163f59c | 0x9136c2 -> 0x8b18c583
+0x163f5a0 | 0x163f54c -> 0x9a0896
+0x163f5a4 | 0x163feb0 -> 0x163ff6c
+0x163f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x163f5ac | 0
+0x163f5ac  *****************************************************
+Error report - Fri Nov 22 16:36:20 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 27
+Total phys: 8335212 K available phys: 6049836 K
+Start time: 22-11-2013  18:36:20
+Kernel time: 0:0:0.0
+User time: 0:0:0.31
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xa58740 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x4b
+edi = 0x138ff38 -> 0xeadd20
+ebp = 0x138f5f4 -> 0x138fc44
+esp = 0x138f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x138f58c to: 0x1390000
+0x138f58c | 0x9e4a78 -> 0x1473f04
+0x138f590 | 0x9a0896 -> 0x696c7173
+0x138f594 | 0x996ce8 -> 0x11100ff
+0x138f598 | 0x138f5bc -> 0x97501f
+0x138f59c | 0x9136c2 -> 0x8b18c583
+0x138f5a0 | 0x138f54c -> 0x9a0896
+0x138f5a4 | 0x138feb0 -> 0x138ff6c
+0x138f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x138f5ac | 0
+0x138f5ac  *****************************************************
+Error report - Fri Nov 22 16:37:01 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 28
+Total phys: 8335212 K available phys: 5984756 K
+Start time: 22-11-2013  18:37:1
+Kernel time: 0:0:0.15
+User time: 0:0:0.15
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xac1d50 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x324
+edi = 0x13cff38 -> 0xeedd40
+ebp = 0x13cf5f4 -> 0x13cfc44
+esp = 0x13cf58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x13cf58c to: 0x13d0000
+0x13cf58c | 0x9e4a78 -> 0xe93e44
+0x13cf590 | 0x9a0896 -> 0x696c7173
+0x13cf594 | 0x996ce8 -> 0x11100ff
+0x13cf598 | 0x13cf5bc -> 0x97501f
+0x13cf59c | 0x9136c2 -> 0x8b18c583
+0x13cf5a0 | 0x13cf54c -> 0x9a0896
+0x13cf5a4 | 0x13cfeb0 -> 0x13cff6c
+0x13cf5a8 | 0x768cc265 -> 0x8b55ff8b
+0x13cf5ac | 0
+0x13cf5ac  *****************************************************
+Error report - Fri Nov 22 16:37:58 2013
+
+Compiler info - gcc 3.4.5 (mingw special)
+Compilation Date - Oct 19 2013 17:21:01
+
+Memory load: 27
+Total phys: 8335212 K available phys: 6043988 K
+Start time: 22-11-2013  18:37:58
+Kernel time: 0:0:0.15
+User time: 0:0:0.15
+Threads: 2
+
+Exception: 0xc0000005 at eip = 0x476bbb
+eax = 0
+ebx = 0xae1cc0 -> 0x9e0368
+ecx = 0x5
+edx = 0x7f26feff
+esi = 0x3df
+edi = 0x133ff38 -> 0xa8dd40
+ebp = 0x133f5f4 -> 0x133fc44
+esp = 0x133f58c -> 0x9e4a78
+efl = 0x10246
+
+---Stack Trace---
+From: 0x133f58c to: 0x1340000
+0x133f58c | 0x9e4a78 -> 0x1423e44
+0x133f590 | 0x9a0896 -> 0x696c7173
+0x133f594 | 0x996ce8 -> 0x11100ff
+0x133f598 | 0x133f5bc -> 0x97501f
+0x133f59c | 0x9136c2 -> 0x8b18c583
+0x133f5a0 | 0x133f54c -> 0x9a0896
+0x133f5a4 | 0x133feb0 -> 0x133ff6c
+0x133f5a8 | 0x768cc265 -> 0x8b55ff8b
+0x133f5ac | 0
+0x133f5ac  

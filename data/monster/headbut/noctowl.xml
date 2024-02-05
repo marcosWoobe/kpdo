@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Noctowl" nameDescription="a Noctowl" race="normal" experience="3005" speed="255" manacost="100">
+  <health now="32100" max="32100"/>
+  <look type="333" head="20" body="30" legs="40" feet="50" corpse="8970"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-505" max="-680"/>
+ <attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+
+ <loot>
+	<item id="2694" countmax="64" chance="10000"/> -- straw
+	<item id="8823" countmax="2" chance="5000"/> -- feather
+	<item id="8822" countmax="1" chance="5000"/> -- bird beak
+	<item id="8849" countmax="1" chance="5000"/> -- roc feather
+	<item id="2289" countmax="1" chance="100"/> -- heart stone
+	<item id="9541" countmax="1" chance="100"/> -- Heart Plate
+	<item id="9600" countmax="1" chance="100"/> -- Noctowl Wing
+	<item id="9668" countmax="1" chance="100"/> -- Noctowl Feather
+  </loot>
+	<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+
+</script>
+
+</monster>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bibarel" nameDescription="an Bibarel" race="undead" experience="17000" speed="450" manacost="330">
+  <health now="300000" max="300000"/>
+  <look type="1113" head="20" body="30" legs="40" feet="50" corpse="10101"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1700" min="-1750" max="-2750"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+<defenses armor="0" defense="5"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Bibarel!"/>
+    <voice sentence="Bibarel!"/>
+  </voices>
+  <loot>
+	<item id="8866" countmax="100" chance="20000"/> -- essence of fire
+  </loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

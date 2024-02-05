@@ -1,0 +1,32 @@
+--O projeto kpdo é um projeto open source ,uma instituiçao sem fins lucrativo,esse codigo pode ser utilizado e modificado a gosto sendo distribuido a cada modificação de prefencia para colaborar para a evolução do projeto.
+--site do jogo: www.exaioros.com
+--forum: forum.exaioros.com/forum
+--a area em que se encontra para debater o desenvolvimento do jogo e do projeto é:
+--http://forum.exaioros.com/f20-open-sourcedesenvolvedores-anjo
+--The kpdo project is an open source and free project, a non-profit institution, this code can be used and modified to taste being distributed to each Preference modification to contribute to the evolution of the project.
+--site of the game is www.exaioros.com
+--the forum is forum.exaioros.com/forum
+--the area in which it is to discuss the development of the game and the project is
+--Forum Open Source: http://forum.exaioros.com/f20-open-sourcedesenvolvedores-anjo
+--Contact mail:exaioros@gmail.com
+--MY name:Renan
+--Staff Exaioros kpdo
+--[kpdo]Cater (forum)
+---=-=-=-==-=-www.exaioros.com-=-=-=-==-=-=-=
+--=-=-=-=-=-=-=-=forum.exaioros.com-=-=-=-=-=-=
+typesboost = {
+["Leaf"] = {itemid = 2276,tp = 3, "Giant Magikarp","Torterra","Grotle","Turtwig","Leafeon","Tangrowth","Roserade","Budew","Tropius","Cradily","Lileep","Cacnea","Roselia","Shroomish","Lotad","Lombre","Ludicolo","Treecko","Grovyle","Sceptile","Bulbasaur","Sunkern","Sunflora","Skiploom","Jumpluff","Bellossom","Chikorita","Bayleef","Meganium","Tangela","Ancient Venusaur","Venusaur", "Ivysaur", "Oddish", "Gloom", "Vileplume", "Bellsprout", "Weepinbell", "Exeggcute", "Victreebel", "Exeggutor"},
+["Water"] = {itemid = 2277,tp = 4, "Prinplup","Piplup","Mantyke","Kyogre","Luvdisc","Gorebyss","Huntail","Clamperl","Feebas","Corphish","Whiscash","Barboach","Wailord","Wailmer","Pelipper","Wingull","Mudkip","Marshtomp","Swampert","Suicune","Mantine","Octillery","Remoraid","Qwilfish","Elite Poliwrath","Wooper","Quagsire","Kingdra","Slowking","Politoed","Squirtle","Corsola","Marill","Azumarill","Totodile","Croconaw","Feraligatr","Gyarados", "Magikarp","Ancient Blastoise","Poliwrath", "Wartortle", "Blastoise", "Seadra", "Horsea", "Goldeen", "Seaking", "Psyduck", "Poliwag", "Poliwhirl", "Tentacool", "Tentacruel", "Krabby", "Kingler", "Staryu", "Starmie", "Omanyte","Omastar","Ancient Omastar", "Eevee", "Golduck", "Vaporeon"},
+["Venom"] = {itemid = 2278,tp = 2, "Seviper","Swalot","Gulpin","Nidoking", "Nidoqueen", "Zubat", "Golbat", "Crobat","Ekans", "Arbok", "Nidoran", "Nidoranfe", "Nidorino", "Nidorina", "Grimer", "Muk", "Koffing", "Weezing"},
+["Thunder"] = {itemid = 2279,tp = 5,"Electivire","Magnezone","Minun","Plusle","Manectric","Electrike","Raikou","Elekid","Chinchou","Mareep","Flaaffy","Ampharos","Pichu","Lanturn", "Magnemite", "Pikachu", "Voltorb", "Magneton", "Raichu", "Electrode", "Electabuzz", "Jolteon"},
+["Rock"] = {itemid = 2280,tp = 3, "Probopass","Regirock","Relicanth","Nosepass","Shuckle","Sudowoodo","Ancient Aerodactyl","Larvitar","Pupitar","Tyranitar","Aerodactyl","Geodude", "Graveler", "Golem", "Rhyhorn", "Rhydon", "Onix", "Steelix", "Kabuto", "Crystal Onix", "Crystal Steelix","Kabutops","Ancient Kabutops"},
+["Punch"] = {itemid = 2281,tp = 5, "Infernape","Monferno","Gallade","Medicham","Meditite","Hariyama","Makuhita","Breloom","Combusken","Blaziken","Machop", "Hitmontop","Tyrogue","Machoke", "Machamp", "Mankey", "Primeape","Elite Hitmonlee","Elite Hitmonchan", "Hitmonlee", "Hitmonchan"},
+["Fire"] = {itemid = 2283,tp = 4, "Chimchar","Magmortar","Torkoal","Camerupt","Numel","Torchic","Combusken","Blaziken","Ho-oh","Entei","Magby","Slugma","Magcargo","Charmander","Houndour","Houndoom","Cyndaquil","Quilava","Typhlosion","Elder Charizard", "Charmeleon", "Charizard", "Vulpix", "Ninetales", "Growlithe", "Arcanine", "Ponyta", "Rapidash", "Magmar", "Flareon"},
+["Coccon"] = {itemid = 2284, tp = 2,"Yanmega","Illumise","Volbeat","Nincada","Masquerain","Surskit","Wurmple","Silcoon","Cascoon","Beautifly","Dustox","Yanma","Ledyba","Heracross","Scizor","Ledian","Spinarak","Ariados","Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Paras","Scyther", "Parasect", "Pinsir","Venonat", "Venomoth"},
+["Crystal"] = {itemid = 2285, tp = 25,"Empoleon","Rayquaza","Registeel","Metagross","Metang","Beldum","Salamence","Shelgon","Bagon","Milotic","Armaldo","Anorith","Flygon","Vibrava","Aggron","Lairon","Aron","Mawile","Skarmory", "Dratini", "Dragonair", "Dragonite"},
+["Darkness"] = {itemid = 2286,tp = 5, "Giant Gengar","Dusknoir","Weavile","Honchkrow","Mismagius","Absol","Dusclops","Duskull","Banette","Shuppet","Crawdaunt","Cacturne","Sharpedo","Carvanha","Sableye","Shedinja","Shiftry","Nuzleaf","Seedot","Poochyena","Mightyena","Sneasel","Misdreavus","Umbreon","Hoothoot","Noctowl","Gastly", "Dark Abra","Haunter", "Gengar",},
+["Earth"] = {itemid = 2287, tp = 5,"Gliscor","Rhyperior","Groudon","Trapinch","Donphan","Piloswine","Swinub","Phanpy","Gligar","Murkrow","Cubone","Natu","Xatu","Cleffa","Igglybuff","Kangaskhan", "Marowak", "Sandshrew", "Sandslash", "Diglett", "Dugtrio"},
+["Enigma"] = {itemid = 2288, tp = 5,"Mime Jr","Chingling","Deoxys","Jirachi","Latios","Latias","Wynaut","Chimecho","Claydol","Baltoy","Solrock","Lunatone","Grumpig","Spoink","Gardevoir","Kirlia","Ralts","Celebi","Lugia","Unown","Abra","Wobbuffet","Espeon", "Girafarig","Kadabra", "Alakazam", "Slowpoke", "Slowbro", "Drowzee", "Hypno"},
+["Heart"] = {itemid = 2289, tp = 3, "Giant Porygon","Staraptor","Staravia","Starly","PorygonZ","Togekiss","Lickilicky","Happiny","Ambipom","Kecleon","Castform","Zangoose","Altaria","Swablu","Spinda","Delcatty","Skitty","Azurill","Exploud","Loudred","Whismur","Ninjask","Slaking","Vigoroth","Slakoth","Swellow","Taillow","Zigzagoon","Linoone","Porygon2","Smeargle","Stantler","Dunsparce","Pineco","Forretress","Aipom","Togepi","Miltank","Snubbull","Granbull","Teddiursa","Ursaring","Togetic","Rattata","Farfetchd","Blissey","Sentret","Furret","Ditto","Snorlax","Giant Snorlax","Mr Mime","Porygon","Royal Porygon","Royal Porygon2","Chansey", "Raticate", "Pidgey", "Pidgeotto", "Pidgeot", "Spearow", "Fearow", "Clefairy", "Clefable", "Jigglypuff", "Wigglytuff", "Persian", "Meowth", "Doduo", "Dodrio"},
+["Ice"] = {itemid = 2290,tp = 4, "Froslass","Mamoswine","Glaceon","Regice","Walrein","Sealeo","Spheal","Glalie","Snorunt","Delibird","Piloswine","Swinub","Smoochum","Sneasel","Seel", "Dewgong", "Shellder", "Cloyster", "Jynx", "Lapras"},
+}

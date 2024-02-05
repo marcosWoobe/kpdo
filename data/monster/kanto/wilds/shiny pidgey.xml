@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Pidgey" nameDescription="a wild pidgey" race="flying" experience="60" speed="160" manacost="300">
+  <health now="1420" max="1420"/>
+  <look type="688" head="0" body="0" legs="0" feet="0" corpse="345"/>
+
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" min="-50" max="-90"/>
+<attack name="moves" interval="1000" chance="80"/>
+
+  </attacks>
+  <defenses armor="0" defense="0"/>
+
+<voices interval="5000" chance="10">
+    <voice sentence="Pidgey!"/>
+    <voice sentence="Pid!"/>
+  </voices>
+ <loot>
+	<item id="2694" countmax="16" chance="20000"/> -- straw
+	<item id="8823" countmax="2" chance="10000"/> -- feather
+	<item id="8822" countmax="1" chance="10000"/> -- bird beak
+	<item id="8849" countmax="1" chance="10000"/> -- roc feather
+	<item id="2289" countmax="1" chance="10000"/> -- heart stone
+	<item id="9541" countmax="1" chance="10000"/> -- Heart Plate
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>
+

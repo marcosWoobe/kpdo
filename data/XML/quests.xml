@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="Blaine" startstorageid="111" startstoragevalue="1">
+		<mission name="Defeated Blaine Gym Cinnabar" storageid="9354" startvalue="0" endvalue="1">
+                 <missionstate id="0" description="Reward + 20% Fire Damage Type"/> 
+<missionstate id="1" description="Reward + 20% Fire Damage Type"/>
+
+		</mission>
+</quest>
+<quest name="Misty" startstorageid="111" startstoragevalue="1">
+		<mission name="Defeated Misty Gym Cerulean" storageid="9355" startvalue="0" endvalue="1">
+                             <missionstate id="0" description="Reward + 20% Water Damage Type"/>     
+<missionstate id="1" description="Reward + 20% Water Damage Type"/>
+
+		</mission>
+</quest>
+<quest name="Brock" startstorageid="111" startstoragevalue="1">
+		<mission name="Defeated Brock Gym Pewter" storageid="9353" startvalue="0" endvalue="1">
+                 <missionstate id="0" description="Reward + 20% Rock Damage Type"/> 
+<missionstate id="1" description="Reward + 20% Rock Damage Type"/>
+
+		</mission>
+</quest>
+<quest name="Koga" startstorageid="111" startstoragevalue="1">
+		<mission name="Defeated Koga Gym Fuchsia" storageid="9356" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Reward + 25% Poison Damage Type"/>     
+<missionstate id="1" description="Reward + 25% Poison Damage Type"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Sabrina" startstorageid="111" startstoragevalue="1">
+		<mission name="Defeated Sabrina Gym Saffron" storageid="9357" startvalue="0" endvalue="1">
+  <missionstate id="0" description="Reward + 20% Psychic Damage Type"/>               
+<missionstate id="1" description="Reward + 20% Psychic Damage Type"/>
+
+		</mission>
+		
+	
+
+	</quest>
+<quest name="Erika" startstorageid="111" startstoragevalue="1">
+		<mission name="Defeated Erika Gym Celadon" storageid="9358" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Reward + 25% Grass Damage Type"/>                
+<missionstate id="1" description="Reward + 25% Grass Damage Type"/>
+
+		</mission>
+		
+
+
+	</quest>
+<quest name="Surge" startstorageid="111" startstoragevalue="1">
+		<mission name="Defeated Surge Gym Vermilion" storageid="9359" startvalue="0" endvalue="1">
+<missionstate id="0" description="Reward + 25% Electric Damage Type"/>
+                 <missionstate id="1" description="Reward + 25% Electric Damage Type"/>
+
+		</mission>
+		
+
+
+	</quest>
+<quest name="Giovanni" startstorageid="111" startstoragevalue="1">
+		<mission name="Defeated Giovanni Gym Viridian" storageid="9360" startvalue="0" endvalue="1">
+<missionstate id="0" description="Reward + 30% Normal Damage Type"/>
+                 <missionstate id="1" description="Reward + 30% Normal Damage Type"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Rock Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Search Box" storageid="9361" startvalue="0" endvalue="1">
+<missionstate id="0" description="Reward .: Rock stone,60 hundread dollar,5 hyper ball,10 ultra ball and 20 super ball"/>
+                 <missionstate id="1" description="Reward .: Rock stone,60 hundread dollar,5 hyper ball,10 ultra ball and 20 super ball"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Ice Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Search Box" storageid="9362" startvalue="0" endvalue="1">
+<missionstate id="0" description="Reward .: Ice stone,60 hundread dollar,5 hyper ball,10 ultra ball and 20 super ball"/>
+                 <missionstate id="1" description="Reward .: Ice stone,60 hundread dollar,5 hyper ball,10 ultra ball and 20 super ball"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Psychic Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Search Box" storageid="9363" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Reward .: Enigma stone,100 hundread dollar,10 hyper ball,20 ultra ball and 30 super ball"/>
+                 <missionstate id="1" description="Reward .: Enigma stone,100 hundread dollar,10 hyper ball,20 ultra ball and 30 super ball"/>
+
+		</mission>
+	</quest>
+<quest name="Venom Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Search Box" storageid="9365" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Reward .: Venom stone,70 hundread dollar,10 hyper ball,20 ultra ball and 30 super ball"/>
+                 <missionstate id="1" description="Reward .:  Venom stone,100 hundread dollar,10 hyper ball,20 ultra ball and 30 super ball"/>
+
+		</mission>
+	</quest>
+<quest name="Scary Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Search Box" storageid="9366" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Reward .: Darkness stone,100 hundread dollar,10 hyper ball,20 ultra ball and 30 super ball"/>
+                 <missionstate id="1" description="Reward .: Enigma stone,100 hundread dollar,10 hyper ball,20 ultra ball and 30 super ball"/>
+
+		</mission>
+	</quest>
+<quest name="Charizard Valley" startstorageid="111" startstoragevalue="1">
+		<mission name="Open Valley Statue" storageid="9364" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Required: Search a secret statue+Secret quest."/>
+                 <missionstate id="1" description="Completed Secret quest."/>
+
+		</mission>
+	</quest>
+<quest name="Secret Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Search Secret Code" storageid="223298" startvalue="0" endvalue="2">
+
+                 <missionstate id="0" description="Required: 130 dex pokemons and 50 catchs pokemon species."/>
+ <missionstate id="1" description="Required:Search and open Secret Statue"/>
+ <missionstate id="2" description="Secret code complete."/>
+
+		</mission>
+	<mission name="Secret Quest" storageid="9364" startvalue="0" endvalue="1">
+
+                 <missionstate id="0" description="Required: Complete a Valley quest"/>
+ <missionstate id="1" description="Search and open Valley Statue"/>
+
+
+		</mission>
+	</quest>
+<quest name="Mac Gyver" startstorageid="111" startstoragevalue="1">
+		<mission name="Vocation quest" storageid="121235" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Reward .:You choose a vocation"/>
+                 <missionstate id="1" description="Reward .:You choose a vocation"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Mistery # box" startstorageid="111" startstoragevalue="1">
+		<mission name="Box Find" storageid="9368" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Box 3"/>
+                 <missionstate id="1" description="Find:Tower and poke box 3"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Moltres Legendary " startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9371" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Moltres Statue and Search secret code"/>
+                 <missionstate id="1" description="Complet Moltres"/>
+                 <missionstate id="2" description="Complet Articuno"/>
+             <missionstate id="3" description="Complet Zapdos"/>
+             <missionstate id="4" description="Complet Legendary Quest"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Articuno Legendary" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9372" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Articuno"/>
+                 <missionstate id="1" description="Complet Moltres"/>
+                 <missionstate id="2" description="Complet Articuno"/>
+             <missionstate id="3" description="Complet Zapdos"/>
+             <missionstate id="4" description="Complet Legendary Quest"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Zapdos Legendary" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9373" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Zapdos"/>
+                 <missionstate id="1" description="Complet Moltres"/>
+                 <missionstate id="2" description="Complet Articuno"/>
+             <missionstate id="3" description="Complet Zapdos"/>
+             <missionstate id="4" description="Complet Legendary Quest"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Groudon Legendary" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9374" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Groudon"/>
+                 <missionstate id="1" description="Complet Moltres"/>
+                 <missionstate id="2" description="Complet Articuno"/>
+             <missionstate id="3" description="Complet Zapdos"/>
+             <missionstate id="4" description="Complet Legendary Quest"/>
+
+		</mission>
+		
+	</quest>
+<quest name="Entei Legendary" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9377" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Portal Secret to enter"/>
+                 <missionstate id="1" description="Complet Moltres"/>
+                 <missionstate id="2" description="Complet Articuno"/>
+             <missionstate id="3" description="Complet Zapdos"/>
+             <missionstate id="4" description="Complet Legendary Quest"/>
+
+		</mission>
+		
+	</quest>
+	<quest name="Raikou Legendary" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9378" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Portal Secret to enter"/>
+                 <missionstate id="1" description="Complet Moltres"/>
+                 <missionstate id="2" description="Complet Articuno"/>
+             <missionstate id="3" description="Complet Zapdos"/>
+             <missionstate id="4" description="Complet Legendary Quest"/>
+
+		</mission>
+		
+	</quest>
+	<quest name="Suicune Legendary" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9379" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Portal Secret to enter"/>
+                 <missionstate id="1" description="Complet Moltres"/>
+                 <missionstate id="2" description="Complet Articuno"/>
+             <missionstate id="3" description="Complet Zapdos"/>
+             <missionstate id="4" description="Complet Legendary Quest"/>
+
+		</mission>
+		
+	</quest>
+		<quest name="Mew-Mewtwo Legendary" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9380" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Portal Secret to enter"/>
+                 <missionstate id="1" description="Complet Moltres"/>
+                 <missionstate id="2" description="Complet Articuno"/>
+             <missionstate id="3" description="Complet Zapdos"/>
+             <missionstate id="4" description="Complet Legendary Quest"/>
+
+		</mission>
+		
+	</quest>
+			<quest name="Selfdestruct -tm" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter area" storageid="9381" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:box"/>
+                 <missionstate id="1" description="Complet Moltres"/>
+                 <missionstate id="2" description="Complet Articuno"/>
+             <missionstate id="3" description="Complet Zapdos"/>
+             <missionstate id="4" description="Complet Legendary Quest"/>
+
+		</mission>
+		
+	</quest>
+	<quest name="Ghost Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Find:Box" storageid="9376" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Box"/>
+ 
+       
+
+		</mission>
+		
+		
+	</quest>
+		<quest name="Psychic Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Find:Box" storageid="9375" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Box"/>
+ 
+       
+
+		</mission>
+		
+		
+	</quest>
+<quest name="Fire Splint" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9369" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:box"/>
+                 <missionstate id="1" description="Take reward"/>
+
+		</mission>
+		
+	</quest>
+	<quest name="Torterra Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Find:Box" storageid="9383" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Box"/>
+ 
+       
+
+		</mission>
+		
+		
+	</quest>
+		<quest name="Infernape Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Find:Box" storageid="9384" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Box"/>
+ 
+       
+
+		</mission>
+		
+		
+	</quest>
+		<quest name="Empoleon Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Find:Box" storageid="9385" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Box"/>
+ 
+       
+
+		</mission>
+		
+		
+	</quest>
+	<quest name="Staraptor Quest" startstorageid="111" startstoragevalue="1">
+		<mission name="Find:Box" storageid="9386" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:Box"/>
+ 
+       
+
+		</mission>
+		
+		
+	</quest>
+<quest name="Miding" startstorageid="111" startstoragevalue="1">
+		<mission name="Enter mansion" storageid="9370" startvalue="0" endvalue="1">
+ <missionstate id="0" description="Find:box"/>
+                 <missionstate id="1" description="Take reward"/>
+
+		</mission>
+		
+	</quest>
+
+</quests>

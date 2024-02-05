@@ -1,0 +1,137 @@
+Bug
+
+	<item id="8858" countmax="10" chance="20000"/> -- pot of moss bug
+	<item id="2284" countmax="1" chance="1000"/> -- coccon stone
+	<item id="9534" countmax="1" chance="333"/> -- Cocon Plate
+
+
+
+Dark
+
+	<item id="9648" countmax="100" chance="20000"/> -- Dark Gem
+	<item id="8869" countmax="30" chance="20000"/> -- future orb
+	<item id="2286" countmax="1" chance="333"/> -- darkness stone
+	<item id="9535" countmax="1" chance="333"/> -- Dark Plate
+
+
+Dragon
+
+	<item id="2285" countmax="1" chance="333"/> -- crystal stone
+	<item id="9536" countmax="1" chance="333"/> -- Dragon Plate
+
+Eletrico
+
+	<item id="8861" countmax="100" chance="20000"/> -- screw
+	<item id="8862" countmax="1" chance="10000"/> -- electric box
+	<item id="2279" countmax="1" chance="333"/> -- Thunder Stone
+	<item id="9544" countmax="1" chance="333"/> -- Thunder Plate
+
+Lutador
+
+	<item id="8864" countmax="10" chance="17000"/> -- stone orb
+	<item id="2281" countmax="1" chance="333"/> -- punch stone
+	<item id="9558" countmax="1" chance="333"/> -- Punch Plate
+
+
+Fogo
+
+	<item id="8866" countmax="100" chance="20000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="10000"/> -- pot of lava
+	<item id="9602" countmax="1" chance="10000"/> -- Magma Box
+	<item id="9609" countmax="1" chance="10000"/> -- Fire Pendant
+	<item id="9628" countmax="1" chance="10000"/> -- Magma Pendant
+	<item id="2283" countmax="1" chance="333"/> -- fire stone
+	<item id="9537" countmax="1" chance="333"/> -- Fire Plate
+
+
+
+Voador
+
+	<item id="2694" countmax="64" chance="20000"/> -- straw
+	<item id="8823" countmax="2" chance="10000"/> -- feather
+	<item id="8822" countmax="1" chance="10000"/> -- bird beak
+	<item id="8849" countmax="1" chance="10000"/> -- roc feather
+	<item id="2289" countmax="1" chance="380"/> -- heart stone
+	<item id="9541" countmax="1" chance="333"/> -- Heart Plate
+
+
+Fantasma
+
+	<item id="9648" countmax="100" chance="20000"/> -- Dark Gem
+	<item id="8869" countmax="30" chance="20000"/> -- future orb
+	<item id="2286" countmax="1" chance="333"/> -- darkness stone
+	<item id="9535" countmax="1" chance="333"/> -- Dark Plate
+
+Planta
+
+	<item id="8850" countmax="100" chance="20000"/> -- seeds
+	<item id="8851" countmax="10" chance="10000"/> -- leaves
+	<item id="8852" countmax="2" chance="10000"/> -- bag of polem
+	<item id="9606" countmax="2" chance="10000"/> -- Grass Pendant
+	<item id="2276" countmax="1" chance="333"/> -- leaf stone
+	<item id="9538" countmax="1" chance="333"/> -- Grass Plate
+
+
+
+
+Ground
+
+	<item id="1294" countmax="100" chance="20000"/> -- small stone
+	<item id="8865" countmax="1" chance="10000"/> -- sandbag
+	<item id="2287" countmax="1" chance="333"/> -- earth stone
+	<item id="9539" countmax="1" chance="333"/> -- Ground Plate
+
+Ice
+	<item id="4339" countmax="30" chance="20000"/> -- Ice Orb
+	<item id="2290" countmax="1" chance="380"/> -- Ice Stone
+	<item id="9540" countmax="1" chance="380"/> -- Ice Plate
+
+Normal
+
+	<item id="2289" countmax="1" chance="333"/> -- heart stone
+	<item id="9541" countmax="1" chance="333"/> -- Heart Plate
+
+Poison
+
+	<item id="8856" countmax="30" chance="20000"/> -- bottle of Poison
+	<item id="9585" countmax="1" chance="10000"/> -- Vennom Pendant
+	<item id="2278" countmax="1" chance="333"/> -- venom stone
+	<item id="9545" countmax="1" chance="333"/> -- Vennom Plate
+
+Psychic
+
+	<item id="8869" countmax="30" chance="20000"/> -- future orb
+	<item id="2288" countmax="1" chance="333"/> -- enigma stone
+	<item id="9557" countmax="1" chance="333"/> -- Enigma Plate
+
+
+
+Rock
+
+	<item id="1294" countmax="100" chance="20000"/>-- small stone
+	<item id="8864" countmax="1" chance="20000"/>-- stone orb
+	<item id="2280" countmax="1" chance="333"/> -- Rock stone
+	<item id="9542" countmax="1" chance="333"/> -- Rock Plate
+
+Steel
+
+	<item id="9623" countmax="1" chance="20000"/>-- Bag of Metal
+	<item id="9543" countmax="1" chance="333"/> -- Steel Plate
+
+Water
+
+	<item id="6528" countmax="100" chance="20000"/> -- Water gem
+	<item id="8820" countmax="1" chance="10000"/> -- Water Pendant
+	<item id="9583" countmax="1" chance="10000"/> -- Water Pot
+	<item id="9584" countmax="1" chance="1000"/> -- Water orb
+	<item id="2277" countmax="1" chance="380"/> -- Water Stone
+	<item id="9546" countmax="1" chance="333"/> -- Water Plate
+	<item id="8123" countmax="1" chance="333"/> -- Ruby
+	<item id="9642" countmax="1" chance="333"/> -- Big Ruby
+
+
+
+
+
+
+

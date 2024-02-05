@@ -1,0 +1,88 @@
+tem que remover essa tag <targetchange interval="1000" chance="0"/>
+id dos loots
+nail 8868
+psychic spoon 8870
+future orb 8869
+pot of lava 8867
+essence of fire 8866
+sandbag 8865
+stone orb 8864
+small stone 1294
+pot of moss bug 8858
+electric box 8862
+screw 8861
+iman 8863
+bug antenna 8859
+straw 2694
+water gem 6528
+magikarp 2687
+water pendant 8820
+bird beak 8822
+feather 8823
+seed 8850
+pair of leaves 8851
+bag of pollem 8852
+bitten apple 8853
+rat tail 8854
+bat wing 8855
+pot of moss bug 8856
+gosme 8857
+
+
+[chance das stones +/-]
+e +/- assim quando é 300 a cada 200 bixo cai uma stone
+e quando e 1000 e cada uns 100 +/-
+fire stone 2283 = 200
+leaf stone 2276 = 350
+venom stone 2278 = 600
+water stone 2277 = 250
+heart stone 2289 = 500 
+coccon stone 2284 = 1000
+crystal stone 2285 = 50
+punch stone 2281 = 250
+rock stone 2280 = 400
+ice stone 2290 = 350
+earth stone 2287 = 350
+thunde stone 2279 = 300
+enigma stone 2288 = 300
+darkness = 2286
+
+
+remover essa tag nos que tiver <targetchange interval="1000" chance="0"/>
+as tags q tiver  <flag illusionable="0"/>  ponha pra 1
+agora speed life a gosto so que ja tem uma base ali.
+
+chance loot unico = de  15000,20000 a 30000 (water pendant,gems etc.)
+
+chance loot stone = 500-50
+
+
+ <attack name="melee" interval="2200" range="1" min="-1064" max="-1074"/>
+
+lv 100= exp =5000 = meele =1000-1100
+lv 85 = exp = 3000 = meele 500-600
+lv 75 = exp = 2000 = meele 250-300
+lv 65 = exp = 1500 = meele 150-200
+lv 50 = exp = 1000 = meele 100-120
+lv 40 = exp = 800 = meele 70-80
+lv 20 = exp = 400 = meele 40-50
+lv 10 = exp = 100 = meele 30-40
+
+tag pra adicionar embaixo de voice setence ou em cima de script
+ <loot>
+	<item id="8869" countmax="1" chance="20500"/> -- future orb
+	<item id="8870" countmax="1" chance="17000"/> -- psy spoon
+	<item id="2288" countmax="1" chance="200"/> -- enigma stone
+  </loot>
+
+aquatico \/
+
+ <loot>
+	<item id="6528" countmax="70" chance="20500"/> -- gem
+	<item id="8820" countmax="1" chance="17000"/> -- pen
+	<item id="2277" countmax="1" chance="350"/> -- water stone
+  </loot>
+
+
+
+

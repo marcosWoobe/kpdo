@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Bayleef" nameDescription="a Shiny Bayleef" race="grass" experience="6400" speed="220" manacost="0">
+  <health now="20620" max="20620"/>
+  <look type="973" head="113" body="57" legs="95" feet="113" corpse="9687"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-270" max="-380"/>
+ <attack name="moves" interval="1000" chance="60"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="10">
+	<voice sentence="Bayleef!"/>
+    <voice sentence="Bayleef!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="60" chance="20000"/> -- seeds
+	<item id="8851" countmax="5" chance="20000"/> -- leaves
+	<item id="8852" countmax="2" chance="20000"/> -- bag of polem
+	<item id="9606" countmax="2" chance="20000"/> -- Grass Pendant
+	<item id="2276" countmax="1" chance="20000"/> -- leaf stone
+	<item id="9538" countmax="1" chance="20000"/> -- Grass Plate
+  </loot>
+        <script>
+
+	<event name="Exp"/>
+
+        </script>
+
+
+</monster>

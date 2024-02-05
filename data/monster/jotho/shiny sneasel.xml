@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sneasel" nameDescription="a Shiny Sneasel" race="ice" experience="20305" speed="355" manacost="100">
+  <health now="320800" max="320800"/>
+  <look type="1034" head="20" body="30" legs="40" feet="50" corpse="9748"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="500" range="1" min="-905" max="-1180"/>
+
+<attack name="evasion" interval="1000" chance="50" range="8" /> 
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Sneasel!"/>
+    <voice sentence="Sneasel!"/>
+    <voice sentence="Sneasel!"/>
+  </voices>
+</monster>

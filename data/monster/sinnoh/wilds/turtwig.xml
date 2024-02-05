@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Turtwig" nameDescription="an Turtwig" race="undead" experience="340" speed="300" manacost="330">
+  <health now="7200" max="7200"/>
+  <look type="1100" head="20" body="30" legs="40" feet="50" corpse="10088"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1700" min="-225" max="-310"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Turtwig!"/>
+    <voice sentence="Turtwig!"/>
+  </voices>
+  <loot>
+	<item id="8850" countmax="30" chance="20000"/> -- seeds
+	<item id="8851" countmax="3" chance="10000"/> -- leaves
+	<item id="8852" countmax="1" chance="10000"/> -- bag of polem
+	<item id="9606" countmax="1" chance="10000"/> -- Grass Pendant
+	<item id="2276" countmax="1" chance="333"/> -- leaf stone
+	<item id="9538" countmax="1" chance="333"/> -- Grass Plate
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

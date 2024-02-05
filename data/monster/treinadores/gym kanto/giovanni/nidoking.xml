@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoking" nameDescription="a Nidoking" race="poison" experience="1560" speed="275" manacost="0">
+  <health now="14200" max="14200"/>
+  <look type="35" corpse="5995"/>
+
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+  <attack name="melee" interval="2200" range="1" min="-464" max="-674"/>
+<attack name="moves" interval="1200" chance="80"/>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidooking!" />
+  </voices>
+	 <loot>
+	<item id="8856" countmax="15" chance="20000"/> -- bottle of Poison
+	<item id="1294" countmax="50" chance="20000"/> -- small stone
+	<item id="8865" countmax="1" chance="10000"/> -- sandbag
+	<item id="9585" countmax="1" chance="10000"/> -- Vennom Pendant
+	<item id="8868" countmax="1" chance="5000"/> -- Nail
+	<item id="2278" countmax="1" chance="333"/> -- venom stone
+	<item id="2287" countmax="1" chance="333"/> -- earth stone
+	<item id="9545" countmax="1" chance="333"/> -- Vennom Plate
+	<item id="9539" countmax="1" chance="333"/> -- Ground Plate
+	<item id="9667" countmax="1" chance="333"/> -- Male Ear
+  </loot>
+	<script>
+<event name="Exp"/>
+
+</script>
+</monster>

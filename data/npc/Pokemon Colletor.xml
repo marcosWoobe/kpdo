@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Pokemon Collector" script="data/npc/scripts/buy_pokemons.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+	<look type="172" head="0" body="116" legs="116" feet="115"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|. You Selling me {pokemon}? " />
+</parameters>
+</npc>

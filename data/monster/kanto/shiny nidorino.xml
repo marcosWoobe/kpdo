@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidorino" nameDescription="a Nidorino" race="poison" experience="900" speed="220" manacost="0">
+  <health now="2000" max="2000"/>
+  <look type="669" head="20" body="30" legs="40" feet="50" corpse="347"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="500"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" min="-110" max="-120"/>
+
+  </attacks>
+
+
+
+</monster>

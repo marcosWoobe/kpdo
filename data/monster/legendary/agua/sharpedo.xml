@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Strong Sharpedo" nameDescription="a Strong Sharpedo" race="undead" experience="20000" speed="800" manacost="330">
+  <health now="1500000" max="1500000"/>
+  <look type="897" head="20" body="30" legs="40" feet="50" corpse="9337"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1700" min="-4000" max="-5000"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+<defenses armor="0" defense="5"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Sharpedo!"/>
+    <voice sentence="Sharpedo!"/>
+  </voices>
+  <loot>
+	<item id="6528" countmax="100" chance="20000"/> -- Water gem	
+	<item id="8820" countmax="1" chance="10000"/> -- Water Pendant
+	<item id="9583" countmax="1" chance="10000"/> -- Water Pot
+	<item id="9584" countmax="1" chance="1000"/> -- Water orb
+	<item id="9648" countmax="100" chance="20000"/> -- Dark Gem
+	<item id="8869" countmax="30" chance="20000"/> -- future orb
+	<item id="2286" countmax="1" chance="333"/> -- darkness stone
+	<item id="9535" countmax="1" chance="333"/> -- Dark Plate
+	<item id="2277" countmax="1" chance="380"/> -- Water Stone
+	<item id="9546" countmax="1" chance="333"/> -- Water Plate
+	<item id="8123" countmax="1" chance="333"/> -- Ruby
+	<item id="9642" countmax="1" chance="333"/> -- Big Ruby
+  </loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

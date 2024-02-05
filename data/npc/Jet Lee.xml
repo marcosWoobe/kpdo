@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Jet lee" script="data/npc/scripts/lee.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+	<look type="234" head="0" body="116" legs="116" feet="115"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|. you trade me hitmonlee for elite hitmonlee? " />
+</parameters>
+</npc>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="venomoth" nameDescription="a venomoth" race="bug" experience="1380" speed="220" manacost="0">
+  <health now="5380" max="5380"/>
+  <look type="49" corpse="2925"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="38" attack="38"/>
+ 
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  
+
+   <loot>
+	<item id="8858" countmax="1" chance="20500"/> -- future orb
+	<item id="8859" countmax="1" chance="17000"/> -- psy spoon
+	<item id="2284" countmax="1" chance="1000"/> -- psy spoon
+	<item id="2278" countmax="1" chance="1000"/> -- psy spoon
+	
+  </loot>
+	<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+
+</script>
+</monster>

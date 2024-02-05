@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Miltank" nameDescription="a Miltank" race="fire" experience="4005" speed="255" manacost="100">
+  <health now="49400" max="49400"/>
+  <look type="408" head="20" body="30" legs="40" feet="50" corpse="8923"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-605" max="-780"/>
+
+ <attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+<loot>
+	<item id="2289" countmax="1" chance="333"/> -- heart stone
+	<item id="9541" countmax="1" chance="333"/> -- Heart Plate
+	<item id="9646" countmax="1" chance="333"/> -- Miltank Tail
+	</loot>
+
+	<script>
+<event name="Exp"/>
+
+
+
+</script>
+
+
+
+</monster>

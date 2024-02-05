@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Skarmory" nameDescription="a Skarmory" race="undead" experience="9600" speed="270" manacost="330">
+  <health now="126000" max="126000"/>
+  <look type="394" head="20" body="30" legs="40" feet="50" corpse="8987"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1000" min="-3730" max="-3960"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Skarmory!"/>
+    <voice sentence="Skarmory!"/>
+  </voices>
+</monster>

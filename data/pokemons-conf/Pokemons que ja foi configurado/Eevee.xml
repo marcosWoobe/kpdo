@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Eevee" nameDescription="a Eevee" race="normal" experience="300" speed="270" manacost="0">
+  <health now="1500" max="1500"/>
+  <look type="102" corpse="6364"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pusheable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" attack="15" skill="15"/>
+<attack name="moves" interval="1000" chance="80"/>
+  </attacks>
+  <defenses armor="10" defense="10"/>
+	 <loot>
+	<item id="2289" countmax="1" chance="400"/> -- enigma stone
+  </loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

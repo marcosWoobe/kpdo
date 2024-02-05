@@ -1,0 +1,286 @@
+--O projeto kpdo é um projeto open source ,uma instituiçao sem fins lucrativo,esse codigo pode ser utilizado e modificado a gosto sendo distribuido a cada modificação de prefencia para colaborar para a evolução do projeto.
+--site do jogo: www.exaioros.com
+--forum: forum.exaioros.com/forum
+--a area em que se encontra para debater o desenvolvimento do jogo e do projeto é:
+--http://forum.exaioros.com/f20-open-sourcedesenvolvedores-anjo
+--The kpdo project is an open source and free project, a non-profit institution, this code can be used and modified to taste being distributed to each Preference modification to contribute to the evolution of the project.
+--site of the game is www.exaioros.com
+--the forum is forum.exaioros.com/forum
+--the area in which it is to discuss the development of the game and the project is
+--Forum Open Source: http://forum.exaioros.com/f20-open-sourcedesenvolvedores-anjo
+--Contact mail:exaioros@gmail.com
+--MY name:Renan
+--Staff Exaioros kpdo
+--[kpdo]Cater (forum)
+---=-=-=-==-=-www.exaioros.com-=-=-=-==-=-=-=
+--=-=-=-=-=-=-=-=forum.exaioros.com-=-=-=-=-=-=
+local d0 = 
+{
+        [0] = {pokemon = 'Magikarp p'}, 
+}
+
+local d20 = 
+{
+        [0] = {pokemon = 'magikarp p'}, 
+        [1] = {pokemon = 'horsea p'}, 
+        [2] = {pokemon = 'krabby p'}, 
+        [3] = {pokemon = 'poliwag p'}, 
+        [4] = {pokemon = 'shellder p'}, 
+        [5] = {pokemon = 'slowpoke p'}, 
+        [6] = {pokemon = 'goldeen p'},  
+}
+
+local d40 = 
+{
+        [0] = {pokemon = 'magikarp p'}, 
+        [1] = {pokemon = 'horsea p'}, 
+        [2] = {pokemon = 'krabby p'}, 
+        [3] = {pokemon = 'poliwag p'}, 
+        [4] = {pokemon = 'shellder p'}, 
+        [5] = {pokemon = 'slowpoke p'}, 
+        [6] = {pokemon = 'goldeen p'}, 
+        [7] = {pokemon = 'psyduck p'}, 
+        [8] = {pokemon = 'staryu p'}, 
+        [9] = {pokemon = 'tentacool p'}, 
+        [10] = {pokemon = 'poliwhirl p'}, 
+        [11] = {pokemon = 'seel p'},
+}
+
+local d60 = 
+{
+        [0] = {pokemon = 'magikarp p'}, 
+        [1] = {pokemon = 'horsea p'}, 
+        [2] = {pokemon = 'krabby p'}, 
+        [3] = {pokemon = 'poliwag p'}, 
+        [4] = {pokemon = 'shellder p'}, 
+        [5] = {pokemon = 'slowpoke p'}, 
+        [6] = {pokemon = 'goldeen p'}, 
+        [7] = {pokemon = 'psyduck p'}, 
+        [8] = {pokemon = 'staryu p'}, 
+        [9] = {pokemon = 'tentacool p'}, 
+        [10] = {pokemon = 'poliwhirl p'}, 
+        [11] = {pokemon = 'seel p'},
+        [12] = {pokemon = 'squirtle p'},
+        [13] = {pokemon = 'totodile p'},
+        [14] = {pokemon = 'seaking p'},
+}
+
+local d80 = 
+{
+        [0] = {pokemon = 'magikarp p'}, 
+        [1] = {pokemon = 'horsea p'}, 
+        [2] = {pokemon = 'krabby p'}, 
+        [3] = {pokemon = 'poliwag p'}, 
+        [4] = {pokemon = 'shellder p'}, 
+        [5] = {pokemon = 'slowpoke p'}, 
+        [6] = {pokemon = 'goldeen p'}, 
+        [7] = {pokemon = 'psyduck p'}, 
+        [8] = {pokemon = 'staryu p'}, 
+        [9] = {pokemon = 'tentacool p'}, 
+        [10] = {pokemon = 'poliwhirl p'}, 
+        [11] = {pokemon = 'seel p'},
+        [12] = {pokemon = 'squirtle p'},
+        [13] = {pokemon = 'totodile p'},
+        [14] = {pokemon = 'seaking p'},
+        [15] = {pokemon = 'starmie p'},
+        [16] = {pokemon = 'remoraid p'},
+		[17] = {pokemon = 'wooper p'},
+		[18] = {pokemon = 'marill p'},
+		[19] = {pokemon = 'mudkip p'},
+		[20] = {pokemon = 'slowbro p'},
+		[21] = {pokemon = 'wartortle p'},
+		[22] = {pokemon = 'kingler p'},
+
+}
+
+local d90 = 
+{
+        [0] = {pokemon = 'magikarp p'}, 
+        [1] = {pokemon = 'horsea p'}, 
+        [2] = {pokemon = 'krabby p'}, 
+        [3] = {pokemon = 'poliwag p'}, 
+        [4] = {pokemon = 'shellder p'}, 
+        [5] = {pokemon = 'slowpoke p'}, 
+        [6] = {pokemon = 'goldeen p'}, 
+        [7] = {pokemon = 'psyduck p'}, 
+        [8] = {pokemon = 'staryu p'}, 
+        [9] = {pokemon = 'tentacool p'}, 
+        [10] = {pokemon = 'poliwhirl p'}, 
+        [11] = {pokemon = 'seel p'},
+        [12] = {pokemon = 'squirtle p'},
+        [13] = {pokemon = 'totodile p'},
+        [14] = {pokemon = 'seaking p'},
+        [15] = {pokemon = 'starmie p'},
+        [16] = {pokemon = 'remoraid p'},
+		[17] = {pokemon = 'wooper p'},
+		[18] = {pokemon = 'marill p'},
+		[19] = {pokemon = 'mudkip p'},
+		[20] = {pokemon = 'slowbro p'},
+		[21] = {pokemon = 'wartortle p'},
+		[22] = {pokemon = 'kingler p'},
+		[23] = {pokemon = 'seadra p'},
+		[24] = {pokemon = 'croconaw p'},
+		[25] = {pokemon = 'cloyster p'},
+		[26] = {pokemon = 'dewgong p'},
+		[27] = {pokemon = 'kabuto p'},
+		[28] = {pokemon = 'omanyte p'},
+		[29] = {pokemon = 'lotad p'},
+
+}
+
+local d100 = 
+{
+        [0] = {pokemon = 'magikarp p'}, 
+        [1] = {pokemon = 'horsea p'}, 
+        [2] = {pokemon = 'krabby p'}, 
+        [3] = {pokemon = 'poliwag p'}, 
+        [4] = {pokemon = 'shellder p'}, 
+        [5] = {pokemon = 'slowpoke p'}, 
+        [6] = {pokemon = 'goldeen p'}, 
+        [7] = {pokemon = 'psyduck p'}, 
+        [8] = {pokemon = 'staryu p'}, 
+        [9] = {pokemon = 'tentacool p'}, 
+        [10] = {pokemon = 'poliwhirl p'}, 
+        [11] = {pokemon = 'seel p'},
+        [12] = {pokemon = 'squirtle p'},
+        [13] = {pokemon = 'totodile p'},
+        [14] = {pokemon = 'seaking p'},
+        [15] = {pokemon = 'starmie p'},
+        [16] = {pokemon = 'remoraid p'},
+		[17] = {pokemon = 'wooper p'},
+		[18] = {pokemon = 'marill p'},
+		[19] = {pokemon = 'mudkip p'},
+		[20] = {pokemon = 'slowbro p'},
+		[21] = {pokemon = 'wartortle p'},
+		[22] = {pokemon = 'kingler p'},
+		[23] = {pokemon = 'seadra p'},
+		[24] = {pokemon = 'croconaw p'},
+		[25] = {pokemon = 'cloyster p'},
+		[26] = {pokemon = 'dewgong p'},
+		[27] = {pokemon = 'kabuto p'},
+		[28] = {pokemon = 'omanyte p'},
+		[29] = {pokemon = 'lotad p'},
+		[30] = {pokemon = 'poliwrath p'},
+		[31] = {pokemon = 'vaporeon p'},
+		[32] = {pokemon = 'azumarill p'},
+		[33] = {pokemon = 'golduck p'},
+		[34] = {pokemon = 'politoed p'},
+		[35] = {pokemon = 'tentacruel p'},
+		[36] = {pokemon = 'blastoise p'},
+		[37] = {pokemon = 'chinchou p'},
+
+}
+
+local d110 = 
+{
+        [0] = {pokemon = 'magikarp p'}, 
+        [1] = {pokemon = 'horsea p'}, 
+        [2] = {pokemon = 'krabby p'}, 
+        [3] = {pokemon = 'poliwag p'}, 
+        [4] = {pokemon = 'shellder p'}, 
+        [5] = {pokemon = 'slowpoke p'}, 
+        [6] = {pokemon = 'goldeen p'}, 
+        [7] = {pokemon = 'psyduck p'}, 
+        [8] = {pokemon = 'staryu p'}, 
+        [9] = {pokemon = 'tentacool p'}, 
+        [10] = {pokemon = 'poliwhirl p'}, 
+        [11] = {pokemon = 'seel p'},
+        [12] = {pokemon = 'squirtle p'},
+        [13] = {pokemon = 'totodile p'},
+        [14] = {pokemon = 'seaking p'},
+        [15] = {pokemon = 'starmie p'},
+        [16] = {pokemon = 'remoraid p'},
+		[17] = {pokemon = 'wooper p'},
+		[18] = {pokemon = 'marill p'},
+		[19] = {pokemon = 'mudkip p'},
+		[20] = {pokemon = 'slowbro p'},
+		[21] = {pokemon = 'wartortle p'},
+		[22] = {pokemon = 'kingler p'},
+		[23] = {pokemon = 'seadra p'},
+		[24] = {pokemon = 'croconaw p'},
+		[25] = {pokemon = 'cloyster p'},
+		[26] = {pokemon = 'dewgong p'},
+		[27] = {pokemon = 'kabuto p'},
+		[28] = {pokemon = 'omanyte p'},
+		[29] = {pokemon = 'lotad p'},
+		[30] = {pokemon = 'poliwrath p'},
+		[31] = {pokemon = 'vaporeon p'},
+		[32] = {pokemon = 'azumarill p'},
+		[33] = {pokemon = 'golduck p'},
+		[34] = {pokemon = 'politoed p'},
+		[35] = {pokemon = 'tentacruel p'},
+		[36] = {pokemon = 'blastoise p'},
+		[37] = {pokemon = 'chinchou p'},
+		[38] = {pokemon = 'corsola p'},
+		[39] = {pokemon = 'kabutops p'},		
+		[40] = {pokemon = 'lanturn p'},
+		[41] = {pokemon = 'marshtomp p'},
+		[42] = {pokemon = 'omastar p'},
+		[43] = {pokemon = 'gyarados p'},
+		[44] = {pokemon = 'kingdra p'},
+		[45] = {pokemon = 'lombre p'},
+		[46] = {pokemon = 'feraligatr p'},
+		[47] = {pokemon = 'slowking p'},
+		[48] = {pokemon = 'quagsire p'},
+		[49] = {pokemon = 'octillery p'},
+
+}
+
+local d130 = 
+{
+        [0] = {pokemon = 'magikarp p'}, 
+        [1] = {pokemon = 'horsea p'}, 
+        [2] = {pokemon = 'krabby p'}, 
+        [3] = {pokemon = 'poliwag p'}, 
+        [4] = {pokemon = 'shellder p'}, 
+        [5] = {pokemon = 'slowpoke p'}, 
+        [6] = {pokemon = 'goldeen p'}, 
+        [7] = {pokemon = 'psyduck p'}, 
+        [8] = {pokemon = 'staryu p'}, 
+        [9] = {pokemon = 'tentacool p'}, 
+        [10] = {pokemon = 'poliwhirl p'}, 
+        [11] = {pokemon = 'seel p'},
+        [12] = {pokemon = 'squirtle p'},
+        [13] = {pokemon = 'totodile p'},
+        [14] = {pokemon = 'seaking p'},
+        [15] = {pokemon = 'starmie p'},
+        [16] = {pokemon = 'remoraid p'},
+		[17] = {pokemon = 'wooper p'},
+		[18] = {pokemon = 'marill p'},
+		[19] = {pokemon = 'mudkip p'},
+		[20] = {pokemon = 'slowbro p'},
+		[21] = {pokemon = 'wartortle p'},
+		[22] = {pokemon = 'kingler p'},
+		[23] = {pokemon = 'seadra p'},
+		[24] = {pokemon = 'croconaw p'},
+		[25] = {pokemon = 'cloyster p'},
+		[26] = {pokemon = 'dewgong p'},
+		[27] = {pokemon = 'kabuto p'},
+		[28] = {pokemon = 'omanyte p'},
+		[29] = {pokemon = 'lotad p'},
+		[30] = {pokemon = 'poliwrath p'},
+		[31] = {pokemon = 'vaporeon p'},
+		[32] = {pokemon = 'azumarill p'},
+		[33] = {pokemon = 'golduck p'},
+		[34] = {pokemon = 'politoed p'},
+		[35] = {pokemon = 'tentacruel p'},
+		[36] = {pokemon = 'blastoise p'},
+		[37] = {pokemon = 'chinchou p'},
+		[38] = {pokemon = 'corsola p'},
+		[39] = {pokemon = 'kabutops p'},		
+		[40] = {pokemon = 'lanturn p'},
+		[41] = {pokemon = 'marshtomp p'},
+		[42] = {pokemon = 'omastar p'},
+		[43] = {pokemon = 'gyarados p'},
+		[44] = {pokemon = 'kingdra p'},
+		[45] = {pokemon = 'lombre p'},
+		[46] = {pokemon = 'feraligatr p'},
+		[47] = {pokemon = 'slowking p'},
+		[48] = {pokemon = 'quagsire p'},
+		[49] = {pokemon = 'octillery p'},
+		[50] = {pokemon = 'swampert p'},
+		[51] = {pokemon = 'ludicolo p'},
+		[52] = {pokemon = 'mantine p'},
+		[53] = {pokemon = 'qwilfish p'},
+
+}

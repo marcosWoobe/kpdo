@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kingler" nameDescription="a Kingler" race="water" experience="2550" speed="240" manacost="0">
+  <health now="10750" max="10750"/>
+  <look type="245" corpse="6340"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="500"/>
+  </flags>
+  <attacks>
+ <attack name="melee" interval="2200" range="1" min="-264" max="-274"/>
+
+<attack name="moves" interval="1000" chance="80"/>
+
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Kingler!!"/>
+
+  </voices>
+ <loot>
+	<item id="6528" countmax="40" chance="20500"/> -- future orb
+	<item id="8820" countmax="1" chance="17000"/> -- psy spoon
+	<item id="2277" countmax="1" chance="250"/> -- enigma stone
+  </loot>
+	<script>
+<event name="Exp"/>
+<event name="Shiny"/>
+
+</script>
+</monster>

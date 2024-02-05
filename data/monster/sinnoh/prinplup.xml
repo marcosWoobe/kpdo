@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Prinplup" nameDescription="an Prinplup" race="undead" experience="3260" speed="320" manacost="330">
+  <health now="33050" max="33050"/>
+  <look type="1107" head="20" body="30" legs="40" feet="50" corpse="10095"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="2200" min="-1764" max="-1974"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Prinplup!"/>
+    <voice sentence="Prinplup!"/>
+  </voices>
+</monster>

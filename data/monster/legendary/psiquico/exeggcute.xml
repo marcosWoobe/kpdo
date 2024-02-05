@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Strong Exeggcute" nameDescription="a Strong Exeggcute" race="grass" experience="96" speed="400" manacost="0">
+  <health now="50000" max="50000"/>
+  <look type="213" head="20" body="30" legs="40" feet="50" corpse="2982"/>
+
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+   <attack name="melee" interval="2200" range="1" min="-864" max="-1074"/>
+<attack name="moves" interval="1900" chance="60"/>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Exeggcute!"/>
+    <voice sentence="Exeggcute!"/>
+  </voices>
+  <loot>
+	<item id="8869" countmax="10" chance="20500"/> -- future orb
+	<item id="8850" countmax="10" chance="20000"/> -- seeds
+	<item id="8851" countmax="1" chance="10000"/> -- leaves
+	<item id="8852" countmax="1" chance="10000"/> -- bag of polem
+	<item id="9606" countmax="1" chance="10000"/> -- Grass Pendant
+	<item id="2276" countmax="1" chance="333"/> -- leaf stone
+	<item id="2288" countmax="1" chance="333"/> -- enigma stone
+	<item id="9538" countmax="1" chance="333"/> -- Grass Plate
+	<item id="9557" countmax="1" chance="333"/> -- Enigma Plate
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

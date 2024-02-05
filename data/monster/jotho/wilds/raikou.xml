@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raikou" nameDescription="a Raikou" race="undead" experience="17280" speed="270" manacost="330">
+  <health now="5000000" max="5000000"/>
+  <look type="410" head="20" body="30" legs="40" feet="50" corpse="8982"/>
+	  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="2000" min="-3392" max="-4507"/>
+<attack name="moves" interval="1500" chance="80"/>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Raikou!"/>
+    <voice sentence="Raikou!"/>
+  </voices>
+  <loot>
+	<item id="8861" countmax="100" chance="20000"/> -- screw
+	<item id="2279" countmax="5" chance="20000"/> -- Thunder Stone
+	<item id="2285" countmax="5" chance="20000"/> -- crystal stone
+	<item id="9544" countmax="1" chance="20000"/> -- Thunder Plate
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

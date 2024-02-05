@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tangela" nameDescription="a wild Tangela" race="grass" experience="2400" speed="260" manacost="0">
+  <health now="16600" max="16600"/>
+  <look type="18" corpse="5976"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+        <attack name="melee" interval="1900" range="1" min="-240" max="-360"/>
+<attack name="moves" interval="1300" chance="80"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+
+  <voices interval="5000" chance="10">
+	<voice sentence="Tangelaaaaa!"/>
+    <voice sentence="Tangela!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="100" chance="20000"/> -- seeds
+	<item id="8851" countmax="10" chance="10000"/> -- leaves
+	<item id="8852" countmax="2" chance="10000"/> -- bag of polem
+	<item id="9606" countmax="2" chance="10000"/> -- Grass Pendant
+	<item id="2276" countmax="1" chance="333"/> -- leaf stone
+	<item id="9538" countmax="1" chance="333"/> -- Grass Plate
+	<item id="8113" countmax="1" chance="333"/> -- Blue Vines
+  </loot>
+
+      <script>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+
+
+</monster>

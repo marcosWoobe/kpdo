@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jumpluff" nameDescription="a Jumpluff" race="grass" experience="4505" speed="255" manacost="100">
+  <health now="74100" max="74100"/>
+  <look type="358" head="20" body="30" legs="40" feet="50" corpse="8953"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-605" max="-780"/>
+
+ <attack name="moves" interval="1000" chance="60"/>
+  </attacks>
+        <script>
+
+	<event name="Exp"/>
+<event name="Shiny"/>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+
+        </script>
+
+ <loot>
+	<item id="8850" countmax="100" chance="10000"/> -- seeds
+	<item id="8851" countmax="6" chance="5000"/> -- leaves
+	<item id="8852" countmax="2" chance="5000"/> -- bag of polem
+	<item id="9606" countmax="2" chance="5000"/> -- Grass Pendant
+	<item id="2289" countmax="1" chance="100"/> -- heart stone
+	<item id="2276" countmax="1" chance="100"/> -- leaf stone
+	<item id="9538" countmax="1" chance="100"/> -- Grass Plate
+	<item id="9541" countmax="1" chance="100"/> -- Heart Plate
+  </loot>
+
+
+
+</monster>
